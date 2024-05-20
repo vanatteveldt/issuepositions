@@ -20,6 +20,6 @@ A possible extension of the project could be to add two more relevant polarity/s
 # Repository structure
 
 + [literature.md](literature.md) is a (WIP!) document describing the conceptualisation of issue positions and a brief overview of existing work
-+ The [annotations](annotations) folder contains and overview of the [annotation procedure](annotations/README.md], [codebook](annotations/codebook.md), and reliability and progress
++ The [annotations](annotations) folder contains and overview of annotations including the [codebook](annotations/codebook.md)
 + The [data](data) folder contains the relevant data, i.e. selected sentences from news media and annotations
 + The [src](src) folder contains the scripts for gathering, (pre)processing and selecting the data as well as SML experiments

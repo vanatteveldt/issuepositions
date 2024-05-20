@@ -1,9 +1,11 @@
 # Issue Positions
 
-The goal of this project is to create a dataset of expressed issue positions. An expressed issue position is a piece of text from which a reader can deduce where an actor can be placed along an issue dimension, that is, what is the preference of that actor regarding that issue? (Note: See the [lit review]() for a more elaborate conceptualisation). 
+The goal of this project is to create a dataset of expressed issue positionsin Dutch and English news. 
+
+An expressed issue position is a piece of text from which a reader can deduce where an actor can be placed along an issue dimension, that is, what is the preference of that actor regarding that issue? 
 
 Thus, the primary goal of this project is to create a dataset containing:
-- A sentence/phrase with a limited context
+- A sentence/phrase with metadata and a limited context
 - Zero or more ‘stances’ anchored on a political actor:
    - **Stance holder**: who is the political actor  
    - **Target issue dimension**: What is the issue dimension at stake? This is selected from a closed list of directed issues, i.e. things you can be in favour of or against, e.g. “lower taxes”, “cheaper housing”, “lower immigration” rather than just “housing” or “immigration”.

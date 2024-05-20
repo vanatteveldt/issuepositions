@@ -1,3 +1,5 @@
+# Issue positions expressed in the news
+
 The systematic analysis of expressed issue positions in texts, such as news media, parliamentary debates and social media, plays a key role in understanding (political) communication. Analyzing the positions expressed by political actors yields insight about party positioning and responsiveness (e.g. Barbera et al). Citizens depend on issue positions expressed in (social) media to learn about the position of political parties and cast an informed vote, and perceived issue positions play a key role in theories of prospective voting. Understanding issue positions expressed by political elites or citizens can also shed light on ideological polarization. 
 
 For these reasons, extracting issue positions and preferences from text has been a central concern in both political science and communication science. A large proportion of this scholarly work has focussed on elite speech such as manifestos, legislative speech, and social media posts from politicians and journalists. Within the context of political communication numerous studies have been conducted on both the party positioning and the relationship between expressed issue positions in the news and voting behavior during elections (Kleinnijenhuis et al. 2007; @). From a normative viewpoint, well informed citizens are desirable before elections about the issue positions of the respective parties, in order to be able to make a rational decision (e.g. Habermas, 1981). 
@@ -10,15 +12,13 @@ These projects show the added complication of coding issue positions from media 
 
 Guiding research question: Can we automate the extraction of {holder, stance, target} triplets from news content?
 
-## Methodological approaches to identifying issue positions in the social science: (very much WIP)
-
-### Issue positions expressed in political speech, e.g. manifesto project, scaling
+# Methodological approaches to identifying issue positions in the social science: (very much WIP)
 
 Lowe et al 2011: Indeed, “how to best measure the policy preferences of individual legislators and of legislative parties” (Loewenberg 2008, 499) forms one of the central problems of legislative research. [..] Almost everyone using CMP data does so for the same reason: they want to estimate positions of parties on different common policy dimensions. Doing this typically implies assuming that a set of party positions, whether a cross-section or a time series, can be located on some (continuously defined) metric scale.
 
 Benoit & Herzog (2015): Accurately measuring the policy preferences of individual political actors has therefore long formed a key part of efforts to model intra-party politics and the public policy outcomes that result[..] .To make use of this information, a growing subfield within political science has developed to extract policy preferences using text as data (e.g. Laver and Garry, 2000; Proksch and Slapin, 2010; Monroe and Maeda, 2004; Laver and Benoit, 2002; Lauderdale and Herzog, 2014). Grimmer and Stewart (2013) provide an excellent review of current approaches, which they divide roughly into classification approaches and scaling approaches.
 
-Issue positions expressed in (social) media
+## Issue positions expressed in (social) media
 
 Fatemi et al. (2021) for example used stance detection models to trace public attitudes towards stay at home policies during the Covid-19 pandemic, using public tweets. 
 
@@ -28,7 +28,7 @@ In the realm of research into polarization of society social media play an impor
 
 Also with respect to the framing or reframing of issues stance detection is used. Wildemann et al (2023) looked into the reframing of migration in different European countries during the Ukrainian crisis. The researchers were looking at the Tweets of 200 different news outlets in France, Germany, Italy, Poland and Spain, related to the immigration issues, containing words such as refugees, immigrants etc., a total of 11,478 tweets, and the replies to these tweets (146,711). The data was trained on 500 randomly selected tweets that were coded as either positive, negative or neutral. Using a BERT model to train the data, the researchers found that over time there was a shift in the sentiment of news coverage on migration. Also the stance of the public changed over time. 
 
-### Related work in stance detection
+# Related work in NLP / stance detection (also very much WIP)
 
 Stance detection can be seen as an extension to sentiment analysis, where rather than the overall polarity of a text the goal is to extract the sentiment with respect to a specific target, which is generally given together with the text. As such, stance detection is closely related to aspect-oriented sentiment analysis or target-based sentiment analysis (Kucuk & Can). Stance detection has received a lot of attention in the NLP literature in the last decade, and multiple competitions were held and various datasets were published. As surveyed by  Alturayeif et al. (2023), most of these data sets used texts from social media or debate websites, where each post can be assumed to contain the opinion of a single author about a single target. A notable exception to this is the Fake News Challenge stage-1 (FNC-1) competition and dataset (Hanelowski et al, 2018). As the name implies, in this data set stance detection is treated as a preprocessing stage for fake news identification
 

@@ -3,6 +3,7 @@
 Relevant files:
 
 - [Codebook](codebook.md)
+- [Progress](progress.md)
 
 ## Overall approach
 

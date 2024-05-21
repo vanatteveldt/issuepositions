@@ -2,8 +2,6 @@ library(amcat4r)
 library(tidyverse)
 library(boolydict)
 library(googlesheets4)
-library(tidytext)
-library(corpustools)
 library(udpipe)
 
 
@@ -45,26 +43,27 @@ saveRDS(tokens,"data/tmp/tokens_tk2023.rds")
 
 ### Step 4: Select all sentence:actor pair and reconstruct sentence and context
 
-tokens = readRDS("data/tokens_tk2023.rds")
+tokens = readRDS("data/tmp/tokens_tk2023.rds")
 
 gs4_deauth()
 partijen <- read_sheet('https://docs.google.com/spreadsheets/d/1d3G1_y_HJP2Ik1v7rKrxeAXL4uCt5mLNgc8uC7vzQyI/edit#gid=0', sheet = 1)
 
 
-
+#' Add spaces if the next word doesn't immediately follow this word
+add_spaces <- function(token, sentence_id, start, end) {
+  if_else(!is.na(lead(sentence_id)) & sentence_id == lead(sentence_id) & end < lead(start) - 1, str_c(token, " "), token)
+}
 #' Select the text indicated by a hit (doc+sentence+actor), as well as the before and after context
 get_context <- function(doc_id, sentence_id, actor) {
-  # Select the target sentenc 
   hit <- hits |> filter(doc_id == .env$doc_id, sentence_id == .env$sentence_id, actor == .env$actor)
   sentences <- tokens |> filter(doc_id == .env$doc_id) |>
     filter(sentence_id >= .env$sentence_id - 1, sentence_id <= .env$sentence_id + 1) |> 
-    # Put ** around found terms so they highlight in annotinder
-    mutate(token = if_else(term_id %in% hit$term_id, str_c("**", token, "**"), token)) |>
-    # Add spaces if the next word doesn't immediately follow this word
-    #mutate(token = if_else(!is.na(lead(sentence_id)) & sentence_id == lead(sentence_id) & end < lead(start) - 1, 
-    #                       str_c(token, " "), token)) |>
+    # Put ** around found terms so they highlight in annotinder, add spaces
+    mutate(token_hl = if_else(term_id %in% hit$term_id, str_c("**", token, "**"), token)) |>
+    mutate(token = add_spaces(token, sentence_id, start, end),
+           token_hl = add_spaces(token_hl, sentence_id, start, end)) |>
     group_by(sentence_id) |>
-    summarize(text=str_c(token, collapse=" "), start=min(start), end=max(end))
+    summarize(text=str_c(token, collapse=""), text_hl=str_c(token_hl, collapse=""), start=min(start), end=max(end))
   tibble(
     doc_id=doc_id,
     actor=actor,
@@ -74,6 +73,7 @@ get_context <- function(doc_id, sentence_id, actor) {
     context_start = min(sentences$start),
     context_end = max(sentences$end),
     text = sentences$text[sentences$sentence_id == sentence_id],
+    text_hl = sentences$text_hl[sentences$sentence_id == sentence_id],
     before = ifelse((sentence_id - 1) %in% sentences$sentence_id, sentences$text[sentences$sentence_id == sentence_id-1], NA_character_),
     after = ifelse((sentence_id + 1) %in% sentences$sentence_id, sentences$text[sentences$sentence_id == sentence_id+1], NA_character_),
   )
@@ -84,10 +84,12 @@ hits <- tokens |> dict_match(partijen, mode='terms', text_col='token', context_c
          term_id = tokens$term_id[data_index],
          actor = partijen$label[dict_index])
 
-units_orig <- hits |> 
+units <- hits |> 
   select(doc_id, sentence_id, actor) |>
   unique() |> 
   purrr::pmap(get_context, .progress = TRUE) |>
-  list_rbind()
-
+  list_rbind() |>
+  mutate(unit_id = str_c(doc_id, sentence_id, actor, sep="-")) |>
+  relocate(unit_id, .before=1)
+  
 write_csv(units,"data/intermediate/units_tk2023.csv")

@@ -16,7 +16,7 @@ Note2: If we can automatically identify issues that are mentioned in a text (e.g
 
 ## Step 1: Does the sentence contain a political actor?
 
-For step 1, we selected sentences mentioning a political actor from the newspaper articles covering the 2023 election using a simple keyword search (party name or party leader name). 
+For step 1, we selected sentences mentioning a political actor from the (national) newspaper and NOS.nl coverage of the 2023 Dutch election using a simple keyword search (party name or party leader name). 
 This yielded 24378 unique sentence-party combinations from 16.866 sentences (some sentences mention more than one party). 
 
 ## Step 2: Does the actor express an issue position?

@@ -41,7 +41,6 @@ actor_link <- matched |>
   mutate(unit_id=str_c(sent_id, actor, sep="-")) |>
   select(old_unit_id=sent_id, unit_id)
   
-table(actor_link$actor)
 # First round of annotations. 
 ids = 235:237
 annotations <- setNames(ids, ids) |> 
@@ -51,6 +50,23 @@ annotations <- setNames(ids, ids) |>
   inner_join(actor_link) |>
   select(-old_unit_id) |>
   relocate(unit_id, .before=1)
+
+# Compute intercoder reliability
+irr = annotations |> group_by(unit_id) |> filter(n() > 1)
+m <- irr |> select(unit_id, job_id, value=`issue position`) |> 
+  pivot_wider(names_from=job_id) |>
+  column_to_rownames("unit_id") |>
+  as.matrix()
+
+irr::kripp.alpha(t(m))
+irr::kappa2(m)
+
+
+# For annotations coded twice, keep highest job id only
+annotations = annotations |> group_by(unit_id) |> slice_max(order_by=job_id, n=1)
+
+# Check that no sentences appear twice in the annotations
+annotations |> mutate(sent = str_extract(unit_id, "[a-z0-9]+-\\d+-")) |> group_by(sent) |> filter(n() > 1)
 
 write_csv(annotations, "data/intermediate/annoations_01_dutch_types.csv")
 

@@ -27,6 +27,6 @@ From these, we coded 1,335 sentences for whether or not it expresses an issue po
 Based on these codings, we trained a BERT and BERT-NLI model to automate this coding step. 
 
 + [A simple BERT model](src/data-processing/10_dutch_bert.py) (that did not take into account the party for which the question was coded) without any hyperparameter tuning gave a precision of 79% and recall of 77%, for F1-score .78 (using 5-fold crossvalidation]
-+ [A BERT-NLI model](src/data-processing/10_dutch_bert_nli.py) that used the party into the prompt/hypothesis formulation without any hyperparameter tuning gave a precision of [...]
++ [A BERT-NLI model](src/data-processing/10_dutch_bert_nli.py) that used the party into the prompt/hypothesis formulation without any hyperparameter tuning gave a precision of 77% with a recall of 82%, for an F!-score of .79 (also with 5-fold xval)
 
 # Plans

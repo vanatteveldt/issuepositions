@@ -78,21 +78,39 @@ When looking at transportation issues we look at investments for better roads or
 *Last year's PvdA motion for free public transport was rejected by the minister.*
 | Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
 |-|-|-|-|-|
-|PvdA| Positive | free p[ublic transport | Positive | Transportation|
-|Minister| Negative | Public transport | Negative | Transportation|
+|PvdA| Positive | free public transport | Positive | Transportation|
+|Minister| Negative | free public transport | Negative | Transportation|
 
 
 ## **Immigration**: More or less immigrants
-This topic deals with the question if a party wants stricter immigartion policies or not. In this respect it is not only about refugees but also about labor immigrants or about foreign students. 
+This topic deals with the question if a party wants stricter immigartion policies or not. In this respect it is not only about refugees but also about labor immigrants or about foreign students. Underneath an example of indirect statements that do show issue positions.
+
+*BBB: PVV rightly says the asylumseekers form a problem for our country*
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|PVV| Negative | asylumseekers| Negative | Immigration|
+|BBB| Negative | asylumseekers| Negative | Immigration|
+
 
 ## **International Affairs**: Human rights and international law 
-When considering international affairs we focus on the distinction to be in favor of development aid and a focus on human rights and international law as a basis for foreign policy versus a focus on teh national interests as starting point for international relations.
+When considering international affairs we focus on the distinction to be in favor of development aid and a focus on human rights and international law as a basis for foreign policy versus a focus on teh national interests as starting point for international relations. Underneath an example where an implicit issue position is expressed. 
+
+*D66: This has nothing to do with the rightful protest to protect the people in Gaza.
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|D66| Positive | protest protection Gaza | Positive | International law|
+
 
 ## **Education**: More investments in Education  and science (Technology)
-The topic education focusses on more and better eduction. Measures to counter the shortage of teachers for example is an investment in education. The same is true for extra money with respect to science and technology.
+The topic education focusses on more and better eduction. Measures to counter the shortage of teachers for example is an investment in education. The same is true for extra money with respect to science and technology. Underneath an example in which an issue position is indirectly given.
+
+*The minister of education advises students to choose for intermediate vocational education*
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|Minister of Eduction| Positive | vocational education | Positive | Education|
 
 ## **Culture**: More investments in Culture
-An actor is in favor of more culture when investments are proposed, e.g. free entrance to museums for specific groups of people. One is not in favor of more Culture when in favor of a VAT increase for cultural events.
+An actor is in favor of more culture when investments are proposed, e.g. free entrance to museums for specific groups of people. One is not in favor of more Culture when in favor of a VAT increase for cultural events. Underneath an example of an in
 
 ## **Civil rights**: In favor of civil rights (gay etc)
 Civil rights are dealing with equal rights for all people in society, despite the color of their skin or their gender. 

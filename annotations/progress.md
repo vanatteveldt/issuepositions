@@ -1,4 +1,4 @@
-# Overall approach
+# Annotations: Overall approach and progress
 
 Many existing projects would code this with a single codebook extracting the triples directly from text. However, we think that it is best to split the coding into smaller steps to make it easier to code and to make it possible to automate the easier steps (i.e. recognizing actors) while concentrating coding effort on the harder steps. 
 

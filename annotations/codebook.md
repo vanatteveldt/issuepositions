@@ -39,20 +39,37 @@ Nuclear energy is within this issue coded as an investment in the transition to 
 | ---------| -------- | -------| -----|----|----|
 
 ## **Government Operations**: improved governance through reforms
-In the CAP this isssue is wider, but within our context we focus on an improved governance through different reforms, but also focusing on transparancy ('beter bestuur') and improving trust in governmental bodies.
+In the CAP this isssue is wider, but within our context we focus on an improved governance through different reforms, but also focusing on transparancy ('beter bestuur') and improving trust in governmental bodies. Underneath an example in which indirectly the position is given:
 
-*NSC's hobbyhorse, a constitutional court, will be discussed in length among the coalition parties
+*NSC's hobbyhorse, a constitutional court, will be discussed in length among the coalition parties*
 |Annotations: |NSC| Positive | constitutional court | positive | Beter governance|
 | ---------| -------- | -------| -----|----|----|
 
 ## **Social welfare**: More social security
-The topic social welfare is expecially focusing on social security for everybody for example by linking benefits to the minimum wages and indexing pensions.
+The topic social welfare is expecially focusing on social security for everybody for example by linking benefits to the minimum wages and indexing pensions. Underneath an example in which it is ambivilant to determine the direction of the stance, hence we code it neutral.
+
+*Nothing is left of the former PvdA fight for better pensions*
+|Annotations: |PvdA| Neutral | pensions | Neutral | Social welfare|
+| ---------| -------- | -------| -----|----|----|
 
 ## **Labor**: More and better work
-"Work should pay off" (Werken moet lonen) is the focus of this topic, hence parties that are in favor of work are in favor of a higher minium wage and better labor conditions for employees.
+"Work should pay off" (Werken moet lonen) is the focus of this topic, hence parties that are in favor of work are in favor of a higher minium wage and better labor conditions for employees. Underneath an example in which context is needed, leading to several codings of one sentence.
+
+*The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.*
+|Annotations: |BBB| Positive | increase minimum wage | Positive | Labor|
+| ---------| -------- | -------| -----|----|----|
+|Annotations: |VVD| Positive | increase minimum wage | Positive | Labor|
+|Annotations: |PVV| Positive | increase minimum wage | Positive | Labor|
+|Annotations: |NSC| Positive | increase minimum wage | Positive | Labor|
 
 ## **Transportation**: Investments in roads and public transport
-When looking at transportation issues we look at investments for better roads or investments for public transport. Also an increase in highway speedlimmits means you are in favor of transport. 
+When looking at transportation issues we look at investments for better roads or investments for public transport. Also an increase in highway speedlimmits means you are in favor of transport. Underneath an example in which an issue position is indirectly given.
+
+*Last year's PvdA motion for free public transport was rejected by the minister.*
+|Annotations: |PvdA| Positive | free p[ublic transport | Positive | Transportation|
+| ---------| -------- | -------| -----|----|----|
+|Annotations: |Minister| Negative | Public transport | Negative | Transportation|
+
 
 ## **Immigration**: More or less immigrants
 This topic deals with the question if a party wants stricter immigartion policies or not. In this respect it is not only about refugees but also about labor immigrants or about foreign students. 

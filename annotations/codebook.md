@@ -5,23 +5,45 @@ The guiding question to determine whether something is an issue position or not,
 
 Note that in one sentence more issue positions can be mentioned (Both the Greens and Labour  vote for abortion access).
 
-We have determined issues based on the Comparative Agenda Project (CAP; https://www.comparativeagendas.net) but rephrased in order to provide each issue with a dimension where it is clear what the actor is in favour of or opposing against. Underneath we discuss the topics from the CAP and what our labelling will be including the direction the stance can have. We also provide examples and when applicable include Dutch examples/issues 
-
-## **Health care**: Better accesible health care
-This topic deals with investments in health care and to make health care more accessible for everybody, e.g. by abandoning the deductible ('eigen risico'). 
-
-## **Agriculture**: **In favor of intensive agriculture**. 
-This topic deals with the farmers. In favor of the farmers means in favor of intensive argigulture and against nitrogen reduction (stikstofreductie).
-
-## **Energy**: **Investment in energy transiation**
-Within this topic we look at who is in favor of investments in the transition of energy from fossil fuels to renewable fuels.
-Nuclear energy is within this issue coded as an investment in the transition to renewable fuels.
+We have determined issues based on the Comparative Agenda Project (CAP; https://www.comparativeagendas.net) but rephrased in order to provide each issue with a dimension where it is clear what the actor is in favour of or opposing against. Underneath we discuss the topics from the CAP and what our labelling will be including the direction the stance can have. We also provide examples and when applicable include Dutch examples/issues.  
 
 ## **Defense**: Strong defense/NATO
-Within this issue we oppose the actors in favor of more investment in Defense and the expense standard of 2% for the national gross product for Defense as NATO wants.
+Within this issue we oppose the actors in favor of more investment in Defense and the expense standard of 2% for the national gross product for Defense as NATO wants. Underneath a straight forward example:
+
+*VVD in favor of defence expenditures of 2% of GDP*
+|Annotations: |VVD | Positive | 2% defense expenditures | Positive | Defense |
+| ---------| -------- | -------| -----|----|----|
+
+## **Health care**: Better accesible health care
+This topic deals with investments in health care and to make health care more accessible for everybody, e.g. by abandoning the deductible ('eigen risico'). Underneath an example in which the direction of the coding should be carefully considered.
+
+*The prime minister said: "We previously announced to abandone the deductible in the years to come"*
+|Annotations: | We (the cabinet) | Positive | abandon deductible | Positive | better health care|
+| ---------| -------- | -------| -----|----|----|
+
+## **Agriculture**: **In favor of intensive agriculture**
+This topic deals with the farmers. In favor of the farmers means in favor of intensive argigulture and against nitrogen reduction (stikstofreductie). Underneath an example in which two issue opposite positions are given.
+
+*BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers*
+|Annotations: |BBB| Negative | nitrogen reduction | Positive | Argiculture|
+| ---------| -------- | -------| -----|----|----|
+|Annotations: |D66| Positive | nitrogen reduction | Negative | Argiculture|
+
+
+## **Energy**: **Investment in energy transition**
+Within this topic we look at who is in favor of investments in the transition of energy from fossil fuels to renewable fuels.
+Nuclear energy is within this issue coded as an investment in the transition to renewable fuels. An example that requires context is given underneath:
+
+*Plans for a new nuclear power plant are the hottest question in Dutch politics. PvdA opposes it*
+|Annotations: |PvdA| Negative | Nuclear power plant | Negative | Energy|
+| ---------| -------- | -------| -----|----|----|
 
 ## **Government Operations**: improved governance through reforms
 In the CAP this isssue is wider, but within our context we focus on an improved governance through different reforms, but also focusing on transparancy ('beter bestuur') and improving trust in governmental bodies.
+
+*NSC's hobbyhorse, a constitutional court, will be discussed in length among the coalition parties
+|Annotations: |NSC| Positive | constitutional court | positive | Beter governance|
+| ---------| -------- | -------| -----|----|----|
 
 ## **Social welfare**: More social security
 The topic social welfare is expecially focusing on social security for everybody for example by linking benefits to the minimum wages and indexing pensions.

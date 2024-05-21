@@ -11,23 +11,28 @@ We have determined issues based on the Comparative Agenda Project (CAP; https://
 Within this issue we oppose the actors in favor of more investment in Defense and the expense standard of 2% for the national gross product for Defense as NATO wants. Underneath a straight forward example:
 
 *VVD in favor of defence expenditures of 2% of GDP*
-|Annotations: |VVD | Positive | 2% defense expenditures | Positive | Defense |
-| ---------| -------- | -------| -----|----|----|
+
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|VVD | Positive | 2% defense expenditures | Positive | Defense |
 
 ## **Health care**: Better accesible health care
 This topic deals with investments in health care and to make health care more accessible for everybody, e.g. by abandoning the deductible ('eigen risico'). Underneath an example in which the direction of the coding should be carefully considered.
 
 *The prime minister said: "We previously announced to abandone the deductible in the years to come"*
-|Annotations: | We (the cabinet) | Positive | abandon deductible | Positive | better health care|
-| ---------| -------- | -------| -----|----|----|
+
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+| We (the cabinet) | Positive | abandon deductible | Positive | better health care|
 
 ## **Agriculture**: **In favor of intensive agriculture**
 This topic deals with the farmers. In favor of the farmers means in favor of intensive argigulture and against nitrogen reduction (stikstofreductie). Underneath an example in which two issue opposite positions are given.
 
 *BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers*
-|Annotations: |BBB| Negative | nitrogen reduction | Positive | Argiculture|
-| ---------| -------- | -------| -----|----|----|
-|Annotations: |D66| Positive | nitrogen reduction | Negative | Argiculture|
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|BBB| Negative | nitrogen reduction | Positive | Argiculture|
+|D66| Positive | nitrogen reduction | Negative | Argiculture|
 
 
 ## **Energy**: **Investment in energy transition**
@@ -35,40 +40,46 @@ Within this topic we look at who is in favor of investments in the transition of
 Nuclear energy is within this issue coded as an investment in the transition to renewable fuels. An example that requires context is given underneath:
 
 *Plans for a new nuclear power plant are the hottest question in Dutch politics. PvdA opposes it*
-|Annotations: |PvdA| Negative | Nuclear power plant | Negative | Energy|
-| ---------| -------- | -------| -----|----|----|
+
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|PvdA| Negative | Nuclear power plant | Negative | Energy|
 
 ## **Government Operations**: improved governance through reforms
 In the CAP this isssue is wider, but within our context we focus on an improved governance through different reforms, but also focusing on transparancy ('beter bestuur') and improving trust in governmental bodies. Underneath an example in which indirectly the position is given:
 
 *NSC's hobbyhorse, a constitutional court, will be discussed in length among the coalition parties*
-|Annotations: |NSC| Positive | constitutional court | positive | Beter governance|
-| ---------| -------- | -------| -----|----|----|
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|NSC| Positive | constitutional court | positive | Beter governance|
 
 ## **Social welfare**: More social security
 The topic social welfare is expecially focusing on social security for everybody for example by linking benefits to the minimum wages and indexing pensions. Underneath an example in which it is ambivilant to determine the direction of the stance, hence we code it neutral.
 
 *Nothing is left of the former PvdA fight for better pensions*
-|Annotations: |PvdA| Neutral | pensions | Neutral | Social welfare|
-| ---------| -------- | -------| -----|----|----|
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|PvdA| Neutral | pensions | Neutral | Social welfare|
 
 ## **Labor**: More and better work
 "Work should pay off" (Werken moet lonen) is the focus of this topic, hence parties that are in favor of work are in favor of a higher minium wage and better labor conditions for employees. Underneath an example in which context is needed, leading to several codings of one sentence.
 
 *The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.*
-|Annotations: |BBB| Positive | increase minimum wage | Positive | Labor|
-| ---------| -------- | -------| -----|----|----|
-|Annotations: |VVD| Positive | increase minimum wage | Positive | Labor|
-|Annotations: |PVV| Positive | increase minimum wage | Positive | Labor|
-|Annotations: |NSC| Positive | increase minimum wage | Positive | Labor|
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|BBB| Positive | increase minimum wage | Positive | Labor|
+|VVD| Positive | increase minimum wage | Positive | Labor|
+|PVV| Positive | increase minimum wage | Positive | Labor|
+|NSC| Positive | increase minimum wage | Positive | Labor|
 
 ## **Transportation**: Investments in roads and public transport
 When looking at transportation issues we look at investments for better roads or investments for public transport. Also an increase in highway speedlimmits means you are in favor of transport. Underneath an example in which an issue position is indirectly given.
 
 *Last year's PvdA motion for free public transport was rejected by the minister.*
-|Annotations: |PvdA| Positive | free p[ublic transport | Positive | Transportation|
-| ---------| -------- | -------| -----|----|----|
-|Annotations: |Minister| Negative | Public transport | Negative | Transportation|
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|PvdA| Positive | free p[ublic transport | Positive | Transportation|
+|Minister| Negative | Public transport | Negative | Transportation|
 
 
 ## **Immigration**: More or less immigrants

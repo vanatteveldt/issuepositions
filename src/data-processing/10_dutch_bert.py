@@ -72,14 +72,14 @@ def compute_metrics(eval_pred):
 
 def get_training_args():
     return TrainingArguments(
-        output_dir=str(data / "tmp/dutch_bert"),
+        output_dir=str(here("data") / "tmp" / "dutch_bert"),
         learning_rate=2e-5,
         per_device_train_batch_size=16,
         per_device_eval_batch_size=48,
         num_train_epochs=5,
         weight_decay=0.01,
         fp16=True,
-        fp16_full_eval=True, Run k-fold crossvalidation, store predictions
+        fp16_full_eval=True,
         evaluation_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,

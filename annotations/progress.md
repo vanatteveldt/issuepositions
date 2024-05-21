@@ -29,4 +29,10 @@ Based on these codings, we trained a BERT and BERT-NLI model to automate this co
 + [A simple BERT model](src/data-processing/10_dutch_bert.py) (that did not take into account the party for which the question was coded) without any hyperparameter tuning gave a precision of 79% and recall of 77%, for F1-score .78 (using 5-fold crossvalidation]
 + [A BERT-NLI model](src/data-processing/10_dutch_bert_nli.py) that used the party into the prompt/hypothesis formulation without any hyperparameter tuning gave a precision of 77% with a recall of 82%, for an F!-score of .79 (also with 5-fold xval)
 
-# Plans
+## Step 3: What issue is the actor expressing a position about? (WIP)
+
+This should be coded along the [issue dimensions defined in the codebook](codebook.md). These are essentially 'directed' versions of the [CAP codebook](https://www.comparativeagendas.net/pages/master-codebook), which turned out to be very close to the codes we used earlier (main difference is we collapsed some of the issues, had a specific issue for government finances, and missed the defense and agriculture issues, which are pretty relevant now anyways). 
+
+We are currently testing the coding issue and polarity in a single job (i.e. asking "which of these dimensions is this a position on" and "is the actor in favour of or against <issue>".
+
+If possible, it would probably be better to 'guess' the issue and ask a single question (favour/neutral/against/no position). The people on the CAP project released a model that should code issues, we can also try a zero/few shot model based on the first codings that are happening now

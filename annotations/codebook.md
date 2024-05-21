@@ -110,10 +110,21 @@ The topic education focusses on more and better eduction. Measures to counter th
 |Minister of Eduction| Positive | vocational education | Positive | Education|
 
 ## **Culture**: More investments in Culture
-An actor is in favor of more culture when investments are proposed, e.g. free entrance to museums for specific groups of people. One is not in favor of more Culture when in favor of a VAT increase for cultural events. Underneath an example of an in
+An actor is in favor of more culture when investments are proposed, e.g. free entrance to museums for specific groups of people. One is not in favor of more Culture when in favor of a VAT increase for cultural events. Underneath an example of two positions on the same issue, resulting in a neutral overall position.
+
+*PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks.*
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|PVV| Positive | increase VAT cultural events | Negative | Culture|
+|PVV| Negative | increase VAT cinema and amusement parks| Positive | Culture|
 
 ## **Civil rights**: In favor of civil rights (gay etc)
-Civil rights are dealing with equal rights for all people in society, despite the color of their skin or their gender. 
+Civil rights are dealing with equal rights for all people in society, despite the color of their skin or their gender. In the example underneath a neutral issue position.
+
+*BBB struggles with sexual education and gender for primary schools
+| Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
+|-|-|-|-|-|
+|BBB| Neutral | Sexual education and gender | Neutral | Civil rights|
 
 ## **Government spending**: Less taxes, economy first
 Government spending is an issue that is not mentioned in the CAP but is important within a Dutch political context, and probably also during other election campaigns. It deals with a focus on austerity measures in order to keep control on govermental spending versus more investments and a higher governmental deficit.

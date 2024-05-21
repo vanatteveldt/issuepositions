@@ -19,10 +19,12 @@ Note2: If we can automatically identify issues that are mentioned in a text (e.g
 For step 1, we selected sentences mentioning a political actor from the (national) newspaper and NOS.nl coverage of the 2023 Dutch election using a simple keyword search (party name or party leader name). 
 This yielded 24378 unique sentence-party combinations from 16.866 sentences (some sentences mention more than one party). 
 
+[[script](/src/data-processing/02_dutch_download_annotations.R)][[data](/data/intermediate/units_tk2023.csv)]
+
 ## Step 2: Does the actor express an issue position?
 
-From these, we coded 1,335 sentences for whether or not it expresses an issue position.
-153 sentences were coded by two coder, giving a Krippendorff's alpha of .855. 
+From these, we [coded 1,335 sentences for whether or not it expresses an issue position](/data/intermediate/annoations_01_dutch_types.csv).
+153 sentences were coded by two coder, giving a Krippendorff's alpha of .855 ([script]()). 
 
 Based on these codings, we trained a BERT and BERT-NLI model to automate this coding step. 
 

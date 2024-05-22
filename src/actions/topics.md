@@ -1,3 +1,8 @@
+# Issue dimensions
+
+**Note:** This document is genated automatically from the [topic list](topics.yml).
+Please do not edit this document directly.
+
 {% for name, topic in topics.items() %}
 
 ## {{ name }}{% if 'description' in topic %}: {{ x(topic['description']) }} {% endif %}

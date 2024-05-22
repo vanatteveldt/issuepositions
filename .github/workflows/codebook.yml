@@ -14,7 +14,7 @@ jobs:
           python-version: "3.10" #install the python needed
       - name: Install dependencies
         run: |
-          pip install pywhere jinja2 pyyaml
+          pip install pyhere jinja2 pyyaml
       - name: execute py script
         run: |
           python src/actions/generate_topics.py

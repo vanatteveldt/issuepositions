@@ -1,3 +1,8 @@
+# Issue dimensions
+
+**Note:** This document is genated automatically from the [topic list](topics.yml).
+Please do not edit this document directly.
+
 
 
 ## Defense: Defense, investments in the army, navy, air force or military equipment. 

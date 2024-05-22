@@ -1,3 +1,8 @@
+# Issue dimensions
+
+**Note:** This document is genated automatically from the [topic list](topics.yml).
+Please do not edit this document directly.
+
 
 
 ## Defense: Defensie, investeringen in het leger, de marine, luchtmacht, of uitrusting 

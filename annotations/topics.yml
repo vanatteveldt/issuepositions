@@ -1,21 +1,23 @@
-Defense: 
-  description: 
-    en: Defense, investments in the army, navy, air force or military equipment. 
+Defense:
+  description:
+    en: Defense, investments in the army, navy, air force or military equipment.
     nl: Defensie, investeringen in het leger, de marine, luchtmacht, of uitrusting
   positive:
-    en: Strong defense/NATO; investment in Defense, a stronger of more effective army, and achieving the NATO goal of 2% for the national gross product for Defense. 
-    nl: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie. 
+    en: Strong defense/NATO; investment in Defense, a stronger of more effective army, and achieving the NATO goal of 2% for the national gross product for Defense.
+    nl: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
   examples:
     - en: VVD in favor of defence expenditures of 2% of GDP
-      nl: VVD voor verhogen van defensie-uitgaven naar 2% van BNP 
-  
+      nl: VVD voor verhogen van defensie-uitgaven naar 2% van BNP
+
 Agriculture:
-  description: 
+  description:
     en: Farming, farmers, agricultural output, cattle, nitrogen as a result of farming activity
-  positive: 
-    en: Maintaining (intensive) argigulture
-  negative: 
+    nl: Landbouw, boeren, veestapel, stikstof veroorzaakt door landbouw
+  positive:
+    en: Maintaining (intensive) argiculture
+    nl: Instandhouden (intensieve) landbouwsector
+  negative:
     en: nitrogen reduction, decreasing the amount of livestock
+    nl: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
   examples:
     - en: "BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers"
- 

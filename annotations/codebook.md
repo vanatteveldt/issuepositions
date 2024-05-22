@@ -7,8 +7,15 @@ Note that in one sentence more issue positions can be mentioned (Both the Greens
 
 We have determined issues based on the Comparative Agenda Project (CAP; https://www.comparativeagendas.net) but rephrased in order to provide each issue with a dimension where it is clear what the actor is in favour of or opposing against. Underneath we discuss the topics from the CAP and what our labelling will be including the direction the stance can have. We also provide examples and when applicable include Dutch examples/issues.  
 
+# Issue dimensions
+
 ## **Defense**: Strong defense/NATO
-Within this issue we oppose the actors in favor of more investment in Defense and the expense standard of 2% for the national gross product for Defense as NATO wants. Underneath a straight forward example:
+
+This issue includes all issues related to defense, investments in the army, navy, air force or military equipment. 
+
+Positions in favor include more investment in Defense, a stronger of more effective army, and achieving the NATO goal of 2% for the national gross product for Defense. 
+
+Example:
 
 *VVD in favor of defence expenditures of 2% of GDP*
 
@@ -17,16 +24,23 @@ Within this issue we oppose the actors in favor of more investment in Defense an
 |VVD | Positive | 2% defense expenditures | Positive | Defense |
 
 ## **Health care**: Better accesible health care
-This topic deals with investments in health care and to make health care more accessible for everybody, e.g. by abandoning the deductible ('eigen risico'). Underneath an example in which the direction of the coding should be carefully considered.
 
-*The prime minister said: "We previously announced to abandone the deductible in the years to come"*
+This includes direct investments in health care, but also making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible ('eigen risico'). 
+
+Example: 
+
+*The prime minister said: "We previously announced to abandon the deductible in the years to come"*
 
 | Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|
 |-|-|-|-|-|
 | We (the cabinet) | Positive | abandon deductible | Positive | better health care|
 
 ## **Agriculture**: **In favor of intensive agriculture**
-This topic deals with the farmers. In favor of the farmers means in favor of intensive argigulture and against nitrogen reduction (stikstofreductie). Underneath an example in which two issue opposite positions are given.
+
+This includes supporting a strong agricultural sector. 
+
+
+deals with the farmers. In favor of the farmers means in favor of intensive argigulture and against nitrogen reduction (stikstofreductie). Underneath an example in which two issue opposite positions are given.
 
 *BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers*
 | Holder | Expressed Polarity | Expressed Target | Polarity | Issue dimension|

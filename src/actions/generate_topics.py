@@ -19,12 +19,14 @@ phrases_dict = dict(
 
 def extract_internationalized(item, lang, default_lang='en'):
     if item is None:
-        return "-"
+        return "∅"
     if isinstance(item, str):
         return item
     if lang in item:
         return item[lang]
-    return item.get(default_lang)
+    if default_lang in item:
+        return f"[{default_lang}] {item[default_lang]}"
+    return "⁇"
 
 topics = yaml.safe_load(open(here("annotations", "topics.yml")))
 for lang in ['en', 'nl']:

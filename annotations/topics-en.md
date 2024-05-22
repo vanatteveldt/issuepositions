@@ -61,7 +61,7 @@ _Positions in favour include_: administrative reforms, improved governance throu
 
 ## Social: Social security 
 
-_Positions in favour include_: Improving or investing in social security, benefits, pensions, measures to fight poverty (nivellering)
+_Positions in favour include_: Improving or investing in social security, benefits, pensions
 
 #### Examples:
 

@@ -113,7 +113,7 @@ Order:
   description: "Law and order, (fighting) Crime and terrorism"
   positive: "Fighting crime, harsher penalties, counter-terrorism"
 
-EU: European Union and free-trade
+EU:
   description: "European Union and free trade"
   positive: "Strengthening or expanding EU; stimulating free trade or free trade agreements"
   negative: "Leaving the EU; protectionism; anti-globalization"

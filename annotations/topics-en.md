@@ -167,3 +167,9 @@ _Positions in favour include_: Strengthening or expanding EU; stimulating free t
 
 _Positions against this dimension include_: Leaving the EU; protectionism; anti-globalization
 
+
+
+## Business: Business & Commerce 
+
+_Positions in favour include_: Improving ease of doing business; supporting local businesses and enterpreneurs
+

@@ -167,3 +167,9 @@ _Positieve standpunten zijn bijvoorbeeld_: Strengthening or expanding EU; stimul
 
 _Negatieve standpunten zijn bijvoorbeeld_: Leaving the EU; protectionism; anti-globalization
 
+
+
+## Business: Business & Commerce 
+
+_Positieve standpunten zijn bijvoorbeeld_: Improving ease of doing business; supporting local businesses and enterpreneurs
+

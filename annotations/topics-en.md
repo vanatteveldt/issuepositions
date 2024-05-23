@@ -5,9 +5,9 @@ Please do not edit this document directly.
 
 
 
-## Defense: Defense, investments in the army, navy, air force or military equipment. 
+## Defense: Defense 
 
-_Positions in favour include_: Strong defense/NATO; investment in Defense, a stronger of more effective army, and achieving the NATO goal of 2% for the national gross product for Defense.
+_Positions in favour include_: Strong defense/NATO; investment in Defense, a stronger of more effective army/navy/air force; and achieving the NATO goal of 2% for the national gross product for Defense.
 
 #### Examples:
 
@@ -25,9 +25,9 @@ _Positions in favour include_: direct investments in health care, making health 
   
   
 
-## Agriculture: Farming, farmers, agricultural output; rural communities and way of life and the regions 
+## Agriculture: Farming, rural communities and way of life 
 
-_Positions in favour include_: Maintaining (intensive) argiculture, supporting farmers; strengthening regions or rural communities or the rural way of life
+_Positions in favour include_: Maintaining (intensive) argiculture, supporting farmer, farming, agricultural output; strengthening regions or rural communities or the rural way of life
 
 #### Examples:
 

@@ -5,9 +5,9 @@ Please do not edit this document directly.
 
 
 
-## Defense: Defensie, investeringen in het leger, de marine, luchtmacht, of uitrusting 
+## Defense: Defensie 
 
-_Positieve standpunten zijn bijvoorbeeld_: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
+_Positieve standpunten zijn bijvoorbeeld_: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
 
 #### Voorbeelden:
 

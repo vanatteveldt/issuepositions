@@ -38,3 +38,5 @@ This should be coded along the [issue dimensions defined in the codebook](codebo
 We are currently testing the coding issue and polarity in a single job (i.e. asking "which of these dimensions is this a position on" and "is the actor in favour of or against <issue>".
 
 If possible, it would probably be better to 'guess' the issue and ask a single question (favour/neutral/against/no position). The people on the CAP project released a model that should code issues, we can also try a zero/few shot model based on the first codings that are happening now
+
+Update: We've coded 100 sentences (that contained an issue position) by 3 coders (Jessica, Nel, Wouter). Reliability (alpha) was .66 for topic, .4 for polarity. We manually looked at all disagreements and resolved all disagreements (giving 100 more or less 'gold' sentences), and changed the topic list and coding instructions to cover these cases. We will now code 100 more sentenecs to see if reliaiblity increases.

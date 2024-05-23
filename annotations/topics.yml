@@ -17,34 +17,28 @@ Health:
 
 Agriculture:
   description:
-    en: Farming, farmers, agricultural output, cattle, nitrogen as a result of farming activity
-    nl: Landbouw, boeren, veestapel, stikstof veroorzaakt door landbouw
+    en: Farming, farmers, agricultural output; rural communities and way of life and the regions
+    nl: Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's
   positive:
-    en: Maintaining (intensive) argiculture
-    nl: Instandhouden (intensieve) landbouwsector
+    en: Maintaining (intensive) argiculture, supporting farmers; strengthening regions or rural communities or the rural way of life
+    nl: "Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap"
   negative:
     en: nitrogen reduction, decreasing the amount of livestock
     nl: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
   examples:
     - "BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers"
 
-Energy:
-  description: Energy and energy transition
-  positive: investments in the transition of energy from fossil fuels to renewable fuels; investment in or plans for nuclear energy
-  negative: investments in fossil fuels or coal-fired plants
-  examples:
-    - "Plans for a new nuclear power plant are the hottest question in Dutch politics. PvdA opposes it"
-
 Government:
   description: government working and administrative reforms
-  positive: "administrative reforms, improved governance through reforms,
-    strengthening or safeguarding democratic processes, improving trust in government"
+  positive: "administrative or constitutional reforms, improved governance through reforms,
+    strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)"
   examples:
     - "NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties"
 
 Social:
-  description: Social security
-  positive: Improving or investing in social security, benefits, pensions
+  description: Social security and poverty
+  positive: "Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; 
+             maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly"
   examples:
     - PvdA fight for better pensions
 
@@ -56,20 +50,20 @@ Labor:
 
 Infrastructure:
   description: "Roads, public transport and other infrastructure"
-  positive: "Investments in better roads or public transport; increase in highway speed limits"
+  positive: "Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper"
   examples:
     - "Last year's PvdA motion for free public transport was rejected by the minister"
 
 Integration:
   description: "Integration, reduction of immigration"
-  positive: "reducing number of immigrants, refugees or asylym seekers; stricter integration demands"
+  positive: "reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students"
   negative: "Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants"
   examples:
     - "BBB: PVV rightly says asylum seekers form a problem for our country"
 
 Foreign:
   description: "Foreign Affairs, human rights and international law"
-  positive: "basing foreign policy on considerations of human rights and international law; telling other countries to respect international law"
+  positive: "basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands"
   negative: "basing forighn policy on national interests"
   examples:
     - "D66: This has nothing to do with the rightful protest to protect the people in Gaza."
@@ -82,14 +76,15 @@ Education:
 
 Culture:
   description: Culture
-  positive: investments in or subsidies for culture, making culture more accessible (free entrance to museums)
+  positive: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
   negative: increasing taxes on culture
   examples:
     - "PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks"
 
 Rights:
   description: Civil rights
-  positive: freedom of speech, equal rights for all people in society, gay and transgender rights
+  positive: "Freedom of speech, equal rights for all people in society, gay and transgender rights; 
+  freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia"
   examples:
     - "BBB struggles with sexual education and gender for primary schools"
 
@@ -99,9 +94,10 @@ Budget:
   negative: "lowering taxes"
 
 Environment:
-  description: "Environment, (national) parks, climate"
+  description: "Environment, (national) parks, climate, energy transition"
   positive: "Protection of the environment, investing in parks and green areas;
-  reducing carbon emissions, improving insulation, measures to improve fuel efficiency"
+  reducing carbon emissions, improving insulation, measures to improve fuel efficiency;
+  transitioning to sustainable energy including nuclear, biomass and city heating"
   not: "Sustainable energy coded as energy rather than environment"
 
 Housing:
@@ -112,7 +108,7 @@ Housing:
 
 Order:
   description: "Law and order, (fighting) Crime and terrorism"
-  positive: "Fighting crime, harsher penalties, counter-terrorism"
+  positive: "Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security"
 
 EU:
   description: "European Union and free trade"

@@ -14,6 +14,11 @@ Issue dimensions are a fixed list of dimensions on which an actor can be placed.
 Each dimension allows an actor to be for or against it, i.e. for education you can propose to invest in public education or to cut the education budget. 
 
 The dimensions we use are mostly based on the [Comparative Agenda Project (CAP)](https://www.comparativeagendas.net) list of topic codes, 
-where each topic was interpreted along a dimension. We also collapsed some topic codes (e.g. education, science and technology are 3 CAP topics but one topic on our codebook).
+where each topic was interpreted along a dimension. 
 
 See the [topic list](topics-en.md).
+
+Changes w.r.t. the CAP topics: (apart from assigning a direction to each issue)
+- Collapsed education, science, and technology into a single topic
+- Collapsed energy into environment & climate (all position w.r.t. energy policy boil down to decisions that relate to climate)
+- Add a category for Government finance (austerity, taxation, balancing the books)

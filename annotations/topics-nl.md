@@ -25,9 +25,9 @@ _Positieve standpunten zijn bijvoorbeeld_: direct investments in health care, ma
   
   
 
-## Agriculture: Landbouw, boeren, veestapel, stikstof veroorzaakt door landbouw 
+## Agriculture: Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's 
 
-_Positieve standpunten zijn bijvoorbeeld_: Instandhouden (intensieve) landbouwsector
+_Positieve standpunten zijn bijvoorbeeld_: Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap
 
 #### Voorbeelden:
 
@@ -37,21 +37,9 @@ _Positieve standpunten zijn bijvoorbeeld_: Instandhouden (intensieve) landbouwse
 
 
 
-## Energy: Energy and energy transition 
-
-_Positieve standpunten zijn bijvoorbeeld_: investments in the transition of energy from fossil fuels to renewable fuels; investment in or plans for nuclear energy
-
-#### Voorbeelden:
-
-- Plans for a new nuclear power plant are the hottest question in Dutch politics. PvdA opposes it
-  
-  _Negatieve standpunten zijn bijvoorbeeld_: investments in fossil fuels or coal-fired plants
-
-
-
 ## Government: government working and administrative reforms 
 
-_Positieve standpunten zijn bijvoorbeeld_: administrative reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government
+_Positieve standpunten zijn bijvoorbeeld_: administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)
 
 #### Voorbeelden:
 
@@ -59,9 +47,9 @@ _Positieve standpunten zijn bijvoorbeeld_: administrative reforms, improved gove
   
   
 
-## Social: Social security 
+## Social: Social security and poverty 
 
-_Positieve standpunten zijn bijvoorbeeld_: Improving or investing in social security, benefits, pensions
+_Positieve standpunten zijn bijvoorbeeld_: Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
 
 #### Voorbeelden:
 
@@ -81,7 +69,7 @@ _Positieve standpunten zijn bijvoorbeeld_: "Work should pay off", higher minium 
 
 ## Infrastructure: Roads, public transport and other infrastructure 
 
-_Positieve standpunten zijn bijvoorbeeld_: Investments in better roads or public transport; increase in highway speed limits
+_Positieve standpunten zijn bijvoorbeeld_: Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
 
 #### Voorbeelden:
 
@@ -91,7 +79,7 @@ _Positieve standpunten zijn bijvoorbeeld_: Investments in better roads or public
 
 ## Integration: Integration, reduction of immigration 
 
-_Positieve standpunten zijn bijvoorbeeld_: reducing number of immigrants, refugees or asylym seekers; stricter integration demands
+_Positieve standpunten zijn bijvoorbeeld_: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
 
 #### Voorbeelden:
 
@@ -103,7 +91,7 @@ _Positieve standpunten zijn bijvoorbeeld_: reducing number of immigrants, refuge
 
 ## Foreign: Foreign Affairs, human rights and international law 
 
-_Positieve standpunten zijn bijvoorbeeld_: basing foreign policy on considerations of human rights and international law; telling other countries to respect international law
+_Positieve standpunten zijn bijvoorbeeld_: basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
 
 #### Voorbeelden:
 
@@ -125,7 +113,7 @@ _Positieve standpunten zijn bijvoorbeeld_: more and better eduction; reducing th
 
 ## Culture: Culture 
 
-_Positieve standpunten zijn bijvoorbeeld_: investments in or subsidies for culture, making culture more accessible (free entrance to museums)
+_Positieve standpunten zijn bijvoorbeeld_: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
 
 #### Voorbeelden:
 
@@ -137,7 +125,7 @@ _Positieve standpunten zijn bijvoorbeeld_: investments in or subsidies for cultu
 
 ## Rights: Civil rights 
 
-_Positieve standpunten zijn bijvoorbeeld_: freedom of speech, equal rights for all people in society, gay and transgender rights
+_Positieve standpunten zijn bijvoorbeeld_: Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia
 
 #### Voorbeelden:
 
@@ -153,9 +141,9 @@ _Negatieve standpunten zijn bijvoorbeeld_: lowering taxes
 
 
 
-## Environment: Environment, (national) parks, climate 
+## Environment: Environment, (national) parks, climate, energy transition 
 
-_Positieve standpunten zijn bijvoorbeeld_: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency
+_Positieve standpunten zijn bijvoorbeeld_: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
 
 
@@ -169,7 +157,7 @@ _Negatieve standpunten zijn bijvoorbeeld_: reducing mortgage deductibility
 
 ## Order: Law and order, (fighting) Crime and terrorism 
 
-_Positieve standpunten zijn bijvoorbeeld_: Fighting crime, harsher penalties, counter-terrorism
+_Positieve standpunten zijn bijvoorbeeld_: Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
 
 
 

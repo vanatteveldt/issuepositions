@@ -114,3 +114,8 @@ EU:
   description: "European Union and free trade"
   positive: "Strengthening or expanding EU; stimulating free trade or free trade agreements"
   negative: "Leaving the EU; protectionism; anti-globalization"
+
+Business:
+  description: "Business & Commerce"
+  positive: "Improving ease of doing business; supporting local businesses and enterpreneurs"
+  

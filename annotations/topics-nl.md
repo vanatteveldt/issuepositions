@@ -145,6 +145,8 @@ _Negatieve standpunten zijn bijvoorbeeld_: lowering taxes
 
 _Positieve standpunten zijn bijvoorbeeld_: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
+_Negatieve standpunten zijn bijvoorbeeld_: Investing in fossil fuels, including natural gas extraction
+
 
 
 ## Housing: Housing 

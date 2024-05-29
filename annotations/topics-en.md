@@ -145,6 +145,8 @@ _Positions against this dimension include_: lowering taxes
 
 _Positions in favour include_: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
+_Positions against this dimension include_: Investing in fossil fuels, including natural gas extraction
+
 
 
 ## Housing: Housing 

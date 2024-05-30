@@ -1,0 +1,11 @@
+[project]
+name = "issuepositions"
+version = "0.0.1"
+dependencies = [
+"jupyter",
+"pandas",
+"scikit-learn",
+"transformers[torch]",
+"datasets",
+"pyhere",
+]

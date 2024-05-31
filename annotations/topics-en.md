@@ -15,7 +15,7 @@ _Positions in favour include_: Strong defense/NATO; investment in Defense, a str
   
   
 
-## Health: Health and health care 
+## Health: Health and care 
 
 _Positions in favour include_: direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
 

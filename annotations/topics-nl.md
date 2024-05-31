@@ -15,7 +15,7 @@ _Positieve standpunten zijn bijvoorbeeld_: Sterk leger / sterke NAVO; investerin
   
   
 
-## Health: Health and health care 
+## Health: Gezondheid en zorg 
 
 _Positieve standpunten zijn bijvoorbeeld_: direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
 

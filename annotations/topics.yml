@@ -1,4 +1,7 @@
 Defense:
+  label:
+    en: Defense
+    nl: Defensie
   description:
     en: Defense
     nl: Defensie
@@ -16,6 +19,9 @@ Health:
     - 'The prime minister said: "We previously announced to abandon the deductible in the years to come"'
 
 Agriculture:
+  label: 
+    en: Agriculture
+    nl: Landbouw & Platteland
   description:
     en: Farming, rural communities and way of life
     nl: Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's
@@ -29,92 +35,167 @@ Agriculture:
     - "BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers"
 
 Government:
-  description: government working and administrative reforms
+  label:
+    nl: Beter bestuur
+    en: Government working
+  description: 
+    en: government working and administrative reforms
+    nl: Beter bestuur en bestuurlijke vernieuwing
   positive: "administrative or constitutional reforms, improved governance through reforms,
     strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)"
   examples:
     - "NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties"
 
 Social:
-  description: Social security and poverty
+  label:
+    nl: Sociale zekerheid
+    en: Social security
+  description: 
+    en: Social security and poverty
+    nl: Sociale zekerheid en armoedebestrijding
   positive: "Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; 
              maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly"
   examples:
     - PvdA fight for better pensions
 
 Labor:
-  description: Work, income and conditions
+  label:
+    nl: Werk en inkomen
+    en: Labour and income
+  description: 
+    en: Work, income and conditions
+    nl: Werk, inkomen, arbeidsvoorwaarden
   positive: '"Work should pay off", higher minium wage,  better labor conditions for employees.'
   examples:
     - The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
 
 Infrastructure:
-  description: "Roads, public transport and other infrastructure"
+  label:
+    nl: Infrastructuur
+    en: Infrastructure
+  description: 
+    nl: "Roads, public transport and other infrastructure"
+    en: Wegen, openbaar vervoer en andere infrastructuur
   positive: "Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper"
   examples:
     - "Last year's PvdA motion for free public transport was rejected by the minister"
 
 Integration:
-  description: "Integration, reduction of immigration"
+  label:
+    nl: "Integratie"
+    en: "Integration"
+  description: 
+    en: "Integration, reduction of immigration"
+    nl: Integratie, verminderen immigratie
   positive: "reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students"
   negative: "Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants"
   examples:
     - "BBB: PVV rightly says asylum seekers form a problem for our country"
 
 Foreign:
-  description: "Foreign Affairs, human rights and international law"
+  label:
+    en: "International Law"
+    nl: "Internationaal recht"
+  description: 
+    en: "Foreign Affairs policy based on human rights and international law"
+    nl: "Buitenlands beleid gebaseerd op mensenrechten en internationaal recht"
   positive: "basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands"
   negative: "basing forighn policy on national interests"
   examples:
     - "D66: This has nothing to do with the rightful protest to protect the people in Gaza."
 
-Education:
-  description: Eduction, Science and Technology
+Education: 
+  label:
+    nl: "Onderwijs en technologie"
+    en: "Education and technology"
+  description: 
+    en: "Investing in Eduction, Science and Technology"
+    nl: "Investeren in Onderwijs, Wetenschap en Technologie"
   positive: more and better eduction; reducing the shortage of teachers; investing in science and technology
   examples:
     - "The minister of education advises students to choose for intermediate vocational education (neutral)"
 
 Culture:
-  description: Culture
+  label: 
+    en: "Culture"
+    nl: "Cultuur"
+  description: 
+    en: Culture, media and public broadcasting
+    nl: Cultuur, media en openbare omroep
   positive: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
   negative: increasing taxes on culture
   examples:
     - "PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks"
 
 Rights:
-  description: Civil rights
+  label:
+    nl: Burgerrechten
+    en: Civil rights
+  description: 
+    en: Civil rights, freedom and minority rights
+    nl: Burgerrechten, vrijheid en minderheidsrechten
   positive: "Freedom of speech, equal rights for all people in society, gay and transgender rights; 
   freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia"
   examples:
     - "BBB struggles with sexual education and gender for primary schools"
 
 Budget:
-  description: Government budget and taxation
+  label:
+    en: Government budget and taxation
+    nl: Overheidsuitgaven en belasting
+  description: 
+    en: Balanced government budget, austerity and taxation
+    nl: Overheidstekort, bezuiniging en belasting
   positive: "balancing the books, increasing taxation"
   negative: "lowering taxes"
 
 Environment:
-  description: "Environment, (national) parks, climate, energy transition"
+  label:
+    en: Environment & Climate
+    nl: Milieu & klimaat
+  description: 
+    en: "Environment, (national) parks, climate, energy transition"
+    nl: Milieu, groen, (nationale) parken, klimaat, duurzame energie
   positive: "Protection of the environment, investing in parks and green areas;
   reducing carbon emissions, improving insulation, measures to improve fuel efficiency;
   transitioning to sustainable energy including nuclear, biomass and city heating"
   negative: "Investing in fossil fuels, including natural gas extraction"
 
 Housing:
-  description: "Housing"
+  label:
+    nl: Woningbouw
+    en: Housing
+  description: 
+    nl: Woningbouw en betaalbare huisvesting
+    en: Affordable housing and construction
   positive: "Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)"
   negative: "reducing mortgage deductibility"
   not: "Insulation is coded as environment rather than housing"
 
 Order:
-  description: "Law and order, (fighting) Crime and terrorism"
+  label:
+    nl: Misdaadbestrijding
+    en: Law and order
+  description: 
+    en: Law and order, (fighting) Crime and terrorism
+    nl: Misdaadbestrijding, veiligheid en terrorismebestrijding
   positive: "Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security"
 
 EU:
-  description: "European Union and free trade"
+  label:
+    nl: EU en handel
+    en: "European Union and free trade"
+  description: 
+    nl: EU, Europese Unie, vrijhandel
+    en: EU, European union, free trade
   positive: "Strengthening or expanding EU; stimulating free trade or free trade agreements"
   negative: "Leaving the EU; protectionism; anti-globalization"
 
 Business:
-  description: "Business & Commerce"
+  label:
+    en: Business
+    nl: Ondernemingsklimaat
+  description: 
+    en: "Business & Commerce"
+    nl: Ondernemingsklimaat & steunen ondernemers
   positive: "Improving ease of doing business; supporting local businesses and enterpreneurs"

@@ -76,13 +76,13 @@ metrics <- function(logprob_threshold) {
 
 
 roc <- map(-1:-20, metrics) |> list_rbind() |> 
-  mutate(label=glue::glue("lp≥{logprob};f3={round(f3,2)}")) 
+  mutate(label=glue::glue("lp≥{logprob};n={n_positives};f3={round(f3,2)}")) 
 
 ggplot(roc, aes(x=pr, y=re, label=label)) + 
   geom_line() + 
   geom_point() + 
-  geom_text(data=filter(roc, logprob < -2, logprob > -16, !logprob %in% c(-6, -8, -10, -12)), hjust = 0, nudge_y = .002) +
-  geom_text(data=filter(roc, logprob >= -2), hjust = 1, nudge_y = -.002, nudge_x=-.01) +
+  geom_text(data=filter(roc, logprob < -4, logprob > -16, !logprob %in% c(-6, -8, -10, -12)), hjust = 0, nudge_y = .002) +
+  geom_text(data=filter(roc, logprob >= -4), hjust = 1, nudge_y = -.002, nudge_x=-.01) +
   xlab("Precision") + ylab("Recall of non-None issues") + ggtitle("ROC curve for coding tokens >= logprob") + 
   theme_minimal()
 

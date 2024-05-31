@@ -67,7 +67,7 @@ _Positions in favour include_: "Work should pay off", higher minium wage,  bette
   
   
 
-## Infrastructure: Roads, public transport and other infrastructure 
+## Infrastructure: Wegen, openbaar vervoer en andere infrastructuur 
 
 _Positions in favour include_: Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
 
@@ -89,7 +89,7 @@ _Positions in favour include_: reducing number of immigrants, refugees or asylym
 
 
 
-## Foreign: Foreign Affairs, human rights and international law 
+## Foreign: Foreign Affairs policy based on human rights and international law 
 
 _Positions in favour include_: basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
 
@@ -101,7 +101,7 @@ _Positions in favour include_: basing foreign policy on considerations of human 
 
 
 
-## Education: Eduction, Science and Technology 
+## Education: Investing in Eduction, Science and Technology 
 
 _Positions in favour include_: more and better eduction; reducing the shortage of teachers; investing in science and technology
 
@@ -111,7 +111,7 @@ _Positions in favour include_: more and better eduction; reducing the shortage o
   
   
 
-## Culture: Culture 
+## Culture: Culture, media and public broadcasting 
 
 _Positions in favour include_: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
 
@@ -123,7 +123,7 @@ _Positions in favour include_: investments in or subsidies for culture, making c
 
 
 
-## Rights: Civil rights 
+## Rights: Civil rights, freedom and minority rights 
 
 _Positions in favour include_: Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia
 
@@ -133,7 +133,7 @@ _Positions in favour include_: Freedom of speech, equal rights for all people in
   
   
 
-## Budget: Government budget and taxation 
+## Budget: Balanced government budget, austerity and taxation 
 
 _Positions in favour include_: balancing the books, increasing taxation
 
@@ -149,7 +149,7 @@ _Positions against this dimension include_: Investing in fossil fuels, including
 
 
 
-## Housing: Housing 
+## Housing: Affordable housing and construction 
 
 _Positions in favour include_: Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
 
@@ -163,7 +163,7 @@ _Positions in favour include_: Fighting crime, harsher penalties, counter-terror
 
 
 
-## EU: European Union and free trade 
+## EU: EU, European union, free trade 
 
 _Positions in favour include_: Strengthening or expanding EU; stimulating free trade or free trade agreements
 

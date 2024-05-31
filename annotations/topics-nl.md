@@ -37,7 +37,7 @@ _Positieve standpunten zijn bijvoorbeeld_: Instandhouden (intensieve) landbouwse
 
 
 
-## Government: government working and administrative reforms 
+## Government: Beter bestuur en bestuurlijke vernieuwing 
 
 _Positieve standpunten zijn bijvoorbeeld_: administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)
 
@@ -47,7 +47,7 @@ _Positieve standpunten zijn bijvoorbeeld_: administrative or constitutional refo
   
   
 
-## Social: Social security and poverty 
+## Social: Sociale zekerheid en armoedebestrijding 
 
 _Positieve standpunten zijn bijvoorbeeld_: Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
 
@@ -57,7 +57,7 @@ _Positieve standpunten zijn bijvoorbeeld_: Improving or investing in social secu
   
   
 
-## Labor: Work, income and conditions 
+## Labor: Werk, inkomen, arbeidsvoorwaarden 
 
 _Positieve standpunten zijn bijvoorbeeld_: "Work should pay off", higher minium wage,  better labor conditions for employees.
 
@@ -77,7 +77,7 @@ _Positieve standpunten zijn bijvoorbeeld_: Investments in better roads or public
   
   
 
-## Integration: Integration, reduction of immigration 
+## Integration: Integratie, verminderen immigratie 
 
 _Positieve standpunten zijn bijvoorbeeld_: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
 
@@ -89,7 +89,7 @@ _Positieve standpunten zijn bijvoorbeeld_: reducing number of immigrants, refuge
 
 
 
-## Foreign: Foreign Affairs, human rights and international law 
+## Foreign: Buitenlands beleid gebaseerd op mensenrechten en internationaal recht 
 
 _Positieve standpunten zijn bijvoorbeeld_: basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
 
@@ -101,7 +101,7 @@ _Positieve standpunten zijn bijvoorbeeld_: basing foreign policy on consideratio
 
 
 
-## Education: Eduction, Science and Technology 
+## Education: Investeren in Onderwijs, Wetenschap en Technologie 
 
 _Positieve standpunten zijn bijvoorbeeld_: more and better eduction; reducing the shortage of teachers; investing in science and technology
 
@@ -111,7 +111,7 @@ _Positieve standpunten zijn bijvoorbeeld_: more and better eduction; reducing th
   
   
 
-## Culture: Culture 
+## Culture: Cultuur, media en openbare omroep 
 
 _Positieve standpunten zijn bijvoorbeeld_: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
 
@@ -123,7 +123,7 @@ _Positieve standpunten zijn bijvoorbeeld_: investments in or subsidies for cultu
 
 
 
-## Rights: Civil rights 
+## Rights: Burgerrechten, vrijheid en minderheidsrechten 
 
 _Positieve standpunten zijn bijvoorbeeld_: Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia
 
@@ -133,7 +133,7 @@ _Positieve standpunten zijn bijvoorbeeld_: Freedom of speech, equal rights for a
   
   
 
-## Budget: Government budget and taxation 
+## Budget: Overheidstekort, bezuiniging en belasting 
 
 _Positieve standpunten zijn bijvoorbeeld_: balancing the books, increasing taxation
 
@@ -141,7 +141,7 @@ _Negatieve standpunten zijn bijvoorbeeld_: lowering taxes
 
 
 
-## Environment: Environment, (national) parks, climate, energy transition 
+## Environment: Milieu, groen, (nationale) parken, klimaat, duurzame energie 
 
 _Positieve standpunten zijn bijvoorbeeld_: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
@@ -149,7 +149,7 @@ _Negatieve standpunten zijn bijvoorbeeld_: Investing in fossil fuels, including 
 
 
 
-## Housing: Housing 
+## Housing: Woningbouw en betaalbare huisvesting 
 
 _Positieve standpunten zijn bijvoorbeeld_: Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
 
@@ -157,13 +157,13 @@ _Negatieve standpunten zijn bijvoorbeeld_: reducing mortgage deductibility
 
 
 
-## Order: Law and order, (fighting) Crime and terrorism 
+## Order: Misdaadbestrijding, veiligheid en terrorismebestrijding 
 
 _Positieve standpunten zijn bijvoorbeeld_: Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
 
 
 
-## EU: European Union and free trade 
+## EU: EU, Europese Unie, vrijhandel 
 
 _Positieve standpunten zijn bijvoorbeeld_: Strengthening or expanding EU; stimulating free trade or free trade agreements
 
@@ -171,7 +171,7 @@ _Negatieve standpunten zijn bijvoorbeeld_: Leaving the EU; protectionism; anti-g
 
 
 
-## Business: Business & Commerce 
+## Business: Ondernemingsklimaat & steunen ondernemers 
 
 _Positieve standpunten zijn bijvoorbeeld_: Improving ease of doing business; supporting local businesses and enterpreneurs
 

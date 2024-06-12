@@ -9,12 +9,12 @@ jinja = jinja2.Environment(
 template = jinja.get_template("topics.md")
 
 phrases_dict = dict(
-    positive=dict(en="Positive pole:"),
+    positive=dict(en="Positive pole:", nl="Positieve pool:"),
     positive_positions=dict(
         en="Positions in favour include", nl="Positieve standpunten zijn bijvoorbeeld"
     ),
     examples=dict(en="Examples", nl="Voorbeelden"),
-    negative=dict(en="Negative pole"),
+    negative=dict(en="Negative pole:", nl="Negatieve pool:"),
     negative_positions=dict(
         en="Positions against this dimension include",
         nl="Negatieve standpunten zijn bijvoorbeeld",

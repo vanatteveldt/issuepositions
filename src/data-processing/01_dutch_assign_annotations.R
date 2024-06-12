@@ -40,8 +40,13 @@ d3 = semi_join(units, filter(coded, jobid %in% 296:297))
 
 # Create annotinder objects
 
-#d3 = d3 |> mutate(text_hl = str_replace_all(text_hl, "\\*\\*", "`"))
-units = create_units(d3, id = 'unit_id', set_text('text_hl', text_hl, bold=T, before = before, after =after )) 
+d3 = d3 |> mutate(md = str_c(
+  if_else(is.na(before), "", before),
+  str_c(" **", str_replace_all(text_hl, "\\*\\*", "`"), "** "),
+  if_else(is.na(after), "", after)
+  ))
+
+units = create_units(d3, id = 'unit_id', set_markdown('text_hl', md)) 
 
 topic = question('topic', 'Wat is het onderwerp van deze tekst?', codes = c('Defensie', 'Gezondheids (zorg)', 'Boeren platteland', 
                                                                             'Beter Bestuur', 'Sociale zekerheid', 'Werk (gelegenheid)',
@@ -67,3 +72,4 @@ jobid = annotinder::upload_job("betrouwbaarheid5", units, codebook)
 url = glue::glue('https://uva-climate.netlify.app/?host=https%3A%2F%2Fuva-climate.up.railway.app&job_id={jobid}')
 print(url)
 browseURL(url)
+cat(d3$md[1])

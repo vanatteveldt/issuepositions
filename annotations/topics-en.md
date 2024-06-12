@@ -14,7 +14,7 @@ Strong defense/NATO; investment in Defense, a stronger of more effective army/na
 - VVD in favor of defence expenditures of 2% of GDP
   
   
-### _Negative pole_ **Defense-negative**
+### _Negative pole:_ **Defense-negative**
 Defense-negative-description
 
 
@@ -28,7 +28,7 @@ direct investments in health care, making health care more future-proof, afforda
 - The prime minister said: "We previously announced to abandon the deductible in the years to come"
   
   
-### _Negative pole_ **Health-negative**
+### _Negative pole:_ **Health-negative**
 Health-negative-description
 
 
@@ -42,7 +42,7 @@ Maintaining (intensive) argiculture, supporting farmer, farming, agricultural ou
 - BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
   
   
-### _Negative pole_ **Agriculture-negative**
+### _Negative pole:_ **Agriculture-negative**
 nitrogen reduction, decreasing the amount of livestock
 
 
@@ -56,7 +56,7 @@ administrative or constitutional reforms, improved governance through reforms, s
 - NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties
   
   
-### _Negative pole_ **Government-negative**
+### _Negative pole:_ **Government-negative**
 Government-negative-description
 
 
@@ -70,7 +70,7 @@ Improving or investing in social security, benefits, pensions; reducing poverty,
 - PvdA fight for better pensions
   
   
-### _Negative pole_ **Social-negative**
+### _Negative pole:_ **Social-negative**
 Social-negative-description
 
 
@@ -84,7 +84,7 @@ Social-negative-description
 - The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
   
   
-### _Negative pole_ **Labor-negative**
+### _Negative pole:_ **Labor-negative**
 Labor-negative-description
 
 
@@ -98,7 +98,7 @@ Investments in better roads or public transport; increase in highway speed limit
 - Last year's PvdA motion for free public transport was rejected by the minister
   
   
-### _Negative pole_ **Infrastructure-negative**
+### _Negative pole:_ **Infrastructure-negative**
 Infrastructure-negative-description
 
 
@@ -112,7 +112,7 @@ reducing number of immigrants, refugees or asylym seekers; stricter integration 
 - BBB: PVV rightly says asylum seekers form a problem for our country
   
   
-### _Negative pole_ **Integration-negative**
+### _Negative pole:_ **Integration-negative**
 Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants
 
 
@@ -126,7 +126,7 @@ basing foreign policy on considerations of human rights and international law; t
 - D66: This has nothing to do with the rightful protest to protect the people in Gaza.
   
   
-### _Negative pole_ **Foreign-negative**
+### _Negative pole:_ **Foreign-negative**
 basing forighn policy on national interests
 
 
@@ -140,7 +140,7 @@ more and better eduction; reducing the shortage of teachers; investing in scienc
 - The minister of education advises students to choose for intermediate vocational education (neutral)
   
   
-### _Negative pole_ **Education-negative**
+### _Negative pole:_ **Education-negative**
 Education-negative-description
 
 
@@ -154,7 +154,7 @@ investments in or subsidies for culture, making culture more accessible (free en
 - PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks
   
   
-### _Negative pole_ **Culture-negative**
+### _Negative pole:_ **Culture-negative**
 increasing taxes on culture
 
 
@@ -168,7 +168,7 @@ Freedom of speech, equal rights for all people in society, gay and transgender r
 - BBB struggles with sexual education and gender for primary schools
   
   
-### _Negative pole_ **Rights-negative**
+### _Negative pole:_ **Rights-negative**
 Rights-negative-description
 
 
@@ -178,7 +178,7 @@ Rights-negative-description
 ### _Positive pole:_ **Balanced government budget, austerity and taxation**
 balancing the books, increasing taxation
 
-### _Negative pole_ **Budget-negative**
+### _Negative pole:_ **Budget-negative**
 lowering taxes
 
 
@@ -188,7 +188,7 @@ lowering taxes
 ### _Positive pole:_ **Environment, (national) parks, climate, energy transition**
 Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
-### _Negative pole_ **Environment-negative**
+### _Negative pole:_ **Environment-negative**
 Investing in fossil fuels, including natural gas extraction
 
 
@@ -198,7 +198,7 @@ Investing in fossil fuels, including natural gas extraction
 ### _Positive pole:_ **Affordable housing and construction**
 Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
 
-### _Negative pole_ **Housing-negative**
+### _Negative pole:_ **Housing-negative**
 reducing mortgage deductibility
 
 
@@ -208,7 +208,7 @@ reducing mortgage deductibility
 ### _Positive pole:_ **Law and order, (fighting) Crime and terrorism**
 Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
 
-### _Negative pole_ **Order-negative**
+### _Negative pole:_ **Order-negative**
 Order-negative-description
 
 
@@ -218,7 +218,7 @@ Order-negative-description
 ### _Positive pole:_ **EU, European union, free trade**
 Strengthening or expanding EU; stimulating free trade or free trade agreements
 
-### _Negative pole_ **EU-negative**
+### _Negative pole:_ **EU-negative**
 Leaving the EU; protectionism; anti-globalization
 
 
@@ -228,6 +228,6 @@ Leaving the EU; protectionism; anti-globalization
 ### _Positive pole:_ **Business & Commerce**
 Improving ease of doing business; supporting local businesses and enterpreneurs
 
-### _Negative pole_ **Business-negative**
+### _Negative pole:_ **Business-negative**
 Business-negative-description
 

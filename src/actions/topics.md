@@ -5,12 +5,21 @@ Please do not edit this document directly.
 
 {% for name, topic in topics.items() %}
 
-## {{ name }}{% if 'description' in topic %}: {{ x(topic['description']) }} {% endif %}
+## [`{{ name }}`] {{ x(topic['label']) }}
 
-{% if 'positive' in topic -%}
-_{{ phrases.positive}}_: {{ x(topic['positive'])}}
+{% for pole in ['positive', 'negative'] %}
+  {% set d = topic[pole] %}
+### _{{ phrases[pole]}}_: **{{ x(d['label'])}}**
+{{ x(d['description'])}}
+{% if 'examples' in d -%}
+{% for ex in d.examples -%}
+#### {{ phrases.examples -}}:
 
-{% endif -%}
+- {{ x(ex) }}
+  {% endfor %}
+  {% endif -%}
+{% endfor %}
+
 
 {% if 'examples' in topic -%}
 

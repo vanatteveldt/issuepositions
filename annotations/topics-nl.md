@@ -5,173 +5,355 @@ Please do not edit this document directly.
 
 
 
-## Defense: Defensie 
+## [`Defense`] Defensie
 
-_Positieve standpunten zijn bijvoorbeeld_: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
 
+  
+### _[en] Positive pole:_: **Defensie**
+Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
 #### Voorbeelden:
 
 - VVD voor verhogen van defensie-uitgaven naar 2% van BNP
   
   
+  
+### _[en] Negative pole_: **[en] Defense-negative**
+[en] Defense-negative-description
 
-## Health: Gezondheid en zorg 
 
-_Positieve standpunten zijn bijvoorbeeld_: direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Health`] Gezondheid
+
+
+  
+### _[en] Positive pole:_: **Gezondheid en zorg**
+[en] direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
 #### Voorbeelden:
 
-- The prime minister said: "We previously announced to abandon the deductible in the years to come"
+- [en] The prime minister said: "We previously announced to abandon the deductible in the years to come"
   
   
+  
+### _[en] Negative pole_: **[en] Health-negative**
+[en] Health-negative-description
 
-## Agriculture: Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's 
 
-_Positieve standpunten zijn bijvoorbeeld_: Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Agriculture`] Landbouw & Platteland
+
+
+  
+### _[en] Positive pole:_: **Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's**
+Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap
 #### Voorbeelden:
 
-- BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
+- [en] BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
   
-  _Negatieve standpunten zijn bijvoorbeeld_: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
+  
+  
+### _[en] Negative pole_: **[en] Agriculture-negative**
+Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
 
 
 
-## Government: Beter bestuur en bestuurlijke vernieuwing 
+_[en] Negative pole_: ⁇
 
-_Positieve standpunten zijn bijvoorbeeld_: administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)
 
+
+## [`Government`] Beter bestuur
+
+
+  
+### _[en] Positive pole:_: **Beter bestuur en bestuurlijke vernieuwing**
+[en] administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)
 #### Voorbeelden:
 
-- NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties
+- [en] NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties
   
   
+  
+### _[en] Negative pole_: **[en] Government-negative**
+[en] Government-negative-description
 
-## Social: Sociale zekerheid en armoedebestrijding 
 
-_Positieve standpunten zijn bijvoorbeeld_: Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Social`] Sociale zekerheid
+
+
+  
+### _[en] Positive pole:_: **Sociale zekerheid en armoedebestrijding**
+[en] Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
 #### Voorbeelden:
 
-- PvdA fight for better pensions
+- [en] PvdA fight for better pensions
   
   
+  
+### _[en] Negative pole_: **[en] Social-negative**
+[en] Social-negative-description
 
-## Labor: Werk, inkomen, arbeidsvoorwaarden 
 
-_Positieve standpunten zijn bijvoorbeeld_: "Work should pay off", higher minium wage,  better labor conditions for employees.
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Labor`] Werk en inkomen
+
+
+  
+### _[en] Positive pole:_: **Werk, inkomen, arbeidsvoorwaarden**
+[en] "Work should pay off", higher minium wage,  better labor conditions for employees.
 #### Voorbeelden:
 
-- The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
+- [en] The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
   
   
+  
+### _[en] Negative pole_: **[en] Labor-negative**
+[en] Labor-negative-description
 
-## Infrastructure: Roads, public transport and other infrastructure 
 
-_Positieve standpunten zijn bijvoorbeeld_: Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Infrastructure`] Infrastructuur
+
+
+  
+### _[en] Positive pole:_: **Roads, public transport and other infrastructure**
+[en] Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
 #### Voorbeelden:
 
-- Last year's PvdA motion for free public transport was rejected by the minister
+- [en] Last year's PvdA motion for free public transport was rejected by the minister
   
   
+  
+### _[en] Negative pole_: **[en] Infrastructure-negative**
+[en] Infrastructure-negative-description
 
-## Integration: Integratie, verminderen immigratie 
 
-_Positieve standpunten zijn bijvoorbeeld_: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Integration`] Integratie
+
+
+  
+### _[en] Positive pole:_: **Integratie, verminderen immigratie**
+[en] reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
 #### Voorbeelden:
 
-- BBB: PVV rightly says asylum seekers form a problem for our country
+- [en] BBB: PVV rightly says asylum seekers form a problem for our country
   
-  _Negatieve standpunten zijn bijvoorbeeld_: Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants
+  
+  
+### _[en] Negative pole_: **[en] Integration-negative**
+[en] Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants
 
 
 
-## Foreign: Buitenlands beleid gebaseerd op mensenrechten en internationaal recht 
+_[en] Negative pole_: ⁇
 
-_Positieve standpunten zijn bijvoorbeeld_: basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
 
+
+## [`Foreign`] Internationaal recht
+
+
+  
+### _[en] Positive pole:_: **Buitenlands beleid gebaseerd op mensenrechten en internationaal recht**
+[en] basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
 #### Voorbeelden:
 
-- D66: This has nothing to do with the rightful protest to protect the people in Gaza.
+- [en] D66: This has nothing to do with the rightful protest to protect the people in Gaza.
   
-  _Negatieve standpunten zijn bijvoorbeeld_: basing forighn policy on national interests
+  
+  
+### _[en] Negative pole_: **[en] Foreign-negative**
+[en] basing forighn policy on national interests
 
 
 
-## Education: Investeren in Onderwijs, Wetenschap en Technologie 
+_[en] Negative pole_: ⁇
 
-_Positieve standpunten zijn bijvoorbeeld_: more and better eduction; reducing the shortage of teachers; investing in science and technology
 
+
+## [`Education`] Onderwijs en technologie
+
+
+  
+### _[en] Positive pole:_: **Investeren in Onderwijs, Wetenschap en Technologie**
+[en] more and better eduction; reducing the shortage of teachers; investing in science and technology
 #### Voorbeelden:
 
-- The minister of education advises students to choose for intermediate vocational education (neutral)
+- [en] The minister of education advises students to choose for intermediate vocational education (neutral)
   
   
+  
+### _[en] Negative pole_: **[en] Education-negative**
+[en] Education-negative-description
 
-## Culture: Cultuur, media en openbare omroep 
 
-_Positieve standpunten zijn bijvoorbeeld_: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
 
+_[en] Negative pole_: ⁇
+
+
+
+## [`Culture`] Cultuur
+
+
+  
+### _[en] Positive pole:_: **Cultuur, media en openbare omroep**
+[en] investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
 #### Voorbeelden:
 
-- PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks
+- [en] PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks
   
-  _Negatieve standpunten zijn bijvoorbeeld_: increasing taxes on culture
+  
+  
+### _[en] Negative pole_: **[en] Culture-negative**
+[en] increasing taxes on culture
 
 
 
-## Rights: Burgerrechten, vrijheid en minderheidsrechten 
+_[en] Negative pole_: ⁇
 
-_Positieve standpunten zijn bijvoorbeeld_: Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia
 
+
+## [`Rights`] Burgerrechten
+
+
+  
+### _[en] Positive pole:_: **Burgerrechten, vrijheid en minderheidsrechten**
+[en] Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia
 #### Voorbeelden:
 
-- BBB struggles with sexual education and gender for primary schools
+- [en] BBB struggles with sexual education and gender for primary schools
   
   
-
-## Budget: Overheidstekort, bezuiniging en belasting 
-
-_Positieve standpunten zijn bijvoorbeeld_: balancing the books, increasing taxation
-
-_Negatieve standpunten zijn bijvoorbeeld_: lowering taxes
+  
+### _[en] Negative pole_: **[en] Rights-negative**
+[en] Rights-negative-description
 
 
 
-## Environment: Milieu, groen, (nationale) parken, klimaat, duurzame energie 
-
-_Positieve standpunten zijn bijvoorbeeld_: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
-
-_Negatieve standpunten zijn bijvoorbeeld_: Investing in fossil fuels, including natural gas extraction
+_[en] Negative pole_: ⁇
 
 
 
-## Housing: Woningbouw en betaalbare huisvesting 
-
-_Positieve standpunten zijn bijvoorbeeld_: Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
-
-_Negatieve standpunten zijn bijvoorbeeld_: reducing mortgage deductibility
+## [`Budget`] Overheidsuitgaven en belasting
 
 
+  
+### _[en] Positive pole:_: **Overheidstekort, bezuiniging en belasting**
+[en] balancing the books, increasing taxation
 
-## Order: Misdaadbestrijding, veiligheid en terrorismebestrijding 
-
-_Positieve standpunten zijn bijvoorbeeld_: Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
-
-
-
-## EU: EU, Europese Unie, vrijhandel 
-
-_Positieve standpunten zijn bijvoorbeeld_: Strengthening or expanding EU; stimulating free trade or free trade agreements
-
-_Negatieve standpunten zijn bijvoorbeeld_: Leaving the EU; protectionism; anti-globalization
+  
+### _[en] Negative pole_: **[en] Budget-negative**
+[en] lowering taxes
 
 
 
-## Business: Ondernemingsklimaat & steunen ondernemers 
+_[en] Negative pole_: ⁇
 
-_Positieve standpunten zijn bijvoorbeeld_: Improving ease of doing business; supporting local businesses and enterpreneurs
+
+
+## [`Environment`] Milieu & klimaat
+
+
+  
+### _[en] Positive pole:_: **Milieu, groen, (nationale) parken, klimaat, duurzame energie**
+[en] Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
+
+  
+### _[en] Negative pole_: **[en] Environment-negative**
+[en] Investing in fossil fuels, including natural gas extraction
+
+
+
+_[en] Negative pole_: ⁇
+
+
+
+## [`Housing`] Woningbouw
+
+
+  
+### _[en] Positive pole:_: **Woningbouw en betaalbare huisvesting**
+[en] Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
+
+  
+### _[en] Negative pole_: **[en] Housing-negative**
+[en] reducing mortgage deductibility
+
+
+
+_[en] Negative pole_: ⁇
+
+
+
+## [`Order`] Misdaadbestrijding
+
+
+  
+### _[en] Positive pole:_: **Misdaadbestrijding, veiligheid en terrorismebestrijding**
+[en] Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
+
+  
+### _[en] Negative pole_: **[en] Order-negative**
+[en] Order-negative-description
+
+
+
+_[en] Negative pole_: ⁇
+
+
+
+## [`EU`] EU en handel
+
+
+  
+### _[en] Positive pole:_: **EU, Europese Unie, vrijhandel**
+[en] Strengthening or expanding EU; stimulating free trade or free trade agreements
+
+  
+### _[en] Negative pole_: **[en] EU-negative**
+[en] Leaving the EU; protectionism; anti-globalization
+
+
+
+_[en] Negative pole_: ⁇
+
+
+
+## [`Business`] Ondernemingsklimaat
+
+
+  
+### _[en] Positive pole:_: **Ondernemingsklimaat & steunen ondernemers**
+[en] Improving ease of doing business; supporting local businesses and enterpreneurs
+
+  
+### _[en] Negative pole_: **[en] Business-negative**
+[en] Business-negative-description
+
+
+
+_[en] Negative pole_: ⁇
 

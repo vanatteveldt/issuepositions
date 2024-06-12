@@ -6,10 +6,9 @@ Please do not edit this document directly.
 {% for name, topic in topics.items() %}
 
 ## [`{{ name }}`] {{ x(topic['label']) }}
-
-{% for pole in ['positive', 'negative'] %}
+{% for pole in ['positive', 'negative'] -%}
   {% set d = topic[pole] %}
-### _{{ phrases[pole]}}_: **{{ x(d['label'])}}**
+### _{{ phrases[pole]}}_ **{{ x(d['label'])}}**
 {{ x(d['description'])}}
 {% if 'examples' in d -%}
 {% for ex in d.examples -%}
@@ -19,30 +18,4 @@ Please do not edit this document directly.
   {% endfor %}
   {% endif -%}
 {% endfor %}
-
-
-{% if 'examples' in topic -%}
-
-#### {{ phrases.examples -}}:
-
-{% for ex in topic.examples -%}
-
-- {{ x(ex) }}
-  {% endfor %}
-  {% endif -%}
-
-{% if 'negative' in topic -%}
-_{{ phrases.negative}}_: {{ x(topic['negative'])}}
-
-{% endif -%}
-
-{% if 'negative_examples' in topic -%}
-
-#### {{ phrases.negative_examples -}}:
-
-{% for ex in topic.negative_examples -%}
-
-- {{ x(ex) }}
-  {% endfor -%}
-  {% endif -%}
-  {% endfor -%}
+{% endfor %}

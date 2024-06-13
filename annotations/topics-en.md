@@ -129,8 +129,8 @@ Freedom of speech, equal rights for all people in society, gay and transgender r
 - BBB struggles with sexual education and gender for primary schools
   
   
-### _Negative pole:_ **Rights-negative**
-Rights-negative-description
+### _Negative pole:_ **Traditional values**
+Traditional / christian / conservative norms and values; protection for life, opposition to abortion, euthanasia
 
 
 
@@ -139,36 +139,36 @@ Rights-negative-description
 ### _Positive pole:_ **Environment, (national) parks, climate, energy transition**
 Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
-### _Negative pole:_ **Environment-negative**
-Investing in fossil fuels, including natural gas extraction
+### _Negative pole:_ **Fossil fuels**
+Investing in fossil fuels, including natural gas extraction; lowering environmental standards or protections
 
 
 
 ## [`Housing`] Housing
 
-### _Positive pole:_ **Affordable housing and construction**
-Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
+### _Positive pole:_ **Affordable and social housing**
+Affordable houses, social housing, lowering rent, reducing mortgage deductibility
 
-### _Negative pole:_ **Housing-negative**
-reducing mortgage deductibility
+### _Negative pole:_ **Home ownership**
+Stimulating home ownership
 
 
 
 ## [`Order`] Law and order
 
-### _Positive pole:_ **Law and order, (fighting) Crime and terrorism**
+### _Positive pole:_ **Preventie en rechtsbescherming**
+Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants
+
+### _Negative pole:_ **Law and order, (fighting) Crime and terrorism**
 Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
 
-### _Negative pole:_ **Order-negative**
-Order-negative-description
 
 
+## [`EU`] EU and trade
 
-## [`EU`] European Union and free trade
-
-### _Positive pole:_ **EU, European union, free trade**
+### _Positive pole:_ **Strong EU & Free trade**
 Strengthening or expanding EU; stimulating free trade or free trade agreements
 
-### _Negative pole:_ **EU-negative**
-Leaving the EU; protectionism; anti-globalization
+### _Negative pole:_ **Protectionism**
+Leaving the EU; protectionism; anti-globalization; border controls
 

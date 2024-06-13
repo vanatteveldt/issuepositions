@@ -129,8 +129,8 @@ Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, 
 - [en] BBB struggles with sexual education and gender for primary schools
   
   
-### _Negatieve pool:_ **[en] Rights-negative**
-[en] Rights-negative-description
+### _Negatieve pool:_ **[en] Traditional values**
+[en] Traditional / christian / conservative norms and values; protection for life, opposition to abortion, euthanasia
 
 
 
@@ -139,36 +139,36 @@ Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, 
 ### _Positieve pool:_ **Milieu, groen, (nationale) parken, klimaat, duurzame energie**
 [en] Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
 
-### _Negatieve pool:_ **[en] Environment-negative**
-[en] Investing in fossil fuels, including natural gas extraction
+### _Negatieve pool:_ **[en] Fossil fuels**
+[en] Investing in fossil fuels, including natural gas extraction; lowering environmental standards or protections
 
 
 
 ## [`Housing`] Woningbouw
 
-### _Positieve pool:_ **Woningbouw en betaalbare huisvesting**
-[en] Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
+### _Positieve pool:_ **Betaalbare huisvesting**
+[en] Affordable houses, social housing, lowering rent, reducing mortgage deductibility
 
-### _Negatieve pool:_ **[en] Housing-negative**
-[en] reducing mortgage deductibility
+### _Negatieve pool:_ **[en] Home ownership**
+[en] Stimulating home ownership
 
 
 
-## [`Order`] Misdaadbestrijding
+## [`Order`] Justitie & veiligheid
 
-### _Positieve pool:_ **Misdaadbestrijding, veiligheid en terrorismebestrijding**
+### _Positieve pool:_ **Preventie en rechtsbescherming**
+[en] Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants
+
+### _Negatieve pool:_ **Misdaadbestrijding, veiligheid en terrorismebestrijding**
 [en] Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
-
-### _Negatieve pool:_ **[en] Order-negative**
-[en] Order-negative-description
 
 
 
 ## [`EU`] EU en handel
 
-### _Positieve pool:_ **EU, Europese Unie, vrijhandel**
+### _Positieve pool:_ **Sterke EU en vrijhandel**
 [en] Strengthening or expanding EU; stimulating free trade or free trade agreements
 
-### _Negatieve pool:_ **[en] EU-negative**
-[en] Leaving the EU; protectionism; anti-globalization
+### _Negatieve pool:_ **[en] Protectionism**
+[en] Leaving the EU; protectionism; anti-globalization; border controls
 

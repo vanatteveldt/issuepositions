@@ -202,7 +202,7 @@ Order:
     en: Law and order
     nl: Justitie & veiligheid
   positive:
-    label: Preventie en rechtsbescherming
+    label: Decriminalisation and legal aid
     description:
       en: Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants 
   negative:

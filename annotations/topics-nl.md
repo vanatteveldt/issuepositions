@@ -239,7 +239,7 @@ Please do not edit this document directly.
   
 
 <tr><td colspan="2"><h1>Justitie & veiligheid</h1></td></tr>
-<tr><td><b>Preventie en rechtsbescherming</b></td><td><b>Misdaadbestrijding, veiligheid en terrorismebestrijding</b></td></tr>
+<tr><td><b>Decriminalisation and legal aid</b></td><td><b>Misdaadbestrijding, veiligheid en terrorismebestrijding</b></td></tr>
 <tr><td>[en] Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants</td><td>[en] Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security</td></tr>
 <tr>
   <td>

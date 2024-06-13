@@ -7,155 +7,116 @@ Please do not edit this document directly.
 
 ## [`Defense`] Defense
 
-### _Positive pole:_ **Defense**
-Strong defense/NATO; investment in Defense, a stronger of more effective army/navy/air force; and achieving the NATO goal of 2% for the national gross product for Defense.
+### _Positive pole:_ **Strong defense, national interests in foreign policy**
+Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy
 #### Examples:
 
 - VVD in favor of defence expenditures of 2% of GDP
   
   
-### _Negative pole:_ **Defense-negative**
-Defense-negative-description
+### _Negative pole:_ **Peace and Rules-based order**
+Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order
 
 
 
 ## [`Health`] Health
 
-### _Positive pole:_ **Health and care**
-direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
+### _Positive pole:_ **Affordable health and care**
+Government investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport
 #### Examples:
 
-- The prime minister said: "We previously announced to abandon the deductible in the years to come"
+- The prime minister said: "We will abandon the deductible in the years to come"
   
   
-### _Negative pole:_ **Health-negative**
-Health-negative-description
+### _Negative pole:_ **Efficient health care**
+Privatisation, role of private companies or insurance providers, cost reductions
 
 
 
 ## [`Agriculture`] Agriculture
 
-### _Positive pole:_ **Farming, rural communities and way of life**
-Maintaining (intensive) argiculture, supporting farmer, farming, agricultural output; strengthening regions or rural communities or the rural way of life
+### _Positive pole:_ **Intensive Farming & rural communities**
+Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening regions or rural communities or the traditional rural way of life
 #### Examples:
 
 - BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
   
   
-### _Negative pole:_ **Agriculture-negative**
-nitrogen reduction, decreasing the amount of livestock
+### _Negative pole:_ **Sustainable agriculture**
+nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives
 
 
 
 ## [`Government`] Government working
 
-### _Positive pole:_ **government working and administrative reforms**
+### _Positive pole:_ **Government working and administrative reforms**
 administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)
 #### Examples:
 
 - NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties
   
   
-### _Negative pole:_ **Government-negative**
-Government-negative-description
+### _Negative pole:_ **Consitutional conservatism**
+Support for the current constitutional system
 
 
 
-## [`Social`] Social security
+## [`SocialEconomic`] Labor, income, welfare, taxation
 
-### _Positive pole:_ **Social security and poverty**
-Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
+### _Positive pole:_ **Social security and poverty reduction**
+More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; higher minimum wage
 #### Examples:
 
 - PvdA fight for better pensions
-  
-  
-### _Negative pole:_ **Social-negative**
-Social-negative-description
-
-
-
-## [`Labor`] Labour and income
-
-### _Positive pole:_ **Work, income and conditions**
-"Work should pay off", higher minium wage,  better labor conditions for employees.
-#### Examples:
+  #### Examples:
 
 - The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
   
   
-### _Negative pole:_ **Labor-negative**
-Labor-negative-description
+### _Negative pole:_ **Tax reduction & entrepreneurialism**
+Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs
 
 
 
-## [`Infrastructure`] Infrastructure
+## [`Infrastructure`] Infrastructure & Mobility
 
-### _Positive pole:_ **Wegen, openbaar vervoer en andere infrastructuur**
-Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
+### _Positive pole:_ **Public/sustainable transport**
+Investments in better public transport; electric cars; biking or other sustainable transportation
+
+### _Negative pole:_ **Roads and**
+investments in roads; increase in highway speed limits, more or  cheaper parking; growing Schiphol
 #### Examples:
 
 - Last year's PvdA motion for free public transport was rejected by the minister
   
   
-### _Negative pole:_ **Infrastructure-negative**
-Infrastructure-negative-description
 
 
+## [`Integration`] Immigration
 
-## [`Integration`] Integration
+### _Positive pole:_ **Multiculturalism**
+Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants; multicultural society and benefits of foreign nationals
 
-### _Positive pole:_ **Integration, reduction of immigration**
-reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
+### _Negative pole:_ **Immigration reduction**
+reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities
 #### Examples:
 
 - BBB: PVV rightly says asylum seekers form a problem for our country
   
   
-### _Negative pole:_ **Integration-negative**
-Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants
 
 
-
-## [`Foreign`] International Law
-
-### _Positive pole:_ **Foreign Affairs policy based on human rights and international law**
-basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
-#### Examples:
-
-- D66: This has nothing to do with the rightful protest to protect the people in Gaza.
-  
-  
-### _Negative pole:_ **Foreign-negative**
-basing forighn policy on national interests
-
-
-
-## [`Education`] Education and technology
+## [`Education`] Education, culture and technology
 
 ### _Positive pole:_ **Investing in Eduction, Science and Technology**
-more and better eduction; reducing the shortage of teachers; investing in science and technology
+Government investment in education, culture, science and technology; reducing the shortage of teachers; academic and artistic freedom
 #### Examples:
 
 - The minister of education advises students to choose for intermediate vocational education (neutral)
   
   
-### _Negative pole:_ **Education-negative**
-Education-negative-description
-
-
-
-## [`Culture`] Culture
-
-### _Positive pole:_ **Culture, media and public broadcasting**
-investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
-#### Examples:
-
-- PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks
-  
-  
-### _Negative pole:_ **Culture-negative**
-increasing taxes on culture
+### _Negative pole:_ **Religious education & Conservative values in education & culture**
+Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
 
 
 
@@ -170,16 +131,6 @@ Freedom of speech, equal rights for all people in society, gay and transgender r
   
 ### _Negative pole:_ **Rights-negative**
 Rights-negative-description
-
-
-
-## [`Budget`] Government budget and taxation
-
-### _Positive pole:_ **Balanced government budget, austerity and taxation**
-balancing the books, increasing taxation
-
-### _Negative pole:_ **Budget-negative**
-lowering taxes
 
 
 
@@ -220,14 +171,4 @@ Strengthening or expanding EU; stimulating free trade or free trade agreements
 
 ### _Negative pole:_ **EU-negative**
 Leaving the EU; protectionism; anti-globalization
-
-
-
-## [`Business`] Business
-
-### _Positive pole:_ **Business & Commerce**
-Improving ease of doing business; supporting local businesses and enterpreneurs
-
-### _Negative pole:_ **Business-negative**
-Business-negative-description
 

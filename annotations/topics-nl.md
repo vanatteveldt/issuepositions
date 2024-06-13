@@ -7,43 +7,43 @@ Please do not edit this document directly.
 
 ## [`Defense`] Defensie
 
-### _Positieve pool:_ **Defensie**
+### _Positieve pool:_ **Sterke krijgsmacht, nationaal belang in buitenlands beleid**
 Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
 #### Voorbeelden:
 
 - VVD voor verhogen van defensie-uitgaven naar 2% van BNP
   
   
-### _Negatieve pool:_ **[en] Defense-negative**
-[en] Defense-negative-description
+### _Negatieve pool:_ **[en] Peace and Rules-based order**
+[en] Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order
 
 
 
 ## [`Health`] Gezondheid
 
-### _Positieve pool:_ **Gezondheid en zorg**
-[en] direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
+### _Positieve pool:_ **Betaalbare zorg en gezondheid**
+[en] Government investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport
 #### Voorbeelden:
 
-- [en] The prime minister said: "We previously announced to abandon the deductible in the years to come"
+- [en] The prime minister said: "We will abandon the deductible in the years to come"
   
   
-### _Negatieve pool:_ **[en] Health-negative**
-[en] Health-negative-description
+### _Negatieve pool:_ **[en] Efficient health care**
+[en] Privatisation, role of private companies or insurance providers, cost reductions
 
 
 
 ## [`Agriculture`] Landbouw & Platteland
 
-### _Positieve pool:_ **Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's**
+### _Positieve pool:_ **Landbouw & landelijke gemeenschappen**
 Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap
 #### Voorbeelden:
 
 - [en] BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
   
   
-### _Negatieve pool:_ **[en] Agriculture-negative**
-Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
+### _Negatieve pool:_ **Duurzame landbouw**
+Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven
 
 
 
@@ -56,106 +56,67 @@ Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
 - [en] NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties
   
   
-### _Negatieve pool:_ **[en] Government-negative**
-[en] Government-negative-description
+### _Negatieve pool:_ **[en] Consitutional conservatism**
+[en] Support for the current constitutional system
 
 
 
-## [`Social`] Sociale zekerheid
+## [`SocialEconomic`] Arbeid, inkomen, sociale zekerheid, belastingen
 
 ### _Positieve pool:_ **Sociale zekerheid en armoedebestrijding**
-[en] Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
+[en] More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; higher minimum wage
 #### Voorbeelden:
 
 - [en] PvdA fight for better pensions
-  
-  
-### _Negatieve pool:_ **[en] Social-negative**
-[en] Social-negative-description
-
-
-
-## [`Labor`] Werk en inkomen
-
-### _Positieve pool:_ **Werk, inkomen, arbeidsvoorwaarden**
-[en] "Work should pay off", higher minium wage,  better labor conditions for employees.
-#### Voorbeelden:
+  #### Voorbeelden:
 
 - [en] The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
   
   
-### _Negatieve pool:_ **[en] Labor-negative**
-[en] Labor-negative-description
+### _Negatieve pool:_ **[en] Tax reduction & entrepreneurialism**
+[en] Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs
 
 
 
-## [`Infrastructure`] Infrastructuur
+## [`Infrastructure`] Infrastructuur & Mobiliteit
 
-### _Positieve pool:_ **Roads, public transport and other infrastructure**
-[en] Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
+### _Positieve pool:_ **Duurzaam/Openbaar vervoer**
+[en] Investments in better public transport; electric cars; biking or other sustainable transportation
+
+### _Negatieve pool:_ **[en] Roads and**
+[en] investments in roads; increase in highway speed limits, more or  cheaper parking; growing Schiphol
 #### Voorbeelden:
 
 - [en] Last year's PvdA motion for free public transport was rejected by the minister
   
   
-### _Negatieve pool:_ **[en] Infrastructure-negative**
-[en] Infrastructure-negative-description
 
 
+## [`Integration`] Immigratie
 
-## [`Integration`] Integratie
+### _Positieve pool:_ **[en] Multiculturalism**
+[en] Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants; multicultural society and benefits of foreign nationals
 
-### _Positieve pool:_ **Integratie, verminderen immigratie**
-[en] reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
+### _Negatieve pool:_ **[en] Immigration reduction**
+[en] reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities
 #### Voorbeelden:
 
 - [en] BBB: PVV rightly says asylum seekers form a problem for our country
   
   
-### _Negatieve pool:_ **[en] Integration-negative**
-[en] Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants
 
 
+## [`Education`] Onderwijs, cultuur en wetenschap
 
-## [`Foreign`] Internationaal recht
-
-### _Positieve pool:_ **Buitenlands beleid gebaseerd op mensenrechten en internationaal recht**
-[en] basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
-#### Voorbeelden:
-
-- [en] D66: This has nothing to do with the rightful protest to protect the people in Gaza.
-  
-  
-### _Negatieve pool:_ **[en] Foreign-negative**
-[en] basing forighn policy on national interests
-
-
-
-## [`Education`] Onderwijs en technologie
-
-### _Positieve pool:_ **Investeren in Onderwijs, Wetenschap en Technologie**
-[en] more and better eduction; reducing the shortage of teachers; investing in science and technology
+### _Positieve pool:_ **Investeren in Onderwijs, Cultuur en Wetenschap**
+[en] Government investment in education, culture, science and technology; reducing the shortage of teachers; academic and artistic freedom
 #### Voorbeelden:
 
 - [en] The minister of education advises students to choose for intermediate vocational education (neutral)
   
   
-### _Negatieve pool:_ **[en] Education-negative**
-[en] Education-negative-description
-
-
-
-## [`Culture`] Cultuur
-
-### _Positieve pool:_ **Cultuur, media en openbare omroep**
-[en] investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
-#### Voorbeelden:
-
-- [en] PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks
-  
-  
-### _Negatieve pool:_ **[en] Culture-negative**
-[en] increasing taxes on culture
+### _Negatieve pool:_ **[en] Religious education & Conservative values in education & culture**
+[en] Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
 
 
 
@@ -170,16 +131,6 @@ Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
   
 ### _Negatieve pool:_ **[en] Rights-negative**
 [en] Rights-negative-description
-
-
-
-## [`Budget`] Overheidsuitgaven en belasting
-
-### _Positieve pool:_ **Overheidstekort, bezuiniging en belasting**
-[en] balancing the books, increasing taxation
-
-### _Negatieve pool:_ **[en] Budget-negative**
-[en] lowering taxes
 
 
 
@@ -220,14 +171,4 @@ Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
 
 ### _Negatieve pool:_ **[en] EU-negative**
 [en] Leaving the EU; protectionism; anti-globalization
-
-
-
-## [`Business`] Ondernemingsklimaat
-
-### _Positieve pool:_ **Ondernemingsklimaat & steunen ondernemers**
-[en] Improving ease of doing business; supporting local businesses and enterpreneurs
-
-### _Negatieve pool:_ **[en] Business-negative**
-[en] Business-negative-description
 

@@ -4,37 +4,36 @@ Defense:
     nl: Defensie
   positive:
     label:
-      en: Defense
-      nl: Defensie
+      en: Strong defense, national interests in foreign policy
+      nl: Sterke krijgsmacht, nationaal belang in buitenlands beleid
     description:
-      en: Strong defense/NATO; investment in Defense, a stronger of more effective army/navy/air force; and achieving the NATO goal of 2% for the national gross product for Defense.
+      en: Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy
       nl: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
     examples:
       - en: 'VVD in favor of defence expenditures of 2% of GDP'
         nl: 'VVD voor verhogen van defensie-uitgaven naar 2% van BNP'
   negative:
     label:
-      en: Defense-negative
+      en: Peace and Rules-based order
     description:
-      en: Defense-negative-description
-
+      en: Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order
 Health:
   label:
     en: Health
     nl: Gezondheid
   positive:
     label:
-      en: Health and care
-      nl: Gezondheid en zorg
+      en: Affordable health and care
+      nl: Betaalbare zorg en gezondheid
     description:
-      en: direct investments in health care, making health care more future-proof, affordable, or accessible, e.g. by abandoning the deductible.
+      en: Government investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport
     examples:
-      - en: 'The prime minister said: "We previously announced to abandon the deductible in the years to come"'
+      - en: 'The prime minister said: "We will abandon the deductible in the years to come"'
   negative:
     label:
-      en: Health-negative
+      en: Efficient health care
     description:
-      en: Health-negative-description
+      en: Privatisation, role of private companies or insurance providers, cost reductions
 
 Agriculture:
   label:
@@ -42,19 +41,20 @@ Agriculture:
     nl: Landbouw & Platteland
   positive:
     label:
-      en: Farming, rural communities and way of life
-      nl: Landbouw, boeren, veestapel; landelijke gemeenschappen en de regio's
+      en: Intensive Farming & rural communities
+      nl: Landbouw & landelijke gemeenschappen
     description:
-      en: Maintaining (intensive) argiculture, supporting farmer, farming, agricultural output; strengthening regions or rural communities or the rural way of life
+      en: Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening regions or rural communities or the traditional rural way of life
       nl: Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap
     examples:
       - en: 'BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers'
   negative:
     label:
-      en: Agriculture-negative
+      en: Sustainable agriculture
+      nl: Duurzame landbouw
     description:
-      en: nitrogen reduction, decreasing the amount of livestock
-      nl: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel
+      en: nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives
+      nl: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven
 
 Government:
   label:
@@ -62,7 +62,7 @@ Government:
     nl: Beter bestuur
   positive:
     label:
-      en: government working and administrative reforms
+      en: Government working and administrative reforms
       nl: Beter bestuur en bestuurlijke vernieuwing
     description:
       en: administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)
@@ -70,136 +70,82 @@ Government:
       - en: "NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties"
   negative:
     label:
-      en: Government-negative
+      en: Consitutional conservatism
     description:
-      en: Government-negative-description
+      en: Support for the current constitutional system
 
-Social:
+SocialEconomic:
   label:
-    en: Social security
-    nl: Sociale zekerheid
+    en: Labor, income, welfare, taxation
+    nl: Arbeid, inkomen, sociale zekerheid, belastingen
   positive:
     label:
-      en: Social security and poverty
+      en: Social security and poverty reduction
       nl: Sociale zekerheid en armoedebestrijding
     description:
-      en: Improving or investing in social security, benefits, pensions; reducing poverty, inequality or cost of living problems; maternity, sickness, disability compensation or leave; child care, non-medical care for the elderly
+      en: More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; higher minimum wage
     examples:
       - en: 'PvdA fight for better pensions'
-  negative:
-    label:
-      en: Social-negative
-    description:
-      en: Social-negative-description
-
-Labor:
-  label:
-    en: Labour and income
-    nl: Werk en inkomen
-  positive:
-    label:
-      en: Work, income and conditions
-      nl: Werk, inkomen, arbeidsvoorwaarden
-    description:
-      en: '"Work should pay off", higher minium wage,  better labor conditions for employees.'
-    examples:
       - en: 'The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.'
   negative:
     label:
-      en: Labor-negative
+      en: Tax reduction & entrepreneurialism
     description:
-      en: Labor-negative-description
-
+      en: Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs
+      
 Infrastructure:
   label:
-    en: Infrastructure
-    nl: Infrastructuur
+    en: Infrastructure & Mobility
+    nl: Infrastructuur & Mobiliteit
   positive:
     label:
-      en: Wegen, openbaar vervoer en andere infrastructuur
-      nl: Roads, public transport and other infrastructure
+      en: Public/sustainable transport
+      nl: Duurzaam/Openbaar vervoer
     description:
-      en: Investments in better roads or public transport; increase in highway speed limits; growing Schiphol; making use of cars, public transport, or parking cheaper
-    examples:
-      - en: "Last year's PvdA motion for free public transport was rejected by the minister"
+      en: Investments in better public transport; electric cars; biking or other sustainable transportation
   negative:
     label:
-      en: Infrastructure-negative
+      en: Roads and 
     description:
-      en: Infrastructure-negative-description
+      en: investments in roads; increase in highway speed limits, more or  cheaper parking; growing Schiphol
+    examples:
+      - en: "Last year's PvdA motion for free public transport was rejected by the minister"
 
 Integration:
   label:
-    en: Integration
-    nl: Integratie
+    en: Immigration
+    nl: Immigratie
   positive:
     label:
-      en: Integration, reduction of immigration
-      nl: Integratie, verminderen immigratie
+      en: Multiculturalism
     description:
-      en: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students
+      en: Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants; multicultural society and benefits of foreign nationals
+  negative:
+    label:
+      en: Immigration reduction
+    description:
+      en: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities
     examples:
       - en: 'BBB: PVV rightly says asylum seekers form a problem for our country'
-  negative:
-    label:
-      en: Integration-negative
-    description:
-      en: Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants
-
-Foreign:
-  label:
-    en: International Law
-    nl: Internationaal recht
-  positive:
-    label:
-      en: Foreign Affairs policy based on human rights and international law
-      nl: Buitenlands beleid gebaseerd op mensenrechten en internationaal recht
-    description:
-      en: basing foreign policy on considerations of human rights and international law; telling other countries to respect international law; reducing poverty or fighting human trafficking outside Netherlands
-    examples:
-      - en: 'D66: This has nothing to do with the rightful protest to protect the people in Gaza.'
-  negative:
-    label:
-      en: Foreign-negative
-    description:
-      en: basing forighn policy on national interests
 
 Education:
   label:
-    en: Education and technology
-    nl: Onderwijs en technologie
+    en: Education, culture and technology
+    nl: Onderwijs, cultuur en wetenschap
   positive:
     label:
       en: Investing in Eduction, Science and Technology
-      nl: Investeren in Onderwijs, Wetenschap en Technologie
+      nl: Investeren in Onderwijs, Cultuur en Wetenschap
     description:
-      en: more and better eduction; reducing the shortage of teachers; investing in science and technology
+      en: Government investment in education, culture, science and technology; reducing the shortage of teachers; academic and artistic freedom
     examples:
       - en: 'The minister of education advises students to choose for intermediate vocational education (neutral)'
   negative:
     label:
-      en: Education-negative
+      en: Religious education & Conservative values in education & culture
     description:
-      en: Education-negative-description
-
-Culture:
-  label:
-    en: Culture
-    nl: Cultuur
-  positive:
-    label:
-      en: Culture, media and public broadcasting
-      nl: Cultuur, media en openbare omroep
-    description:
-      en: investments in or subsidies for culture, making culture more accessible (free entrance to museums); support for public broadcasting
-    examples:
-      - en: 'PVV wants to increase the VAT for cultural events, with the exception of cinemas and amusement parks'
-  negative:
-    label:
-      en: Culture-negative
-    description:
-      en: increasing taxes on culture
-
+      en: Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
+      
 Rights:
   label:
     en: Civil rights
@@ -218,21 +164,6 @@ Rights:
     description:
       en: Rights-negative-description
 
-Budget:
-  label:
-    en: Government budget and taxation
-    nl: Overheidsuitgaven en belasting
-  positive:
-    label:
-      en: Balanced government budget, austerity and taxation
-      nl: Overheidstekort, bezuiniging en belasting
-    description:
-      en: balancing the books, increasing taxation
-  negative:
-    label:
-      en: Budget-negative
-    description:
-      en: lowering taxes
 
 Environment:
   label:
@@ -298,19 +229,4 @@ EU:
     description:
       en: Leaving the EU; protectionism; anti-globalization
 
-Business:
-  label:
-    en: Business
-    nl: Ondernemingsklimaat
-  positive:
-    label:
-      en: Business & Commerce
-      nl: Ondernemingsklimaat & steunen ondernemers
-    description:
-      en: Improving ease of doing business; supporting local businesses and enterpreneurs
-  negative:
-    label:
-      en: Business-negative
-    description:
-      en: Business-negative-description
 

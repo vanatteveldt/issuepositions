@@ -160,9 +160,9 @@ Rights:
       - en: 'BBB struggles with sexual education and gender for primary schools'
   negative:
     label:
-      en: Rights-negative
+      en: Traditional values
     description:
-      en: Rights-negative-description
+      en: Traditional / christian / conservative norms and values; protection for life, opposition to abortion, euthanasia
 
 
 Environment:
@@ -177,9 +177,9 @@ Environment:
       en: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
   negative:
     label:
-      en: Environment-negative
+      en: Fossil fuels
     description:
-      en: Investing in fossil fuels, including natural gas extraction
+      en: Investing in fossil fuels, including natural gas extraction; lowering environmental standards or protections
 
 Housing:
   label:
@@ -187,46 +187,45 @@ Housing:
     nl: Woningbouw
   positive:
     label:
-      en: Affordable housing and construction
-      nl: Woningbouw en betaalbare huisvesting
+      en: Affordable and social housing
+      nl: Betaalbare huisvesting
     description:
-      en: Affordable houses, more housing, lowering rent, lowering mortgage costs (e.g. for starters)
+      en: Affordable houses, social housing, lowering rent, reducing mortgage deductibility
   negative:
     label:
-      en: Housing-negative
+      en: Home ownership
     description:
-      en: reducing mortgage deductibility
+      en: Stimulating home ownership
 
 Order:
   label:
     en: Law and order
-    nl: Misdaadbestrijding
+    nl: Justitie & veiligheid
   positive:
+    label: Preventie en rechtsbescherming
+    description:
+      en: Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants 
+  negative:
     label:
       en: Law and order, (fighting) Crime and terrorism
       nl: Misdaadbestrijding, veiligheid en terrorismebestrijding
     description:
       en: Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
-  negative:
-    label:
-      en: Order-negative
-    description:
-      en: Order-negative-description
 
 EU:
   label:
-    en: European Union and free trade
+    en: EU and trade
     nl: EU en handel
   positive:
     label:
-      en: EU, European union, free trade
-      nl: EU, Europese Unie, vrijhandel
+      en: Strong EU & Free trade
+      nl: Sterke EU en vrijhandel
     description:
       en: Strengthening or expanding EU; stimulating free trade or free trade agreements
   negative:
     label:
-      en: EU-negative
+      en: Protectionism
     description:
-      en: Leaving the EU; protectionism; anti-globalization
+      en: Leaving the EU; protectionism; anti-globalization; border controls
 
 

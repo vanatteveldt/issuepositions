@@ -3,12 +3,6 @@
 **Note:** This document is genated automatically from the [topic list](topics.yml).
 Please do not edit this document directly.
 
-<style>
-td {
-    color:red
-}
-</style>
-
 <table>
 
   
@@ -127,8 +121,8 @@ td {
   
 
 <tr><td colspan="2"><h1>Infrastructuur & Mobiliteit</h1></td></tr>
-<tr><td><b>Duurzaam/Openbaar vervoer</b></td><td><b>[en] Roads and</b></td></tr>
-<tr><td>[en] Investments in better public transport; electric cars; biking or other sustainable transportation</td><td>[en] investments in roads; increase in highway speed limits, more or  cheaper parking; growing Schiphol</td></tr>
+<tr><td><b>Duurzaam/Openbaar vervoer</b></td><td><b>[en] Roads and airports</b></td></tr>
+<tr><td>[en] Investments in better public transport; electric cars; biking or other sustainable transportation</td><td>[en] investments in roads; increase in highway speed limits, more or cheaper parking; growing Schiphol</td></tr>
 <tr>
   <td>
   

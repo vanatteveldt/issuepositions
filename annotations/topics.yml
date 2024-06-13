@@ -105,9 +105,9 @@ Infrastructure:
       en: Investments in better public transport; electric cars; biking or other sustainable transportation
   negative:
     label:
-      en: Roads and 
+      en: Roads and airports
     description:
-      en: investments in roads; increase in highway speed limits, more or  cheaper parking; growing Schiphol
+      en: investments in roads; increase in highway speed limits, more or cheaper parking; growing Schiphol
     examples:
       - en: "Last year's PvdA motion for free public transport was rejected by the minister"
 

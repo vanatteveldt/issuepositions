@@ -28,17 +28,22 @@ So, the question is "What do these sentences tell us about the position of [Acto
 ## Stance or no stance?
 The first difficulty is to determine if a text actually contains a stance or not. Some decisions are made here. For example:
 
-- If the sentence only introduces a person, and the next (context) sentence contains an issue position, we code it as 'no stance'
-- If the topic is about calculating all the budgetarian consequences of political plans we code it as 'no stance'
-- If a sentence states that a party is for 'expanding' but it is not clear what the topic is (from this sentence and the context given) we code it as 'no stance' (although we might know it will be the EU)
+- If the sentence introduces a person, or involves a person being appointed, we code it as 'no stance' even if the person has a function related to a dimension (police commissioner etc).
+- A statement about how a specific party should behave, e.g. by alculating budgetary consequences or being more transparent, we code it as 'no stance'
+- Statements about who wants to form a coalition with whom, or who wants to be prime minister, we code as 'no stance'
+- If you need a substantial amount of existing knowledge about politics to understand the dimension, we code as 'no stance'. For example, being in favour of 'expansion' without making clear that this is expansion of EU. 
 - If a topic is mentioned but it is clearly talking about the situation in a foreign country, we code is as 'no stance'.
 - If a politician is asked (by another politician) te be accountable for policies without stating a specific topic, we code it as 'no stance'
-- Statements about who wants to form a coalition with whom we code as 'no stance'
-- A statement only mentioning a politician changing his opinions, without explicitely mentioning on what issue or what these opinions were, is coded as 'no stance'.
+- A statement only mentioning a politician changing his opinions, without explicitely mentioning on what issue or what these opinions were, is coded as 'neutral' (if the topic  is known) or 'no stance'.
 - Statements about what party is winning in the polls or what party gets votes from people in a certain village is coded as 'no stance'.
-- Omtzigt stating he prefers not to be the prime minister we code as 'no stance'. However if he states to be in favor of a Cabinet with experts as ministers, we do code it as 'Beter bestuur'.
-- Statements about an alleged cleavage between the city and the countryside we code as 'no stance'
 
+## Neutral or no stance
+
+We code a neutral stance if the sentence makes it clear that the actor has an opinion about a topic or finds the topic important, but it is unclear what their position is. 
+For example, if a party mentions a topic in the manifesto, talks about it in a debate, or explicitly states that it is important (without making their position clear).
+
+We code 'no stance' if no topic is mentioned that matches one of the dimensions from the codebool, or if it is not clear that the actor actually has a position about it.
+For example, if the prime minister 'is asked about their plans abour immigrations', this does not imply that they actually have a position about immigration. 
 
 ## Issue dimensions
 

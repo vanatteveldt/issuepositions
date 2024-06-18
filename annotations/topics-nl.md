@@ -8,7 +8,7 @@ Please do not edit this document directly.
   
   
 
-<tr><td colspan="2"><h1>Defensie</h1></td></tr>
+<tr><td colspan="2"><h1>Defensie & BuZa</h1></td></tr>
 <tr><td><b>Sterke krijgsmacht, nationaal belang in buitenlands beleid</b></td><td><b>[en] Peace and Rules-based order</b></td></tr>
 <tr><td>Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.</td><td>[en] Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order</td></tr>
 <tr>

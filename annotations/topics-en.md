@@ -8,7 +8,7 @@ Please do not edit this document directly.
   
   
 
-<tr><td colspan="2"><h1>Defense</h1></td></tr>
+<tr><td colspan="2"><h1>Defense & Foreign Policy</h1></td></tr>
 <tr><td><b>Strong defense, national interests in foreign policy</b></td><td><b>Peace and Rules-based order</b></td></tr>
 <tr><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td><td>Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order</td></tr>
 <tr>

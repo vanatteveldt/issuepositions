@@ -4,6 +4,12 @@ Defense:
     nl: Defensie & BuZa
   positive:
     label:
+      en: Peace and Rules-based order
+      nl: Vrede en mensenrechten
+    description:
+      en: Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order
+  negative:
+    label:
       en: Strong defense, national interests in foreign policy
       nl: Sterke krijgsmacht, nationaal belang in buitenlands beleid
     description:
@@ -12,11 +18,6 @@ Defense:
     examples:
       - en: 'VVD in favor of defence expenditures of 2% of GDP'
         nl: 'VVD voor verhogen van defensie-uitgaven naar 2% van BNP'
-  negative:
-    label:
-      en: Peace and Rules-based order
-    description:
-      en: Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order
 Health:
   label:
     en: Health
@@ -32,6 +33,7 @@ Health:
   negative:
     label:
       en: Efficient health care
+      nl: Doelmatige zorg
     description:
       en: Privatisation, role of private companies or insurance providers, cost reductions
 
@@ -41,6 +43,13 @@ Agriculture:
     nl: Landbouw & Platteland
   positive:
     label:
+      en: Sustainable agriculture
+      nl: Duurzame landbouw
+    description:
+      en: nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives
+      nl: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven
+  negative:
+    label:
       en: Intensive Farming & rural communities
       nl: Landbouw & landelijke gemeenschappen
     description:
@@ -48,13 +57,6 @@ Agriculture:
       nl: Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap
     examples:
       - en: 'BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers'
-  negative:
-    label:
-      en: Sustainable agriculture
-      nl: Duurzame landbouw
-    description:
-      en: nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives
-      nl: Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven
 
 Government:
   label:
@@ -71,13 +73,14 @@ Government:
   negative:
     label:
       en: Consitutional conservatism
+      nl: Behoud huidige stelsel
     description:
       en: Support for the current constitutional system
 
 SocialEconomic:
   label:
     en: Labor, income, welfare, taxation
-    nl: Arbeid, inkomen, sociale zekerheid, belastingen
+    nl: Werk & Inkomen
   positive:
     label:
       en: Social security and poverty reduction
@@ -90,6 +93,7 @@ SocialEconomic:
   negative:
     label:
       en: Tax reduction & entrepreneurialism
+      nl: Belastingverlaging & Ondernemers
     description:
       en: Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs
       
@@ -106,6 +110,7 @@ Infrastructure:
   negative:
     label:
       en: Roads and airports
+      nl: Wegen & Schiphol
     description:
       en: investments in roads; increase in highway speed limits, more or cheaper parking; growing Schiphol
     examples:
@@ -118,11 +123,13 @@ Integration:
   positive:
     label:
       en: Multiculturalism
+      nl: Multiculturalisme
     description:
       en: Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants; multicultural society and benefits of foreign nationals
   negative:
     label:
       en: Immigration reduction
+      nl: Beperken immigratie
     description:
       en: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities
     examples:
@@ -131,7 +138,7 @@ Integration:
 Education:
   label:
     en: Education, culture and technology
-    nl: Onderwijs, cultuur en wetenschap
+    nl: O.wijs, Cult. & Wetensch.
   positive:
     label:
       en: Investing in Eduction, Science and Technology
@@ -143,6 +150,7 @@ Education:
   negative:
     label:
       en: Religious education & Conservative values in education & culture
+      nl: Bezuinigen; Christelijk onderwijs
     description:
       en: Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
       
@@ -161,6 +169,7 @@ Rights:
   negative:
     label:
       en: Traditional values
+      nl: Traditionele waarden
     description:
       en: Traditional / christian / conservative norms and values; protection for life, opposition to abortion, euthanasia
 
@@ -178,6 +187,7 @@ Environment:
   negative:
     label:
       en: Fossil fuels
+      nl: Fossiele industrie
     description:
       en: Investing in fossil fuels, including natural gas extraction; lowering environmental standards or protections
 
@@ -194,6 +204,7 @@ Housing:
   negative:
     label:
       en: Home ownership
+      nl: Huiseigenaarschap
     description:
       en: Stimulating home ownership
 
@@ -202,7 +213,9 @@ Order:
     en: Law and order
     nl: Justitie & veiligheid
   positive:
-    label: Decriminalisation and legal aid
+    label: 
+      en: Decriminalisation and legal aid
+      nl: Decriminalisatie & rechtsbijstand
     description:
       en: Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants 
   negative:
@@ -225,6 +238,7 @@ EU:
   negative:
     label:
       en: Protectionism
+      nl: Protectionisme
     description:
       en: Leaving the EU; protectionism; anti-globalization; border controls
 

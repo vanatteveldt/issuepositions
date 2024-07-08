@@ -12,6 +12,7 @@ annotations = c(
   ,296 # Third set of 100, random sample
   ,297 # Fourth set of 100, only with stance,
   ,298 # Same sentences as 296-297, coded by additional authors
+  ,325 # New set of 100 with 'dimensional' codes
 )
 
 dl_stance_annotations <- function(jobid) {

@@ -9,10 +9,13 @@ Please do not edit this document directly.
   
 
 <tr><td colspan="2"><h1>Defense & Foreign Policy</h1></td></tr>
-<tr><td><b>Strong defense, national interests in foreign policy</b></td><td><b>Peace and Rules-based order</b></td></tr>
-<tr><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td><td>Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order</td></tr>
+<tr><td><b>Peace and Rules-based order</b></td><td><b>Strong defense, national interests in foreign policy</b></td></tr>
+<tr><td>Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order</td><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td></tr>
 <tr>
   <td>
+  
+  </td>
+    <td>
   
   <em>Examples:</em>
   <ul>
@@ -20,9 +23,6 @@ Please do not edit this document directly.
    <li> VVD in favor of defence expenditures of 2% of GDP
    
    </ul>
-  
-  </td>
-    <td>
   
   </td>
 </tr>
@@ -53,10 +53,13 @@ Please do not edit this document directly.
   
 
 <tr><td colspan="2"><h1>Agriculture</h1></td></tr>
-<tr><td><b>Intensive Farming & rural communities</b></td><td><b>Sustainable agriculture</b></td></tr>
-<tr><td>Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening regions or rural communities or the traditional rural way of life</td><td>nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives</td></tr>
+<tr><td><b>Sustainable agriculture</b></td><td><b>Intensive Farming & rural communities</b></td></tr>
+<tr><td>nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives</td><td>Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening regions or rural communities or the traditional rural way of life</td></tr>
 <tr>
   <td>
+  
+  </td>
+    <td>
   
   <em>Examples:</em>
   <ul>
@@ -64,9 +67,6 @@ Please do not edit this document directly.
    <li> BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
    
    </ul>
-  
-  </td>
-    <td>
   
   </td>
 </tr>

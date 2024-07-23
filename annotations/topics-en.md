@@ -17,13 +17,6 @@ Please do not edit this document directly.
   </td>
     <td>
   
-  <em>Examples:</em>
-  <ul>
-   
-   <li> VVD in favor of defence expenditures of 2% of GDP
-   
-   </ul>
-  
   </td>
 </tr>
 
@@ -35,13 +28,6 @@ Please do not edit this document directly.
 <tr><td>(Government) investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport</td><td>Privatisation, role of private companies or insurance providers, cost reductions</td></tr>
 <tr>
   <td>
-  
-  <em>Examples:</em>
-  <ul>
-   
-   <li> The prime minister said: "We will abandon the deductible in the years to come"
-   
-   </ul>
   
   </td>
     <td>
@@ -61,13 +47,6 @@ Please do not edit this document directly.
   </td>
     <td>
   
-  <em>Examples:</em>
-  <ul>
-   
-   <li> BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers
-   
-   </ul>
-  
   </td>
 </tr>
 
@@ -79,13 +58,6 @@ Please do not edit this document directly.
 <tr><td>administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government</td><td>Support for the current constitutional system</td></tr>
 <tr>
   <td>
-  
-  <em>Examples:</em>
-  <ul>
-   
-   <li> NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties
-   
-   </ul>
   
   </td>
     <td>
@@ -101,15 +73,6 @@ Please do not edit this document directly.
 <tr><td>More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; better labour conditions; higher minimum wage</td><td>Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs</td></tr>
 <tr>
   <td>
-  
-  <em>Examples:</em>
-  <ul>
-   
-   <li> PvdA fight for better pensions
-   
-   <li> The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.
-   
-   </ul>
   
   </td>
     <td>
@@ -129,13 +92,6 @@ Please do not edit this document directly.
   </td>
     <td>
   
-  <em>Examples:</em>
-  <ul>
-   
-   <li> Last year's PvdA motion for free public transport was rejected by the minister
-   
-   </ul>
-  
   </td>
 </tr>
 
@@ -151,13 +107,6 @@ Please do not edit this document directly.
   </td>
     <td>
   
-  <em>Examples:</em>
-  <ul>
-   
-   <li> BBB: PVV rightly says asylum seekers form a problem for our country
-   
-   </ul>
-  
   </td>
 </tr>
 
@@ -170,13 +119,6 @@ Please do not edit this document directly.
 <tr>
   <td>
   
-  <em>Examples:</em>
-  <ul>
-   
-   <li> The minister of education advises students to choose for intermediate vocational education (neutral)
-   
-   </ul>
-  
   </td>
     <td>
   
@@ -188,16 +130,9 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Civil rights</h1></td></tr>
 <tr><td><b>Civil rights, freedom and minority rights</b></td><td><b>Traditional values</b></td></tr>
-<tr><td>Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia</td><td>Traditional / christian / conservative norms and values; protection for life, opposition to abortion, euthanasia</td></tr>
+<tr><td>Freedom of speech, equal rights for all people in society, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia</td><td>Traditional / christian / conservative norms and values; protection of life and family, opposition to abortion / euthanasia</td></tr>
 <tr>
   <td>
-  
-  <em>Examples:</em>
-  <ul>
-   
-   <li> BBB struggles with sexual education and gender for primary schools
-   
-   </ul>
   
   </td>
     <td>

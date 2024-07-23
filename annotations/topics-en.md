@@ -10,7 +10,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Defense & Foreign Policy</h1></td></tr>
 <tr><td><b>Peace and Rules-based order</b></td><td><b>Strong defense, national interests in foreign policy</b></td></tr>
-<tr><td>Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order</td><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td></tr>
+<tr><td>Focus on peace or pacifism; humanitarian interventions; foreign policy based on human rights and rules-based order</td><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td></tr>
 <tr>
   <td>
   
@@ -32,7 +32,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Health</h1></td></tr>
 <tr><td><b>Affordable health and care</b></td><td><b>Efficient health care</b></td></tr>
-<tr><td>Government investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport</td><td>Privatisation, role of private companies or insurance providers, cost reductions</td></tr>
+<tr><td>(Government) investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport</td><td>Privatisation, role of private companies or insurance providers, cost reductions</td></tr>
 <tr>
   <td>
   
@@ -54,7 +54,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Agriculture</h1></td></tr>
 <tr><td><b>Sustainable agriculture</b></td><td><b>Intensive Farming & rural communities</b></td></tr>
-<tr><td>nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives</td><td>Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening regions or rural communities or the traditional rural way of life</td></tr>
+<tr><td>nitrogen reduction, decreasing the amount of livestock, animal friendly alternatives</td><td>Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening rural communities or the traditional rural way of life</td></tr>
 <tr>
   <td>
   
@@ -76,7 +76,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Government working</h1></td></tr>
 <tr><td><b>Government working and administrative reforms</b></td><td><b>Consitutional conservatism</b></td></tr>
-<tr><td>administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)</td><td>Support for the current constitutional system</td></tr>
+<tr><td>administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government</td><td>Support for the current constitutional system</td></tr>
 <tr>
   <td>
   
@@ -98,7 +98,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Labor, income, welfare, taxation</h1></td></tr>
 <tr><td><b>Social security and poverty reduction</b></td><td><b>Tax reduction & entrepreneurialism</b></td></tr>
-<tr><td>More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; higher minimum wage</td><td>Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs</td></tr>
+<tr><td>More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; better labour conditions; higher minimum wage</td><td>Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs</td></tr>
 <tr>
   <td>
   
@@ -122,7 +122,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Infrastructure & Mobility</h1></td></tr>
 <tr><td><b>Public/sustainable transport</b></td><td><b>Roads and airports</b></td></tr>
-<tr><td>Investments in better public transport; electric cars; biking or other sustainable transportation</td><td>investments in roads; increase in highway speed limits, more or cheaper parking; growing Schiphol</td></tr>
+<tr><td>Investments in better public transport; electric cars; biking or other sustainable transportation; increasing cost of car ownership or usage (inc toll roads)</td><td>investments in roads; increase in highway speed limits, more or cheaper parking; lower tax on cars or petrol; growing Schiphol or stimulating air traffic</td></tr>
 <tr>
   <td>
   

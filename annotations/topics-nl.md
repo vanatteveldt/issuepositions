@@ -10,7 +10,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Defensie & BuZa</h1></td></tr>
 <tr><td><b>Vrede en mensenrechten</b></td><td><b>Sterke krijgsmacht, nationaal belang in buitenlands beleid</b></td></tr>
-<tr><td>[en] Focus on peace or pacifism; humanitarian interventions; foreign policy based on humand rights and rules-based order</td><td>Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.</td></tr>
+<tr><td>Vrede en pacifisme; humanitaire interventies; buitenlands beleid gebaseerd op mensenrechten en een op regels gebaseerde wereldorde</td><td>Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.</td></tr>
 <tr>
   <td>
   
@@ -32,7 +32,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Gezondheid</h1></td></tr>
 <tr><td><b>Betaalbare zorg en gezondheid</b></td><td><b>Doelmatige zorg</b></td></tr>
-<tr><td>[en] Government investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport</td><td>[en] Privatisation, role of private companies or insurance providers, cost reductions</td></tr>
+<tr><td>(Overheids)investeringen in gezondheidszorg; betaalbare en beschikbare zorg (inc afschaffen eigen risico). Stimuleren van gezond gedrag, sport en preventie.</td><td>Privatisering, rol van bedrijven en particuliere verzekeraars, kostenbesparingen en doelmatigheid.</td></tr>
 <tr>
   <td>
   
@@ -54,7 +54,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Landbouw & Platteland</h1></td></tr>
 <tr><td><b>Duurzame landbouw</b></td><td><b>Landbouw & landelijke gemeenschappen</b></td></tr>
-<tr><td>Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven</td><td>Instandhouden (intensieve) landbouwsector; steun voor regio's, platteland, of de landelijke gemeenschap</td></tr>
+<tr><td>Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven</td><td>Instandhouden (intensieve) landbouwsector; steun voor platteland, of de landelijke gemeenschap</td></tr>
 <tr>
   <td>
   
@@ -76,7 +76,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Beter bestuur</h1></td></tr>
 <tr><td><b>Beter bestuur en bestuurlijke vernieuwing</b></td><td><b>Behoud huidige stelsel</b></td></tr>
-<tr><td>[en] administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)</td><td>Steun voor het huidige staatsstelsel</td></tr>
+<tr><td>bestuurlijke vernieuwing, (grondwettelijke of staatsrechtelijke) hervorming, versterken van het democratisch proces, verbeteren vertrouwen in de overheid.</td><td>Steun voor het huidige staatsstelsel</td></tr>
 <tr>
   <td>
   
@@ -98,7 +98,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Werk & Inkomen</h1></td></tr>
 <tr><td><b>Sociale zekerheid en armoedebestrijding</b></td><td><b>Belastingverlaging & Ondernemers</b></td></tr>
-<tr><td>[en] More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; higher minimum wage</td><td>[en] Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs</td></tr>
+<tr><td>Sociale zekerheid, uitkeringen, pensioenen; armoedebestrijding en verminderen ongelijkheid; nivellering; betere arbiedsomstandigheiden; hoger minimumloon</td><td>Vlaktaks, belastingverlaging; algemene bezuidingingen voor verlagen staatsschuld of begrotingstekort; steun aan bedrijfsleven of ondernemers</td></tr>
 <tr>
   <td>
   
@@ -122,7 +122,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Infrastructuur & Mobiliteit</h1></td></tr>
 <tr><td><b>Duurzaam/Openbaar vervoer</b></td><td><b>Wegen & Schiphol</b></td></tr>
-<tr><td>[en] Investments in better public transport; electric cars; biking or other sustainable transportation</td><td>[en] investments in roads; increase in highway speed limits, more or cheaper parking; growing Schiphol</td></tr>
+<tr><td>(Investeringen in) openbaar vervoer; steun voor elektrische auto's, fietsen, of ander duurzaam vervoer; autogebruik of bezit duurder maken (inc rekeningrijden)</td><td>Investeringen in wegen; verhogen snelheidslimiet; meer of goedkoper parkeren; lagere belasting op autos of benzine; uitbreiden of steunen schiphol or vliegverkeer</td></tr>
 <tr>
   <td>
   
@@ -144,7 +144,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Immigratie</h1></td></tr>
 <tr><td><b>Multiculturalisme</b></td><td><b>Beperken immigratie</b></td></tr>
-<tr><td>[en] Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants; multicultural society and benefits of foreign nationals</td><td>[en] reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities</td></tr>
+<tr><td>Betere opvang asielzoekers (inc spreidingswet); multiculturele samenleving</td><td>terugdringen migratie, vluchtelingen en asielzoekers; verminderen buitenlandse arbeiders, expats en studenten; gedwongen integratie van minderheden en conformiteit aan Nederlandse cultuur</td></tr>
 <tr>
   <td>
   

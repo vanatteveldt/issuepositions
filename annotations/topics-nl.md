@@ -76,7 +76,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Beter bestuur</h1></td></tr>
 <tr><td><b>Beter bestuur en bestuurlijke vernieuwing</b></td><td><b>Behoud huidige stelsel</b></td></tr>
-<tr><td>[en] administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)</td><td>[en] Support for the current constitutional system</td></tr>
+<tr><td>[en] administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government; arguing for alternative forms of government (e.g. extraparliamentary coalitions)</td><td>Steun voor het huidige staatsstelsel</td></tr>
 <tr>
   <td>
   

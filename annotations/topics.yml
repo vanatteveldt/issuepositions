@@ -16,9 +16,7 @@ Defense:
     description:
       en: Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy
       nl: Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.
-    examples:
-      - en: 'VVD in favor of defence expenditures of 2% of GDP'
-        nl: 'VVD voor verhogen van defensie-uitgaven naar 2% van BNP'
+
 Health:
   label:
     en: Health
@@ -30,8 +28,6 @@ Health:
     description:
       en: (Government) investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport
       nl: (Overheids)investeringen in gezondheidszorg; betaalbare en beschikbare zorg (inc afschaffen eigen risico). Stimuleren van gezond gedrag, sport en preventie. 
-    examples:
-      - en: 'The prime minister said: "We will abandon the deductible in the years to come"'
   negative:
     label:
       en: Efficient health care
@@ -58,8 +54,6 @@ Agriculture:
     description:
       en: Maintaining (intensive) argiculture, supporting farmers, farming, agricultural output; strengthening rural communities or the traditional rural way of life
       nl: Instandhouden (intensieve) landbouwsector; steun voor platteland, of de landelijke gemeenschap
-    examples:
-      - en: 'BBB: the D66 proposal for nitrogen reduction is a disaster for our farmers'
 
 Government:
   label:
@@ -72,8 +66,6 @@ Government:
     description:
       en: administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government
       nl: bestuurlijke vernieuwing, (grondwettelijke of staatsrechtelijke) hervorming, versterken van het democratisch proces, verbeteren vertrouwen in de overheid. 
-    examples:
-      - en: "NSC's hobby horse, a constitutional court, will be discussed in length among the coalition parties"
   negative:
     label:
       en: Consitutional conservatism
@@ -93,9 +85,6 @@ SocialEconomic:
     description:
       en: More social security, benefits, pensions; reducing poverty, inequality or cost of living problems; better labour conditions; higher minimum wage
       nl: Sociale zekerheid, uitkeringen, pensioenen; armoedebestrijding en verminderen ongelijkheid; nivellering; betere arbiedsomstandigheiden; hoger minimumloon
-    examples:
-      - en: 'PvdA fight for better pensions'
-      - en: 'The coalition parties BBB, VVD, PVV and NSC had long discussions on numerous topics. They do agree on increasing the minimum wage.'
   negative:
     label:
       en: Tax reduction & entrepreneurialism
@@ -114,7 +103,7 @@ Infrastructure:
       nl: Duurzaam/Openbaar vervoer
     description:
       en: Investments in better public transport; electric cars; biking or other sustainable transportation; increasing cost of car ownership or usage (inc toll roads)
-      nl: "(Investeringen in) openbaar vervoer; steun voor elektrische auto's, fietsen, of ander duurzaam vervoer; autogebruik of bezit duurder maken (inc rekeningrijden)"
+      nl: (Investeringen in) openbaar vervoer; steun voor elektrische autos, fietsen, of ander duurzaam vervoer; autogebruik of bezit duurder maken  (inc rekeningrijden)
   negative:
     label:
       en: Roads and airports
@@ -122,8 +111,6 @@ Infrastructure:
     description:
       en: investments in roads; increase in highway speed limits, more or cheaper parking; lower tax on cars or petrol; growing Schiphol or stimulating air traffic
       nl: Investeringen in wegen; verhogen snelheidslimiet; meer of goedkoper parkeren; lagere belasting op autos of benzine; uitbreiden of steunen schiphol or vliegverkeer
-    examples:
-      - en: "Last year's PvdA motion for free public transport was rejected by the minister"
 
 Integration:
   label:
@@ -143,8 +130,6 @@ Integration:
     description:
       en: reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities
       nl: terugdringen migratie, vluchtelingen en asielzoekers; verminderen buitenlandse arbeiders, expats en studenten; gedwongen integratie van minderheden en conformiteit aan Nederlandse cultuur
-    examples:
-      - en: 'BBB: PVV rightly says asylum seekers form a problem for our country'
 
 Education:
   label:
@@ -156,14 +141,14 @@ Education:
       nl: Investeren in Onderwijs, Cultuur en Wetenschap
     description:
       en: Government investment in education, culture, science and technology; reducing the shortage of teachers; academic and artistic freedom
-    examples:
-      - en: 'The minister of education advises students to choose for intermediate vocational education (neutral)'
+      nl: Overheidsinvesteringen in onderwijs, cultuur, wetenschap en technologie; het verminderen van het tekort aan leraren; academische en artistieke vrijheid
   negative:
     label:
       en: Religious education & Conservative values in education & culture
       nl: Bezuinigen; Christelijk onderwijs
     description:
       en: Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
+      nl: Particulier en religieus onderwijs; vermindering van financiering voor studenten of scholen; leningen in plaats van beurzen voor studenten; het stimuleren van traditionele/conservatieve of christelijke waarden in cultuur of onderwijs
       
 Rights:
   label:
@@ -174,16 +159,15 @@ Rights:
       en: Civil rights, freedom and minority rights
       nl: Burgerrechten, vrijheid en minderheidsrechten
     description:
-      en: Freedom of speech, equal rights for all people in society, gay and transgender rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion, euthanasia
-    examples:
-      - en: 'BBB struggles with sexual education and gender for primary schools'
+      en: Freedom of speech, equal rights for all people in society, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia
+      nl: Vrijheid van meningsuiting, gelijke rechten voor alle mensen, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie
   negative:
     label:
       en: Traditional values
       nl: Traditionele waarden
     description:
-      en: Traditional / christian / conservative norms and values; protection for life, opposition to abortion, euthanasia
-
+      en: Traditional / christian / conservative norms and values; protection of life and family, opposition to abortion / euthanasia
+      nl: Traditionele / Christelijke / conservatieve normen en waarden; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie
 
 Environment:
   label:
@@ -195,12 +179,14 @@ Environment:
       nl: Milieu, groen, (nationale) parken, klimaat, duurzame energie
     description:
       en: Protection of the environment, investing in parks and green areas; reducing carbon emissions, improving insulation, measures to improve fuel efficiency; transitioning to sustainable energy including nuclear, biomass and city heating
+      nl: Bescherming van het milieu, investeren in parken en groene gebieden; het verminderen van koolstofemissies, het verbeteren van isolatie, maatregelen om de brandstofefficiëntie te verbeteren; de overgang naar duurzame energie, inclusief kernenergie, biomassa en stadsverwarming
   negative:
     label:
       en: Fossil fuels
       nl: Fossiele industrie
     description:
       en: Investing in fossil fuels, including natural gas extraction; lowering environmental standards or protections
+      nl: Investeren in fossiele brandstoffen, inclusief aardgaswinning; verlagen van milieunormen of -bescherming
 
 Housing:
   label:
@@ -212,12 +198,14 @@ Housing:
       nl: Betaalbare huisvesting
     description:
       en: Affordable houses, social housing, lowering rent, reducing mortgage deductibility
+      nl: Betaalbare huizen, sociale woningbouw, huurverlaging, vermindering hypotheekrenteaftrek
   negative:
     label:
       en: Home ownership
       nl: Huiseigenaarschap
     description:
       en: Stimulating home ownership
+      nl: Stimuleren van huiseigenaarschap
 
 Order:
   label:
@@ -228,13 +216,15 @@ Order:
       en: Decriminalisation and legal aid
       nl: Decriminalisatie & rechtsbijstand
     description:
-      en: Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants 
+      en: Decriminalising drugs; focus on prevention of crimes; rehabilitation and community service; legal aid and rights of defendants
+      nl: Decriminalisering van drugs; focus op preventie van misdaden; rehabilitatie en taakstraffen; rechtsbijstand en rechten van verdachten
   negative:
     label:
       en: Law and order, (fighting) Crime and terrorism
       nl: Misdaadbestrijding, veiligheid en terrorismebestrijding
     description:
       en: Fighting crime, harsher penalties, counter-terrorism; improving (physical) safety and security
+      nl: Bestrijding van misdaad, strengere straffen, terrorismebestrijding; verbetering van (fysieke) veiligheid en beveiliging
 
 EU:
   label:
@@ -246,11 +236,13 @@ EU:
       nl: Sterke EU en vrijhandel
     description:
       en: Strengthening or expanding EU; stimulating free trade or free trade agreements
+      nl: Versterking of uitbreiding van de EU; stimulering van vrijhandel of vrijhandelsovereenkomsten
   negative:
     label:
       en: Protectionism
       nl: Protectionisme
     description:
       en: Leaving the EU; protectionism; anti-globalization; border controls
+      nl: Uittreding uit de EU; protectionisme; anti-globalisering; grenscontroles
 
 

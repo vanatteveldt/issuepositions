@@ -8,6 +8,7 @@ CODINGJOBS = c(
   ,296 # Third set of 100, random sample
   ,297 # Fourth set of 100, only with stance,
   ,298 # Same sentences as 296-297, coded by additional authors
+  ,325 # Set 4, 100 articles, coded with left/right dimensions per issue
 )
 
 connect_annotinder <- function() {
@@ -28,7 +29,7 @@ get_stance_codebook <- function() {
     help = str_c(glue("# {label}"),
                  glue("\n\n## {codes[1]}\n\n"),
                  topics[[t]]$positive$description$en,
-                 glue("\n\n## {codes[3]}\n\n"),
+                 glue("\n\n## {codes[2]}\n\n"),
                  topics[[t]]$negative$description$en
     )
     question(glue("{t}-stance"), type="annotinder", codes=codes, instruction = help,

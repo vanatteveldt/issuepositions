@@ -8,7 +8,7 @@ Please do not edit this document directly.
   
   
 
-<tr><td colspan="2"><h1>Defensie & BuZa</h1></td></tr>
+<tr><td colspan="2"><h1>Defensie & Buitenlandse Zaken</h1></td></tr>
 <tr><td><b>Vrede en mensenrechten</b></td><td><b>Sterke krijgsmacht, nationaal belang in buitenlands beleid</b></td></tr>
 <tr><td>Vrede en pacifisme; humanitaire interventies; buitenlands beleid gebaseerd op mensenrechten en een op regels gebaseerde wereldorde</td><td>Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.</td></tr>
 <tr>
@@ -113,7 +113,7 @@ Please do not edit this document directly.
   
   
 
-<tr><td colspan="2"><h1>O.wijs, Cult. & Wetensch.</h1></td></tr>
+<tr><td colspan="2"><h1>Onderwijs, Cultuur & Wetenschap</h1></td></tr>
 <tr><td><b>Investeren in Onderwijs, Cultuur en Wetenschap</b></td><td><b>Bezuinigen; Christelijk onderwijs</b></td></tr>
 <tr><td>Overheidsinvesteringen in onderwijs, cultuur, wetenschap en technologie; het verminderen van het tekort aan leraren; academische en artistieke vrijheid</td><td>Particulier en religieus onderwijs; vermindering van financiering voor studenten of scholen; leningen in plaats van beurzen voor studenten; het stimuleren van traditionele/conservatieve of christelijke waarden in cultuur of onderwijs</td></tr>
 <tr>

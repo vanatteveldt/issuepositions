@@ -28,9 +28,9 @@ get_stance_codebook <- function() {
     if (length(codes) != 3) warning(glue("Topic {t} ({label}) codes: {length(codes)}"))
     help = str_c(glue("# {label}"),
                  glue("\n\n## {codes[1]}\n\n"),
-                 topics[[t]]$positive$description$en,
+                 topics[[t]]$positive$description$nl,
                  glue("\n\n## {codes[2]}\n\n"),
-                 topics[[t]]$negative$description$en
+                 topics[[t]]$negative$description$nl
     )
     question(glue("{t}-stance"), type="annotinder", codes=codes, instruction = help,
              question=glue("Welke stelling heeft de actor over {label}?"))})

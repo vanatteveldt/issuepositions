@@ -1,0 +1,5 @@
+unit_id,gold,response,topic,rank,logprob
+202327da2d4ccc89513d9f4ca7aae3a1a415004e40898fefa83b9f74-6-Overig,Economic,Justitie.,Order,0,0
+202327da2d4ccc89513d9f4ca7aae3a1a415004e40898fefa83b9f74-6-Overig,Economic,Werk,Economic,2,-1.507344
+202327da2d4ccc89513d9f4ca7aae3a1a415004e40898fefa83b9f74-6-Overig,Economic,Best,Government,3,-2.007344
+202327da2d4ccc89513d9f4ca7aae3a1a415004e40898fefa83b9f74-6-Overig,Economic,Gez,Health,8,-9.882344

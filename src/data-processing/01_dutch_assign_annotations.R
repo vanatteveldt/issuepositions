@@ -27,7 +27,7 @@ coded <- map(CODINGJOBS, get_annotations_wider, .progress=T) |> list_rbind()
 # Set 298: Re-assign units from jobs 296 and 297
 # d3 = semi_join(units, filter(coded, jobid %in% 296:297))
 
-# Set 324 Re-Assign first 20 sentences of job 325
+# Re-Assign job 325 in sets of 20/40/40
 d3 <- coded |> 
   filter(jobid == 325) |> 
   select(unit_id) |> 

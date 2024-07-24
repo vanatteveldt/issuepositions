@@ -1,14 +1,20 @@
 library(tidyverse)
 
-t <- read_csv("data/raw/topics_dict.csv") |> rename(gold=nl, gold_en=en) |> unique()
+topics <- yaml::read_yaml("annotations/topics.yml")
 
-prefixes <- t |> mutate(token_pref = str_sub(gold_en, end=3), token_complete=gold_en) |> 
+t <- map(names(topics), function(t) tibble(topic=t, label=topics[[t]]$label$nl)) |> list_rbind() |>
+  rename(gold=label, gold_en=topic) |>
+  mutate(gold = if_else(gold == "Defensie & BuZa", "Defensie", gold)) 
+  
+#t <- read_csv("data/raw/topics_dict.csv") |> rename(gold=nl, gold_en=en) |> unique()
+
+prefixes <- t |> mutate(token_pref = str_sub(topic, end=3), token_complete=topic) |> 
   select(token_pref, token_complete) |>
   unique()
   
-d <- read_csv("data/intermediate/gold_gpt_issuepredictions.csv") |> 
-  mutate(gold = str_remove_all(gold, " : .*")) |>
-  inner_join(t) |>
+d <- read_csv("data/intermediate/gold_325_gpt_issues.csv") |> 
+  mutate(gold = str_remove_all(gold, "/[LRN]$")) |>
+  left_join(t) |>
   rename_with(.cols=starts_with("gpt_"), ~str_remove(., "gpt_"))
 
 

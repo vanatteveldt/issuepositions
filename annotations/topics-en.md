@@ -130,7 +130,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Civil rights</h1></td></tr>
 <tr><td><b>Civil rights, freedom and minority rights</b></td><td><b>Traditional values</b></td></tr>
-<tr><td>Freedom of speech, equal rights for all people in society, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia</td><td>Traditional / christian / conservative norms and values; protection of life and family, opposition to abortion / euthanasia</td></tr>
+<tr><td>Freedom of speech, individual rights and liberties; equal rights for all people in society, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia;</td><td>Traditional / christian / conservative norms and values; importance of community and family; protection of life and family, opposition to abortion / euthanasia</td></tr>
 <tr>
   <td>
   

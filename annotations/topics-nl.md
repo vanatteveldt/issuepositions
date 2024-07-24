@@ -130,7 +130,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Burgerrechten</h1></td></tr>
 <tr><td><b>Burgerrechten, vrijheid en minderheidsrechten</b></td><td><b>Traditionele waarden</b></td></tr>
-<tr><td>Vrijheid van meningsuiting, gelijke rechten voor alle mensen, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie</td><td>Traditionele / Christelijke / conservatieve normen en waarden; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie</td></tr>
+<tr><td>Vrijheid van meningsuiting, individuele rechten en vrijheden; gelijke rechten voor alle mensen, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie</td><td>Traditionele / Christelijke / conservatieve normen en waarden; belang van gezin en gemeenschap; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie</td></tr>
 <tr>
   <td>
   

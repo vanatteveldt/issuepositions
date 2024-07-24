@@ -74,7 +74,7 @@ Government:
       en: Support for the current constitutional system
       nl: Steun voor het huidige staatsstelsel
 
-SocialEconomic:
+Economic:
   label:
     en: Labor, income, welfare, taxation
     nl: Werk & Inkomen
@@ -150,7 +150,7 @@ Education:
       en: Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
       nl: Particulier en religieus onderwijs; vermindering van financiering voor studenten of scholen; leningen in plaats van beurzen voor studenten; het stimuleren van traditionele/conservatieve of christelijke waarden in cultuur of onderwijs
       
-Rights:
+CivilRights:
   label:
     en: Civil rights
     nl: Burgerrechten
@@ -159,15 +159,15 @@ Rights:
       en: Civil rights, freedom and minority rights
       nl: Burgerrechten, vrijheid en minderheidsrechten
     description:
-      en: Freedom of speech, equal rights for all people in society, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia
-      nl: Vrijheid van meningsuiting, gelijke rechten voor alle mensen, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie
+      en: Freedom of speech, individual rights and liberties; equal rights for all people in society, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia; 
+      nl: Vrijheid van meningsuiting, individuele rechten en vrijheden; gelijke rechten voor alle mensen, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie
   negative:
     label:
       en: Traditional values
       nl: Traditionele waarden
     description:
-      en: Traditional / christian / conservative norms and values; protection of life and family, opposition to abortion / euthanasia
-      nl: Traditionele / Christelijke / conservatieve normen en waarden; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie
+      en: Traditional / christian / conservative norms and values; importance of community and family; protection of life and family, opposition to abortion / euthanasia
+      nl: Traditionele / Christelijke / conservatieve normen en waarden; belang van gezin en gemeenschap; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie
 
 Environment:
   label:

@@ -1,7 +1,7 @@
 Defense:
   label:
     en: Defense & Foreign Policy
-    nl: Defensie & BuZa
+    nl: Defensie & Buitenlandse Zaken
   positive:
     label:
       en: Peace and Rules-based order
@@ -134,7 +134,7 @@ Immigration:
 Education:
   label:
     en: Education, culture and technology
-    nl: O.wijs, Cult. & Wetensch.
+    nl: Onderwijs, Cultuur & Wetenschap
   positive:
     label:
       en: Investing in Eduction, Science and Technology

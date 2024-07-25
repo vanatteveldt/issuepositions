@@ -9,6 +9,7 @@ CODINGJOBS = c(
   ,297 # Fourth set of 100, only with stance,
   ,298 # Same sentences as 296-297, coded by additional authors
   ,325 # Set 4, 100 articles, coded with left/right dimensions per issue
+  ,361 # 50 sentences on topic 'Economic' with left/right for this issue
 )
 
 connect_annotinder <- function() {

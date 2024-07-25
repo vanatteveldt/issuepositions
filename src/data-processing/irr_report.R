@@ -95,7 +95,10 @@ plot_pairwise_confusion <- function(cms, coders=NULL) {
     facet_grid(vars(coder1), vars(coder2))
 }
 
-a <- download(325)
+a <- download(342)
+table(a$coder)
+# of meerdere jobs onder elkaar zetten
+# a <- bind_rows(download(325), download(326))
 plot_report(a, "topic", "IRR report for job 325")
 cms = pairwise_confusion(a, "topic")
 plot_pairwise_confusion(cms, coders=c("JF", "WvA", "NR", "Sarah"))

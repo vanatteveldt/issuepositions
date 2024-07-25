@@ -2,7 +2,7 @@
 library(annotinder)
 library(glue)
 
-CODINGJOBS = c(
+CODINGJOBS = c( # TODO liever een google sheet
   290 # First set of 100
   ,294 # Second set of 100, only with stance
   ,296 # Third set of 100, random sample
@@ -53,14 +53,37 @@ get_stance_codebook <- function() {
   cb <- do.call(create_codebook, questions)
 }
 
-get_topic_instruction <- function(topic, actor=NULL) {
-  actor = if_else(is.null(actor), "", str_c(" van ", actor))
+get_topic_instruction <- function(topic) {
   t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
-  glue::glue("## Wat is het standpunt{actor} over {t$label$nl}?\n\n
+  glue::glue("## Wat is het standpunt over {t$label$nl}?\n{t$description$nl}\n\n
 ### {t$positive$label$nl}\n{t$positive$description$nl}\n\n
 ### {t$negative$label$nl}\n{t$negative$description$nl}\n\n
-### Geen/Ander/Neutraal\nAls de actor geen standpunt heeft over {topic}, of als het standpunt niet duidelijk is of niet in deze dimensies past, kies dan **Geen**")
+### Geen/Ander/Neutraal\nAls de actor geen standpunt heeft over {t$label$nl}, of als het standpunt niet duidelijk is of niet in deze dimensies past, kies dan **Geen**\n\n
+**Aanwijzingen**: {t$hints$nl}")
 }
+
+get_instruction_unit <- function(topic) {
+  t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
+  topic_instruction <- get_topic_instruction(topic)
+  instruction_md = glue::glue("# Standpunt coderen over {t$label$nl}\n\n
+In de volgende schermen staat elke keer een drietal zinnen met een gemarkeerde actor. 
+De centrale vraag is wat het standpunt is van de actor over {t$label$nl}. 
+Je kiest hiervoor uit de twee dimensies die hieronder uitgelegd worden,
+dat wil zeggen is de actor voor '*meer {t$positive$label$nl}*', of juist voor '*meer {t$negative$label$nl}*'?
+Als de actor juist tegen '{t$positive$label$nl}' is, kies dan '{t$negative$label$nl}' en andersom.  
+
+Je mag deze ruim interpreteren, het gaat om de algemene politieke richting, niet om de exacte bewoording van de dimensie.
+Als het standpunt echt niet bij de dimensies past, of niet duidelijk is, of over een ander ondewerp gaat, kies dan 'geen'.
+{topic_instruction}
+
+**Tip**: Je kan deze instructies altijd opnieuw bekijken met de (?) knop onderin")                             
+
+  create_unit(id=".instruction", 
+              list(type = "markdown", name = "instruction", value = instruction_md),
+              # set_markdown("instruction", instruction_md),  << This gives an error??
+              codebook = create_codebook(question("", codes="Continue")))
+}
+
 
 get_topic_stance_codebook <- function(topic) {
   t <- yaml::read_yaml("annotations/topics.yml")[[topic]]

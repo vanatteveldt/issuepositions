@@ -40,6 +40,3 @@ d3[61:100, ] |> select(unit_id) |> left_join(d) |>
 
 rstudioapi::viewer(tmpfile)
 
-
-d |> select(unit_id, before, text_hl, after, decision) |>
-  write_csv("data/intermediate/gold_325.csv")

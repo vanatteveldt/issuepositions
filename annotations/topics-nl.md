@@ -70,7 +70,7 @@ Please do not edit this document directly.
 
 <tr><td colspan="2"><h1>Werk & Inkomen</h1></td></tr>
 <tr><td><b>Sociale zekerheid en armoedebestrijding</b></td><td><b>Belastingverlaging & Ondernemers</b></td></tr>
-<tr><td>Sociale zekerheid, uitkeringen, pensioenen; armoedebestrijding en verminderen ongelijkheid; nivellering; betere arbiedsomstandigheiden; hoger minimumloon</td><td>Vlaktaks, belastingverlaging; algemene bezuidingingen voor verlagen staatsschuld of begrotingstekort; steun aan bedrijfsleven of ondernemers</td></tr>
+<tr><td>Sociale zekerheid, uitkeringen, pensioenen; armoedebestrijding en verminderen ongelijkheid; nivellering; betere arbiedsomstandigheiden; hoger minimumloon</td><td>Vlaktaks, belastingverlaging; algemene bezuinigingen t.b.v. verlagen staatsschuld of begrotingstekort; steun aan bedrijfsleven of ondernemers</td></tr>
 <tr>
   <td>
   

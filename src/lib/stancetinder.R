@@ -19,6 +19,13 @@ connect_annotinder <- function() {
                   .password = Sys.getenv("ANNOTINDER_PASSWORD"))
 }
 
+unit_markdown <- function(before, text_hl, after) {
+  str_c(
+  if_else(is.na(before), "", before),
+  str_c(" **", str_replace_all(text_hl, "\\*\\*", "`"), "** "),
+  if_else(is.na(after), "", after))
+}
+
 get_stance_codebook <- function() {
   topics <- yaml::read_yaml("annotations/topics.yml")
   codebook = read_file("annotations/codebook.md")
@@ -43,6 +50,23 @@ get_stance_codebook <- function() {
                 cquestions,
                 list(question("other", question="Waren er nog bijzonderheden?", codes=c("Nee", "Actor heeft nog een onderwerp", "Onderwerp niet in codeboek", "Zin is dubbelzinnig"))))
   cb <- do.call(create_codebook, questions)
+}
+
+get_topic_instruction <- function(topic, actor=NULL) {
+  actor = if_else(is.null(actor), "", str_c(" van ", actor))
+  t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
+  glue::glue("## Wat is het standpunt{actor} over {t$label$nl}?\n\n
+### {t$positive$label$nl}\n{t$positive$description$nl}\n\n
+### {t$negative$label$nl}\n{t$negative$description$nl}\n\n
+### Geen/Ander/Neutraal\nAls de actor geen standpunt heeft over {topic}, of als het standpunt niet duidelijk is of niet in deze dimensies past, kies dan **Geen**")
+}
+
+get_topic_stance_codebook <- function(topic) {
+  t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
+  instruction <- str_c(get_topic_instruction(topic), read_file("annotations/codebook-nl.md"), sep="\n\n")
+  codes = c(t$positive$label$nl, t$negative$label$nl, "Geen/Ander/Neutraal")
+  create_codebook(question("stance", codes=codes, type="annotinder", instruction = instruction,
+                           question=str_c("Wat is het standpunt van de genoemde actor over ", t$label$nl)))
 }
 
 test <- function() {

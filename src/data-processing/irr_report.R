@@ -1,9 +1,6 @@
 library(annotinder)
 library(tidyverse)
-dotenv::load_dot_env()
-backend_connect("https://uva-climate.up.railway.app", 
-                username=Sys.getenv("ANNOTINDER_USERNAME"), 
-                .password = Sys.getenv("ANNOTINDER_PASSWORD"))
+
 
 CODERS = tribble(
   ~coder, ~abbrev,
@@ -20,6 +17,10 @@ CODERS = tribble(
 )
   
 download <- function(jobid) {
+  dotenv::load_dot_env()
+  backend_connect("https://uva-climate.up.railway.app", 
+                  username=Sys.getenv("ANNOTINDER_USERNAME"), 
+                  .password = Sys.getenv("ANNOTINDER_PASSWORD"))
   download_annotations(jobid) |> select(unit_id, coder, variable, value) |> 
     left_join(CODERS) |> 
     mutate(coder=if_else(is.na(abbrev), coder, abbrev)) |> 

@@ -1,64 +1,36 @@
 library(tidyverse)
 
-topics <- yaml::read_yaml("annotations/topics.yml")
+d <- read_csv("data/intermediate/gold_325_gpt_issues_nl.csv")  |>
+  replace_na(list(topic="None"))
 
-t <- map(names(topics), function(t) tibble(topic=t, label=topics[[t]]$label$nl)) |> list_rbind() |>
-  rename(gold=label, gold_en=topic) |>
-  mutate(gold = if_else(gold == "Defensie & BuZa", "Defensie", gold)) 
-  
-#t <- read_csv("data/raw/topics_dict.csv") |> rename(gold=nl, gold_en=en) |> unique()
+d |> filter(topic == "Education") |> 
+  filter(logprob >= -5) |>
+  with(table(gold == "Education", response))
 
-prefixes <- t |> mutate(token_pref = str_sub(topic, end=3), token_complete=topic) |> 
-  select(token_pref, token_complete) |>
-  unique()
-  
-d <- read_csv("data/intermediate/gold_325_gpt_issues.csv") |> 
-  mutate(gold = str_remove_all(gold, "/[LRN]$")) |>
-  left_join(t) |>
-  rename_with(.cols=starts_with("gpt_"), ~str_remove(., "gpt_"))
+d |> filter(response == "Onder") |> with(table(rank))
 
-
-top = d |> filter(rank==0) |> mutate(correct = response == gold_en)
-top |> group_by(gold_en == 'None')  |> summarize(correct=mean(correct), n=n())
-
-topchoice = d |> filter(rank==0) |> select(unit_id, gold_en, response) |> 
-  add_column(rank=-1, logprob=0)
-
-choices = d |> 
-  mutate(token_pref = str_sub(token, end=3)) |> 
-  inner_join(prefixes)  |>
-  select(unit_id, gold_en, rank, logprob, response=token_complete) |>
-  bind_rows(topchoice) |>
-  group_by(unit_id, response) |>
-  slice_min(order_by=rank, n=1, with_ties=FALSE) |>
-  ungroup() |>
-  mutate(correct = response == gold_en,
-         gold_none = if_else(gold_en == "None", "None", "Issue")) |>
+choices = d |>
+  filter(response != "Onder") |>
+  select(unit_id, gold, topic, rank, logprob) |>
+  mutate(correct = topic == gold,
+         gold_none = if_else(gold == "None", "None", "Issue")) |>
   arrange(unit_id, rank) |>
   group_by(unit_id) |> mutate(rank2=row_number()) |> ungroup()
   
 
+# Pre/Re per rank
 ntot = choices |> group_by(gold_none) |> summarize(ntot=length(unique(unit_id)))
-
-
 choices |>
-  filter(response != 'None') |>
-  group_by(unit_id) |>
-  arrange(rank) |>
-  mutate(rank3=row_number()) |>
-  ungroup() |>
+  #filter(response != 'None') |>
   arrange(unit_id, rank) |>
-  group_by(gold_none, rank3) |>
+  group_by(gold_none, rank2) |>
   summarize(n=n(), correct=mean(correct)) |>
   left_join(ntot) |>
   mutate(tp=n*correct, re=cumsum(tp)/ntot, pr=cumsum(tp)/cumsum(n))
+
   
 choices |>
-  filter(response != 'None') |>
   group_by(unit_id) |>
-  arrange(rank) |>
-  mutate(rank3=row_number()) |>
-  ungroup() |> 
   filter(logprob >= -5) |>
   group_by(gold_none) |>
   summarize(n=n(), avg_correct=mean(correct), found=sum(correct)) |>
@@ -68,9 +40,9 @@ choices |>
 
 
 metrics <- function(logprob_threshold) {
-  n_actual = choices |> filter(gold_en != 'None', rank==-1) |> nrow()
+  n_actual = choices |> filter(gold != 'None', rank==0) |> nrow()
   choices |>
-    filter(response != 'None') |>
+    filter(topic != 'None') |>
     filter(logprob >= logprob_threshold) |>
     summarize(logprob=logprob_threshold, n_actual=n_actual, n_positives=n(), tp=sum(correct)) |>
     mutate(pr=tp/n_positives,
@@ -89,14 +61,11 @@ ggplot(roc, aes(x=pr, y=re, label=label)) +
   geom_point() + 
   geom_text(data=filter(roc, logprob < -4, logprob > -16, !logprob %in% c(-6, -8, -10, -12)), hjust = 0, nudge_y = .002) +
   geom_text(data=filter(roc, logprob >= -4), hjust = 1, nudge_y = -.002, nudge_x=-.01) +
-  xlab("Precision") + ylab("Recall of non-None issues") + ggtitle("ROC curve for coding tokens >= logprob") + 
+  xlab("Precision") + ylab("Recall of non-None issues") + ggtitle("ROC curve for coding tokens >= logprob (NL prompt)") + 
   theme_minimal()
 
 
 
-choices |> filter(response != 'None')
-
-choices |> filter(unit_id == "1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-27-Overig")
 
 choices = choices |> group_by(unit_id) |> arrange(rank) |> mutate(rank2=row_number()) |> ungroup()
 
@@ -154,5 +123,34 @@ choices |> inner_join(lp0) |> mutate(lp = if_else(rank==-1, logprob_0, logprob))
   ylab("Logprob") + ggtitle("Logprob per rank for top-3 tokens")
 
 
-choices |> filter(gold_en != 'None') |>
-  
+choices |> filter(logprob >= -9) |> 
+  group_by(gold_en, response) |>
+  summarize(n=length(unique(unit_id))) |>
+  mutate(p=n/sum(n)) |>
+  ggplot(aes(x=gold_en, y=response, fill=n, label=round(p, 2))) + geom_tile() + geom_text() + 
+  scale_fill_gradient(low="white", high="darkgreen") + 
+  xlab("Gold (true) topic") + ylab("GPT predicted topic (top-N)") + 
+  ggtitle("Confusion matrix of GPT topic predictions", "(column percentages)") +
+  theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust = 1))
+
+
+choices |> filter(logprob >= -5) |> 
+  group_by(gold, topic) |>
+  summarize(n=length(unique(unit_id))) |>
+  mutate(p=n/sum(n)) |>
+  ggplot(aes(x=gold, y=topic, fill=n, label=round(p, 2))) + geom_tile() + geom_text() + 
+  scale_fill_gradient(low="white", high="darkgreen") + 
+  xlab("Gold (true) topic") + ylab("GPT predicted topic (top-N)") + 
+  ggtitle("Confusion matrix of GPT topic predictions", "(column percentages)") +
+  theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust = 1))
+
+recall <- choices |> filter(logprob >= -5) |> 
+  group_by(gold, unit_id) |> 
+  summarize(found=max(correct)) |>
+  summarize(recall=mean(found), n_gold=n()) |> 
+  rename(topic=gold)
+precision <- choices |> filter(logprob >= -5) |>
+  group_by(topic) |>
+  summarize(precision=mean(correct), n_gpt=n())
+inner_join(recall, precision) |> arrange(-n_gold)
+

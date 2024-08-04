@@ -39,7 +39,7 @@ Please do not edit this document directly.
   
 
 <tr><td colspan="2"><h1>Landbouw & Platteland</h1></td></tr>
-<tr><td><b>Duurzame landbouw</b></td><td><b>Landbouw & landelijke gemeenschappen</b></td></tr>
+<tr><td><b>Duurzame landbouw</b></td><td><b>Traditionele Landbouw & landelijke gemeenschappen</b></td></tr>
 <tr><td>Terugdringen stikstofuitstoot landbouw, inkrimpen veestapel, duurzame landbouw, diervriendelijke alternatieven</td><td>Instandhouden (intensieve) landbouwsector; steun voor platteland, of de landelijke gemeenschap</td></tr>
 <tr>
   <td>

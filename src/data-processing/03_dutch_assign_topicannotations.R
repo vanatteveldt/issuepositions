@@ -6,7 +6,9 @@ all_units <- read_csv("data/intermediate/units_tk2023.csv")
 
 source(here::here("src/lib/stancetinder.R"))
 
-TOPIC = "Economic"
+table(issues$topic)
+
+TOPIC = "Environment"
 
 # Select items to code
 # 1. filter on topic
@@ -18,16 +20,18 @@ to_assign <- issues |>
   # slice_sample(n=100) |> 
   pull(unit_id)
 
+message(glue::glue("To assign {length(to_assign)} units in topic {TOPIC}"))
+
 # Create units
 units <- all_units |> 
   filter(unit_id %in% to_assign) |> 
   mutate(md = unit_markdown(before, text_hl, after)) |>
   select(unit_id, md) |>
   create_units(id='unit_id', set_markdown('text_hl', md))
-
+get_instruction_unit(topic=TOPIC)[[1]]
 units2 = c(get_instruction_unit(topic=TOPIC), units)
-units2[[1]]
+units2[[1]]$unit$markdown_fields[[1]]$value
 
 cb <- get_topic_stance_codebook(TOPIC)
-connect_annotinder
-upload_job("Test wouter", units2, cb)
+connect_annotinder()
+upload_job("Stance 1: Environment", units2, cb)

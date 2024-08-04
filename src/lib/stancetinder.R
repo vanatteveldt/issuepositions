@@ -55,11 +55,12 @@ get_stance_codebook <- function() {
 
 get_topic_instruction <- function(topic) {
   t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
+  hint = if_else(is.null(t$hints$nl), "", glue::glue("\n\n**Aanwijzingen**: {t$hints$nl}"))
   glue::glue("## Wat is het standpunt over {t$label$nl}?\n{t$description$nl}\n\n
 ### {t$positive$label$nl}\n{t$positive$description$nl}\n\n
 ### {t$negative$label$nl}\n{t$negative$description$nl}\n\n
-### Geen/Ander/Neutraal\nAls de actor geen standpunt heeft over {t$label$nl}, of als het standpunt niet duidelijk is of niet in deze dimensies past, kies dan **Geen**\n\n
-**Aanwijzingen**: {t$hints$nl}")
+### Geen/Ander/Neutraal\nAls de actor geen standpunt heeft over {t$label$nl}, of als het standpunt niet duidelijk is of niet in deze dimensies past, kies dan **Geen**
+{hint}")
 }
 
 get_instruction_unit <- function(topic) {

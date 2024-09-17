@@ -1,7 +1,8 @@
 library(annotinder)
 password = rstudioapi::askForPassword(prompt = 'Password: ')
-annotinder::backend_connect("https://uva-climate.up.railway.app", username="nelruigrok@nieuwsmonitor.org", .password = password)
+annotinder::backend_connect("https://uva-climate.up.railway.app", username="nelruigrok@nieuwsmonitor.org", .password = 'test')
 
+id = 368
 get_annotations_wider <- function(id) {
   download_annotations(id) |> 
     select(-seconds, -jobset, -coder_id) |>
@@ -50,6 +51,9 @@ annotations <- setNames(ids, ids) |>
   inner_join(actor_link) |>
   select(-old_unit_id) |>
   relocate(unit_id, .before=1)
+
+### other annotations
+annotations <- get_annotations_wider(368)
 
 # Compute intercoder reliability
 irr = annotations |> group_by(unit_id) |> filter(n() > 1)

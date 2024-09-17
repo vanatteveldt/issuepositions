@@ -2,15 +2,6 @@
 library(annotinder)
 library(glue)
 
-CODINGJOBS = c( # TODO liever een google sheet
-  290 # First set of 100
-  ,294 # Second set of 100, only with stance
-  ,296 # Third set of 100, random sample
-  ,297 # Fourth set of 100, only with stance,
-  ,298 # Same sentences as 296-297, coded by additional authors
-  ,325 # Set 4, 100 articles, coded with left/right dimensions per issue
-  ,361 # 50 sentences on topic 'Economic' with left/right for this issue
-)
 
 connect_annotinder <- function() {
   # Login to annotinder, make sure .env file with ANNOTINDER_USERNAME and ANNOTINDER_PASSWORD exists

@@ -81,26 +81,87 @@ pairwise_confusion <- function(annotations, var="topic") {
   annotations <- annotations |> filter(variable == var)
   coders = unique(annotations$coder)
   cms <- expand_grid(coder1=coders, coder2=coders) |>
-    filter(coder1 > coder2) |>
+    filter(coder1 != coder2) |>
     pmap(function(coder1, coder2) confusion_matrix(annotations, coder1, coder2) |>
            add_column(coder1=coder1, coder2=coder2)) |>
     list_rbind()
 }
-plot_pairwise_confusion <- function(cms, coders=NULL) {
-  if (!is.null(coders)) cms <- cms |> filter(coder1 %in% coders, coder2 %in% coders)
-  ggplot(cms, aes(x=value.x, y=value.y, fill=n, label=n)) + geom_tile()+ geom_text() +
+plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
+  pairwise_confusion(annotations, var=var) |>
+    filter(coder1==.env$coder1, coder2==.env$coder2) |>
+    ggplot(aes(x=value.x, y=value.y, fill=n, label=n)) + geom_tile() + geom_text() +
     scale_fill_gradient(low="white", high=scales::muted("green")) +
     theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust=1)) + 
-    xlab("") + ylab("") + theme(legend.position="none") +
-    facet_grid(vars(coder1), vars(coder2))
+    xlab(coder1) + ylab(coder2) + theme(legend.position="none")
 }
 
-a <- download(342)
-table(a$coder)
-# of meerdere jobs onder elkaar zetten
-# a <- bind_rows(download(325), download(326))
-plot_report(a, "topic", "IRR report for job 325")
-cms = pairwise_confusion(a, "topic")
-plot_pairwise_confusion(cms, coders=c("JF", "WvA", "NR", "Sarah"))
-plot_pairwise_confusion(a, "topic")
+topiclist <- topics |> map(function(t) 
+  tibble(stance=c("L", "R"), 
+         value=c(t$positive$label$nl, t$negative$label$nl))) |>
+  list_rbind(names_to = "topic") |>
+  bind_rows(tibble(stance="N", value="Geen/Ander/Neutraal")) 
+
+download_stances <- function(jobids) {
+  purrr::map(setNames(jobids, jobids), download) |> 
+    list_rbind(names_to = "jobid") |>
+    filter(variable == "stance") |>
+    left_join(topiclist) |>
+    arrange(coder, unit_id) |>
+    group_by(jobid) |>
+    mutate(topic=unique(na.omit(topic)))
+}
+
+list_units <- function(annotations) {
+  units <- read_csv("data/intermediate/units_tk2023.csv", 
+                    col_select=c("unit_id", "before", "text_hl", "after"), 
+                    col_types="cccc") 
+  mode <- function(x) names(which.max(table(x)))
+  annotations |> 
+    left_join(units, by="unit_id") |>
+    mutate(text=str_c(before, text_hl, after)) |>
+    select(-variable, -value, -before, -text_hl, -after) |>
+    group_by(jobid, unit_id) |>
+    mutate(majority=mode(stance),
+           agreement=mean(stance==majority)) |>
+    ungroup() |>
+    pivot_wider(names_from=coder, values_from=stance)
+}
+
+jobs = c(361, 368:370)
+a <- download_stances(jobs) |>
+  mutate(jobid=if_else(jobid == "368", "361", jobid)) |>
+  filter(coder != "NR")
+
+table(a$jobid, a$coder)
+
+a |> group_by(jobid, unit_id, coder) |> filter(n() >1)
   
+
+a |> filter(jobid == "361")  |> list_units() |>
+  write_csv("/tmp/361.csv")
+
+
+  
+table(l$jobid, is.na(l$WvA))
+
+plot_report(a, "stance", "IRR report for job 361/368")
+topics <- yaml::read_yaml("annotations/topics.yml")
+
+
+
+plot_pairwise_confusion(a, "JF", "haasteren", var="stance")
+
+cms |> filter(coder1 == "JF") |> group_by(value.x) |> summarize(n=sum(n))
+
+# Codeurs vergelijken met gold standard
+
+gold <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=871520840#gid=871520840")  |>
+  select(unit_id, decision) |> 
+  filter(!is.na(unit_id)) |>
+  add_column(coder="Gold") |> 
+  separate(decision, into=c("topic", "stance"), sep="/") |>
+  pivot_longer(topic:stance, names_to="variable") 
+
+b <- a |> 
+  bind_rows(gold) |>
+  filter(variable == "topic", coder != "NR", coder != "Sarah") 

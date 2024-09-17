@@ -95,17 +95,19 @@ def process_gpt(units, lang, writer):
 
 if __name__ == "__main__":
     gold = read_units("data/intermediate/gold_325.csv")
-    # with open("data/intermediate/gold_325_gpt_issues_nl.csv", "w") as f:
-    #    print(f"Writing to {f.name}")
-    #    writer = csv.writer(f)
-    #    process_gpt(gold, "nl", writer)
-
+    done = read_units("data/intermediate/gpt_issues_set_1.csv")
     gold_ids = {row["id"] for row in gold}
+    done_ids = {row["id"] for row in done}
+    print(len(done_ids))
     units = list(read_units("data/intermediate/units_tk2023.csv"))
+    print(len(units))
     ids = {r["id"] for r in units} - gold_ids
+    print(len(ids))
     ids = random.sample(list(ids), 1000)
     units = [u for u in units if u["id"] in ids]
-    with open("data/intermediate/gpt_issues_set_1.csv", "w") as f:
-        print(f"Writing to {f.name}")
-        writer = csv.writer(f)
-        process_gpt(units, "nl", writer)
+    
+
+#    with open("data/intermediate/gpt_issues_set_2.csv", "w") as f:
+ #       print(f"Writing to {f.name}")
+  #      writer = csv.writer(f)
+   #     process_gpt(units, "nl", writer)

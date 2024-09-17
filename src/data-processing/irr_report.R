@@ -10,10 +10,11 @@ CODERS = tribble(
   "info@jessicafiks.nl", "JF",
   "nelruigrok@nieuwsmonitor.org", "NR",
   "s.sramota@vu.nl", "Sarah",
-  "i.nait.el.ghazi@student.vu.nl", "ghazi",
-  "n.karadavut@student.vu.nl", "karadavut",
-  "s.b.van.haasteren@student.vu.nl", "haasteren",
-  "o.ben.youssef@student.vu.nl", "youssef"
+  "i.nait.el.ghazi@student.vu.nl", "Ihsane",
+  "n.karadavut@student.vu.nl", "Nisanur",
+  "s.b.van.haasteren@student.vu.nl", "Sascha",
+  "o.ben.youssef@student.vu.nl", "Oumaima",
+  "k.narain@student.vu.nl", "Karishma"
 )
   
 download <- function(jobid) {
@@ -95,6 +96,7 @@ plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
     xlab(coder1) + ylab(coder2) + theme(legend.position="none")
 }
 
+topics <- yaml::read_yaml("annotations/topics.yml")
 topiclist <- topics |> map(function(t) 
   tibble(stance=c("L", "R"), 
          value=c(t$positive$label$nl, t$negative$label$nl))) |>
@@ -127,10 +129,10 @@ list_units <- function(annotations) {
     pivot_wider(names_from=coder, values_from=stance)
 }
 
-jobs = c(361, 368:370)
-a <- download_stances(jobs) |>
-  mutate(jobid=if_else(jobid == "368", "361", jobid)) |>
-  filter(coder != "NR")
+jobs = c(361, 368)
+a <- download_stances(jobs) |> 
+  filter(jobid == 368 | coder != "NR") |>
+  mutate(jobid=if_else(jobid == "368", "361", jobid)) 
 
 table(a$jobid, a$coder)
 
@@ -145,8 +147,6 @@ a |> filter(jobid == "361")  |> list_units() |>
 table(l$jobid, is.na(l$WvA))
 
 plot_report(a, "stance", "IRR report for job 361/368")
-topics <- yaml::read_yaml("annotations/topics.yml")
-
 
 
 plot_pairwise_confusion(a, "JF", "haasteren", var="stance")

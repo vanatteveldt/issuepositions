@@ -1,14 +1,14 @@
 library(tidyverse)
 
 # Download issues
-issues = read_csv("data/intermediate/gpt_issues_set_1.csv")
+issues = read_csv("data/intermediate/gpt_issues_set_2.csv")
 all_units <- read_csv("data/intermediate/units_tk2023.csv")
 
 source(here::here("src/lib/stancetinder.R"))
 
 table(issues$topic)
 
-TOPIC = "Environment"
+TOPIC = "Economic"
 
 # Select items to code
 # 1. filter on topic
@@ -34,4 +34,4 @@ units2[[1]]$unit$markdown_fields[[1]]$value
 
 cb <- get_topic_stance_codebook(TOPIC)
 connect_annotinder()
-upload_job("Stance 1: Environment", units2, cb)
+upload_job("Stance 1: Economic", units2, cb)

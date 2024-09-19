@@ -6,9 +6,9 @@ CODERS = tribble(
   ~coder, ~abbrev,
   "a.m.j.van.hoof@vu.nl", "AvH",
   "m.e.reuver@vu.nl", "MR",
-  "vanatteveldt@gmail.com", "WvA",
-  "info@jessicafiks.nl", "JF",
-  "nelruigrok@nieuwsmonitor.org", "NR",
+  "vanatteveldt@gmail.com", "Wouter",
+  "info@jessicafiks.nl", "Jessica",
+  "nelruigrok@nieuwsmonitor.org", "Nel",
   "s.sramota@vu.nl", "Sarah",
   "i.nait.el.ghazi@student.vu.nl", "Ihsane",
   "n.karadavut@student.vu.nl", "Nisanur",
@@ -28,6 +28,8 @@ download <- function(jobid) {
     select(-abbrev)
 }
 
+a
+pairwise_alpha(a$unit_id, a$coder,a$stance)
 alpha <- function(units, coders, values) {
   # kripp.alpha likes numbers, so convert to factor -> number
   tibble(unit_id=units, coder=coders, value=values) |>
@@ -134,7 +136,9 @@ a <- download_stances(jobs) |>
   filter(jobid == 368 | coder != "NR") |>
   mutate(jobid=if_else(jobid == "368", "361", jobid)) 
 
+a <- download_stances(401)
 table(a$jobid, a$coder)
+
 
 a |> group_by(jobid, unit_id, coder) |> filter(n() >1)
   
@@ -142,16 +146,18 @@ a |> group_by(jobid, unit_id, coder) |> filter(n() >1)
 a |> filter(jobid == "361")  |> list_units() |>
   write_csv("/tmp/361.csv")
 
-
+nel = a|>
+  filter(coder=="NR")
+write_csv(nel,"/tmp/nel.csv")
   
 table(l$jobid, is.na(l$WvA))
 
-plot_report(a, "stance", "IRR report for job 361/368")
+plot_report(a, "stance", "IRR report for job 401")
+
+plot_pairwise_confusion(a, "Wouter", "Nel",var="stance")
 
 
-plot_pairwise_confusion(a, "JF", "haasteren", var="stance")
-
-cms |> filter(coder1 == "JF") |> group_by(value.x) |> summarize(n=sum(n))
+cms |> filter(coder1 == "Jessica") |> group_by(value.x) |> summarize(n=sum(n))
 
 # Codeurs vergelijken met gold standard
 
@@ -165,3 +171,10 @@ gold <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1CKxjO
 b <- a |> 
   bind_rows(gold) |>
   filter(variable == "topic", coder != "NR", coder != "Sarah") 
+
+a |> select(unit_id, coder, stance) |> pivot_wider(names_from=coder, values_from=stance)
+
+
+list_units(a) |> write_csv("/tmp/401.csv")
+
+a |> select(unit_id) |> write_csv("data/intermediate/set_2_ids.csv")

@@ -34,6 +34,9 @@ def read_units(fn):
         gold = keys[row["decision"].split("/")[0]] if "decision" in row else None
         yield dict(id=row["unit_id"], text=text, actor=actor, gold=gold)
 
+def read_units_done(fn):
+    return {row["unit_id"] for row in csv.DictReader(open(fn))}
+
 
 def get_prefixes(lang):
     # Determine prefix of every (localized) code to the issue key
@@ -95,19 +98,15 @@ def process_gpt(units, lang, writer):
 
 if __name__ == "__main__":
     gold = read_units("data/intermediate/gold_325.csv")
-    done = read_units("data/intermediate/gpt_issues_set_1.csv")
     gold_ids = {row["id"] for row in gold}
-    done_ids = {row["id"] for row in done}
-    print(len(done_ids))
+    done_ids = read_units_done("data/intermediate/gpt_issues_set_1.csv") | read_units_done("data/intermediate/set_2_ids.csv")
     units = list(read_units("data/intermediate/units_tk2023.csv"))
-    print(len(units))
-    ids = {r["id"] for r in units} - gold_ids
-    print(len(ids))
+    ids = {r["id"] for r in units} - gold_ids - done_ids
+    
+    #print(f"|ids|={len(ids)}, gold={len(gold_ids)}, units={len(units)}")
     ids = random.sample(list(ids), 1000)
     units = [u for u in units if u["id"] in ids]
-    
-
-#    with open("data/intermediate/gpt_issues_set_2.csv", "w") as f:
- #       print(f"Writing to {f.name}")
-  #      writer = csv.writer(f)
-   #     process_gpt(units, "nl", writer)
+    with open("data/intermediate/gpt_issues_set_3.csv", "w") as f:
+        print(f"Writing to {f.name}")
+        writer = csv.writer(f)
+        process_gpt(units, "nl", writer)

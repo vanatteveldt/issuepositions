@@ -136,7 +136,8 @@ a <- download_stances(jobs) |>
   filter(jobid == 368 | coder != "NR") |>
   mutate(jobid=if_else(jobid == "368", "361", jobid)) 
 
-a <- download_stances(401)
+a <- download_stances(408)
+
 table(a$jobid, a$coder)
 
 
@@ -154,7 +155,7 @@ table(l$jobid, is.na(l$WvA))
 
 plot_report(a, "stance", "IRR report for job 401")
 
-plot_pairwise_confusion(a, "Wouter", "Nel",var="stance")
+plot_pairwise_confusion(a, "Jessica", "Nel",var="stance")
 
 
 cms |> filter(coder1 == "Jessica") |> group_by(value.x) |> summarize(n=sum(n))

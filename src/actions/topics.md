@@ -9,6 +9,9 @@ Please do not edit this document directly.
   {% set n = topic['negative'] %}
 
 <tr><td colspan="2"><h1>{{x(topic['label'])}}</h1></td></tr>
+{% if topic['description'] %}
+<tr><td colspan="2"><em>{{phrases.description}}:</em> {{x(topic['description'])}}</td></tr>
+{% endif %}
 <tr><td><b>{{x(p.label)}}</b></td><td><b>{{x(n.label)}}</b></td></tr>
 <tr><td>{{x(p.description)}}</td><td>{{x(n.description)}}</td></tr>
 <tr>
@@ -33,5 +36,9 @@ Please do not edit this document directly.
   {% endif %}
   </td>
 </tr>
+{% if topic['hints'] %}
+<tr><td colspan="2"><em>{{phrases.hints}}:</em> {{x(topic['hints'])}}</td></tr>
+{% endif %}
+
 {% endfor %}
 </table>

@@ -11,8 +11,7 @@ template = jinja.get_template("topics.md")
 phrases_dict = dict(
     positive=dict(en="Left/Progressive/GAL", nl="Right/Conservative/TAN"),
     positive_positions=dict(
-        en="Positions in favour include", 
-        nl="Positieve standpunten zijn bijvoorbeeld"
+        en="Positions in favour include", nl="Positieve standpunten zijn bijvoorbeeld"
     ),
     examples=dict(en="Examples", nl="Voorbeelden"),
     negative=dict(en="Negative pole:", nl="Negatieve pool:"),
@@ -20,6 +19,8 @@ phrases_dict = dict(
         en="Positions against this dimension include",
         nl="Negatieve standpunten zijn bijvoorbeeld",
     ),
+    description=dict(en="Description", nl="Beschrijving"),
+    hints=dict(en="Coding rules", nl="Codeerregels"),
 )
 
 

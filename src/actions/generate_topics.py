@@ -34,8 +34,6 @@ def extract_internationalized(item, lang, default_lang="en"):
 
 topics = yaml.safe_load(open(here("annotations", "topics.yml")))
 
-print(topics["Economic"]["hints"])
-print(extract_internationalized(topics["Economic"]["hints"], lang="nl"))
 for lang in ["en", "nl"]:
     jinja.globals["x"] = partial(extract_internationalized, lang=lang)
     phrases = {k: extract_internationalized(v, lang=lang) for (k, v) in phrases_dict.items()}

@@ -11,7 +11,7 @@ Please do not edit this document directly.
 <tr><td colspan="2"><h1>{{x(topic['label'])}}</h1></td></tr>
 <tr><td colspan="2">
 {% if topic['description'] %}<em>{{phrases.description}}:</em> {{x(topic['description'])}}{% endif %}
-<tr><td colspan="2">
+</tr></td>
 <tr><td><b>{{x(p.label)}}</b></td><td><b>{{x(n.label)}}</b></td></tr>
 <tr><td>{{x(p.description)}}</td><td>{{x(n.description)}}</td></tr>
 <tr>

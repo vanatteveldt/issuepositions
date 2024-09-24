@@ -3,16 +3,12 @@ import yaml
 from pyhere import here
 from functools import partial
 
-jinja = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(searchpath=here("src", "actions"))
-)
+jinja = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath=here("src", "actions")))
 template = jinja.get_template("topics.md")
 
 phrases_dict = dict(
     positive=dict(en="Left/Progressive/GAL", nl="Right/Conservative/TAN"),
-    positive_positions=dict(
-        en="Positions in favour include", nl="Positieve standpunten zijn bijvoorbeeld"
-    ),
+    positive_positions=dict(en="Positions in favour include", nl="Positieve standpunten zijn bijvoorbeeld"),
     examples=dict(en="Examples", nl="Voorbeelden"),
     negative=dict(en="Negative pole:", nl="Negatieve pool:"),
     negative_positions=dict(
@@ -37,11 +33,12 @@ def extract_internationalized(item, lang, default_lang="en"):
 
 
 topics = yaml.safe_load(open(here("annotations", "topics.yml")))
+
+print(topics["Economic"]["hints"])
+print(extract_internationalized(topics["Economic"]["hints"], lang="nl"))
 for lang in ["en", "nl"]:
     jinja.globals["x"] = partial(extract_internationalized, lang=lang)
-    phrases = {
-        k: extract_internationalized(v, lang=lang) for (k, v) in phrases_dict.items()
-    }
+    phrases = {k: extract_internationalized(v, lang=lang) for (k, v) in phrases_dict.items()}
     of = here("annotations", f"topics-{lang}.md")
     print(of)
     with of.open("w") as stream:

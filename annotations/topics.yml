@@ -3,7 +3,7 @@ Defense:
     en: Defense & Foreign Policy
     nl: Defensie & Buitenlandse Zaken
   description:
-    nl: Defensie, NAVO, interventies, buitenlandse zaken, ontwikkelingssamenwerking 
+    nl: Defensie, NAVO, interventies, buitenlandse zaken, ontwikkelingssamenwerking
   positive:
     label:
       en: Peace and Rules-based order
@@ -29,14 +29,14 @@ Health:
       nl: Betaalbare zorg en gezondheid
     description:
       en: (Government) investments in health care, making health care more affordable or accessible, e.g. by abandoning the deductible. Stimulating healthy behaviour and sport
-      nl: (Overheids)investeringen in gezondheidszorg; betaalbare en beschikbare zorg (inc afschaffen eigen risico). Stimuleren van gezond gedrag, sport en preventie. 
+      nl: (Overheids)investeringen in gezondheidszorg; betaalbare en beschikbare zorg (inc afschaffen eigen risico). Stimuleren van gezond gedrag, sport en preventie.
   negative:
     label:
       en: Efficient health care
       nl: Doelmatige zorg
     description:
       en: Privatisation, role of private companies or insurance providers, cost reductions
-      nl: Privatisering, rol van bedrijven en particuliere verzekeraars, kostenbesparingen en doelmatigheid. 
+      nl: Privatisering, rol van bedrijven en particuliere verzekeraars, kostenbesparingen en doelmatigheid.
 
 Agriculture:
   label:
@@ -71,7 +71,7 @@ Government:
       nl: Beter bestuur en bestuurlijke vernieuwing
     description:
       en: administrative or constitutional reforms, improved governance through reforms, strengthening or safeguarding democratic processes, improving trust in government
-      nl: bestuurlijke vernieuwing, (grondwettelijke of staatsrechtelijke) hervorming, versterken van het democratisch proces, verbeteren vertrouwen in de overheid. 
+      nl: bestuurlijke vernieuwing, (grondwettelijke of staatsrechtelijke) hervorming, versterken van het democratisch proces, verbeteren vertrouwen in de overheid.
   negative:
     label:
       en: Consitutional conservatism
@@ -80,7 +80,7 @@ Government:
       en: Support for the current constitutional system
       nl: Steun voor het huidige staatsstelsel
   hints:
-    nl: Partijpolitiek en kritiek op of van partijen valt hier niet onder, dat zijn geen issue-standpunten. Ook beslissingen over wel of niet doorrekenen van partijprogramma's of interne partij-aangelegenheden coderen we hier niet onder. 
+    - nl: Partijpolitiek en kritiek op of van partijen valt hier niet onder, dat zijn geen issue-standpunten. Ook beslissingen over wel of niet doorrekenen van partijprogramma's of interne partij-aangelegenheden coderen we hier niet onder.
 
 Economic:
   label:
@@ -103,9 +103,9 @@ Economic:
       en: Flat tax rates, tax reduction, balanced budget; improving ease of doing business, supporting local business and enterpreneurs
       nl: Vlaktaks, belastingverlaging; algemene bezuinigingen t.b.v. verlagen staatsschuld of begrotingstekort; steun aan bedrijfsleven of ondernemers
   hints:
-    nl: Het doorrekenen van partijprogramma's is geen Werk & Inkomen, tenzij er specifiek staat dat een partij bijvoorbeeld de belastingen wil verhogen om de staatsschuld te verminderen, of juist wil nivelleren. Een duurzame economie is ook geen Werk & Inkomen, maar Milieu & Klimaat. 
-    
-      
+    - nl: Het doorrekenen van partijprogramma's is geen Werk & Inkomen, tenzij er specifiek staat dat een partij bijvoorbeeld de belastingen wil verhogen om de staatsschuld te verminderen, of juist wil nivelleren. Een duurzame economie is ook geen Werk & Inkomen, maar Milieu & Klimaat.
+    - nl: Het willen 'hervormen' (of zelfs afschaffen) van het toeslagenstelsel is niet Links of Rechts, tenzij er specifiek bij staat dat dat wordt gedaan om bijvoorbeeld armoede te bestrijden.
+
 Infrastructure:
   label:
     en: Infrastructure & Mobility
@@ -149,7 +149,7 @@ Education:
     en: Education, culture and technology
     nl: Onderwijs, Cultuur & Wetenschap
   description:
-    nl: Dit onderwerp gaat over onderwijs, cultuur, en wetenschap. Hieronder vallen verbetering/stimulering van of juist bezuinigingen op scholen, universiteiten, wetenschappelijke en culturele organisaties (inc. de publieke omroep).   
+    nl: Dit onderwerp gaat over onderwijs, cultuur, en wetenschap. Hieronder vallen verbetering/stimulering van of juist bezuinigingen op scholen, universiteiten, wetenschappelijke en culturele organisaties (inc. de publieke omroep).
   positive:
     label:
       en: Investing in Eduction, Science and Technology
@@ -165,8 +165,8 @@ Education:
       en: Private and religious education; reducing financing for students or schools; loans instead of grants for students; stimulating traditional/conservative or christian values in culture or education
       nl: Particulier en religieus onderwijs; vermindering van financiering voor studenten of scholen; leningen in plaats van beurzen voor studenten; het stimuleren van traditionele/conservatieve of christelijke waarden in cultuur of onderwijs
   hints:
-    nl: Het weren van buitenlandse studenten en Engelstalige opleidingen valt **niet** onder OCW, maar onder immigratie, tenzij er expliciet staat dat het om de kwaliteit van het onderwijs gaat. Standpunten die niet in de genoemde richtingen passen (zoals technisch vs. theoretisch onderwijs) coderen als niet/neutraal/anders.  
-      
+    - nl: Het weren van buitenlandse studenten en Engelstalige opleidingen valt **niet** onder OCW, maar onder immigratie, tenzij er expliciet staat dat het om de kwaliteit van het onderwijs gaat. Standpunten die niet in de genoemde richtingen passen (zoals technisch vs. theoretisch onderwijs) coderen als niet/neutraal/anders.
+
 CivilRights:
   label:
     en: Civil rights
@@ -178,7 +178,7 @@ CivilRights:
       en: Civil rights, freedom and minority rights
       nl: Burgerrechten, vrijheid en minderheidsrechten
     description:
-      en: Freedom of speech, individual rights and liberties; privacy; equal rights for all people in society, ethnic minorities, sexuality inc. gay, transgender, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia; 
+      en: Freedom of speech, individual rights and liberties; privacy; equal rights for all people in society, ethnic minorities, sexuality inc. gay, transgender, LGBTQI+ rights; freedom from discrimination or anti-semitism; self-determiniation in health care including abortion and euthanasia;
       nl: Vrijheid van meningsuiting, individuele rechten en vrijheden; privacy; gelijke rechten voor alle mensen, ethnische minderheden, seksualiteit inc homorechten, transgender, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie
   negative:
     label:
@@ -187,6 +187,9 @@ CivilRights:
     description:
       en: Traditional / christian / conservative norms and values; importance of community and family; protection of life and family, opposition to abortion / euthanasia, anti-woke
       nl: Traditionele / Christelijke / conservatieve normen en waarden; belang van gezin en gemeenschap; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie, anti-woke
+  hints:
+    - nl: Het stimuleren van mensenrechten in het buitenland valt onder Defensie, niet onder Burgerrechten, tenzij uit de zin ook een stelling over burgerrechten binnen Nederland blijkt.
+    - nl: Vrijheid van godsdient is in principe links (individuele vrijheid), maar steun voor christelijke normen is juist rechts omdat die normen voor de hele maatschappij zouden gelden.
 
 Environment:
   label:
@@ -209,8 +212,8 @@ Environment:
       en: Investing in fossil fuels, including natural gas extraction; lowering environmental standards or protections
       nl: Investeren in fossiele brandstoffen, inclusief aardgaswinning; verlagen van milieunormen of -bescherming
   hints:
-    nl: Stikstofuitstoot valt niet onder dit onderwerp, dat is Landbouw
-    
+    - nl: Stikstofuitstoot valt niet onder dit onderwerp, dat is Landbouw
+
 Housing:
   label:
     en: Housing
@@ -235,7 +238,7 @@ Order:
     en: Law and order
     nl: Justitie & veiligheid
   positive:
-    label: 
+    label:
       en: Decriminalisation and legal aid
       nl: Decriminalisatie & rechtsbijstand
     description:
@@ -267,5 +270,3 @@ EU:
     description:
       en: Leaving the EU; protectionism; anti-globalization; border controls
       nl: Uittreding uit de EU; protectionisme; anti-globalisering; grenscontroles
-
-

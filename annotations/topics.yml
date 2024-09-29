@@ -129,6 +129,8 @@ Immigration:
   label:
     en: Immigration
     nl: Immigratie
+  description:
+    nl: Dit onderwerp gaat over immigratie (inc. vluchtelingen, expats, studenten) en integratie (of juist multiculturalisme)
   positive:
     label:
       en: Multiculturalism

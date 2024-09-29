@@ -148,7 +148,7 @@ Coding rules:</em> <br/>
 
 <tr><td colspan="2"><h1>Immigration</h1></td></tr>
 <tr><td colspan="2">
-
+<em>Description:</em> ⁇
 </tr></td>
 <tr><td><b>Multiculturalism</b></td><td><b>Immigration reduction</b></td></tr>
 <tr><td>Improving conditions for asylum seekers, forcing municipalities to house refugees or immigrants; multicultural society and benefits of foreign nationals</td><td>reducing number of immigrants, refugees or asylym seekers; stricter integration demands; reducing number of foreign workers, expats, or students; focus on integration and conforming to Dutch culture of minorities</td></tr>

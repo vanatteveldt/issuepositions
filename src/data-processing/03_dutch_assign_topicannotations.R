@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # Download issues
-issues = read_csv("data/intermediate/gpt_issues_set_4.csv")
+issues = read_csv("data/intermediate/gpt_issues_set_5.csv")
 all_units <- read_csv("data/intermediate/units_tk2023.csv")
 
 source(here::here("src/lib/stancetinder.R"))
@@ -34,4 +34,4 @@ units2[[1]]$unit$markdown_fields[[1]]$value
 
 cb <- get_topic_stance_codebook(TOPIC)
 connect_annotinder()
-upload_job("Stance set 1: CivilRights", units2, cb)
+upload_job("Stance set 1: Defense", units2, cb)

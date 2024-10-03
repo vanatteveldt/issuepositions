@@ -98,8 +98,6 @@ def process_gpt(units, lang, writer):
 
 
 if __name__ == "__main__":
-    client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    print(client)
     gold = read_units("data/intermediate/gold_325.csv")
     gold_ids = {row["id"] for row in gold}
     done_ids = read_units_done("data/intermediate/gpt_issues_set_1.csv") | read_units_done("data/intermediate/set_2_ids.csv")| read_units_done("data/intermediate/gpt_issues_set_3.csv") | read_units_done("data/intermediate/gpt_issues_set_4.csv")

@@ -150,8 +150,8 @@ Codeerregels:</em> <br/>
 <tr><td colspan="2">
 <em>Beschrijving:</em> Dit onderwerp gaat over immigratie (inc. vluchtelingen, expats, studenten) en integratie (of juist multiculturalisme)
 </tr></td>
-<tr><td><b>Multiculturalisme</b></td><td><b>Beperken immigratie</b></td></tr>
-<tr><td>Betere opvang asielzoekers (inc spreidingswet); multiculturele samenleving</td><td>terugdringen migratie, vluchtelingen en asielzoekers; verminderen buitenlandse arbeiders, expats en studenten; gedwongen integratie van minderheden en conformiteit aan Nederlandse cultuur</td></tr>
+<tr><td><b>Open grenzen, vrij verkeer mensen</b></td><td><b>Beperken immigratie</b></td></tr>
+<tr><td>Betere opvang asielzoekers (inc spreidingswet); betere doorstroming, hulp voor asielzoekers, statushouders etc. (tegen Islam, moskee is Burgerrechten, geen immigratie)</td><td>terugdringen migratie, vluchtelingen en asielzoekers; verminderen buitenlandse arbeiders, expats en studenten; gedwongen integratie van minderheden en conformiteit aan Nederlandse cultuur</td></tr>
 <tr>
   <td>
   

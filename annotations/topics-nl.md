@@ -198,7 +198,7 @@ Codeerregels:</em> <br/>
 <em>Beschrijving:</em> Burgerrechten, vrijheid en christelijke/traditionele normen & waarden
 </tr></td>
 <tr><td><b>Burgerrechten, vrijheid en minderheidsrechten</b></td><td><b>Traditionele waarden</b></td></tr>
-<tr><td>Vrijheid van meningsuiting, individuele rechten en vrijheden; privacy; gelijke rechten voor alle mensen, ethnische minderheden, seksualiteit inc homorechten, transgender, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie</td><td>Traditionele / Christelijke / conservatieve normen en waarden; belang van gezin en gemeenschap; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie, anti-woke</td></tr>
+<tr><td>Vrijheid van meningsuiting, individuele rechten en vrijheden; privacy; gelijke rechten voor alle mensen, ethnische minderheden, seksualiteit inc homorechten, transgender, LHBTQI+ rechten; weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in gezondheidszorg, waaronder abortus en euthanasie</td><td>Traditionele / Christelijke / conservatieve normen en waarden; belang van gezin en gemeenschap; bescherming van het (ongeboren) leven en het gezin, weerstand tegen abortus / euthanasie, anti-woke. Ook anti-islam en tegen moskee etc valt hieronder, want tegen godsdienstvrijheid.</td></tr>
 <tr>
   <td>
   

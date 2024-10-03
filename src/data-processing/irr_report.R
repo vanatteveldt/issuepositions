@@ -28,8 +28,8 @@ download <- function(jobid) {
     select(-abbrev)
 }
 
-a
-pairwise_alpha(a$unit_id, a$coder,a$stance)
+
+
 alpha <- function(units, coders, values) {
   # kripp.alpha likes numbers, so convert to factor -> number
   tibble(unit_id=units, coder=coders, value=values) |>
@@ -136,7 +136,8 @@ a <- download_stances(jobs) |>
   filter(jobid == 368 | coder != "NR") |>
   mutate(jobid=if_else(jobid == "368", "361", jobid)) 
 
-a <- download_stances(408)
+a <- download_stances(417)
+plot_report(a, "stance", "IRR report for job 401")
 
 table(a$jobid, a$coder)
 
@@ -153,7 +154,7 @@ write_csv(nel,"/tmp/nel.csv")
   
 table(l$jobid, is.na(l$WvA))
 
-plot_report(a, "stance", "IRR report for job 401")
+
 
 plot_pairwise_confusion(a, "Jessica", "Nel",var="stance")
 
@@ -176,6 +177,6 @@ b <- a |>
 a |> select(unit_id, coder, stance) |> pivot_wider(names_from=coder, values_from=stance)
 
 
-list_units(a) |> write_csv("/tmp/401.csv")
+list_units(a) |> write_csv("/tmp/416.csv")
 
 a |> select(unit_id) |> write_csv("data/intermediate/set_2_ids.csv")

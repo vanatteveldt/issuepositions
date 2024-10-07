@@ -10,7 +10,7 @@ from lib.topics import describe_topic, get_topics_internationalized
 from lib.gpt_topics import prompt_post, prompt_pre
 
 # To refresh / redownload gold codings, use:
-#wget -O data/intermediate/gold_325.csv "https://docs.google.com/spreadsheets/d/e/2PACX-1vTjlgsCqJy2vNbXlzwMc7ygvRnKo6dQd3pgcAVCfKncecocWtAbwiyIzTAbnLVmN_M-QhFxFLDbw5Xz/pub?gid=871520840&single=true&output=csv"
+# wget -O data/intermediate/gold_325.csv "https://docs.google.com/spreadsheets/d/e/2PACX-1vTjlgsCqJy2vNbXlzwMc7ygvRnKo6dQd3pgcAVCfKncecocWtAbwiyIzTAbnLVmN_M-QhFxFLDbw5Xz/pub?gid=871520840&single=true&output=csv"
 
 
 def read_units(fn):
@@ -34,6 +34,7 @@ def read_units(fn):
         gold = keys[row["decision"].split("/")[0]] if "decision" in row else None
         yield dict(id=row["unit_id"], text=text, actor=actor, gold=gold)
 
+
 def read_units_done(fn):
     return {row["unit_id"] for row in csv.DictReader(open(fn))}
 
@@ -55,7 +56,7 @@ def create_prompt(lang):
 def process_gpt(units, lang, writer):
     writer.writerow(["unit_id", "gold", "response", "topic", "rank", "logprob"])
     dotenv.load_dotenv()
-    #client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+    # client = openai.OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     prompt = create_prompt(lang)
     keys = get_prefixes(lang)
@@ -100,14 +101,20 @@ def process_gpt(units, lang, writer):
 if __name__ == "__main__":
     gold = read_units("data/intermediate/gold_325.csv")
     gold_ids = {row["id"] for row in gold}
-    done_ids = read_units_done("data/intermediate/gpt_issues_set_1.csv") | read_units_done("data/intermediate/set_2_ids.csv")| read_units_done("data/intermediate/gpt_issues_set_3.csv") | read_units_done("data/intermediate/gpt_issues_set_4.csv")
+    done_ids = (
+        read_units_done("data/intermediate/gpt_issues_set_1.csv")
+        | read_units_done("data/intermediate/set_2_ids.csv")
+        | read_units_done("data/intermediate/gpt_issues_set_3.csv")
+        | read_units_done("data/intermediate/gpt_issues_set_4.csv")
+        | read_units_done("data/intermediate/gpt_issues_set_5.csv")
+    )
     units = list(read_units("data/intermediate/units_tk2023.csv"))
     ids = {r["id"] for r in units} - gold_ids - done_ids
-    
-    #print(f"|ids|={len(ids)}, gold={len(gold_ids)}, units={len(units)}")
-    ids = random.sample(list(ids), 1000)
+    print(len(ids))
+    # print(f"|ids|={len(ids)}, gold={len(gold_ids)}, units={len(units)}")
+    # ids = random.sample(list(ids), 1000)
     units = [u for u in units if u["id"] in ids]
-    with open("data/intermediate/gpt_issues_set_5.csv", "w") as f:
+    with open("data/intermediate/gpt_issues_set_rest.csv", "w") as f:
         print(f"Writing to {f.name}")
         writer = csv.writer(f)
         process_gpt(units, "nl", writer)

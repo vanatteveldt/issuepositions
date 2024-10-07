@@ -8,4 +8,6 @@ dependencies = [
 "transformers[torch]",
 "datasets",
 "pyhere",
+"python-dotenv",
+"openai"
 ]

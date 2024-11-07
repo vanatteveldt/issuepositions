@@ -134,3 +134,5 @@ cython_debug/
 /data/tmp
 /dutch-alpino-ud-2.5-191206.udpipe
 .httr-oauth
+#R
+.RData

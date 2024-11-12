@@ -108,7 +108,7 @@ write_csv(all_units_numeric, "data/intermediate/coded_units.csv")
 
 
 
-# Reliability calculation and plotting
+# Reliability calculation
 
 alpha <- function(all_units_numeric) {
   select(all_units_numeric, all_of(present_coders)) |>
@@ -119,31 +119,54 @@ alpha <- function(all_units_numeric) {
     irr::kripp.alpha(method="nominal")
 }
 
-kripp_alpha <- alpha(all_units_numeric)
 
-
-print(kripp_alpha)
-
-
-
-pairwise_alpha <- function(units, coders, values) {
-  a <- tibble(unit_id=units, coder=coders, value=values)
-  result = NULL
-  for (coder1 in unique(coders)) {
-    for (coder2 in unique(coders)) {
-      if (coder2 > coder1) {
-        sub = a |> filter(coder %in% c(coder1, coder2)) |>
-          group_by(unit_id) |> 
-          filter(n() == 2) 
-        result = bind_rows(result, tibble(
-          coder1=coder1, coder2=coder2, n=length(unique(sub$unit_id)), 
-          alpha=alpha(sub$unit_id, sub$coder, sub$value)))
+pairwise_alpha_new <- function(all_units_numeric) {
+  coders <- present_coders
+  result <- tibble(coder1 = character(), coder2 = character(), alpha = numeric())
+  
+  for (i in 1:(length(coders) - 1)) {
+    for (j in (i + 1):length(coders)) {
+      coder1 <- coders[i]
+      coder2 <- coders[j]
+      
+      
+      # Filter data to include only coder columns
+      sub_data <- all_units_numeric |>
+        select(all_of(c(coder1, coder2))) |>
+        na.omit()
+      
+      # Check if there are enough data points for calculation
+      if (nrow(sub_data) > 1) {
         
+        # Calculate Krippendorff's alpha for the pair
+        tryCatch({
+          alpha_value <- irr::kripp.alpha(t(as.matrix(sub_data)), method = "nominal")
+          # Store results
+          result <- result |>
+            bind_rows(tibble(coder1 = coder1, coder2 = coder2, alpha = alpha_value$value))
+        }, error = function(e) {
+          message("Error calculating alpha for ", coder1, " and ", coder2, ": ", e$message)
+        })
+      } else {
+        message("Insufficient data for calculating alpha between ", coder1, " and ", coder2)
       }
     }
   }
-  result
+  
+  return(result)
 }
+  
+overall_kripp_alpha <- alpha(all_units_numeric)
+
+pairwise_kripp_alpha <- pairwise_alpha_new(all_units_numeric)
+
+print(overall_kripp_alpha)
+
+print(pairwise_kripp_alpha)
+
+
+
+# Plotting reliability measures
 
 plot_report <- function(annotations, var="topic", title="IRR Report") {
   annotations <- annotations |> filter(variable == var)
@@ -184,25 +207,10 @@ plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
 
 # plot_report(a, "stance", "IRR report for job 401")
 
-# table(a$jobid, a$coder)
-
-
-# a |> group_by(jobid, unit_id, coder) |> filter(n() >1)
-  
-
-# a |> filter(jobid == "417")  |> list_units() 
-
-# nel = a|>
-#   filter(coder=="NR")
-# write_csv(nel,"/tmp/nel.csv")
-  
-# table(l$jobid, is.na(l$WvA))
-
-
 # plot_pairwise_confusion(a, "Jessica", "Nel",var="stance")
 
-
 # cms |> filter(coder1 == "Jessica") |> group_by(value.x) |> summarize(n=sum(n))
+
 
 # # Codeurs vergelijken met gold standard
 

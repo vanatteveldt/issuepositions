@@ -1,0 +1,5 @@
+pandas
+pyhere
+pyyaml
+pydantic
+krippendorff

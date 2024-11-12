@@ -2,6 +2,7 @@ library(annotinder)
 library(tidyverse)
 library(googlesheets4)
 library(jsonlite)
+library(irr)
 
 #load anonimised coders
 dotenv::load_dot_env(file = ".env")
@@ -81,23 +82,53 @@ list_units <- function(annotations) {
 }
 
 # retrieve Jobids from google sheets
+# set OAuth token to access sheets doc
 all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
-  filter(Jobid >= 495) |>     #coding jobs before 495 were training an contain many duplicates
+  filter(Jobid >= 495 & Jobid <= 618) |>     #coding jobs before 495 were training an contain many duplicates
   pull(Jobid) |> 
   unique()
 
-all_stances <- download_stances(all_jobids)
+# all_stances <- download_stances(all_jobids) |>
+#   #for duplicates, keep latest coding
+#   all_stances <- all_stances |> 
+#     group_by(unit_id, coder, topic, variable) |> 
+#     slice_max(order_by = jobid, n=1)
+#   all_units <- all_stances |>
+#     list_units() |>
+#     arrange(unit_id, jobid) |>
+#     mutate(coder = as.numeric(as.factor(coder)))
 
-#for duplicates, keep latest coding
-all_stances <- all_stances |> group_by(unit_id, coder, topic, variable) |> 
-  slice_max(order_by = jobid, n=1)
+# # Identify the abbreviations of coders that are present in all_units
+# present_coders <- intersect(CODERS$abbrev, names(all_units))
 
-  
-all_units <- all_stances |>
+# # Convert only the columns for the present coders to numeric values
+# all_units_numeric <- all_units |> 
+#   mutate(across(all_of(present_coders), ~ as.numeric(factor(.))))
+
+all_units_numeric <- download_stances(all_jobids) |>
+  # Keep the latest coding for duplicates
+  group_by(unit_id, coder, topic, variable) |>
+  slice_max(order_by = jobid, n = 1) |>
+  # Process the units and arrange the data
   list_units() |>
-  arrange(unit_id, jobid)
-write_csv(all_units, "data/intermediate/coded_units.csv")
+  arrange(unit_id, jobid) |>
+  # Identify and keep only the columns for coders present in data
+  ungroup() |>
+  mutate(across(all_of(intersect(CODERS$abbrev, colnames(all_units_numeric))), ~ as.numeric(factor(.))))
 
+# Prepare the data as a matrix for Krippendorff's alpha calculation
+all_units_matrix <- all_units_numeric %>% 
+  select(all_of(present_coders)) %>% 
+  as.matrix() |>
+  t()
+
+# Calculate Krippendorff's alpha for entire dataset
+kripp_alpha <- kripp.alpha(all_units_matrix, method = "nominal")
+
+
+print(kripp_alpha)
+
+write_csv(all_units, "data/intermediate/coded_units.csv")
 
 
 #reliability calculation and plotting
@@ -112,6 +143,7 @@ alpha <- function(units, coders, values) {
     irr::kripp.alpha(method="nominal") |>
     with(value)
 }
+
 
 pairwise_alpha <- function(units, coders, values) {
   a <- tibble(unit_id=units, coder=coders, value=values)

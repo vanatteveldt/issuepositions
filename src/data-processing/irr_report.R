@@ -106,33 +106,24 @@ all_units_numeric <- all_units |>
 
 write_csv(all_units_numeric, "data/intermediate/coded_units.csv")
 
+
+
 # Reliability calculation and plotting
 
-# Prepare the data as a matrix for Krippendorff's alpha calculation
-all_units_matrix <- all_units_numeric |>
-  select(all_of(present_coders)) |>
-  as.matrix() |>
-  t()
+alpha <- function(all_units_numeric) {
+  select(all_units_numeric, all_of(present_coders)) |>
+    # Prepare the data as a matrix for Krippendorff's alpha calculation
+    as.matrix() |>
+    t() |>
+    # Calculate Krippendorff's alpha for entire dataset
+    irr::kripp.alpha(method="nominal")
+}
 
-# Calculate Krippendorff's alpha for entire dataset
-kripp_alpha <- kripp.alpha(all_units_matrix, method = "nominal")
+kripp_alpha <- alpha(all_units_numeric)
 
 
 print(kripp_alpha)
 
-
-
-alpha <- function(units, coders, values) {
-  # kripp.alpha likes numbers, so convert to factor -> number
-  tibble(unit_id=units, coder=coders, value=values) |>
-    mutate(value = as.numeric(as.factor(value))) |>
-    pivot_wider(names_from=coder) |>
-    column_to_rownames("unit_id") |>
-    as.matrix() |>
-    t() |> 
-    irr::kripp.alpha(method="nominal") |>
-    with(value)
-}
 
 
 pairwise_alpha <- function(units, coders, values) {

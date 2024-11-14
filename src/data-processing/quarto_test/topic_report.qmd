@@ -1,13 +1,52 @@
+---
+title: "Progression Report"
+format: html
+editor: visual
+---
+
+This file is used to visually represent the current status of coding data. Included are the reliability scores for coders and topics.
+
+## Data
+
+Raw data can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data) folder and code used to generate statistics and plots is available in [topic_status_report](https://github.com/vanatteveldt/issuepositions/blob/main/src/data-processing/topic_status_report.R) file.
+
+```{r}
+#| messages: false
+#| warnings: false
+#| output: false
+
+library(tidyverse)
 library(irr)
 library(ggplot2)
+library(readr)
+library(kableExtra)
+library(simplermarkdown)
+library(knitr)
 
-gpt_issues_all <- read_csv("data/intermediate/gpt_issues_all.csv")
-gpt_issues_all |> filter(logprob >= -5)
+```
 
-all_coded_units <- read_csv("data/intermediate/coded_units.csv")
+```{r}
+#| echo: true
+#| messages: false
+#| warnings: false
+#| output: false
+all_units <- read_csv("~/VU/issuepositions/data/intermediate/coded_units.csv")
+gpt_issues_all <- read_csv("~/VU/issuepositions/data/intermediate/gpt_issues_all.csv") |>
+  filter(logprob >= -5)
+
+```
+
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: false
+
+CODERS <- c("AvH","MR","WA","JF","NR","S", "ING","NK","SH","OY","KN","NPR","JE","AM")
 
 # # Identify the abbreviations of coders that are present in all_units
-present_coders <- intersect(CODERS$abbrev, names(all_coded_units))
+present_coders <- intersect(CODERS, names(all_units))
 
 # # Convert only the columns for the present coders to numeric values
 all_units_numeric <- all_units |> 
@@ -64,10 +103,6 @@ overall_kripp_alpha <- alpha(all_units_numeric)
 
 pairwise_kripp_alpha <- pairwise_alpha_new(all_units_numeric)
 
-print(overall_kripp_alpha)
-
-print(pairwise_kripp_alpha)
-
 
 #plotting reliability values between coders
 
@@ -91,10 +126,6 @@ plot_pairwise_kripp_alpha <- function(pairwise_kripp_alpha) {
     coord_fixed()
 }
 
-
-plot_pairwise_kripp_alpha(pairwise_kripp_alpha)
-
-
 # create topic info table
 
 # count units per topic coded
@@ -102,10 +133,16 @@ plot_pairwise_kripp_alpha(pairwise_kripp_alpha)
 
 topic_count <- function(df, topic_name){
   # count number of rows containing a topic
-  return (nrow(df[df$topic == topic_name,]))
+  if ((nrow(df[df$topic == topic_name,])==0)){
+      return (0)}
+  else{
+    return (nrow(df[df$topic == topic_name,]))}
 }
 
 topic_alpha <- function(df, topic_name) {
+  if (topic_count(df, topic_name) == 0){
+    return (0)
+  }
   all_units_numeric <- mutate(df, across(all_of(present_coders), ~ as.numeric(factor(.))))
   result <- all_units_numeric[all_units_numeric$topic == topic_name, ] |>
   select(all_of(present_coders)) |>
@@ -116,28 +153,64 @@ topic_alpha <- function(df, topic_name) {
   return(result$value)
 }
 
+
+```
+
+## Coder Reliability
+
+The overall reliability across all coded units is a Krippendorff's alpha of **`r round(overall_kripp_alpha$value, 2)`**
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: true
+#| label: plot-alpha
+
+# #| fig.cap: "Reliability scores between coders"
+
+plot_pairwise_kripp_alpha(pairwise_kripp_alpha)
+
+```
+
+## Topic Reliability
+
+The following table reports the progression of issues coded and the current reliability (calculated using Krippendorff's alpha) for each topic.
+
+```{r results='asis', echo=FALSE}
+
 topic_status <- function(df, total_df){
-  topic_info = tibble(topic_name = character(), completed_count = numeric(), total_count = numeric(), reliability = numeric())
+  topic_info <- tibble(topic_name = character(), completed_count = numeric(), total_count = numeric(), percentage_done = character(), reliability_α = numeric())  # Initialize as character to hold the formatted percentage
   
-  for (topic_name in unique(all_units_numeric$topic)) {
+  for (topic_name in unique(total_df$topic)) {
     completed_count <- topic_count(df, topic_name)
     total_count <- topic_count(total_df, topic_name)
-    topic_alpha <- topic_alpha(df, topic_name)
+    topic_alpha <- round(topic_alpha(df, topic_name), 2)
     
+    # Calculate percentage and format it directly
+    percentage_done <- paste0(round(100 * completed_count / total_count, 1), "%")
+    
+    # Add a new row with all necessary data
     topic_info <- topic_info |>
-      add_row(topic_name=topic_name, completed_count=completed_count, total_count=total_count, reliability=topic_alpha) |>
-      mutate(percentage_done = 100*completed_count/total_count)
-    
+      add_row(
+        topic_name = topic_name, 
+        completed_count = completed_count, 
+        total_count = total_count,
+        percentage_done = percentage_done,
+        reliability_α = topic_alpha
+      )
   }
+  
   return(topic_info)
 }
 
-topic_info = topic_status(all_units, gpt_issues_all)
-print(topic_info)
+topic_info <- topic_status(all_units, gpt_issues_all)
 
-no_agreement_units <- all_coded_units |>
-  filter(agreement < 1) |>
-  arrange(topic, unit_id)
+# Define custom column names
+custom_headers <- c("Topic", "Completed", "Total", "Percentage Done", "Reliability (α)")
 
-
+# Use kable and kableExtra for enhanced table customization
+kable(topic_info, format = "html", col.names = custom_headers, caption = "Topic Status Overview", align ='c') |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+```
 

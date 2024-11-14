@@ -135,3 +135,9 @@ topic_status <- function(df, total_df){
 topic_info = topic_status(all_units, gpt_issues_all)
 print(topic_info)
 
+no_agreement_units <- all_coded_units |>
+  filter(agreement < 1) |>
+  arrange(topic, unit_id)
+
+
+

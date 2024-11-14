@@ -101,6 +101,12 @@ all_units <- all_stances |>
 # save all coded stances as csv
 write_csv(all_units, "data/intermediate/coded_units.csv")
 
+# find units where coders do not agree on stance for new coding jobs
+no_agreement_units <- all_units |>
+  filter(agreement <= 0.5) |>
+  arrange(topic, unit_id)
+
+write_csv(no_agreement_units, "data/intermediate/no_agreement_units.csv")
 
 
 # Plotting reliability measures

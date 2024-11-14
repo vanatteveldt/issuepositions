@@ -1,6 +1,6 @@
 ---
 title: "Progression Report"
-format: html
+format: gfm
 editor: visual
 ---
 
@@ -210,7 +210,11 @@ topic_info <- topic_status(all_units, gpt_issues_all)
 custom_headers <- c("Topic", "Completed", "Total", "Percentage Done", "Reliability (α)")
 
 # Use kable and kableExtra for enhanced table customization
-kable(topic_info, format = "html", col.names = custom_headers, caption = "Topic Status Overview", align ='c') |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+#kable(topic_info, format = "html", col.names = custom_headers, caption = "Topic Status Overview", align ='c') |>
+#  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F)
+
+# Simple table for GFM
+# Use kable for Markdown output suitable for GFM
+kable(topic_info, format = "markdown", col.names = custom_headers, caption = "Topic Status Overview", align = 'c')
 ```
 

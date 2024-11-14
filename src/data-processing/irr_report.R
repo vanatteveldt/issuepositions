@@ -3,6 +3,7 @@ library(tidyverse)
 library(googlesheets4)
 library(jsonlite)
 library(irr)
+library(ggplot2)
 
 #load anonimised coders
 dotenv::load_dot_env(file = ".env")
@@ -97,72 +98,8 @@ all_units <- all_stances |>
   list_units() |>
   arrange(unit_id, jobid)
 
-# # Identify the abbreviations of coders that are present in all_units
-present_coders <- intersect(CODERS$abbrev, names(all_units))
-
-# # Convert only the columns for the present coders to numeric values
-all_units_numeric <- all_units |> 
-   mutate(across(all_of(present_coders), ~ as.numeric(factor(.))))
-
-write_csv(all_units_numeric, "data/intermediate/coded_units.csv")
-
-
-
-# Reliability calculation
-
-alpha <- function(all_units_numeric) {
-  select(all_units_numeric, all_of(present_coders)) |>
-    # Prepare the data as a matrix for Krippendorff's alpha calculation
-    as.matrix() |>
-    t() |>
-    # Calculate Krippendorff's alpha for entire dataset
-    irr::kripp.alpha(method="nominal")
-}
-
-
-pairwise_alpha_new <- function(all_units_numeric) {
-  coders <- present_coders
-  result <- tibble(coder1 = character(), coder2 = character(), alpha = numeric())
-  
-  for (i in 1:(length(coders) - 1)) {
-    for (j in (i + 1):length(coders)) {
-      coder1 <- coders[i]
-      coder2 <- coders[j]
-      
-      
-      # Filter data to include only coder columns
-      sub_data <- all_units_numeric |>
-        select(all_of(c(coder1, coder2))) |>
-        na.omit()
-      
-      # Check if there are enough data points for calculation
-      if (nrow(sub_data) > 1) {
-        
-        # Calculate Krippendorff's alpha for the pair
-        tryCatch({
-          alpha_value <- irr::kripp.alpha(t(as.matrix(sub_data)), method = "nominal")
-          # Store results
-          result <- result |>
-            bind_rows(tibble(coder1 = coder1, coder2 = coder2, alpha = alpha_value$value))
-        }, error = function(e) {
-          message("Error calculating alpha for ", coder1, " and ", coder2, ": ", e$message)
-        })
-      } else {
-        message("Insufficient data for calculating alpha between ", coder1, " and ", coder2)
-      }
-    }
-  }
-  
-  return(result)
-}
-  
-overall_kripp_alpha <- alpha(all_units_numeric)
-
-pairwise_kripp_alpha <- pairwise_alpha_new(all_units_numeric)
-
-print(overall_kripp_alpha)
-
-print(pairwise_kripp_alpha)
+# save all coded stances as csv
+write_csv(all_units, "data/intermediate/coded_units.csv")
 
 
 
@@ -205,12 +142,6 @@ plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
     xlab(coder1) + ylab(coder2) + theme(legend.position="none")
 }
 
-# plot_report(a, "stance", "IRR report for job 401")
-
-# plot_pairwise_confusion(a, "Jessica", "Nel",var="stance")
-
-# cms |> filter(coder1 == "Jessica") |> group_by(value.x) |> summarize(n=sum(n))
-
 
 # # Codeurs vergelijken met gold standard
 
@@ -221,14 +152,4 @@ plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
 #   separate(decision, into=c("topic", "stance"), sep="/") |>
 #   pivot_longer(topic:stance, names_to="variable") 
 
-# b <- a |> 
-#   bind_rows(gold) |>
-#   filter(variable == "topic", coder != "NR", coder != "Sarah") 
-
-# a |> select(unit_id, coder, stance) |> pivot_wider(names_from=coder, values_from=stance)
-
-
-# list_units(a) |> write_csv("/tmp/416.csv")
-
-# a |> select(unit_id) |> write_csv("data/intermediate/set_2_ids.csv")
 

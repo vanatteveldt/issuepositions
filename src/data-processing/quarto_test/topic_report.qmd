@@ -224,8 +224,11 @@ for  (topic_name in unique(all_units$topic)) {
   plot <- plot_pairwise_kripp_alpha(topic_alphas)
   print(plot)
   
+  a <- alpha(filter(all_units_numeric, topic == topic_name))
   
-  cat('\n')
+  cat("\n\n#### Topic α score:", a$value, "\n\n")
+  
+  cat('\n\n')
 }
 
 

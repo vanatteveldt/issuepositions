@@ -20,18 +20,20 @@ library(readr)
 library(kableExtra)
 library(simplermarkdown)
 library(knitr)
+library(dplyr)
+library(purrr)
 ```
 
 ``` r
-all_units <- read_csv("~/VU/issuepositions/data/intermediate/coded_units.csv")
-gpt_issues_all <- read_csv("~/VU/issuepositions/data/intermediate/gpt_issues_all.csv") |>
+all_units <- read_csv(here::here("data/intermediate/coded_units.csv"))
+gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |>
   filter(logprob >= -5)
 ```
 
 ## Coder Reliability
 
 The overall reliability across all coded units is a Krippendorff’s alpha
-of **0.71**
+of **0.72**
 
 ![](topic_report_files/figure-commonmark/plot-alpha-1.png)
 
@@ -41,21 +43,46 @@ The following table reports the progression of issues coded and the
 current reliability (calculated using Krippendorff’s alpha) for each
 topic.
 
+<center>
+
 |     Topic      | Completed | Total | Percentage Done | Reliability (α) |
 |:--------------:|:---------:|:-----:|:---------------:|:---------------:|
-|   Education    |    50     | 15877 |      0.3%       |      0.26       |
-|  CivilRights   |   1820    | 17137 |      10.6%      |      0.67       |
-|       NA       |   5411    | 28852 |      18.8%      |      1.00       |
-|  Immigration   |   2168    | 17483 |      12.4%      |      0.71       |
-|    Defense     |     0     | 16000 |       0%        |      0.00       |
-|  Environment   |   1373    | 16970 |      8.1%       |      0.67       |
-|    Economic    |     0     | 16905 |       0%        |      0.00       |
-|     Health     |     0     | 16166 |       0%        |      0.00       |
-| Infrastructure |     0     | 15519 |       0%        |      0.00       |
-|     Order      |     0     | 15945 |       0%        |      0.00       |
-|   Government   |     0     | 17093 |       0%        |      0.00       |
-|       EU       |     0     | 15703 |       0%        |      0.00       |
-|    Housing     |     0     | 15740 |       0%        |      0.00       |
-|  Agriculture   |     0     | 16106 |       0%        |      0.00       |
+|  Agriculture   |    790    |  102  |       13%       |      0.59       |
+|  CivilRights   |   1819    | 1819  |      100%       |      0.67       |
+|    Defense     |    682    |   0   |       0%        |       NA        |
+|       EU       |    387    |   0   |       0%        |       NA        |
+|    Economic    |   1588    |  488  |       31%       |      0.73       |
+|   Education    |    561    |  50   |       9%        |      0.26       |
+|  Environment   |   1650    | 1650  |      100%       |      0.70       |
+|   Government   |   1774    |   0   |       0%        |       NA        |
+|     Health     |    849    |   0   |       0%        |       NA        |
+|    Housing     |    422    |   0   |       0%        |       NA        |
+|  Immigration   |   2163    | 2163  |      100%       |      0.71       |
+| Infrastructure |    203    |   0   |       0%        |       NA        |
+|     Order      |    627    |   0   |       0%        |       NA        |
 
-Topic Status Overview
+</center>
+
+## Topic: Economic
+
+![](topic_report_files/figure-commonmark/pairwise-plots-1.png)
+
+## Topic: Immigration
+
+![](topic_report_files/figure-commonmark/pairwise-plots-2.png)
+
+## Topic: CivilRights
+
+![](topic_report_files/figure-commonmark/pairwise-plots-3.png)
+
+## Topic: Environment
+
+![](topic_report_files/figure-commonmark/pairwise-plots-4.png)
+
+## Topic: Agriculture
+
+![](topic_report_files/figure-commonmark/pairwise-plots-5.png)
+
+## Topic: Education
+
+![](topic_report_files/figure-commonmark/pairwise-plots-6.png)

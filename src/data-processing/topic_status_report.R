@@ -1,53 +1,14 @@
----
-title: "Progression Report"
-format: gfm
-editor: visual
----
-
-This file is used to visually represent the current status of coding data. Included are the reliability scores for coders and topics.
-
-## Data
-
-Raw data can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data) folder and code used to generate statistics and plots is available in [topic_status_report](https://github.com/vanatteveldt/issuepositions/blob/main/src/data-processing/topic_status_report.R) file.
-
-```{r}
-#| messages: false
-#| warnings: false
-#| output: false
-
-library(tidyverse)
 library(irr)
 library(ggplot2)
 library(readr)
-library(kableExtra)
-library(simplermarkdown)
-library(knitr)
-library(dplyr)
-library(purrr)
 
-```
-
-```{r}
-#| echo: true
-#| messages: false
-#| warnings: false
-#| output: false
-all_units <- read_csv(here::here("data/intermediate/coded_units.csv"))
-gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |>
+gpt_issues_all <- read_csv("data/intermediate/gpt_issues_all.csv") |>
   filter(logprob >= -5)
 
-```
-
-```{r}
-#| echo: false
-#| messages: false
-#| warnings: false
-#| output: false
-
-CODERS <- c("AvH","MR","WA","JF","NR","S", "ING","NK","SH","OY","KN","NPR","JE","AM")
+all_units <- read_csv("data/intermediate/coded_units.csv")
 
 # # Identify the abbreviations of coders that are present in all_units
-present_coders <- intersect(CODERS, names(all_units))
+present_coders <- intersect(CODERS$abbrev, names(all_units))
 
 # # Convert only the columns for the present coders to numeric values
 all_units_numeric <- all_units |> 
@@ -78,28 +39,26 @@ pairwise_alpha_new <- function(all_units_numeric) {
         select(all_of(c(coder1, coder2))) |>
         na.omit()
       
-      # Check if both coder columns are available
-      if (sum(colnames(sub_data) %in% c(coder1, coder2)) == 2 && nrow(sub_data) > 1) {
+      # Check if there are enough data points for calculation
+      if (nrow(sub_data) > 1) {
+        
+        # Calculate Krippendorff's alpha for the pair
         tryCatch({
           alpha_value <- irr::kripp.alpha(t(as.matrix(sub_data)), method = "nominal")
+          # Store results
           result <- result |>
             bind_rows(tibble(coder1 = coder1, coder2 = coder2, alpha = alpha_value$value))
         }, error = function(e) {
           message("Error calculating alpha for ", coder1, " and ", coder2, ": ", e$message)
         })
       } else {
-        #message("Insufficient data for calculating alpha between ", coder1, " and ", coder2)
+        message("Insufficient data for calculating alpha between ", coder1, " and ", coder2)
       }
-          }
-        }
-        
+    }
+  }
+  
   return(result)
 }
-
-
-overall_kripp_alpha <- alpha(all_units_numeric)
-
-pairwise_kripp_alpha <- pairwise_alpha_new(all_units_numeric)
 
 
 #plotting reliability values between coders
@@ -124,8 +83,11 @@ plot_pairwise_kripp_alpha <- function(pairwise_kripp_alpha) {
     coord_fixed()
 }
 
+
+
 # create topic info table
 
+# count units per topic coded
 
 topic_alpha <- function(df, topic_name) {
   all_units_numeric <- mutate(df, across(all_of(present_coders), ~ as.numeric(factor(.))))
@@ -135,36 +97,9 @@ topic_alpha <- function(df, topic_name) {
     as.matrix() |>
     t() |>
     irr::kripp.alpha(method="nominal") 
-  return(round(result$value,2))
+  return(result$value)
 }
 
-
-```
-
-## Coder Reliability
-
-The overall reliability across all coded units is a Krippendorff's alpha of **`r round(overall_kripp_alpha$value, 2)`**
-
-```{r}
-#| echo: false
-#| messages: false
-#| warnings: false
-#| output: true
-#| label: plot-alpha
-
-# #| fig.cap: "Reliability scores between coders"
-
-plot_pairwise_kripp_alpha(pairwise_kripp_alpha)
-
-```
-
-## Topic Reliability
-
-The following table reports the progression of issues coded and the current reliability (calculated using Krippendorff's alpha) for each topic.
-
-<center>
-
-```{r results='asis', echo=FALSE, message=F}
 
 topic_status <- function(df, total_df){
   topic_info <- tibble(topic_name = character(), completed_count = numeric(), total_count = numeric(), percentage_done = character(), reliability_α = numeric())  # Initialize as character to hold the formatted percentage
@@ -181,7 +116,6 @@ topic_status <- function(df, total_df){
   alphas <- completed_count |> 
     pull(topic) |> 
     unique() |>
-    
     map(function(topic) tibble(topic=topic, alpha=topic_alpha(df, topic)), .progress = T) |>
     list_rbind()
   
@@ -191,42 +125,12 @@ topic_status <- function(df, total_df){
     left_join(alphas) 
 }
 
+overall_kripp_alpha <- alpha(all_units_numeric)
+
+pairwise_kripp_alpha <- pairwise_alpha_new(all_units_numeric)
+
+plot_pairwise_kripp_alpha(pairwise_kripp_alpha)
 
 topic_info <- topic_status(all_units, gpt_issues_all)
 
-# Define custom column names
-custom_headers <- c("Topic", "Completed", "Total", "Percentage Done", "Reliability (α)")
-
-
-# Simple table for GFM
-# Use kable for Markdown output suitable for GFM
-
-kable(topic_info, format = "markdown", col.names = custom_headers, align = 'c')
-```
-
-</center>
-
-```{r}
-#| echo: false
-#| messages: true
-#| warnings: false
-#| label: pairwise-plots
-#| results: asis
-
-
-for  (topic_name in unique(all_units$topic)) {
-  cat("\n## Topic:", topic_name, "\n\n")
-  
-  topic_alphas <- all_units_numeric |>
-    filter(topic == topic_name) |>
-    pairwise_alpha_new()
-  
-  plot <- plot_pairwise_kripp_alpha(topic_alphas)
-  print(plot)
-  
-  
-  cat('\n')
-}
-
-
-```
+print(topic_info)

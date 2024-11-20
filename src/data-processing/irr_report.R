@@ -85,7 +85,7 @@ list_units <- function(annotations) {
 # retrieve Jobids from google sheets
 # set OAuth token to access sheets doc
 all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
-  filter(Jobid >= 495 & Jobid <= 618) |>     #coding jobs before 495 were training an contain many duplicates, jobs after 619 were not yet finished
+  filter(Jobid >= 495) |>     #coding jobs before 495 were training an contain many duplicates, jobs after 619 were not yet finished
   pull(Jobid) |> 
   unique()
 
@@ -100,13 +100,6 @@ all_units <- all_stances |>
 
 # save all coded stances as csv
 write_csv(all_units, "data/intermediate/coded_units.csv")
-
-# find units where coders do not agree on stance for new coding jobs
-no_agreement_units <- all_units |>
-  filter(agreement <= 0.5) |>
-  arrange(topic, unit_id)
-
-write_csv(no_agreement_units, "data/intermediate/no_agreement_units.csv")
 
 
 # Plotting reliability measures

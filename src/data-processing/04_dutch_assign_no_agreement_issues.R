@@ -7,7 +7,7 @@ CODERS <- c("WA","NR","S","NK","KN","NPR","JE","AM")
 
 TOPIC = "CivilRights"
 
-CODER = "AM"
+CODER = "NK"
 
 # Load units coded so far and filter on agreement
 all_coded_units <- read_csv("data/intermediate/coded_units.csv") |>
@@ -71,7 +71,3 @@ connect_annotinder()
 upload_job(glue::glue("No Agreement set 1: {TOPIC} for {CODER}"), units2, cb)
 
 
-
-# Add created units to unfinished_units via google sheets? Of handmatig?
-
-sheet_append()

@@ -20,9 +20,9 @@ get_units_per_job <- function(jobids) {
 get_assigned_jobs <- function() {
   #coding jobs before 495 were training an contain many duplicates, jobs after 619 were not yet finished
   read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
-    filter(Jobid >= 495) |>
-    select(Jobid, Set, Topic, starts_with("Codeur")) |>
-    pivot_longer(starts_with("codeur"), values_to="codeur") |>
+    filter(jobid >= 495) |>
+    select(jobid, set, topic, starts_with("Codeur")) |>
+    pivot_longer(starts_with("codeur"), values_to="coder") |>
     select(-name) |>
-    filter(!is.na(codeur))
+    filter(!is.na(coder))
 }

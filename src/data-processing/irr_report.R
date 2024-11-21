@@ -85,8 +85,8 @@ list_units <- function(annotations) {
 # retrieve Jobids from google sheets
 # set OAuth token to access sheets doc
 all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
-  filter(Jobid >= 495) |>     #coding jobs before 495 were training an contain many duplicates, jobs after 619 were not yet finished
-  pull(Jobid) |> 
+  filter(jobid >= 495) |>     #coding jobs before 495 were training an contain many duplicates, jobs after 619 were not yet finished
+  pull(jobid) |> 
   unique()
 
 all_stances <- download_stances(all_jobids) |>

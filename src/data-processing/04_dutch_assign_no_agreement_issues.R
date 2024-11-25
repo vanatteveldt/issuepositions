@@ -7,7 +7,7 @@ CODERS <- c("WA","NR","S","NK","KN","NPR","JE","AM")
 
 TOPIC = "CivilRights"
 
-CODER = "NK"
+CODER = "KN"
 
 # Load units coded so far and filter on agreement
 all_coded_units <- read_csv("data/intermediate/coded_units.csv") |>

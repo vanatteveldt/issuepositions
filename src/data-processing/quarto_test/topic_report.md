@@ -33,7 +33,7 @@ gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |
 ## Coder Reliability
 
 The overall reliability across all coded units is a Krippendorff’s alpha
-of **0.72**
+of **0.71**
 
 ![](topic_report_files/figure-commonmark/plot-alpha-1.png)
 
@@ -47,13 +47,13 @@ topic.
 
 |     Topic      | Completed | Total | Percentage Done | Reliability (α) |
 |:--------------:|:---------:|:-----:|:---------------:|:---------------:|
-|  Agriculture   |    790    |  102  |       13%       |      0.59       |
+|  Agriculture   |    790    |  102  |       13%       |      0.65       |
 |  CivilRights   |   1819    | 1819  |      100%       |      0.67       |
 |    Defense     |    682    |   0   |       0%        |       NA        |
 |       EU       |    387    |   0   |       0%        |       NA        |
-|    Economic    |   1588    |  488  |       31%       |      0.73       |
+|    Economic    |   1588    |  908  |       57%       |      0.70       |
 |   Education    |    561    |  50   |       9%        |      0.26       |
-|  Environment   |   1650    | 1650  |      100%       |      0.70       |
+|  Environment   |   1650    | 1650  |      100%       |      0.69       |
 |   Government   |   1774    |   0   |       0%        |       NA        |
 |     Health     |    849    |   0   |       0%        |       NA        |
 |    Housing     |    422    |   0   |       0%        |       NA        |
@@ -67,7 +67,7 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-1.png)
 
-#### Topic α score: 0.7294486
+#### Topic α score: 0.6997512
 
 ## Topic: Immigration
 
@@ -85,13 +85,13 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-4.png)
 
-#### Topic α score: 0.6998167
+#### Topic α score: 0.6928992
 
 ## Topic: Agriculture
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-5.png)
 
-#### Topic α score: 0.5882398
+#### Topic α score: 0.6531204
 
 ## Topic: Education
 

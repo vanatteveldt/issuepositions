@@ -53,7 +53,3 @@ class TextClassificationDataset(Dataset):
     
 
 
-data_file = "data\intermediate\coded_units.csv"
-
-texts, labels = list_data(data_file)
-

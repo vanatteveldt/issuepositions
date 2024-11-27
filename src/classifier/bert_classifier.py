@@ -1,5 +1,6 @@
 import os
 import torch
+from pathlib import Path
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
 from transformers import BertTokenizer, BertModel, AdamW, get_linear_schedule_with_warmup
@@ -71,7 +72,7 @@ def predict_sentiment(text, model, tokenizer, device, max_length=128):
                 return "L"
             
 
-data_file = "data\intermediate\coded_units.csv"
+data_file = Path("data//intermediate//coded_units.csv")
 
 texts, labels = list_data(data_file)
 

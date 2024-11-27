@@ -3,3 +3,6 @@ pyhere
 pyyaml
 pydantic
 krippendorff
+torch
+transformers
+scikit-learn

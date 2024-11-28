@@ -1,3 +1,4 @@
+import itertools
 import torch
 from pathlib import Path
 from torch import nn
@@ -73,39 +74,64 @@ def evaluate(model, data_loader, device):
 
             
 if __name__ == "__main__":
-
+    # load training data data and basemodel
     data_file = Path("data//intermediate//coded_units.csv")
     topic = "Environment"
-
     texts, labels = list_data(data_file, topic)
-
     bert_model_name = 'bert-base-uncased'
     num_classes = 3
-    max_length = 256
-    batch_size = 16
-    num_epochs = 3
-    learning_rate = 2e-5
 
-    train_texts, val_texts, train_labels, val_labels = train_test_split(texts, labels, test_size=0.2, random_state=42)
+    # grid search for hyperparameter optimization
+    learning_rates = [2e-5, 3e-5, 5e-5]
+    batch_sizes = [16, 32]
+    num_epochs_list = [2, 3, 4]
+    dropout_rates = [0.1, 0.3]
+    max_lengths = [256, 516]
 
-    tokenizer = BertTokenizer.from_pretrained(bert_model_name)
-    train_dataset = TextClassificationDataset(train_texts, train_labels, tokenizer, max_length)
-    val_dataset = TextClassificationDataset(val_texts, val_labels, tokenizer, max_length)
-    train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-    val_dataloader = DataLoader(val_dataset, batch_size=batch_size)
+    hyperparameter_combinations = list(itertools.product(learning_rates, batch_sizes, num_epochs_list, dropout_rates, max_lengths))
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = BERTClassifier(bert_model_name, num_classes).to(device)
+    best_accuracy = 0
+    best_hyperparams = None
+    best_model_state = None
+    
+    for learning_rate, batch_size, num_epochs, dropout_rate, max_length in hyperparameter_combinations:
+        print(f"Training with lr={learning_rate}, batch_size={batch_size}, num_epochs={num_epochs}, dropout_rate={dropout_rate}")
 
-    optimizer = AdamW(model.parameters(), lr=learning_rate)
-    total_steps = len(train_dataloader) * num_epochs
-    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+        # create test and validation split
+        train_texts, val_texts, train_labels, val_labels = train_test_split(texts, labels, test_size=0.2, random_state=42)
 
-    for epoch in range(num_epochs):
-            print(f"Epoch {epoch + 1}/{num_epochs}")
-            train(model, train_dataloader, optimizer, scheduler, device)
-            accuracy, report = evaluate(model, val_dataloader, device)
-            print(f"Validation Accuracy: {accuracy:.4f}")
-            print(report)
+        tokenizer = BertTokenizer.from_pretrained(bert_model_name)
+        train_dataset = TextClassificationDataset(train_texts, train_labels, tokenizer, max_length)
+        val_dataset = TextClassificationDataset(val_texts, val_labels, tokenizer, max_length)
+        train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+        val_dataloader = DataLoader(val_dataset, batch_size=batch_size)
 
-    torch.save(model.state_dict(), Path(f"models/bert_{topic}_classifier.pth"))
+
+        # initialize model
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = BERTClassifier(bert_model_name, num_classes).to(device)
+
+        # initialize optimizer and scheduler
+        optimizer = AdamW(model.parameters(), lr=learning_rate)
+        total_steps = len(train_dataloader) * num_epochs
+        scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
+
+        # train and evaluate
+        for epoch in range(num_epochs):
+                print(f"Epoch {epoch + 1}/{num_epochs}")
+                train(model, train_dataloader, optimizer, scheduler, device)
+                accuracy, report = evaluate(model, val_dataloader, device)
+                print(f"Validation Accuracy: {accuracy:.4f}")
+                print(report)
+
+        # check if this is the best model (currently only checking for accuracy)
+        if accuracy > best_accuracy:
+                best_accuracy = accuracy
+                best_hyperparams = (learning_rate, batch_size, num_epochs, dropout_rate, max_length)
+                best_model_state = model.state_dict()
+
+        print(f"Best Hyperparameters: Learning Rate={best_hyperparams[0]}, Batch Size={best_hyperparams[1]}, "
+            f"Num Epochs={best_hyperparams[2]}, Dropout Rate={best_hyperparams[3]}, Max Length={best_hyperparams[4]}")
+
+        # save best model state
+        torch.save(best_model_state, Path(f"models/bert_{topic}_classifier.pth"))

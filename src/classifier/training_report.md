@@ -3,37 +3,40 @@
 Best model can be found on [Huggingface](https://huggingface.co/n-Taco/issuepositions-environment-v1/tree/main).
 
 ## Grid search variables for hyperparameter optimization
-    learning_rates = [2e-5]
-    batch_sizes = [8]
-    num_epochs_list = [1]
-    dropout_rates = [0.1]
-    max_lengths = [128]
+    learning_rates = [2e-5, 3e-5, 5e-5]
+    batch_sizes = [8, 16]
+    num_epochs_list = [2, 3, 4]
+    dropout_rates = [0.1, 0.3]
+    max_lengths = [128, 256]
 
-> Adding higher batch_size results in running out of GPU memory
+> Adding batch_size > 16 results in running out of GPU memory
 >
-> Adding longer max_length results in running out of GPU memory
+> Adding max_length > 256 results in running out of GPU memory
 > 
-> Trainig time: 0.75  mins (test run)
+> Trainig time: not completed (> 1,5h)
+>
+> Training run up to: lr=3e-5, batch_size=8, num_epochs=3, dropout=0.3, max_length=128
+> 
 
 ## Results
 ### Validation Score
-Validation Accuracy: 0.5663
+Validation Accuracy: 0.7893
 
-### Best Hyperparameters
+### Optimal Hyperparameters
     learning_rate: 2e-5
     batch_size: 8
-    num_epochs: 1
+    num_epochs: 4
     dropout_rate: 0.1
     max_length: 128
 
 ### Test Scores
 | Class    | Precision | Recall | F1-Score | Support (instances of class)|
 | -------- | :-------: | :-------: | :-------: | :-------: |
-| L | 0.55 | 0.56 | 0.80 | 203 | 
-| N | 0.64 | 0.46 | 0.53 | 261 |    
-| R | 0.53 | 0.68 | 0.60 | 267 |
+| L | 0.87 | 0.79 | 0.83 | 203 | 
+| N | 0.73 | 0.75 | 0.74 | 261 |    
+| R | 0.79 | 0.83 | 0.81 | 267 |
 | ____________________ |
-| Accuracy | - | - | 0.57 | 731 |
-| Macro average | 0.58 | 0.57 | 0.56 | 731 |
-| Weighted average | 0.58 | 0.57 | 0.56 | 731 |
+| Accuracy | - | - | 0.79 | 731 |
+| Macro average | 0.80 | 0.79 | 0.79 | 731 |
+| Weighted average | 0.79 | 0.79 | 0.79 | 731 |
 

@@ -1,31 +1,45 @@
 import torch
-from transformers import BertTokenizer, BertForSequenceClassification
+from transformers import BertTokenizer
+from bert_classifier import BERTClassifier
 
-# Define paths
-model_path = "src/classifier/bert_classifier.pth"
+# Define variables
+model_path = "src/classifier/models/bert_classifier.pth"
+bert_model_name = 'bert-base-uncased'
+num_classes = 3
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-# Load tokenizer
-tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")  # Adjust to the specific BERT variant you used
+# Initialize the tokenizer with a pretrained model
+tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Load model architecture and weights
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)  # Adjust `num_labels` as needed
-model.load_state_dict(torch.load(model_path))
-model.eval()  # Set model to evaluation mode
+model = BERTClassifier(bert_model_name, num_classes)
+model.load_state_dict(torch.load(model_path, map_location=torch.device(device), weights_only=True))
+model.to(device)
 
-# Inference function
-def predict(text, model, tokenizer):
-    # Tokenize and prepare input
-    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
+# Define reverse category mapping
+reverse_category_mapping = {0: 'L', 1: 'N', 2: 'R'}
+
+
+def predict_stance(text, model, tokenizer, device, max_length=128):
+    model.eval()
+    encoding = tokenizer(text, return_tensors='pt', max_length=max_length, padding='max_length', truncation=True)
+    input_ids = encoding['input_ids'].to(device)
+    attention_mask = encoding['attention_mask'].to(device)
+
     with torch.no_grad():
-        outputs = model(**inputs)
-        logits = outputs.logits
-        probabilities = torch.softmax(logits, dim=1)
-        predicted_class = torch.argmax(probabilities, dim=1).item()
-    return predicted_class, probabilities
+            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+            probabilities = torch.nn.functional.softmax(outputs, dim=1)
+            _, preds = torch.max(outputs, dim=1)
 
-# Example usage
-text = "This is an example sentence for classification."
-predicted_class, probabilities = predict(text, model, tokenizer)
+            # Map predictions to labels
+            predicted_label = reverse_category_mapping[preds.item()]
+            
+            # Map probabilities to their corresponding labels
+            probability_mapping = {reverse_category_mapping[i]: prob for i, prob in enumerate(probabilities.squeeze().tolist())}
+            
+            return predicted_label, probability_mapping
 
-print(f"Predicted class: {predicted_class}")
-print(f"Probabilities: {probabilities}")
+predicted_stance, probabilities = predict_stance("Stikstof, Stikstof, Stikstof, Duizend maal Stikstof.", model, tokenizer, device)
+
+print(f"Predicted stance: {predicted_stance}")
+print(f"Probablilities: {probabilities}")

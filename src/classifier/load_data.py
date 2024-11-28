@@ -1,20 +1,15 @@
-import os
 import torch
-from torch import nn
-from torch.utils.data import DataLoader, Dataset
-from transformers import BertTokenizer, BertModel, AdamW, get_linear_schedule_with_warmup
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+from torch.utils.data import  Dataset
 import pandas as pd
 
 
-def load_data(data_file:str):
+def load_data(data_file:str, topic:str):
     df = pd.read_csv(data_file)
     df = df.reset_index()
     df = pd.melt(df, id_vars=["jobid", "unit_id", "topic", "text"], value_vars=["NK", "NPR", "AM", "KN", "SH", "NR", "JE", "WA"], value_name="value")
     df = df.dropna()
 
-    return df.loc[df['topic'] == "Environment"]
+    return df.loc[df['topic'] == topic]
 
 
 def category_mapping(df:pd.DataFrame, colname:str="value"):
@@ -24,9 +19,9 @@ def category_mapping(df:pd.DataFrame, colname:str="value"):
     return df
 
 
-def list_data(data_file:str):
+def list_data(data_file:str, topic:str):
     "Takes path to a csv file and returns a list of lists containing texts and coded values (labels)"
-    df = load_data(data_file=data_file)
+    df = load_data(data_file, topic)
     num_df = category_mapping(df)
     
     texts = num_df['text'].tolist()

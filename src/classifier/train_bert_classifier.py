@@ -130,8 +130,13 @@ if __name__ == "__main__":
                 best_hyperparams = (learning_rate, batch_size, num_epochs, dropout_rate, max_length)
                 best_model_state = model.state_dict()
 
-        print(f"Best Hyperparameters: Learning Rate={best_hyperparams[0]}, Batch Size={best_hyperparams[1]}, "
-            f"Num Epochs={best_hyperparams[2]}, Dropout Rate={best_hyperparams[3]}, Max Length={best_hyperparams[4]}")
+        print(f"""Best Hyperparameters: 
+            Learning Rate={best_hyperparams[0]} 
+            Batch Size={best_hyperparams[1]}
+            Num Epochs={best_hyperparams[2]}
+            Dropout Rate={best_hyperparams[3]}
+            Max Length={best_hyperparams[4]}""")
 
-        # save best model state
-        torch.save(best_model_state, Path(f"models/bert_{topic}_classifier.pth"))
+    # save best model state
+    print("Saving best performing model...")
+    torch.save(best_model_state, Path(f"models/bert_{topic}_classifier.pth"))

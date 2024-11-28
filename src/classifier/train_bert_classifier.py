@@ -1,13 +1,30 @@
-import os
 import torch
 from pathlib import Path
 from torch import nn
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Dataset
 from transformers import BertTokenizer, BertModel, AdamW, get_linear_schedule_with_warmup
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
-from load_data import TextClassificationDataset, list_data
+from load_data import list_data
+
+
+class TextClassificationDataset(Dataset):
+    def __init__(self, texts, labels, tokenizer, max_length):
+            self.texts = texts
+            self.labels = labels
+            self.tokenizer = tokenizer
+            self.max_length = max_length
+
+    def __len__(self):
+        return len(self.texts)
+    
+    def __getitem__(self, idx):
+        text = self.texts[idx]
+        label = self.labels[idx]
+        encoding = self.tokenizer(text, return_tensors='pt', max_length=self.max_length, padding='max_length', truncation=True)
+        return {'input_ids': encoding['input_ids'].flatten(), 'attention_mask': encoding['attention_mask'].flatten(), 'label': torch.tensor(label)}
+
 
 class BERTClassifier(nn.Module):
     def __init__(self, bert_model_name, num_classes):
@@ -36,6 +53,7 @@ def train(model:BertModel, data_loader, optimizer, scheduler, device):
         loss.backward()
         optimizer.step()
         scheduler.step()
+
 
 def evaluate(model, data_loader, device):
     model.eval()
@@ -90,4 +108,4 @@ if __name__ == "__main__":
             print(f"Validation Accuracy: {accuracy:.4f}")
             print(report)
 
-    torch.save(model.state_dict(), f"bert_{topic}_classifier.pth")
+    torch.save(model.state_dict(), Path(f"models/bert_{topic}_classifier.pth"))

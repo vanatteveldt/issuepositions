@@ -1,12 +1,15 @@
 import torch
 from transformers import BertTokenizer
-from bert_classifier import BERTClassifier
+from train_bert_classifier import BERTClassifier
 
-# Define variables
+# Define model variables
 model_path = "src/classifier/models/bert_classifier.pth"
 bert_model_name = 'bert-base-uncased'
 num_classes = 3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+# Define reverse category mapping
+reverse_category_mapping = {0: 'L', 1: 'N', 2: 'R'}
 
 # Initialize the tokenizer with a pretrained model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -15,13 +18,10 @@ tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BERTClassifier(bert_model_name, num_classes)
 model.load_state_dict(torch.load(model_path, map_location=torch.device(device), weights_only=True))
 model.to(device)
-
-# Define reverse category mapping
-reverse_category_mapping = {0: 'L', 1: 'N', 2: 'R'}
+model.eval()
 
 
 def predict_stance(text, model, tokenizer, device, max_length=128):
-    model.eval()
     encoding = tokenizer(text, return_tensors='pt', max_length=max_length, padding='max_length', truncation=True)
     input_ids = encoding['input_ids'].to(device)
     attention_mask = encoding['attention_mask'].to(device)
@@ -39,7 +39,8 @@ def predict_stance(text, model, tokenizer, device, max_length=128):
             
             return predicted_label, probability_mapping
 
-predicted_stance, probabilities = predict_stance("Stikstof, Stikstof, Stikstof, Duizend maal Stikstof.", model, tokenizer, device)
+if __name__ == "__main__":
+    predicted_stance, probabilities = predict_stance("Jetten vindt Groene stroom opwekken op de noordzee belangrijk. Subsidies voor fossiele brandstoffen moeten we volgens hem schrappen. Duurzaamheid is belangrijk voor de planeet en de volgende generaties.", model, tokenizer, device)
 
-print(f"Predicted stance: {predicted_stance}")
-print(f"Probablilities: {probabilities}")
+    print(f"Predicted stance: {predicted_stance}")
+    print(f"Probablilities: {probabilities}")

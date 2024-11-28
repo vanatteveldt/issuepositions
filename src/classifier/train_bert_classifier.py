@@ -1,5 +1,6 @@
 import itertools
 import torch
+import time
 from pathlib import Path
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
@@ -70,23 +71,27 @@ def evaluate(model, data_loader, device):
             predictions.extend(preds.cpu().tolist())
             actual_labels.extend(labels.cpu().tolist())
 
-    return accuracy_score(actual_labels, predictions), classification_report(actual_labels, predictions)
+    return accuracy_score(actual_labels, predictions), classification_report(actual_labels, predictions, labels= ['L', 'N', 'R'])
 
             
 if __name__ == "__main__":
+
+    start_time = time.time()
+    
     # load training data data and basemodel
     data_file = Path("data//intermediate//coded_units.csv")
-    topic = "Environment"
+    topic = "CivilRights"
     texts, labels = list_data(data_file, topic)
     bert_model_name = 'bert-base-uncased'
     num_classes = 3
 
     # grid search for hyperparameter optimization
-    learning_rates = [2e-5, 3e-5, 5e-5]
-    batch_sizes = [16, 32]
-    num_epochs_list = [2, 3, 4]
-    dropout_rates = [0.1, 0.3]
-    max_lengths = [256, 516]
+    # grid search not completed (see .md file)
+    learning_rates = [2e-5] #, 3e-5, 5e-5]
+    batch_sizes = [8] #, 16]
+    num_epochs_list = [4] #2, 3, 4]
+    dropout_rates = [0.1] #, 0.3]
+    max_lengths = [128] #, 256]
 
     hyperparameter_combinations = list(itertools.product(learning_rates, batch_sizes, num_epochs_list, dropout_rates, max_lengths))
 
@@ -95,7 +100,7 @@ if __name__ == "__main__":
     best_model_state = None
     
     for learning_rate, batch_size, num_epochs, dropout_rate, max_length in hyperparameter_combinations:
-        print(f"Training with lr={learning_rate}, batch_size={batch_size}, num_epochs={num_epochs}, dropout_rate={dropout_rate}")
+        print(f"Training with lr={learning_rate}, batch_size={batch_size}, num_epochs={num_epochs}, dropout_rate={dropout_rate}, max_length={max_length}\n")
 
         # create test and validation split
         train_texts, val_texts, train_labels, val_labels = train_test_split(texts, labels, test_size=0.2, random_state=42)
@@ -112,13 +117,13 @@ if __name__ == "__main__":
         model = BERTClassifier(bert_model_name, num_classes).to(device)
 
         # initialize optimizer and scheduler
-        optimizer = AdamW(model.parameters(), lr=learning_rate)
+        optimizer = AdamW(model.parameters(), lr=learning_rate, no_deprecation_warning=True)
         total_steps = len(train_dataloader) * num_epochs
         scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
 
         # train and evaluate
         for epoch in range(num_epochs):
-                print(f"Epoch {epoch + 1}/{num_epochs}")
+                print(f"Epoch {epoch + 1}/{num_epochs}\n")
                 train(model, train_dataloader, optimizer, scheduler, device)
                 accuracy, report = evaluate(model, val_dataloader, device)
                 print(f"Validation Accuracy: {accuracy:.4f}")
@@ -135,8 +140,17 @@ if __name__ == "__main__":
             Batch Size={best_hyperparams[1]}
             Num Epochs={best_hyperparams[2]}
             Dropout Rate={best_hyperparams[3]}
-            Max Length={best_hyperparams[4]}""")
+            Max Length={best_hyperparams[4]}\n""")
 
     # save best model state
+    # make sure to have an existing /models directory in the right location
     print("Saving best performing model...")
-    torch.save(best_model_state, Path(f"models/bert_{topic}_classifier.pth"))
+    #location = f"src/classifier/models/bert_{topic}_classifier.pth"
+    torch.save(best_model_state, Path(f"src/classifier/models/bert_{topic}_classifier.pth"))
+    
+    end_time = time.time()
+    
+    elapsed_time = (end_time-start_time)/60
+    print(f"Total training time: {elapsed_time:.2f} minutes")
+    
+

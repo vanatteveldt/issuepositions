@@ -21,7 +21,8 @@ jobs:
       - name: Check for relevant file changes
         id: file-check
         run: |
-          git diff --name-only HEAD^ HEAD > changes.txt
+          git fetch origin main
+          git diff --name-only origin/main > changes.txt
           if ! grep -qE 'annotations/topics.yml|src/actions/topics.md' changes.txt; then
             echo "No relevant changes detected."
             exit 0

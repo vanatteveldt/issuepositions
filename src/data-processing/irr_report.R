@@ -39,7 +39,7 @@ download <- function(jobid) {
 }
 
 
-topics <- yaml::read_yaml("C:/Users/jelle/OneDrive/Documents/VU/issuepositions/annotations/topics.yml")
+topics <- yaml::read_yaml("annotations/topics.yml")
 
 topiclist <- topics |> map(function(t) 
   tibble(stance=c("L", "R"), 

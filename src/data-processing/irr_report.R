@@ -103,44 +103,44 @@ all_units <- all_stances |>
 write_csv(all_units, "data/intermediate/coded_units.csv")
 
 
-# Plotting reliability measures
+# # Plotting reliability measures
 
-plot_report <- function(annotations, var="topic", title="IRR Report") {
-  annotations <- annotations |> filter(variable == var)
-  alpha <- with(annotations, round(alpha(unit_id, coder, value), 2))
-  n <- length(unique(annotations$unit_id))
-  report <- with(annotations, pairwise_alpha(unit_id, coder, value))
-  ggplot(report, aes(y=coder1, x=coder2, fill=alpha, label=str_c(round(alpha, 2), "\nn=",n))) + 
-    geom_tile() + geom_text() + scale_fill_gradient2(midpoint=.5, high=scales::muted("green")) +
-    ggtitle(title, str_c("Overall alpha=", round(alpha,2),", n=", n)) +
-    theme_minimal() + xlab("") + ylab("") + theme(legend.position="none")
-}
+# plot_report <- function(annotations, var="topic", title="IRR Report") {
+#   annotations <- annotations |> filter(variable == var)
+#   alpha <- with(annotations, round(alpha(unit_id, coder, value), 2))
+#   n <- length(unique(annotations$unit_id))
+#   report <- with(annotations, pairwise_alpha(unit_id, coder, value))
+#   ggplot(report, aes(y=coder1, x=coder2, fill=alpha, label=str_c(round(alpha, 2), "\nn=",n))) + 
+#     geom_tile() + geom_text() + scale_fill_gradient2(midpoint=.5, high=scales::muted("green")) +
+#     ggtitle(title, str_c("Overall alpha=", round(alpha,2),", n=", n)) +
+#     theme_minimal() + xlab("") + ylab("") + theme(legend.position="none")
+# }
 
-confusion_matrix <- function(annotations, coder1, coder2) {
-  inner_join(filter(annotations, coder==coder1),
-             filter(annotations, coder==coder2),
-             by="unit_id") |>
-    group_by(value.x, value.y) |>
-    summarize(n=n(), .groups="drop")
-}
+# confusion_matrix <- function(annotations, coder1, coder2) {
+#   inner_join(filter(annotations, coder==coder1),
+#              filter(annotations, coder==coder2),
+#              by="unit_id") |>
+#     group_by(value.x, value.y) |>
+#     summarize(n=n(), .groups="drop")
+# }
 
-pairwise_confusion <- function(annotations, var="topic") {
-  annotations <- annotations |> filter(variable == var)
-  coders = unique(annotations$coder)
-  cms <- expand_grid(coder1=coders, coder2=coders) |>
-    filter(coder1 != coder2) |>
-    pmap(function(coder1, coder2) confusion_matrix(annotations, coder1, coder2) |>
-           add_column(coder1=coder1, coder2=coder2)) |>
-    list_rbind()
-}
-plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
-  pairwise_confusion(annotations, var=var) |>
-    filter(coder1==.env$coder1, coder2==.env$coder2) |>
-    ggplot(aes(x=value.x, y=value.y, fill=n, label=n)) + geom_tile() + geom_text() +
-    scale_fill_gradient(low="white", high=scales::muted("green")) +
-    theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust=1)) + 
-    xlab(coder1) + ylab(coder2) + theme(legend.position="none")
-}
+# pairwise_confusion <- function(annotations, var="topic") {
+#   annotations <- annotations |> filter(variable == var)
+#   coders = unique(annotations$coder)
+#   cms <- expand_grid(coder1=coders, coder2=coders) |>
+#     filter(coder1 != coder2) |>
+#     pmap(function(coder1, coder2) confusion_matrix(annotations, coder1, coder2) |>
+#            add_column(coder1=coder1, coder2=coder2)) |>
+#     list_rbind()
+# }
+# plot_pairwise_confusion <- function(annotations, coder1, coder2, var="topic") {
+#   pairwise_confusion(annotations, var=var) |>
+#     filter(coder1==.env$coder1, coder2==.env$coder2) |>
+#     ggplot(aes(x=value.x, y=value.y, fill=n, label=n)) + geom_tile() + geom_text() +
+#     scale_fill_gradient(low="white", high=scales::muted("green")) +
+#     theme_minimal() + theme(axis.text.x = element_text(angle=45, hjust=1)) + 
+#     xlab(coder1) + ylab(coder2) + theme(legend.position="none")
+# }
 
 
 # # Codeurs vergelijken met gold standard

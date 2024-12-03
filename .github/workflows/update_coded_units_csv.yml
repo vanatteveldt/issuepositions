@@ -3,7 +3,7 @@ name: Update coded units csv File
 on: 
   schedule:
     # Runs the workflow every day at 01:00 UTC
-    - cron: '6 12 * * *'
+    - cron: '8 11 * * *'
 
 jobs:
   update_coded_units_csv:

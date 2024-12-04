@@ -5,6 +5,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import AIMessage
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, Field
+from typing import TypedDict
 
 load_dotenv()
 
@@ -46,14 +47,22 @@ class Classification(BaseModel):
     )
 
 
-def create_input(prompt:ChatPromptTemplate, data:dict):
+class TopicData(TypedDict):
+    topic: str
+    description: dict
+    labels: dict
+    issues: list
+    predictions: list
+
+
+def create_input(prompt:ChatPromptTemplate, data:dict, issue):
 
     input = prompt.format_messages(topic=data['topic'],
                                positive_description=data['descriptions']['positive'],
                                positive_label=data['labels']['positive'],
                                negative_description=data['descriptions']['negative'],
                                negative_label=data['labels']['negative'],
-                               issue=data['issue'])
+                               issue=issue)
     
     return input
 
@@ -64,9 +73,9 @@ def create_llm(temperature, model_name, logprobs=False):
         llm = ChatOpenAI(temperature=temperature, model=model_name).bind(logprobs=True)
         return llm
     else: 
-        llm = ChatOpenAI(temperature=temperature, model=model_name, logprobs=True).with_structured_output(
+        llm = ChatOpenAI(temperature=temperature, model=model_name).with_structured_output(
             Classification,
-            include_raw=True
+            include_raw=False
             )
         return llm
         
@@ -78,19 +87,22 @@ def generate_label(llm:ChatOpenAI, input, logprobs=False):
         return output.response_metadata["logprobs"]["content"][:5], output.content
 
     else:
-        return output['parsed']
+        return output.label
 
 
-def generate_labels(prompt, data:dict, logprobs:bool):
+def generate_labels(prompt, data:TopicData, logprobs:bool):
 
     llm = create_llm(0, "gpt-4o-2024-08-06", logprobs)
-    input = create_input(prompt, data)
-    label = generate_label(llm, input, logprobs)
 
-    return label
+    for issue in data["issues"]:
+        input = create_input(prompt, data, issue)
+        label = generate_label(llm, input, logprobs)
+        data["predictions"].append(label)
+
+    return data
 
 
-data = {
+data:TopicData = {
     "topic": "Burgerrechten",
     "descriptions": {
         "positive": (
@@ -110,19 +122,25 @@ data = {
         "positive": "Burgerrechten, vrijheid en minderheidsrechten",
         "negative": "Traditionele waarden"
     },
-    "issue": (
+    "issues": [
         "Opmerkelijk is dat hun achterban daar vaak heel anders over denkt, zoals blijkt uit de "
         "resultaten van Kieskompas. Zo wil bijna 80 procent van de kiezers die bij de komende "
         "verkiezingen overwegen **NSC**, SP of Ja21 te stemmen dat mensen die hun leven 'voltooid' "
         "achten hulp kunnen krijgen om te sterven. Datzelfde geldt voor een ruime meerderheid van "
-        "de PVV- en BBB-stemmers."
-    )
+        "de PVV- en BBB-stemmers.",
+        "Bij links-progressieve partijen lopen het standpunt van de partij en dat van de kiezer niet ver uiteen. Zo wil ongeveer 90 procent van de mensen die overwegen D66, Volt en Partij voor de Dieren te stemmen dat personen zelf kunnen bepalen wanneer hun leven eindigt. Datzelfde geldt voor 90 procent van de 50Plusstemmers en 85 procent van de BVNL-achterban."
+    ],
+    "predictions": []
 }
 
-label = generate_labels(coding_prompt, data, False)
+data = generate_labels(coding_prompt, data, False)
 
-print(label)
+# print(data)
 
-logprobs = generate_labels(coding_prompt, data, True)
 
-print(logprobs)
+# logprobs = generate_labels(coding_prompt, data, True)
+
+# print(logprobs)
+
+
+print(data["predictions"])

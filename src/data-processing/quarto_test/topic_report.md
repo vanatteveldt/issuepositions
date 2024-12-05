@@ -47,11 +47,11 @@ topic.
 
 |     Topic      | Completed | Total | Percentage Done | Reliability (α) |
 |:--------------:|:---------:|:-----:|:---------------:|:---------------:|
-|  Agriculture   |    790    |  102  |       13%       |      0.65       |
-|  CivilRights   |   1819    | 1819  |      100%       |      0.67       |
+|  Agriculture   |    790    |  138  |       17%       |      0.68       |
+|  CivilRights   |   1819    | 1898  |      104%       |      0.67       |
 |    Defense     |    682    |   0   |       0%        |       NA        |
 |       EU       |    387    |   0   |       0%        |       NA        |
-|    Economic    |   1588    |  908  |       57%       |      0.70       |
+|    Economic    |   1588    | 1472  |       93%       |      0.69       |
 |   Education    |    561    |  50   |       9%        |      0.26       |
 |  Environment   |   1650    | 1650  |      100%       |      0.69       |
 |   Government   |   1774    |   0   |       0%        |       NA        |
@@ -67,7 +67,7 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-1.png)
 
-#### Topic α score: 0.6997512
+#### Topic α score: 0.6870683
 
 ## Topic: Immigration
 
@@ -79,7 +79,7 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-3.png)
 
-#### Topic α score: 0.669788
+#### Topic α score: 0.6694982
 
 ## Topic: Environment
 
@@ -91,7 +91,7 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-5.png)
 
-#### Topic α score: 0.6531204
+#### Topic α score: 0.681241
 
 ## Topic: Education
 

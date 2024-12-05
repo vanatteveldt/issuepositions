@@ -46,13 +46,13 @@ def create_llm(temperature, model_name, logprobs=False):
 
     if logprobs:
         llm = ChatOpenAI(temperature=temperature, model=model_name).bind(logprobs=True)
-        return llm
+
     else: 
         llm = ChatOpenAI(temperature=temperature, model=model_name).with_structured_output(
             Classification,
             include_raw=False
             )
-        return llm
+    return llm
         
 
 def generate_label(llm:ChatOpenAI, input, logprobs=False):

@@ -3,7 +3,7 @@ name: update quarto render
 on:
   push:
     paths:
-      - data/intermediate
+      - data/intermediate/**
 
 jobs:
   update_coded_units_csv:

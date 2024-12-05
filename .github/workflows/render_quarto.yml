@@ -25,7 +25,7 @@ jobs:
 
       - name: Render Quarto to update markdown file
         run: |
-          src/data-processing/quarto_test/topic_report.qmd --to gfm
+          quarto render src/data-processing/quarto_test/topic_report.qmd --to gfm
 
       - name: Commit and push changes to .csv file
         run: |

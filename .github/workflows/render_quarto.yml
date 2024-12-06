@@ -10,6 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
+    env:
+      ANNOTINDER_USERNAME: ${{ secrets.ANNOTINDER_USERNAME }}
+      ANNOTINDER_PASSWORD: ${{ secrets.ANNOTINDER_PASSWORD }}
+      CODERS: ${{ secrets.CODERS }}
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

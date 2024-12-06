@@ -6,13 +6,13 @@ library(irr)
 library(ggplot2)
 
 #load anonimised coders
-dotenv::load_dot_env(file = ".env")
+#dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
 CODERS <- fromJSON(coders_json) %>% as_tibble()
 
   
 download <- function(jobid) {
-  dotenv::load_dot_env(file = ".env")
+  #dotenv::load_dot_env(file = ".env")
   backend_connect("https://uva-climate.up.railway.app", 
                   username=Sys.getenv("ANNOTINDER_USERNAME"), 
                   .password = Sys.getenv("ANNOTINDER_PASSWORD"))

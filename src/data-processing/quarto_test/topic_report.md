@@ -47,13 +47,13 @@ topic.
 
 |     Topic      | Completed | Total | Percentage Done | Reliability (α) |
 |:--------------:|:---------:|:-----:|:---------------:|:---------------:|
-|  Agriculture   |    790    |  184  |       23%       |      0.72       |
-|  CivilRights   |   1819    | 1819  |      100%       |      0.67       |
+|  Agriculture   |    790    |  382  |       48%       |      0.65       |
+|  CivilRights   |   1819    | 1787  |       98%       |      0.69       |
 |    Defense     |    682    |   0   |       0%        |       NA        |
 |       EU       |    387    |   0   |       0%        |       NA        |
-|    Economic    |   1588    | 1472  |       93%       |      0.69       |
-|   Education    |    561    |  50   |       9%        |      0.26       |
-|  Environment   |   1650    | 1650  |      100%       |      0.69       |
+|    Economic    |   1588    | 1472  |       93%       |      0.68       |
+|   Education    |    561    |  50   |       9%        |      0.72       |
+|  Environment   |   1650    | 1650  |      100%       |      0.70       |
 |   Government   |   1774    |   0   |       0%        |       NA        |
 |     Health     |    849    |   0   |       0%        |       NA        |
 |    Housing     |    422    |   0   |       0%        |       NA        |
@@ -67,34 +67,34 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-1.png)
 
-#### Topic α score: 0.6870683
+#### Topic α score: 0.6795504
 
 ## Topic: Immigration
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-2.png)
 
-#### Topic α score: 0.7103194
+#### Topic α score: 0.7106995
 
 ## Topic: CivilRights
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-3.png)
 
-#### Topic α score: 0.6694982
-
-## Topic: Environment
-
-![](topic_report_files/figure-commonmark/pairwise-plots-4.png)
-
-#### Topic α score: 0.6928992
+#### Topic α score: 0.6878844
 
 ## Topic: Agriculture
 
+![](topic_report_files/figure-commonmark/pairwise-plots-4.png)
+
+#### Topic α score: 0.6506909
+
+## Topic: Environment
+
 ![](topic_report_files/figure-commonmark/pairwise-plots-5.png)
 
-#### Topic α score: 0.7194397
+#### Topic α score: 0.6977897
 
 ## Topic: Education
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-6.png)
 
-#### Topic α score: 0.2608696
+#### Topic α score: 0.7205144

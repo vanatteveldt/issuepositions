@@ -5,6 +5,8 @@ library(jsonlite)
 library(irr)
 library(ggplot2)
 
+print("The script actually runs...")
+
 #load anonimised coders
 #dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")

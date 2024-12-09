@@ -5,14 +5,16 @@ library(jsonlite)
 library(irr)
 library(ggplot2)
 
+
 #load anonimised coders
 dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
-CODERS <- fromJSON(coders_json) %>% as_tibble()
 
-  
+CODERS <- jsonlite::fromJSON(coders_json) %>% as_tibble()
+
+
 download <- function(jobid) {
-  dotenv::load_dot_env(file = ".env")
+  #dotenv::load_dot_env(file = ".env")
   backend_connect("https://uva-climate.up.railway.app", 
                   username=Sys.getenv("ANNOTINDER_USERNAME"), 
                   .password = Sys.getenv("ANNOTINDER_PASSWORD"))
@@ -53,9 +55,9 @@ download_stances <- function(jobids) {
   
   #use safe_download
   results <- purrr::map(setNames(jobids, jobids), safe_download)
-    
-    #check if jobs contain correct variables
-    purrr::keep(results, ~ !is.null(.x) && "variable" %in% names(.x)) |>
+  
+  #check if jobs contain correct variables
+  purrr::keep(results, ~ !is.null(.x) && "variable" %in% names(.x)) |>
     
     list_rbind(names_to = "jobid") |>
     filter(variable == "stance") |>
@@ -75,10 +77,12 @@ list_units <- function(annotations) {
     left_join(units, by="unit_id") |>
     mutate(text=str_c(before, text_hl, after)) |>
     select(-variable, -value, -before, -text_hl, -after) |>
-    group_by(jobid, unit_id) |>
+    group_by(unit_id, topic) |>
     mutate(
+      jobids = str_c(jobid, collapse=","),
       majority = mode(stance),
       agreement = mean(stance == majority)) |>
+    select(-jobid) |>
     ungroup() |>
     pivot_wider(names_from=coder, values_from=stance)
 }
@@ -86,18 +90,19 @@ list_units <- function(annotations) {
 # retrieve Jobids from google sheets
 # set OAuth token to access sheets doc
 all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
-  filter(jobid >= 495) |>     #coding jobs before 495 were training an contain many duplicates, stange issue occurs for job 648 (?)
+  filter(jobid > 495) |>     #coding jobs before 495 were training an contain many duplicates, stange issue occurs for job 648 (?)
   pull(jobid) |> 
   unique()
 
 all_stances <- download_stances(all_jobids) |>
   #for duplicates, keep latest coding
-    group_by(unit_id, coder, topic, variable) |> 
-    slice_max(order_by = jobid, n=1)
+  group_by(unit_id, coder, topic, variable) |> 
+  slice_max(order_by = jobid, n=1)
 
 all_units <- all_stances |>
+  ungroup() |>
   list_units() |>
-  arrange(unit_id, jobid)
+  arrange(unit_id)
 
 # save all coded stances as csv
 write_csv(all_units, "data/intermediate/coded_units.csv")

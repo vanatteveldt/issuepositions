@@ -47,8 +47,8 @@ topic.
 
 |     Topic      | Completed | Total | Percentage Done | Reliability (α) |
 |:--------------:|:---------:|:-----:|:---------------:|:---------------:|
-|  Agriculture   |    790    |  138  |       17%       |      0.68       |
-|  CivilRights   |   1819    | 1898  |      104%       |      0.67       |
+|  Agriculture   |    790    |  184  |       23%       |      0.72       |
+|  CivilRights   |   1819    | 1819  |      100%       |      0.67       |
 |    Defense     |    682    |   0   |       0%        |       NA        |
 |       EU       |    387    |   0   |       0%        |       NA        |
 |    Economic    |   1588    | 1472  |       93%       |      0.69       |
@@ -91,7 +91,7 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-5.png)
 
-#### Topic α score: 0.681241
+#### Topic α score: 0.7194397
 
 ## Topic: Education
 

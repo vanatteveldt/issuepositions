@@ -1,13 +1,21 @@
 name: update coded units csv-file
 
-on: 
-  schedule:
-    # Runs the workflow every day at 01:00 UTC
-    - cron: '0 1 * * *'
+on:
+  push
+  # test action
+  # schedule:
+  #   # Runs the workflow every day at 01:00 UTC
+  #   - cron: '0 1 * * *'
 
 jobs:
   update_coded_units_csv:
     runs-on: ubuntu-latest
+    
+    env:
+      ANNOTINDER_USERNAME: ${{ secrets.ANNOTINDER_USERNAME }}
+      ANNOTINDER_PASSWORD: ${{ secrets.ANNOTINDER_PASSWORD }}
+      CODERS: ${{ secrets.CODERS }}
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

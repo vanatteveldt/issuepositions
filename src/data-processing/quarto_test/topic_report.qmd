@@ -214,7 +214,7 @@ kable(topic_info, format = "markdown", col.names = custom_headers, align = 'c')
 #| results: asis
 
 
-for  (topic_name in unique(all_units$topic)) {
+for  (topic_name in sort(unique(all_units$topic))) {
   cat("\n## Topic:", topic_name, "\n\n")
   
   topic_alphas <- all_units_numeric |>

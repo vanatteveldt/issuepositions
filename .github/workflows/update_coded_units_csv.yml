@@ -2,6 +2,7 @@ name: update coded units csv-file
 
 on:
   push
+  # test action
   # schedule:
   #   # Runs the workflow every day at 01:00 UTC
   #   - cron: '0 1 * * *'

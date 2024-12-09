@@ -67,7 +67,13 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-1.png)
 
-#### Topic α score: 0.6506909
+#### Topic α score: 0.6795504
+
+## Topic: Immigration
+
+![](topic_report_files/figure-commonmark/pairwise-plots-2.png)
+
+#### Topic α score: 0.7106995
 
 ## Topic: CivilRights
 
@@ -79,7 +85,19 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-3.png)
 
-#### Topic α score: 0.6795504
+#### Topic α score: 0.6878844
+
+## Topic: Agriculture
+
+![](topic_report_files/figure-commonmark/pairwise-plots-4.png)
+
+#### Topic α score: 0.6506909
+
+## Topic: Environment
+
+![](topic_report_files/figure-commonmark/pairwise-plots-5.png)
+
+#### Topic α score: 0.6977897
 
 ## Topic: Education
 
@@ -97,4 +115,4 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-6.png)
 
-#### Topic α score: 0.7106995
+#### Topic α score: 0.7205144

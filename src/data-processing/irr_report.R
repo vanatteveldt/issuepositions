@@ -10,6 +10,9 @@ print("The script actually runs...")
 #load anonimised coders
 #dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
+
+print(coders_json)
+
 CODERS <- jsonlite::fromJSON(coders_json) %>% as_tibble()
 
   

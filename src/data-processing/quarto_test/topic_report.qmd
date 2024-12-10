@@ -32,7 +32,7 @@ library(purrr)
 #| messages: false
 #| warnings: false
 #| output: false
-all_units <- read_csv(here::here("data/intermediate/coded_units.csv"))
+all_units <- read_csv(here::here("data/intermediate/coded_units_gpt.csv"))
 gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |>
   filter(logprob >= -5)
 
@@ -44,7 +44,7 @@ gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |
 #| warnings: false
 #| output: false
 
-CODERS <- c("AvH","MR","WA","JF","NR","S", "ING","NK","SH","OY","KN","NPR","JE","AM")
+CODERS <- c("AvH","MR","WA","JF","NR","S", "ING","NK","SH","OY","KN","NPR","JE","AM", "GPT")
 
 # # Identify the abbreviations of coders that are present in all_units
 present_coders <- intersect(CODERS, names(all_units))

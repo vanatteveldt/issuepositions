@@ -9,7 +9,7 @@ from typing import TypedDict
 from sklearn.metrics import precision_score, recall_score, f1_score, classification_report
 
 from classification_prompts import coding_prompt_6shot, coding_prompt_0shot, civil_rights_examples, coding_prompt_6shot_extended
-from load_data import load_data, get_text
+from load_data import load_data, get_text, load_topic_data
 
 load_dotenv()
 
@@ -30,20 +30,20 @@ class TopicData(TypedDict):
 
 
 def create_input(prompt:ChatPromptTemplate, data:dict, issue, examples=civil_rights_examples):
-
+    """Formats a prompt with data related to the topic and the issue to code"""
     input = prompt.format_messages(topic=data['topic'],
                                L_description=data['descriptions']['L'],
                                L_label=data['labels']['L'],
                                R_description=data['descriptions']['R'],
                                R_label=data['labels']['R'],
                                issue=issue,
-                               examples=civil_rights_examples)
+                               examples=examples)
     
     return input
 
 
 def create_llm(temperature, model_name, logprobs=False):
-
+    """Initialize an OpenAI llm, turn logprobs to TRUE to get probabilities"""
     if logprobs:
         llm = ChatOpenAI(temperature=temperature, model=model_name).bind(logprobs=True)
 
@@ -56,6 +56,7 @@ def create_llm(temperature, model_name, logprobs=False):
         
 
 def generate_label(llm:ChatOpenAI, input, logprobs=False):
+    """Generate a single label for an issue, input is a formatted prompt"""
     output = llm.invoke(input)
 
     if logprobs:
@@ -65,68 +66,82 @@ def generate_label(llm:ChatOpenAI, input, logprobs=False):
         return output.label
 
 
-def generate_labels(prompt, data_file:Path, topic_data:TopicData, range=10):
-
-    df = load_data(data_file, topic_data['topic_name'])
-
+def generate_labels_topic(prompt, df:pd.DataFrame, topic_data:TopicData, limit=5):
+    """
+    Generate labels for a specified topic in a dataset
+    Set limit to None to generate a label for every issue
+    """
     llm = create_llm(0, "gpt-4-turbo", False)
+    
+    # Filter rows for the given topic
+    topic_name = topic_data.get('topic_name')
+    if not topic_name:
+        raise ValueError("topic_data must include a 'topic_name' key.")
 
-    unit_ids = list(df['unit_id'])
+    df_filtered = df.loc[df['topic'] == topic_name]
+
+
+    # Exctract unit_ids
+    unit_ids = list(df_filtered['unit_id'])
+    if limit:
+        unit_ids = unit_ids[:limit]    
     
     predictions_dict = {}
 
-    for unit_id in unit_ids[:range]: #adjust for more predictions
-        text = get_text(df, unit_id)
+    for unit_id in unit_ids:
+        text = get_text(df_filtered, unit_id)
         input = create_input(prompt, topic_data, text)
         label = generate_label(llm, input, False)
-        predictions_dict[unit_id] = label
+        predictions_dict[(unit_id, topic_name)] = label
 
-    df['GPT'] = df['unit_id'].map(predictions_dict)
+    # Update the DataFrame with predictions (keeping track of both unit_id and topic_name)
+    for (unit_id, topic_name), label in predictions_dict.items():
+        df.loc[(df['unit_id'] == unit_id) & (df['topic'] == topic_name), 'GPT'] = label
+
+    return df
+
+    #     predictions_dict[unit_id] = label
+
+    # # df['GPT'] = df['unit_id'].map(predictions_dict)  #overwrites entire column
+
+    # return df
+
+
+def generate_labels(prompt, data_file:Path, topics_to_code:list):
+    """Combined function to generate labels for issues in a list of topics"""
+    topic_data = load_topic_data()
+
+    df = load_data(data_file)
+
+    for dict in topic_data:
+        if dict['topic_name'] in topics_to_code:
+            df = generate_labels_topic(prompt, df, dict, limit=50)
 
     return df
 
 
+def evaluate_labels(df:pd.DataFrame):
+    """Evaluate the generated labels based on precision, recall and f1 scores"""
+    df = df[df["GPT"].notna()]
+    y_true = df['majority'][:20].astype(str)
+    y_pred = df['GPT'][:20].astype(str)
+
+    precision = precision_score(y_true, y_pred, average='macro')  # Macro-average for multi-class
+    recall = recall_score(y_true, y_pred, average='macro')
+    f1 = f1_score(y_true, y_pred, average='macro')
+
+    print(f"Precision: {precision:.2f}")
+    print(f"Recall: {recall:.2f}")
+    print(f"F1 Score: {f1:.2f}")
+
+    print("\nClassification Report:")
+    print(classification_report(y_true, y_pred))
+
+
 data_path = Path("data//intermediate//coded_units.csv")
+topics_to_code = ["Environment", "CivilRights", "Immigration"]
 
+df = generate_labels(coding_prompt_0shot, data_path, topics_to_code)
+evaluate_labels(df)
 
-topic_data:TopicData = {
-    "topic_name": "CivilRights",
-    "topic": "Burgerrechten",
-    "descriptions": {
-        "L": (
-            "Vrijheid van meningsuiting, individuele rechten en vrijheden; "
-            "privacy; gelijke rechten voor alle mensen, ethnische minderheden, "
-            "seksualiteit inc homorechten, transgender, LHBTQI+ rechten; "
-            "weerstand tegen discriminatie of anti-semitisme; zelfbeschikking in "
-            "gezondheidszorg, waaronder abortus en euthanasie"
-        ),
-        "R": (
-            "Traditionele / Christelijke / conservatieve normen en waarden; "
-            "belang van gezin en gemeenschap; bescherming van het (ongeboren) "
-            "leven en het gezin, weerstand tegen abortus / euthanasie, anti-woke"
-        )
-    },
-    "labels": {
-        "L": "Burgerrechten, vrijheid en minderheidsrechten",
-        "R": "Traditionele waarden"
-    },
-}
-
-
-df = generate_labels(coding_prompt_6shot_extended, data_path, topic_data, range=100)
-
-print(df)
-
-y_true = df['majority'][:100].astype(str)
-y_pred = df['GPT'][:100].astype(str)
-
-precision = precision_score(y_true, y_pred, average='macro')  # Macro-average for multi-class
-recall = recall_score(y_true, y_pred, average='macro')
-f1 = f1_score(y_true, y_pred, average='macro')
-
-print(f"Precision: {precision:.2f}")
-print(f"Recall: {recall:.2f}")
-print(f"F1 Score: {f1:.2f}")
-
-print("\nClassification Report:")
-print(classification_report(y_true, y_pred))
+df.to_csv(Path("data//intermediate//coded_units_gpt.csv"))

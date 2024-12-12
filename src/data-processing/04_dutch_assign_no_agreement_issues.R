@@ -5,13 +5,13 @@ source(here::here("src/lib/annotinder_data.R"))
 # Load in coder abbreviations and topic
 CODERS <- c("WA","NR","S","NK","KN","NPR","JE","AM")
 
-TOPIC = "CivilRights"
+TOPIC = "Immigration"
 
-CODER = "KN"
+CODER = "JE"
 
-# Load units coded so far and filter on agreement
-all_coded_units <- read_csv("data/intermediate/coded_units.csv") |>
-  pivot_longer(-variable:-agreement, names_to="coder") |>
+# Load units coded so far
+all_coded_units <- read_csv("data/intermediate/coded_units.csv", col_types = cols(jobids = col_character())) |>
+  pivot_longer(-unit_id:-agreement, names_to="coder", ) |>
   filter(!is.na(value))
 
 # Retrieve assigned jobs from Google sheets and units per job from annotinder
@@ -19,18 +19,23 @@ jobs <- get_assigned_jobs() |>
   mutate(coder = recode(coder, "Amani" = "AM", "Karishma" = "KN", "Nisa" = "NK", "Sascha" = "S", "Nathanael" = "NPR", "Jelle" = "JE", "Nel" = "NR", "Wouter" = "WA")) |>
   filter(!coder == "Iedereen")
 
-
 all_assigned_units <- get_units_per_job(unique(jobs$jobid)) |>
   rename(jobid = Jobid)
 
-all_assigned_combined = inner_join(jobs, all_assigned_units, relationship="many-to-many")
+all_assigned_combined <- inner_join(jobs, all_assigned_units, relationship="many-to-many") |>
+  rename(jobids = jobid) |>
+  mutate(jobids = as.character(jobids)) |>
+  distinct()
 
 all_units <- full_join(
-  select(all_coded_units, jobid, topic, unit_id, coder, value, agreement),
-  select(all_assigned_combined, jobid, topic, unit_id, coder),
+  select(all_coded_units, topic, unit_id, coder, value, agreement, jobids),
+  select(all_assigned_combined, jobids, topic, unit_id, coder),
 ) |>
   group_by(topic, unit_id) |>
-  summarize(n_assigned=n(), n_coded=sum(!is.na(value)), agreement=mean(agreement, na.rm=T), jobs=str_c(jobid, collapse=",")) |>
+  summarize(n_assigned=n(),
+            n_coded=sum(!is.na(value)),
+            agreement=mean(agreement, na.rm=T),
+            jobids=str_c(unique(jobids), collapse=",")) |>
   arrange(topic, unit_id)
 
 
@@ -40,7 +45,9 @@ todo <- all_units |>
 
 # filter for coder and topic (set topic at top of script)
 todo_for_coder = todo |>
-  anti_join(all_assigned_combined |> filter(coder == CODER) |> select(unit_id, topic)) |>
+  anti_join(all_assigned_combined |> 
+  filter(coder == CODER) |> 
+  select(unit_id, topic)) |>
   filter(topic == TOPIC)
 
 # Select items to code

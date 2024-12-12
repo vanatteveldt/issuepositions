@@ -7,14 +7,13 @@ library(ggplot2)
 
 
 #load anonimised coders
-#dotenv::load_dot_env(file = ".env")
+dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
 
 CODERS <- jsonlite::fromJSON(coders_json) %>% as_tibble()
 
 
 download <- function(jobid) {
-  #dotenv::load_dot_env(file = ".env")
   backend_connect("https://uva-climate.up.railway.app", 
                   username=Sys.getenv("ANNOTINDER_USERNAME"), 
                   .password = Sys.getenv("ANNOTINDER_PASSWORD"))
@@ -84,13 +83,14 @@ list_units <- function(annotations) {
       agreement = mean(stance == majority)) |>
     select(-jobid) |>
     ungroup() |>
-    pivot_wider(names_from=coder, values_from=stance)
+    pivot_wider(names_from=coder, values_from=stance) |>
+    select(-"NA") #somehow a column named NA is created with a single value
 }
 
 # retrieve Jobids from google sheets
 # set OAuth token to access sheets doc
 all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
-  filter(jobid > 495) |>     #coding jobs before 495 were training an contain many duplicates, stange issue occurs for job 648 (?)
+  filter(jobid > 495) |>  #coding jobs before 495 were training an contain many duplicates
   pull(jobid) |> 
   unique()
 

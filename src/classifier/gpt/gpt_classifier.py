@@ -8,8 +8,8 @@ from pydantic import BaseModel, Field
 from typing import TypedDict
 from sklearn.metrics import precision_score, recall_score, f1_score, classification_report
 
-from classification_prompts import coding_prompt_6shot, coding_prompt_0shot, civil_rights_examples, coding_prompt_6shot_extended
-from load_data import load_data, get_text, load_topic_data
+from classification_prompts import coding_prompt_nshot, coding_prompt_0shot, coding_prompt_6shot_extended
+from load_data import load_data, get_text, load_topic_data, load_examples
 
 load_dotenv()
 
@@ -29,8 +29,9 @@ class TopicData(TypedDict):
     labels: dict
 
 
-def create_input(prompt:ChatPromptTemplate, data:dict, issue, examples=civil_rights_examples):
+def create_input(prompt:ChatPromptTemplate, data:dict, issue, examples=None):
     """Formats a prompt with data related to the topic and the issue to code"""
+
     input = prompt.format_messages(topic=data['topic'],
                                L_description=data['descriptions']['L'],
                                L_label=data['labels']['L'],
@@ -66,23 +67,26 @@ def generate_label(llm:ChatOpenAI, input, logprobs=False):
         return output.label
 
 
-def generate_labels_topic(prompt, df:pd.DataFrame, topic_data:TopicData, limit=5):
+def generate_labels_topic(prompt, df:pd.DataFrame, topic_data:TopicData, n_shot:int, limit=5):
     """
     Generate labels for a specified topic in a dataset
     Set limit to None to generate a label for every issue
     """
     llm = create_llm(0, "gpt-4-turbo", False)
-    
+
     # Filter rows for the given topic
     topic_name = topic_data.get('topic_name')
     if not topic_name:
         raise ValueError("topic_data must include a 'topic_name' key.")
 
     df_filtered = df.loc[df['topic'] == topic_name]
+    
+    examples, example_ids = load_examples(df_filtered, n_shot)
 
-
-    # Exctract unit_ids
+    # Exctract unit_ids and remove example ids
     unit_ids = list(df_filtered['unit_id'])
+    unit_ids = [unit_id for unit_id in unit_ids if unit_id not in example_ids]
+
     if limit:
         unit_ids = unit_ids[:limit]    
     
@@ -90,7 +94,7 @@ def generate_labels_topic(prompt, df:pd.DataFrame, topic_data:TopicData, limit=5
 
     for unit_id in unit_ids:
         text = get_text(df_filtered, unit_id)
-        input = create_input(prompt, topic_data, text)
+        input = create_input(prompt, topic_data, text, examples)
         label = generate_label(llm, input, False)
         predictions_dict[(unit_id, topic_name)] = label
 
@@ -100,14 +104,8 @@ def generate_labels_topic(prompt, df:pd.DataFrame, topic_data:TopicData, limit=5
 
     return df
 
-    #     predictions_dict[unit_id] = label
 
-    # # df['GPT'] = df['unit_id'].map(predictions_dict)  #overwrites entire column
-
-    # return df
-
-
-def generate_labels(prompt, data_file:Path, topics_to_code:list):
+def generate_labels(prompt, data_file:Path, topics_to_code:list, n_shot):
     """Combined function to generate labels for issues in a list of topics"""
     topic_data = load_topic_data()
 
@@ -115,7 +113,7 @@ def generate_labels(prompt, data_file:Path, topics_to_code:list):
 
     for dict in topic_data:
         if dict['topic_name'] in topics_to_code:
-            df = generate_labels_topic(prompt, df, dict, limit=50)
+            df = generate_labels_topic(prompt, df, dict, n_shot, limit=3)
 
     return df
 
@@ -141,7 +139,11 @@ def evaluate_labels(df:pd.DataFrame):
 data_path = Path("data//intermediate//coded_units.csv")
 topics_to_code = ["Environment", "CivilRights", "Immigration"]
 
-df = generate_labels(coding_prompt_0shot, data_path, topics_to_code)
+df = generate_labels(coding_prompt_nshot, data_path, topics_to_code, n_shot=9)
 evaluate_labels(df)
 
-df.to_csv(Path("data//intermediate//coded_units_gpt.csv"))
+df_filter = df.loc[df['GPT'].notna() == True]
+
+print(df_filter)
+
+#df.to_csv(Path("data//intermediate//coded_units_gpt_6shot.csv"))

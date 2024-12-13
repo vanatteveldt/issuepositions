@@ -31,22 +31,7 @@ Beschrijving: Als de actor geen standpunt heeft over {topic}, of als het standpu
 Label:"""
 )
 
-civil_rights_examples = [
-    """Als Westlander schaam ik mij diep over het besluit van de gemeente Westland het GGD- spreekuur voor jongeren over seksualiteit te schrappen (Ten eerste, 17/11).Opnieuw maak ik mij boos over partijen als Denk, VVD, **SGP**, FvD die hun angsten botvieren ten koste van mensen die het recht hebben te kiezen wie ze willen zijn.Iedereen heeft zijn/haar handen vol aan het eigen leven.
-    Label: R""",
-    """ik had hem graag zien zitten tussen basisschoolkinderen met vragen als 'wat is uw grootste angst?' en 'wat vindt u moeilijk?'.Maar nog liever had ik **Omtzigt** zondagavond gezien bij Nadia over abortus.Aan het woord kwam Carel de Lange, een conservatieve youtuber die abortus moord vindt.
-    Label: N""",
-    """Momenteel ziet hij een coalitie voor zich met de SGP - waarvan de lijsttrekker antiabortusactivisten expliciet steunt.In 2022 stemde Omtzigt tegen een motie om te onderzoeken welke wetswijzigingen nodig zijn om meerouderschap mogelijk te maken - het **CDA** was voor.Omtzigt vindt het nou eenmaal 'logisch' dat een kind twee ouders heeft.
-    Label: L""",
-    """we blijven voor jullie knokken, we staan naast jullie en we zullen de rechtsstaat, die echt in het gedrang komt de komende tijd, blijven verdedigen."Volgens de exitpoll komt het samenwerkingsverband tussen **GroenLinks** en de Partij van de Arbeid uit op 25 zetels.gisteren, 22:30
-    Label: L""",
-    """Ik hoop dat Omtzigt de rug nu recht houdt.Willen wij **Wilders** grappen horen maken over mensen met overgewicht (SBS6-debat)?Vinden we het normaal dat hij het heeft over 'genderterreur'?
-    Label: R""",
-    """Die standpunten hebben wij niet zómaar, die komen uit onze christelijke wortels.En kijk, Pieter is absoluut een christelijke **lijsttrekker**, maar zijn partij is wel op een andere leest geschoeid.Wat stemmen zijn fractiegenoten straks bij principiële onderwerpen?
-    Label: N"""
-]
-
-coding_prompt_6shot = ChatPromptTemplate.from_template(
+coding_prompt_nshot = ChatPromptTemplate.from_template(
     """
 ## Uitleg: standpunt coderen over {topic}
 
@@ -173,3 +158,5 @@ Hier is het duidelijk dat Bikker deel is van CU en dat zij tegen voltooidlevenwe
 
 Label:"""
 )
+
+

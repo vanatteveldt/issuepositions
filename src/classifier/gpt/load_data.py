@@ -17,7 +17,7 @@ def load_data(data_file:Path, topic:str=None):
     return df
 
 
-def get_text(df: pd.DataFrame, unit_id: str):
+def get_text(df:pd.DataFrame, unit_id:str):
     "Filters the dataframe for the given unit_id and return text corresponding to that id"
     filtered_df = df.loc[df['unit_id'] == unit_id]
 
@@ -58,6 +58,24 @@ def load_topic_data():
     return topic_list
 
 
+def load_examples(df:pd.DataFrame, n_examples:int):
+
+    df = df.loc[df['agreement'] == 1]
+    examples = df.sample(n_examples, random_state=1) # remove random state to draw random sample each time
+    
+    examples = []
+    unit_ids = []
+
+    for n in range(n_examples):
+        example_text = df['text'].iloc[n-1]
+        example_label = df['majority'].iloc[n-1]
+        example = f"""Voorbeeld standpunt:{example_text} \n Label:{example_label} """
+
+        examples.append(example)
+        unit_ids.append(df['unit_id'].iloc[n-1])
+
+    return examples, unit_ids
+    
 
 # Example topic_data
 

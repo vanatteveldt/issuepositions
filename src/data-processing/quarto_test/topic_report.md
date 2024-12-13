@@ -25,7 +25,16 @@ library(purrr)
 ```
 
 ``` r
-all_units <- read_csv(here::here("data/intermediate/coded_units_gpt_nshot.csv"))
+gpt_units <- read_csv(here::here("data/intermediate/coded_units_gpt_nshot.csv"))|>
+  select(-jobids)
+
+all_units <- read.csv(here::here("data/intermediate/stances.csv")) |>
+  ungroup() |>
+  list_units() |>
+  arrange(unit_id) |>
+  select(-jobids) |>
+  inner_join(gpt_units)
+
 gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |>
   filter(logprob >= -5)
 ```

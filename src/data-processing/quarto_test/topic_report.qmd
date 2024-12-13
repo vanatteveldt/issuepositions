@@ -28,11 +28,49 @@ library(purrr)
 ```
 
 ```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: false
+
+
+list_units <- function(annotations) {
+  units <- read_csv(here::here("data/intermediate/units_tk2023.csv"), 
+                    col_select=c("unit_id", "before", "text_hl", "after"), 
+                    col_types="cccc") 
+  mode <- function(x) names(which.max(table(x)))
+  annotations |> 
+    left_join(units, by="unit_id") |>
+    mutate(text=str_c(str_replace_na(before, ""), text_hl, str_replace_na(after, ""))) |>
+    select(-variable, -value, -before, -text_hl, -after) |>
+    group_by(unit_id, topic) |>
+    mutate(
+      jobids = str_c(unique(jobid), collapse=","),
+      majority = mode(stance),
+      agreement = mean(stance == majority)) |>
+    select(-jobid) |>
+    ungroup() |>
+    pivot_wider(names_from=coder, values_from=stance) |>
+    select(-"NA") #somehow a column named NA is created with a single value
+}
+
+```
+
+```{r}
 #| echo: true
 #| messages: false
 #| warnings: false
 #| output: false
-all_units <- read_csv(here::here("data/intermediate/coded_units_gpt_nshot.csv"))
+gpt_units <- read_csv(here::here("data/intermediate/coded_units_gpt_nshot.csv"))|>
+  select(-jobids)
+
+all_units <- read.csv(here::here("data/intermediate/stances.csv")) |>
+  ungroup() |>
+  list_units() |>
+  arrange(unit_id) |>
+  select(-jobids) |>
+  inner_join(gpt_units)
+
 gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |>
   filter(logprob >= -5)
 

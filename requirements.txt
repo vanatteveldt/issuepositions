@@ -7,5 +7,7 @@ krippendorff
 torch
 transformers
 scikit-learn
+langchain
 langchain-core
 langchain-openai
+langchain-community

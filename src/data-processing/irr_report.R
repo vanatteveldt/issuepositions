@@ -74,11 +74,11 @@ list_units <- function(annotations) {
   mode <- function(x) names(which.max(table(x)))
   annotations |> 
     left_join(units, by="unit_id") |>
-    mutate(text=str_c(before, text_hl, after)) |>
+    mutate(text=str_c(str_replace_na(before, ""), text_hl, str_replace_na(after, ""))) |>
     select(-variable, -value, -before, -text_hl, -after) |>
     group_by(unit_id, topic) |>
     mutate(
-      jobids = str_c(jobid, collapse=","),
+      jobids = str_c(unique(jobid), collapse=","),
       majority = mode(stance),
       agreement = mean(stance == majority)) |>
     select(-jobid) |>
@@ -99,10 +99,12 @@ all_stances <- download_stances(all_jobids) |>
   group_by(unit_id, coder, topic, variable) |> 
   slice_max(order_by = jobid, n=1)
 
+# save all coded stances as csv
+write_csv(all_stances, "data/intermediate/stances.csv")
+
 all_units <- all_stances |>
   ungroup() |>
   list_units() |>
   arrange(unit_id)
 
-# save all coded stances as csv
-write_csv(all_units, "data/intermediate/coded_units.csv")
+

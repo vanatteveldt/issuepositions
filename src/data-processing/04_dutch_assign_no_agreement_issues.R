@@ -5,37 +5,40 @@ source(here::here("src/lib/annotinder_data.R"))
 # Load in coder abbreviations and topic
 CODERS <- c("WA","NR","S","NK","KN","NPR","JE","AM")
 
-TOPIC = "Immigration"
+TOPIC = "Agriculture"
 
-CODER = "JE"
+CODER = "NPR"
 
 # Load units coded so far
-all_coded_units <- read_csv("data/intermediate/coded_units.csv", col_types = cols(jobids = col_character())) |>
-  pivot_longer(-unit_id:-agreement, names_to="coder", ) |>
-  filter(!is.na(value))
+all_coded_units <- read_csv("data/intermediate/stances.csv") 
 
 # Retrieve assigned jobs from Google sheets and units per job from annotinder
 jobs <- get_assigned_jobs() |>
-  mutate(coder = recode(coder, "Amani" = "AM", "Karishma" = "KN", "Nisa" = "NK", "Sascha" = "S", "Nathanael" = "NPR", "Jelle" = "JE", "Nel" = "NR", "Wouter" = "WA")) |>
+  mutate(coder = recode(coder, "Amani" = "AM", "Karishma" = "KN", "Nisa" = "NK", "Sascha" = "SH", "Nathanael" = "NPR", "Jelle" = "JE", "Nel" = "NR", "Wouter" = "WA")) |>
   filter(!coder == "Iedereen")
 
 all_assigned_units <- get_units_per_job(unique(jobs$jobid)) |>
   rename(jobid = Jobid)
 
 all_assigned_combined <- inner_join(jobs, all_assigned_units, relationship="many-to-many") |>
-  rename(jobids = jobid) |>
-  mutate(jobids = as.character(jobids)) |>
   distinct()
 
+mode <- function(x) {
+  x = na.omit(x)
+  if (length(x) == 0) return(NA)
+  names(which.max(table(x)))
+}
+
 all_units <- full_join(
-  select(all_coded_units, topic, unit_id, coder, value, agreement, jobids),
-  select(all_assigned_combined, jobids, topic, unit_id, coder),
+  select(all_coded_units, topic, unit_id, coder, stance, coded_jobid=jobid),
+  select(all_assigned_combined, topic, unit_id, coder, assigned_jobid=jobid) 
 ) |>
   group_by(topic, unit_id) |>
-  summarize(n_assigned=n(),
-            n_coded=sum(!is.na(value)),
-            agreement=mean(agreement, na.rm=T),
-            jobids=str_c(unique(jobids), collapse=",")) |>
+  summarise(n_assigned=n(),
+            n_coded=sum(!is.na(stance)),
+            majority = mode(stance),
+            agreement = mean(stance == majority, na.rm = T)
+) |>
   arrange(topic, unit_id)
 
 
@@ -75,6 +78,6 @@ units2[[1]]$unit$markdown_fields[[1]]$value
 
 cb <- get_topic_stance_codebook(TOPIC)
 connect_annotinder()
-upload_job(glue::glue("No Agreement set 1: {TOPIC} for {CODER}"), units2, cb)
+upload_job(glue::glue("No Agreement set 2: {TOPIC} for {CODER}"), units2, cb)
 
 

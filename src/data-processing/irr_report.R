@@ -9,7 +9,7 @@ library(ggplot2)
 #load anonimised coders
 if (file.exists(".env")) dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
-message(str_glue("Coders: {coders_json}"))
+
 CODERS <- jsonlite::fromJSON(coders_json) %>% as_tibble()
 
 
@@ -89,10 +89,11 @@ list_units <- function(annotations) {
 
 # retrieve Jobids from google sheets
 # set OAuth token to access sheets doc
-all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
+all_jobids <- read_csv('https://docs.google.com/spreadsheet/ccc?key=1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI&output=csv') |>
   filter(jobid > 495) |>  #coding jobs before 495 were training an contain many duplicates
   pull(jobid) |>
   unique()
+
 
 all_stances <- download_stances(all_jobids) |>
   #for duplicates, keep latest coding

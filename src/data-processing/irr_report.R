@@ -9,7 +9,7 @@ library(ggplot2)
 #load anonimised coders
 if (file.exists(".env")) dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
-
+message(str_glue("Coders: {coders_json}"))
 CODERS <- jsonlite::fromJSON(coders_json) %>% as_tibble()
 
 

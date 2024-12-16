@@ -3,7 +3,7 @@ from transformers import BertTokenizer
 from train_bert_classifier import BERTClassifier
 
 # Define model variables
-model_path = "src/classifier/models/bert_classifier.pth"
+model_path = "src/classifier/models/bert_CivilRights_classifier.pth"
 bert_model_name = 'bert-base-uncased'
 num_classes = 3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -40,7 +40,7 @@ def predict_stance(text, model, tokenizer, device, max_length=128):
             return predicted_label, probability_mapping
 
 if __name__ == "__main__":
-    predicted_stance, probabilities = predict_stance("Jetten vindt Groene stroom opwekken op de noordzee belangrijk. Subsidies voor fossiele brandstoffen moeten we volgens hem schrappen. Duurzaamheid is belangrijk voor de planeet en de volgende generaties.", model, tokenizer, device)
+    predicted_stance, probabilities = predict_stance("*test sentence*", model, tokenizer, device)
 
     print(f"Predicted stance: {predicted_stance}")
     print(f"Probablilities: {probabilities}")

@@ -71,7 +71,7 @@ def evaluate(model, data_loader, device):
             predictions.extend(preds.cpu().tolist())
             actual_labels.extend(labels.cpu().tolist())
 
-    return accuracy_score(actual_labels, predictions), classification_report(actual_labels, predictions, labels= ['L', 'N', 'R'])
+    return accuracy_score(actual_labels, predictions), classification_report(actual_labels, predictions, target_names= ['L', 'N', 'R'])
 
             
 if __name__ == "__main__":

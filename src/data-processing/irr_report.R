@@ -54,8 +54,6 @@ download_stances <- function(jobids) {
 
   #use safe_download
   results <- purrr::map(setNames(jobids, jobids), safe_download)
-  
-  message(results)
 
   #check if jobs contain correct variables
   purrr::keep(results, ~ !is.null(.x) && "variable" %in% names(.x)) |>
@@ -76,8 +74,6 @@ all_jobids <- read_csv('https://docs.google.com/spreadsheet/ccc?key=1CKxjOn-x3Fb
   pull(jobid) |>
   unique()
 
-message(all_jobids)
-
 all_stances <- download_stances(all_jobids) |>
   #for duplicates, keep latest coding
   group_by(unit_id, coder, topic, variable) |>
@@ -86,9 +82,7 @@ all_stances <- download_stances(all_jobids) |>
 # save all coded stances as csv
 write_csv(all_stances, "data/intermediate/stances.csv")
 
-
 # for wide format use:
-
 list_units <- function(annotations) {
   units <- read_csv("data/intermediate/units_tk2023.csv",
                     col_select=c("unit_id", "before", "text_hl", "after"),

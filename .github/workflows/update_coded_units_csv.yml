@@ -10,12 +10,12 @@ on:
 jobs:
   update_coded_units_csv:
     runs-on: ubuntu-latest
-    
+
     env:
-      ANNOTINDER_USERNAME: ${{ secrets.ANNOTINDER_USERNAME }}
-      ANNOTINDER_PASSWORD: ${{ secrets.ANNOTINDER_PASSWORD }}
-      CODERS: ${{ secrets.CODERS }}
-      
+      - ANNOTINDER_USERNAME: ${{ secrets.ANNOTINDER_USERNAME }}
+      - ANNOTINDER_PASSWORD: ${{ secrets.ANNOTINDER_PASSWORD }}
+      - CODERS: ${{ secrets.CODERS }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3

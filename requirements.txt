@@ -1,3 +1,4 @@
+python-dotenv
 pandas
 pyhere
 pyyaml
@@ -6,3 +7,7 @@ krippendorff
 torch
 transformers
 scikit-learn
+langchain
+langchain-core
+langchain-openai
+langchain-community

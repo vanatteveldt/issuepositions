@@ -7,57 +7,57 @@ library(ggplot2)
 
 
 #load anonimised coders
-dotenv::load_dot_env(file = ".env")
+if (file.exists(".env")) dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
 
 CODERS <- jsonlite::fromJSON(coders_json) %>% as_tibble()
 
 
 download <- function(jobid) {
-  backend_connect("https://uva-climate.up.railway.app", 
-                  username=Sys.getenv("ANNOTINDER_USERNAME"), 
+  backend_connect("https://uva-climate.up.railway.app",
+                  username=Sys.getenv("ANNOTINDER_USERNAME"),
                   .password = Sys.getenv("ANNOTINDER_PASSWORD"))
-  
+
   annotations <- tryCatch({
     download_annotations(jobid)
   }, error = function(e) {
     message("Error downloading annotations for job ID: ", jobid)
     return(NULL)
   })
-  
+
   # Check if the download was successful and contains the required columns
   if (is.null(annotations) || !all(c("unit_id", "coder", "variable", "value") %in% names(annotations))) {
     message("Download for job ID ", jobid, " did not return expected columns.")
     return(NULL)
   }
-  
+
   #continue processing data if checks are passed
   annotations |>
-    select(unit_id, coder, variable, value) |> 
-    left_join(CODERS) |> 
-    mutate(coder=if_else(is.na(abbrev), coder, abbrev)) |> 
+    select(unit_id, coder, variable, value) |>
+    left_join(CODERS) |>
+    mutate(coder=if_else(is.na(abbrev), coder, abbrev)) |>
     select(-abbrev)
 }
 
 
 topics <- yaml::read_yaml("annotations/topics.yml")
 
-topiclist <- topics |> map(function(t) 
-  tibble(stance=c("L", "R"), 
+topiclist <- topics |> map(function(t)
+  tibble(stance=c("L", "R"),
          value=c(t$positive$label$nl, t$negative$label$nl))) |>
   list_rbind(names_to = "topic") |>
-  bind_rows(tibble(stance="N", value="Geen/Ander/Neutraal")) 
+  bind_rows(tibble(stance="N", value="Geen/Ander/Neutraal"))
 
 download_stances <- function(jobids) {
   #add error handling for non-existent job ids
   safe_download <- purrr::possibly(download, NULL)
-  
+
   #use safe_download
   results <- purrr::map(setNames(jobids, jobids), safe_download)
-  
+
   #check if jobs contain correct variables
   purrr::keep(results, ~ !is.null(.x) && "variable" %in% names(.x)) |>
-    
+
     list_rbind(names_to = "jobid") |>
     filter(variable == "stance") |>
     left_join(topiclist) |>
@@ -68,11 +68,11 @@ download_stances <- function(jobids) {
 }
 
 list_units <- function(annotations) {
-  units <- read_csv("data/intermediate/units_tk2023.csv", 
-                    col_select=c("unit_id", "before", "text_hl", "after"), 
-                    col_types="cccc") 
+  units <- read_csv("data/intermediate/units_tk2023.csv",
+                    col_select=c("unit_id", "before", "text_hl", "after"),
+                    col_types="cccc")
   mode <- function(x) names(which.max(table(x)))
-  annotations |> 
+  annotations |>
     left_join(units, by="unit_id") |>
     mutate(text=str_c(str_replace_na(before, ""), text_hl, str_replace_na(after, ""))) |>
     select(-variable, -value, -before, -text_hl, -after) |>
@@ -91,12 +91,12 @@ list_units <- function(annotations) {
 # set OAuth token to access sheets doc
 all_jobids <- read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=1748110643#gid=1748110643") |>
   filter(jobid > 495) |>  #coding jobs before 495 were training an contain many duplicates
-  pull(jobid) |> 
+  pull(jobid) |>
   unique()
 
 all_stances <- download_stances(all_jobids) |>
   #for duplicates, keep latest coding
-  group_by(unit_id, coder, topic, variable) |> 
+  group_by(unit_id, coder, topic, variable) |>
   slice_max(order_by = jobid, n=1)
 
 # save all coded stances as csv

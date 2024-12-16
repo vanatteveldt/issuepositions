@@ -54,6 +54,8 @@ download_stances <- function(jobids) {
 
   #use safe_download
   results <- purrr::map(setNames(jobids, jobids), safe_download)
+  
+  message(results)
 
   #check if jobs contain correct variables
   purrr::keep(results, ~ !is.null(.x) && "variable" %in% names(.x)) |>
@@ -74,7 +76,7 @@ all_jobids <- read_csv('https://docs.google.com/spreadsheet/ccc?key=1CKxjOn-x3Fb
   pull(jobid) |>
   unique()
 
-all_jobids = 495:800
+message(all_jobids)
 
 all_stances <- download_stances(all_jobids) |>
   #for duplicates, keep latest coding

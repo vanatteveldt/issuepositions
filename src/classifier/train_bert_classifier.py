@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
-from transformers import BertTokenizer, BertModel, AdamW, get_linear_schedule_with_warmup
+from transformers import BertTokenizer, BertModel, AdamW, get_linear_schedule_with_warmup, AutoModel, AutoTokenizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
@@ -125,7 +125,7 @@ if __name__ == "__main__":
             # create test and validation split
             train_texts, val_texts, train_labels, val_labels = train_test_split(texts, labels, test_size=0.2, random_state=42)
 
-            tokenizer = BertTokenizer.from_pretrained(bert_model_name)
+            tokenizer = AutoTokenizer.from_pretrained(bert_model_name)
             train_dataset = TextClassificationDataset(train_texts, train_labels, tokenizer, max_length)
             val_dataset = TextClassificationDataset(val_texts, val_labels, tokenizer, max_length)
             train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
             # initialize model
             device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-            model = BERTClassifier(bert_model_name, num_classes).to(device)
+            model = AutoModel(bert_model_name, num_classes).to(device)
 
             # initialize optimizer and scheduler
             optimizer = AdamW(model.parameters(), lr=learning_rate, no_deprecation_warning=True)
@@ -158,6 +158,7 @@ if __name__ == "__main__":
                         })
 
                     write_classification_row(report, writer)
+                    csvfile.flush()
 
             # check if this is the best model (currently only checking for accuracy)
             if accuracy > best_accuracy:

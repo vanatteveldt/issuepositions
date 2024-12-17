@@ -71,7 +71,7 @@ Validation Accuracy: 0.821
     dropout_rate: 0.1
     max_length: 128
 
-### Test Scores
+### Test Scores (update after training)
 | Class    | Precision | Recall | F1-Score | Support (instances of class)|
 | -------- | :-------: | :-------: | :-------: | :-------: |
 | L | 0.87 | 0.79 | 0.83 | 203 | 

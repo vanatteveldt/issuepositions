@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/intermediate/stances.csv.
+          git add data/intermediate/stances.csv
           git diff --cached --exit-code || git commit -m "[Action update-csv.yml] Updated CSV file"
           git push || echo "No changes to push."

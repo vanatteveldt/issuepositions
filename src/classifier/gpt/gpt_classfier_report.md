@@ -47,7 +47,7 @@ weighted avg       0.76      0.68      0.67       180
 
     accuracy                           0.71       180
    macro avg       0.72      0.75      0.71       180
-weighted avg       0.73      0.71      0.70       180
+   weighted avg       0.73      0.71      0.70       180
 
 # Evaluation for GPT-35shot classfier
 

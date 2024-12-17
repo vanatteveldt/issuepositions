@@ -33,7 +33,7 @@ class TextClassificationDataset(Dataset):
 class BERTClassifier(nn.Module):
     def __init__(self, bert_model_name, num_classes):
         super(BERTClassifier, self).__init__()
-        self.bert = BertModel.from_pretrained(bert_model_name)
+        self.bert = AutoModel.from_pretrained(bert_model_name)
         self.dropout = nn.Dropout(0.1)
         self.fc = nn.Linear(self.bert.config.hidden_size, num_classes)
 
@@ -45,7 +45,7 @@ class BERTClassifier(nn.Module):
         return logits
 
 
-def train(model:BertModel, data_loader, optimizer, scheduler, device):
+def train(model:AutoModel, data_loader, optimizer, scheduler, device):
     model.train()
     for batch in data_loader:
         optimizer.zero_grad()
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     # grid search for hyperparameter optimization
     learning_rates = [2e-5, 3e-5, 5e-5]
     batch_sizes = [8, 16]
-    num_epochs_list = [4, 2, 3, 4]
+    num_epochs_list = [1, 2, 3, 4]
     dropout_rates = [0.1, 0.3]
     max_lengths = [128, 256]
 
@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
             # initialize model
             device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-            model = AutoModel(bert_model_name, num_classes).to(device)
+            model = BERTClassifier(bert_model_name, num_classes).to(device)
 
             # initialize optimizer and scheduler
             optimizer = AdamW(model.parameters(), lr=learning_rate, no_deprecation_warning=True)

@@ -1,9 +1,10 @@
 name: update coded units csv-file
 
 on:
-  schedule:
+  push
+  #schedule:
     # Runs the workflow every day at 01:00 UTC
-    - cron: '0 1 * * *'
+   # - cron: '0 1 * * *'
 
 jobs:
   update_coded_units_csv:
@@ -32,6 +33,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/intermediate/stances.csv.
+          git add data/intermediate/stances.csv
           git diff --cached --exit-code || git commit -m "[Action update-csv.yml] Updated CSV file"
           git push || echo "No changes to push."

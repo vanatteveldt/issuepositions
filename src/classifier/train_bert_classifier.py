@@ -80,18 +80,18 @@ if __name__ == "__main__":
     
     # load training data data and basemodel
     data_file = Path("data//intermediate//coded_units.csv")
-    topic = "CivilRights"
+    topic = None
     texts, labels = list_data(data_file, topic)
-    bert_model_name = 'bert-base-uncased'
+    bert_model_name = 'bert-base-multilingual-cased'
     num_classes = 3
 
     # grid search for hyperparameter optimization
     # grid search not completed (see .md file)
-    learning_rates = [2e-5] #, 3e-5, 5e-5]
-    batch_sizes = [8] #, 16]
-    num_epochs_list = [4] #2, 3, 4]
-    dropout_rates = [0.1] #, 0.3]
-    max_lengths = [128] #, 256]
+    learning_rates = [2e-5, 3e-5, 5e-5]
+    batch_sizes = [8, 16]
+    num_epochs_list = [1, 2, 3, 4]
+    dropout_rates = [0.1, 0.3]
+    max_lengths = [128, 256]
 
     hyperparameter_combinations = list(itertools.product(learning_rates, batch_sizes, num_epochs_list, dropout_rates, max_lengths))
 
@@ -100,6 +100,7 @@ if __name__ == "__main__":
     best_model_state = None
     
     for learning_rate, batch_size, num_epochs, dropout_rate, max_length in hyperparameter_combinations:
+        print("_____________________________________________________________________________")
         print(f"Training with lr={learning_rate}, batch_size={batch_size}, num_epochs={num_epochs}, dropout_rate={dropout_rate}, max_length={max_length}\n")
 
         # create test and validation split
@@ -146,7 +147,7 @@ if __name__ == "__main__":
     # make sure to have an existing /models directory in the right location
     print("Saving best performing model...")
     #location = f"src/classifier/models/bert_{topic}_classifier.pth"
-    torch.save(best_model_state, Path(f"src/classifier/models/bert_{topic}_classifier.pth"))
+    torch.save(best_model_state, Path(f"src/classifier/models/{bert_model_name}_{topic}_classifier.pth"))
     
     end_time = time.time()
     

@@ -6,7 +6,7 @@ def load_data(data_file:Path, topic:str=None):
     "Second argument is a topic to filter the dataset on, if none is given, all topics are used"
     df = pd.read_csv(data_file)
     df = df.reset_index()
-    df = pd.melt(df, id_vars=["jobid", "unit_id", "topic", "text"], value_vars=["NK", "NPR", "AM", "KN", "SH", "NR", "JE", "WA"], value_name="value")
+    df = pd.melt(df, id_vars=["jobids", "unit_id", "topic", "text"], value_vars=["NK", "NPR", "AM", "KN", "SH", "NR", "JE", "WA"], value_name="value")
     df = df.dropna()
 
     if topic:

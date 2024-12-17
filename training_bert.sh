@@ -8,6 +8,6 @@ topics=("CivilRights" "Environment" "Immigration" "Economic" "Agriculture")
 for model in "${models[@]}"; do
   for topic in "${topics[@]}"; do
     echo "Running script.py with arguments $model and $topic"
-    python script.py "$model" "$topic"
+    python src/classifier/train_bert_classifier.py "$model" "$topic"
   done
 done

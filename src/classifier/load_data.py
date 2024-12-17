@@ -43,7 +43,3 @@ def list_data(data_file:Path, topic:str=None):
     labels = num_df['stance'].tolist()
 
     return [texts, labels]
-
-labels = list_data("data/intermediate/stances.csv")[1]
-
-print(labels[:20])

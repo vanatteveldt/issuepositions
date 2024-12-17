@@ -40,7 +40,10 @@ def list_data(data_file:Path, topic:str=None):
     num_df = num_df.merge(text_df, how='left', on='unit_id')    
 
     texts = num_df['text'].tolist()
-    labels = num_df['value'].tolist()
+    labels = num_df['stance'].tolist()
 
     return [texts, labels]
 
+labels = list_data("data/intermediate/stances.csv")[1]
+
+print(labels[:20])

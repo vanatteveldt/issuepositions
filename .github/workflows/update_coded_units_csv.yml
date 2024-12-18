@@ -14,6 +14,10 @@ jobs:
       ANNOTINDER_PASSWORD: ${{ secrets.ANNOTINDER_PASSWORD }}
       CODERS: ${{ secrets.CODERS }}
 
+    permissions:
+      contents: write
+      workflows: write # Allow triggering subsequent workflows
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -26,7 +30,7 @@ jobs:
 
       - name: Run R script to update csv file
         run: |
-          Rscript src/data-processing/irr_report.R
+          Rscript src/data-processing/actions/download_stances.R
 
       - name: Commit and push changes to .csv file
         run: |

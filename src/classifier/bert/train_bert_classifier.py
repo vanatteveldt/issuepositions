@@ -177,7 +177,7 @@ if __name__ == "__main__":
 
         # save best model state
         print("Saving best performing model...")
-        torch.save(best_model_state, Path(f"src/classifier/models/bert_{bert_model_name}_{topic}_classifier.pth"))
+        torch.save(best_model_state, Path(f"""src/classifier/models/bert_{bert_model_name.replace("/", "-")}_{topic}_classifier.pth"""))
         
         end_time = time.time()
         

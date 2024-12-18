@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define your sets of arguments
-models=("GroNLP/bert-base-dutch-cased" "xlm-roberta-base")
+models=("xlm-roberta-base")
 topics=("CivilRights" "Environment" "Immigration" "Economic" "Agriculture")
 
 # Loop over all combinations of arguments

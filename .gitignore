@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+0;10;1c0;10;1c# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -138,3 +138,4 @@ cython_debug/
 #R
 .RData
 /src/classifier/bert/models/
+/src/classifier/models/

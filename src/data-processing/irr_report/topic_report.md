@@ -42,7 +42,7 @@ gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |
 ## Coder Reliability
 
 The overall reliability across all coded units is a Krippendorff’s alpha
-of **0.72**
+of **0.73**
 
 ![](topic_report_files/figure-commonmark/plot-alpha-1.png)
 
@@ -61,12 +61,12 @@ topic.
 |    Defense     |    682    |   0   |       0%        |       NA        |
 |       EU       |    387    |   0   |       0%        |       NA        |
 |    Economic    |   1588    | 1472  |       93%       |      0.67       |
-|   Education    |    561    |  51   |       9%        |      0.72       |
+|   Education    |    561    |   1   |       0%        |      1.00       |
 |  Environment   |   1650    | 1650  |      100%       |      0.70       |
 |   Government   |   1774    |   0   |       0%        |       NA        |
 |     Health     |    849    |   0   |       0%        |       NA        |
 |    Housing     |    422    |   0   |       0%        |       NA        |
-|  Immigration   |   2163    | 2059  |       95%       |      0.75       |
+|  Immigration   |   2163    | 1944  |       90%       |      0.83       |
 | Infrastructure |    203    |   0   |       0%        |       NA        |
 |     Order      |    627    |   0   |       0%        |       NA        |
 
@@ -94,7 +94,7 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-4.png)
 
-#### Topic α score: 0.7205144
+#### Topic α score: 1
 
 ## Topic: Environment
 
@@ -106,4 +106,4 @@ topic.
 
 ![](topic_report_files/figure-commonmark/pairwise-plots-6.png)
 
-#### Topic α score: 0.7470914
+#### Topic α score: 0.8340466

@@ -137,4 +137,4 @@ cython_debug/
 .httr-oauth
 #R
 .RData
-/src/classifier/models/
+/src/classifier/bert/models/

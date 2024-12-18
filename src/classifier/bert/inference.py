@@ -3,7 +3,7 @@ from transformers import BertTokenizer
 from train_bert_classifier import BERTClassifier
 
 # Define model variables
-model_path = "src/classifier/models/bert_CivilRights_classifier.pth"
+model_path = "src/classifier/bert/models/bert_CivilRights_classifier.pth"
 bert_model_name = 'bert-base-uncased'
 num_classes = 3
 device = 'cuda' if torch.cuda.is_available() else 'cpu'

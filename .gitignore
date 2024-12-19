@@ -1,10 +1,11 @@
-# Byte-compiled / optimized / DLL files
+0;10;1c0;10;1c# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 # C extensions
 *.so
 # Distribution / packaging
+*.db
 .Python
 build/
 develop-eggs/
@@ -134,3 +135,7 @@ cython_debug/
 /data/tmp
 /dutch-alpino-ud-2.5-191206.udpipe
 .httr-oauth
+#R
+.RData
+/src/classifier/bert/models/
+/src/classifier/models/

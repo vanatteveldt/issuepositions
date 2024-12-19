@@ -6,20 +6,33 @@ jobs:
   createcodebook:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repo content
-        uses: actions/checkout@v3 # checkout the repository content to github runner.
-      - name: setup python
+      - name: Checkout repo content
+        uses: actions/checkout@v3
+
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10" #install the python needed
+          python-version: "3.10"
+
       - name: Install dependencies
         run: |
           pip install pyhere jinja2 pyyaml
-      - name: execute py script
+
+      - name: Check for relevant file changes
+        id: file-check
+        run: |
+          git fetch origin main
+          git diff --name-only origin/main > changes.txt
+          if ! grep -qE 'annotations/topics.yml|src/actions/topics.md' changes.txt; then
+            echo "No relevant changes detected."
+            exit 0
+          fi
+
+      - name: Execute Python script
         run: |
           python src/actions/generate_topics.py
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
-          git commit -m "[Action codebook.yml] Created topic files from topics.yml "
-          git push
+          git add annotations/topics-*.md
+          git diff --cached --exit-code || git commit -m "[Action codebook.yml] Created topic files from topics.yml"
+          git push || echo "No changes to push."

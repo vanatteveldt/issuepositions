@@ -1,23 +1,42 @@
+install.packages("here")
+install.packages("Annotinder")
+install.packages("remotes")
+remotes::install_github("ccs-amsterdam/annotinder-r")
 library(tidyverse)
+library(here)
+library(annotinder)
+library(dotenv)
+library(purrr)
+
+# annotinder::backend_connect("https://uva-climate.up.railway.app", username="n.karadavut@student.vu.nl", .password = 'julia20201211AH')
+annotinder::backend_connect("https://uva-climate.up.railway.app", username="nelruigrok@nieuwsmonitor.org", .password = 'test')
 
 # Download issues
-issues = read_csv("data/intermediate/gpt_issues_set_5.csv")
+issues = read_csv("data/intermediate/gpt_issues_all.csv")
 all_units <- read_csv("data/intermediate/units_tk2023.csv")
-
+head(issues)
 source(here::here("src/lib/stancetinder.R"))
 
 table(issues$topic)
 
-TOPIC = "CivilRights"
+TOPIC = "Education"
 
 # Select items to code
 # 1. filter on topic
 # 2. remove if already coded (to be added)
 # 3. take sample if needed
 
+
+## gebruiken voor test
+to_assign <- issues |> 
+  filter(set %in% c(25))|>
+  filter(topic == TOPIC, logprob >= -5) |> 
+  #slice_sample(n=40) |> 
+  pull(unit_id)
+
 to_assign <- issues |> 
   filter(topic == TOPIC, logprob >= -5) |> 
-  # slice_sample(n=100) |> 
+  filter(set == 11) |> ## hier wijs je een specifieke set toe
   pull(unit_id)
 
 message(glue::glue("To assign {length(to_assign)} units in topic {TOPIC}"))
@@ -34,4 +53,5 @@ units2[[1]]$unit$markdown_fields[[1]]$value
 
 cb <- get_topic_stance_codebook(TOPIC)
 connect_annotinder()
-upload_job("Stance set 1: Defense", units2, cb)
+upload_job("Stance set 1: Education", units2, cb)
+

@@ -16,9 +16,12 @@ create_message_unit <- function(md, ...) {
               )
 }
 
+library(googlesheets4)
+library(tidyverse)
+
 # Get gold codings
 gold_job = 457
-
+gs4_auth(email = "n.karadavut@student.vu.nl")
 gold =googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?gid=871520840#gid=871520840", sheet = as.character(gold_job)) |>
   rename_with(str_to_lower) |>
   select(unit_id, topic, gold, example, explanation)

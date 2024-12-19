@@ -1,7 +1,7 @@
 library(annotinder)
 library(tidyverse)
-
-
+library(purrr)
+source("src/lib/stancetinder.R")
 CODERS = tribble(
   ~coder, ~abbrev,
   "a.m.j.van.hoof@vu.nl", "AvH",
@@ -14,7 +14,8 @@ CODERS = tribble(
   "n.karadavut@student.vu.nl", "Nisanur",
   "s.b.van.haasteren@student.vu.nl", "Sascha",
   "o.ben.youssef@student.vu.nl", "Oumaima",
-  "k.narain@student.vu.nl", "Karishma"
+  "k.narain@student.vu.nl", "Karishma",
+  "a.y.maniran@student.vu.nl", "Amani",
 )
   
 download <- function(jobid) {
@@ -131,13 +132,10 @@ list_units <- function(annotations) {
     pivot_wider(names_from=coder, values_from=stance)
 }
 
-jobs = c(361, 368)
-a <- download_stances(jobs) |> 
-  filter(jobid == 368 | coder != "NR") |>
-  mutate(jobid=if_else(jobid == "368", "361", jobid)) 
-
-a <- download_stances(417)
+a <- download_stances(651)
 plot_report(a, "stance", "IRR report for job 401")
+
+
 
 table(a$jobid, a$coder)
 
@@ -145,16 +143,8 @@ table(a$jobid, a$coder)
 a |> group_by(jobid, unit_id, coder) |> filter(n() >1)
   
 
-a |> filter(jobid == "361")  |> list_units() |>
-  write_csv("/tmp/361.csv")
-
-nel = a|>
-  filter(coder=="NR")
-write_csv(nel,"/tmp/nel.csv")
-  
-table(l$jobid, is.na(l$WvA))
-
-
+a |> filter(jobid == "709")  |> list_units() |>
+  write_csv("job/709.csv")
 
 plot_pairwise_confusion(a, "Jessica", "Nel",var="stance")
 
@@ -167,7 +157,7 @@ gold <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1CKxjO
   select(unit_id, decision) |> 
   filter(!is.na(unit_id)) |>
   add_column(coder="Gold") |> 
-  separate(decision, into=c("topic", "stance"), sep="/") |>
+  separate(decision, into=c("topic", "stance"), sep="/") |> 
   pivot_longer(topic:stance, names_to="variable") 
 
 b <- a |> 
@@ -177,6 +167,7 @@ b <- a |>
 a |> select(unit_id, coder, stance) |> pivot_wider(names_from=coder, values_from=stance)
 
 
-list_units(a) |> write_csv("/tmp/416.csv")
+list_units(a) |> write_csv("/tmp/610.csv")
 
 a |> select(unit_id) |> write_csv("data/intermediate/set_2_ids.csv")
+

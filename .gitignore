@@ -139,3 +139,4 @@ cython_debug/
 .RData
 /src/classifier/bert/models/
 /src/classifier/models/
+/jobs

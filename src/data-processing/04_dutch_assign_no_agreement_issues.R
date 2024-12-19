@@ -5,9 +5,9 @@ source(here::here("src/lib/annotinder_data.R"))
 # Load in coder abbreviations and topic
 CODERS <- c("WA","NR","S","NK","KN","NPR","JE","AM")
 
-TOPIC = "Agriculture"
+TOPIC = "CivilRights"
 
-CODER = "NPR"
+CODER = "NK"
 
 # Load units coded so far
 all_coded_units <- read_csv("data/intermediate/stances.csv") 
@@ -44,7 +44,8 @@ all_units <- full_join(
 
 # filter for no agreement and less than 4 codings
 todo <- all_units |> 
-  filter(n_assigned < 4, agreement < 1)
+  filter(n_assigned < 4, agreement < 1) 
+#  filter(topic == "Agriculture")
 
 # filter for coder and topic (set topic at top of script)
 todo_for_coder = todo |>

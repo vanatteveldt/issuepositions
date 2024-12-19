@@ -16,7 +16,6 @@ jobs:
 
     permissions:
       contents: write
-      workflows: write # Allow triggering subsequent workflows
 
     steps:
       - name: Checkout repository

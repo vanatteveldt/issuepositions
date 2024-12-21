@@ -129,6 +129,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 632,01dfe88160d086213654effae70d4ab7a72a914b4ddc93d0d25a6039-16-GL/PvdA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 632,01dfe88160d086213654effae70d4ab7a72a914b4ddc93d0d25a6039-17-GL/PvdA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 632,01dfe88160d086213654effae70d4ab7a72a914b4ddc93d0d25a6039-17-GL/PvdA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+740,01dfe88160d086213654effae70d4ab7a72a914b4ddc93d0d25a6039-57-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 633,0242ca47c4d775fa9a94e08e1223bf2582d86547cff881a12a7f1f4d-16-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 633,0242ca47c4d775fa9a94e08e1223bf2582d86547cff881a12a7f1f4d-16-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 525,02495f7ca1df5eba6c0c60d30602a7a178f60e301e5d5bf22a85f1e2-18-PvdD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -522,6 +523,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 653,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-BBB,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 653,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 600,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-BBB,NK,stance,Fossiele industrie,Environment,R
+786,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 653,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-BBB,NR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 600,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-BBB,NR,stance,Fossiele industrie,Environment,R
 558,0490cc775892fa87482f2f4a28e859a340868274c1fb9e003af4d377-33-PVV,AM,stance,Fossiele industrie,Environment,R
@@ -853,6 +855,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-GL/PvdA,SH,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-Overig,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-Overig,SH,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+736,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,NK,stance,Geen/Ander/Neutraal,Education,N
 610,0a1c42e4c576f272d5b50b3b18a057ef0b8222b24dd79e5f6e9ecf07-14-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 672,0a1c42e4c576f272d5b50b3b18a057ef0b8222b24dd79e5f6e9ecf07-14-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 610,0a1c42e4c576f272d5b50b3b18a057ef0b8222b24dd79e5f6e9ecf07-14-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -942,6 +945,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 641,0c316e4f588bb43e876d71efd347f1a8dcb05f85ce6edf52a72207af-52-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 656,0c5ff28ee97f20d732110b71d7e46fbb3d22994b8a6df61162d079a6-1-Volt,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 512,0c5ff28ee97f20d732110b71d7e46fbb3d22994b8a6df61162d079a6-1-Volt,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,0c5ff28ee97f20d732110b71d7e46fbb3d22994b8a6df61162d079a6-1-Volt,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,0c5ff28ee97f20d732110b71d7e46fbb3d22994b8a6df61162d079a6-1-Volt,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 610,0c5ff28ee97f20d732110b71d7e46fbb3d22994b8a6df61162d079a6-12-Volt,AM,stance,Geen/Ander/Neutraal,Environment,N
 610,0c5ff28ee97f20d732110b71d7e46fbb3d22994b8a6df61162d079a6-12-Volt,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -993,6 +997,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 707,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-14-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 707,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-15-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 707,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-15-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-15-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 707,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-16-BBB,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 707,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-16-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 714,0cae28e6cd815e0d5aee712b819ebe4faf26c7c72cfa36dbe8297751-17-BBB,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -1073,6 +1078,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-104-FvD,AM,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-104-FvD,NPR,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-106-JA21,AM,stance,Beperken immigratie,Immigration,R
+760,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-106-JA21,NK,stance,Geen/Ander/Neutraal,Immigration,N
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-106-JA21,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 552,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-120-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
 552,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-120-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -1233,11 +1239,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-38-SGP,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 655,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-Overig,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-Overig,KN,stance,Traditionele waarden,CivilRights,R
+808,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 660,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-SGP,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-SGP,KN,stance,Traditionele waarden,CivilRights,R
+808,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-39-SGP,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-51-SGP,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-51-SGP,NK,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-51-SGP,NPR,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-51-Volt,AM,stance,Multiculturalisme,Immigration,L
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-51-Volt,NPR,stance,Multiculturalisme,Immigration,L
@@ -1256,8 +1265,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-60-Overig,NPR,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-60-SGP,AM,stance,Multiculturalisme,Immigration,L
 770,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-60-SGP,JE,stance,Geen/Ander/Neutraal,Immigration,N
+760,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-60-SGP,NK,stance,Geen/Ander/Neutraal,Immigration,N
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-60-SGP,NPR,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-62-SGP,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-62-SGP,NK,stance,Beperken immigratie,Immigration,R
 535,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-62-SGP,NPR,stance,Beperken immigratie,Immigration,R
 609,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-71-Overig,NK,stance,Fossiele industrie,Environment,R
 609,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-71-Overig,NPR,stance,Fossiele industrie,Environment,R
@@ -1476,6 +1487,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-22-CU,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 660,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 527,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-30-CU,NK,stance,Traditionele waarden,CivilRights,R
 527,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-30-CU,NPR,stance,Traditionele waarden,CivilRights,R
@@ -1491,6 +1503,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-39-CU,SH,stance,Traditionele waarden,CivilRights,R
 655,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-4-CU,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-4-CU,KN,stance,Traditionele waarden,CivilRights,R
+808,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-4-CU,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-4-CU,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 714,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-43-CU,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 714,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-43-CU,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -1520,6 +1533,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 609,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-57-CU,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 609,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-57-CU,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 535,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-6-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-6-VVD,NK,stance,Beperken immigratie,Immigration,R
 535,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-6-VVD,NPR,stance,Beperken immigratie,Immigration,R
 609,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-60-CU,NK,stance,Fossiele industrie,Environment,R
 609,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-60-CU,NPR,stance,Fossiele industrie,Environment,R
@@ -1541,6 +1555,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 765,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-28-CDA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 653,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-2-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 653,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-2-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-2-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 653,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-2-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Agriculture,N
 697,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-3-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 697,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-3-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -1797,6 +1812,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 633,176e072e93d950740c03b18f64ea5fd1db2544f3189d4aaa4a076668-53-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 633,176e072e93d950740c03b18f64ea5fd1db2544f3189d4aaa4a076668-53-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 667,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-11-GL/PvdA,JE,stance,Geen/Ander/Neutraal,CivilRights,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-12-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-15-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-19-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-21-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-22-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-26-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
 555,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-30-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Education,N
 555,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-30-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
 555,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-30-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Education,N
@@ -1975,7 +1997,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 695,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 631,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,NK,stance,Geen/Ander/Neutraal,Economic,N
 499,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
-695,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 631,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 499,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-118-CDA,SH,stance,Geen/Ander/Neutraal,Immigration,N
 550,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-119-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -2087,6 +2109,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 710,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-22-D66,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 713,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-22-NSC,JE,stance,Duurzame landbouw,Agriculture,L
 713,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-22-NSC,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-22-NSC,NPR,stance,Duurzame landbouw,Agriculture,L
 715,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-23-PvdD,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 715,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-23-PvdD,JE,stance,Duurzame landbouw,Agriculture,L
 715,19e44b7a807ef172b642e07507974c4240f54aa783a42ffd371581bc-23-PvdD,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -2473,6 +2496,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 525,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-15-FvD,NPR,stance,Traditionele waarden,CivilRights,R
 639,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-24-Overig,AM,stance,Belastingverlaging & Ondernemers,Economic,R
 639,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-24-Overig,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-24-Overig,NK,stance,Geen/Ander/Neutraal,Economic,N
 639,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-25-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 540,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-25-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 639,1e2da4a564a6e0c90fa3d199e4a0f1caa3b0e92586e12591418a0394-25-VVD,JE,stance,Geen/Ander/Neutraal,Economic,N
@@ -2527,6 +2551,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 637,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-181-PVV,SH,stance,Geen/Ander/Neutraal,Economic,N
 656,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-182-VVD,JE,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-182-VVD,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+808,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-182-VVD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 637,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-182-VVD,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 637,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-182-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 512,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-182-VVD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -2550,6 +2575,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 536,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-6-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 703,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-68-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 703,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-68-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-68-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 703,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-70-VVD,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 703,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-70-VVD,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 637,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-71-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -2600,6 +2626,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 548,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-21-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 639,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-22-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-22-GL/PvdA,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+773,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-22-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 639,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-25-PVV,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-25-PVV,JE,stance,Geen/Ander/Neutraal,Economic,N
 639,1fc1712d6d61b3b14611a537204be28aa1efbfd554bf1dfe72234848-26-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Economic,N
@@ -3111,8 +3138,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 599,27ba51a11b44a9f3840663e4ebf89d8c8f73acfb9689003ed9c193da-4-NSC,NR,stance,Fossiele industrie,Environment,R
 599,27ba51a11b44a9f3840663e4ebf89d8c8f73acfb9689003ed9c193da-4-NSC,WA,stance,Fossiele industrie,Environment,R
 534,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-1-JA21,AM,stance,Beperken immigratie,Immigration,R
+760,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-1-JA21,NK,stance,Beperken immigratie,Immigration,R
 534,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-1-JA21,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-1-Overig,AM,stance,Beperken immigratie,Immigration,R
+760,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-1-Overig,NK,stance,Beperken immigratie,Immigration,R
 534,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-1-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-2-Denk,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,284151a01535f6ec4c3a96d6e3d03b42cf84f299436ca2bfc526b6d0-2-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -3274,6 +3303,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 649,29a44da102dbca1296be932daffa33ebe64d7e07ec09439506952b2b-59-NSC,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 649,29a44da102dbca1296be932daffa33ebe64d7e07ec09439506952b2b-59-NSC,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 649,29a44da102dbca1296be932daffa33ebe64d7e07ec09439506952b2b-59-NSC,SH,stance,Geen/Ander/Neutraal,Economic,N
+736,29aee02381d963ef5629505fdb33d78346d6557ff088094e14542d8c-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
 599,29ba345cd965ab0e095ab1010e3d832b95b2c1b53001c657d97892fb-1-BBB,NK,stance,Fossiele industrie,Environment,R
 599,29ba345cd965ab0e095ab1010e3d832b95b2c1b53001c657d97892fb-1-BBB,NR,stance,Fossiele industrie,Environment,R
 599,29ba345cd965ab0e095ab1010e3d832b95b2c1b53001c657d97892fb-1-BBB,WA,stance,Fossiele industrie,Environment,R
@@ -3329,6 +3359,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 653,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-NSC,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 647,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 548,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-NSC,NK,stance,Geen/Ander/Neutraal,Immigration,N
+786,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-NSC,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 647,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 653,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-NSC,NR,stance,Geen/Ander/Neutraal,Agriculture,N
 698,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-129-Overig,AM,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -3348,6 +3379,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 555,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-5-CU,NPR,stance,Geen/Ander/Neutraal,Education,N
 555,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-5-CU,NR,stance,Geen/Ander/Neutraal,Education,N
 555,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-5-CU,SH,stance,Geen/Ander/Neutraal,Education,N
+741,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-6-PvdD,NK,stance,Geen/Ander/Neutraal,Education,N
 527,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-75-Volt,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 527,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-75-Volt,NPR,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 508,2a9045ed15ac8141a6ad3e1441e908ea6e1f318c6dcae09495bd0d2a-77-Volt,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -3655,6 +3687,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 698,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-141-Overig,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 698,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-141-Overig,NK,stance,Duurzame landbouw,Agriculture,L
 607,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-141-Overig,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-141-Overig,NPR,stance,Duurzame landbouw,Agriculture,L
 607,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-141-Overig,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-144-D66,NK,stance,Geen/Ander/Neutraal,Economic,N
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-144-D66,NPR,stance,Geen/Ander/Neutraal,Economic,N
@@ -3808,6 +3841,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 550,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-81-FvD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 550,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-81-FvD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 534,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,NK,stance,Geen/Ander/Neutraal,Immigration,N
 534,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,NPR,stance,Beperken immigratie,Immigration,R
 534,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-97-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-97-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -4431,7 +4465,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 709,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-19-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 709,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-19-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 709,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-36-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
-709,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-36-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
+786,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-36-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 653,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-48-BBB,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 653,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-48-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 653,382485877a0d9ef01e52f1026bd06f008c9dd32277f992eda62321fe-48-BBB,NR,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -4693,12 +4727,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 662,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-3-Denk,KN,stance,Traditionele waarden,CivilRights,R
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-3-Denk,NK,stance,Traditionele waarden,CivilRights,R
 666,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-3-Denk,NPR,stance,Traditionele waarden,CivilRights,R
+741,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-33-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-35-FvD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-4-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 667,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-4-Denk,JE,stance,Traditionele waarden,CivilRights,R
 661,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-4-Denk,KN,stance,Traditionele waarden,CivilRights,R
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-4-Denk,NK,stance,Traditionele waarden,CivilRights,R
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-40-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-40-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+741,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-40-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-47-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 533,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-47-D66,KN,stance,Geen/Ander/Neutraal,Immigration,N
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-47-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -4795,6 +4832,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 655,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-12-SGP,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 537,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-12-SGP,AM,stance,Geen/Ander/Neutraal,Immigration,N
 513,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-12-SGP,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-12-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 537,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-12-SGP,NK,stance,Geen/Ander/Neutraal,Immigration,N
 513,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-12-SGP,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,3a8acbe107b4914b2cf67ef2c477723e75085bf8e9325996a4512e1a-14-SGP,KN,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -4826,7 +4864,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 695,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
-695,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Environment,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-28-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Environment,N
@@ -4844,7 +4882,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 695,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
-695,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,NPR,stance,Fossiele industrie,Environment,R
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Environment,N
 558,3a920fffe0877bf35ff7cb93b74a7740f8e4f3ccb169e0138300008e-29-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Environment,N
@@ -5142,6 +5180,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-15-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-15-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-16-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-16-VVD,NK,stance,Beperken immigratie,Immigration,R
 534,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-16-VVD,NPR,stance,Beperken immigratie,Immigration,R
 534,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-41-NSC,AM,stance,Beperken immigratie,Immigration,R
 534,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-41-NSC,NPR,stance,Beperken immigratie,Immigration,R
@@ -5260,6 +5299,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 515,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-23-GL/PvdA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 639,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-27-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-27-GL/PvdA,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+773,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-27-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 540,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-37-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 540,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-37-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 540,3f3cdc51420ae040cc5f66fdc91b9ba66376c4648116ad564a94e4b1-37-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -5534,13 +5574,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-35-CDA,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-35-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-36-PvdD,NK,stance,Geen/Ander/Neutraal,Agriculture,N
-695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-36-PvdD,NPR,stance,Duurzame landbouw,Agriculture,L
+786,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-36-PvdD,NPR,stance,Duurzame landbouw,Agriculture,L
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-37-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-37-BBB,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-37-CDA,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-37-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-40-CDA,NK,stance,Duurzame landbouw,Agriculture,L
-695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-40-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-40-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-43-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 695,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-43-BBB,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 631,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-439-Overig,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -5910,8 +5950,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-64-VVD,KN,stance,Geen/Ander/Neutraal,Immigration,N
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-64-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-65-Overig,KN,stance,Beperken immigratie,Immigration,R
+760,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-65-Overig,NK,stance,Beperken immigratie,Immigration,R
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-65-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-66-VVD,KN,stance,Beperken immigratie,Immigration,R
+760,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-66-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-66-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-70-CDA,KN,stance,Geen/Ander/Neutraal,Immigration,N
 533,44350990a01b7214507d342d6174b4eda18cf950304c7c112cb84dd0-70-CDA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -5930,11 +5972,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 711,45366a3bd31bd295517df9f0f1a143b8c0266e14958b871b22bb55c4-8-CU,NK,stance,Duurzame landbouw,Agriculture,L
 711,45366a3bd31bd295517df9f0f1a143b8c0266e14958b871b22bb55c4-8-CU,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-10-PVV,AM,stance,Beperken immigratie,Immigration,R
+760,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-10-PVV,NK,stance,Beperken immigratie,Immigration,R
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-10-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-10-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-10-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-11-PVV,AM,stance,Beperken immigratie,Immigration,R
 771,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-11-PVV,JE,stance,Beperken immigratie,Immigration,R
+760,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-11-PVV,NK,stance,Beperken immigratie,Immigration,R
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-11-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-11-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-11-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -5954,14 +5998,18 @@ jobid,unit_id,coder,variable,value,topic,stance
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-19-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 535,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-19-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NK,stance,Belastingverlaging & Ondernemers,Economic,R
+743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-26-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-26-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NK,stance,Belastingverlaging & Ondernemers,Economic,R
+743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-Overig,NK,stance,Belastingverlaging & Ondernemers,Economic,R
+743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-Overig,NPR,stance,Geen/Ander/Neutraal,Economic,N
 783,45425644a15b42d6145e098b1a23ca8b425784db24d6c74e95c28c9e-32-Overig,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 648,45425644a15b42d6145e098b1a23ca8b425784db24d6c74e95c28c9e-32-Overig,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -6086,11 +6134,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 677,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,NPR,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-VVD,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-VVD,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-VVD,NK,stance,Geen/Ander/Neutraal,Environment,N
+786,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-VVD,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-39-BBB,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-39-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-39-FvD,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -6111,6 +6161,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 714,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-48-NSC,NK,stance,Duurzame landbouw,Agriculture,L
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-50-NSC,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-50-NSC,NK,stance,Duurzame landbouw,Agriculture,L
+786,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-50-NSC,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 670,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Environment,N
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
@@ -6722,6 +6773,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 605,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 696,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-D66,NK,stance,Duurzame landbouw,Agriculture,L
 605,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 677,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-D66,NPR,stance,Geen/Ander/Neutraal,Environment,N
 696,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 605,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-39-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
@@ -6732,6 +6784,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 605,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-40-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 696,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-40-D66,NK,stance,Duurzame landbouw,Agriculture,L
 605,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-40-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-40-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 676,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-40-D66,NPR,stance,Geen/Ander/Neutraal,Environment,N
 696,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-41-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 696,4c9c5c55356f46153c0eb2d22ad19580c5eb1d38facd23468107f4b8-41-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -6954,11 +7007,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 605,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 696,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-D66,NK,stance,Duurzame landbouw,Agriculture,L
 605,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 696,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,AM,stance,Duurzame landbouw,Agriculture,L
 670,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Environment,N
 605,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 696,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 605,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 676,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-27-GL/PvdA,NPR,stance,Fossiele industrie,Environment,R
 696,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-29-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 605,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-29-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -7366,6 +7421,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 523,532aafb128d32d7629c2969d242173f9dd74cb42cba99c7df9cdb740-7-CU,SH,stance,Traditionele waarden,CivilRights,R
 713,536e665a68924de045a1c4e042c82ea51dcb185301b13667c96b5365-16-BBB,JE,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 713,536e665a68924de045a1c4e042c82ea51dcb185301b13667c96b5365-16-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,536e665a68924de045a1c4e042c82ea51dcb185301b13667c96b5365-16-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 696,536e665a68924de045a1c4e042c82ea51dcb185301b13667c96b5365-16-CU,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 696,536e665a68924de045a1c4e042c82ea51dcb185301b13667c96b5365-16-CU,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 696,536e665a68924de045a1c4e042c82ea51dcb185301b13667c96b5365-40-PVV,AM,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -7551,6 +7607,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 639,576f060e2a388b3df32f5a7cc10e1668494199926702ac8c0e9b5656-34-GL/PvdA,JE,stance,Geen/Ander/Neutraal,Economic,N
 639,576f060e2a388b3df32f5a7cc10e1668494199926702ac8c0e9b5656-36-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,576f060e2a388b3df32f5a7cc10e1668494199926702ac8c0e9b5656-36-VVD,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,576f060e2a388b3df32f5a7cc10e1668494199926702ac8c0e9b5656-36-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 542,577a7159b99905f9304071108b7830de3fb7b6bfe7bbafa15043d9ef-11-PvdD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 542,577a7159b99905f9304071108b7830de3fb7b6bfe7bbafa15043d9ef-11-PvdD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 542,577a7159b99905f9304071108b7830de3fb7b6bfe7bbafa15043d9ef-3-PvdD,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -7938,11 +7995,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 759,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-43-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-43-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-BBB,AM,stance,Beperken immigratie,Immigration,R
+760,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-BBB,NK,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-PVV,AM,stance,Beperken immigratie,Immigration,R
 770,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-PVV,JE,stance,Geen/Ander/Neutraal,Immigration,N
+760,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-VVD,AM,stance,Beperken immigratie,Immigration,R
+760,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 535,5bacb2c8b13a1fb4cdf6c2d48561b9f29c5953666a583b9c60d147e3-6-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 517,5bc8ee8a0cceba6cfadec4b4af8b49e795435f19b0eb4b94e3b9d65d-17-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 667,5bc8ee8a0cceba6cfadec4b4af8b49e795435f19b0eb4b94e3b9d65d-17-VVD,JE,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -8362,6 +8422,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 649,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-55-CU,SH,stance,Geen/Ander/Neutraal,Economic,N
 653,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-77-BBB,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 653,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-77-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-77-BBB,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 653,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-77-BBB,NR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 651,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-79-BBB,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 651,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-79-BBB,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -8376,6 +8437,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+736,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -8400,8 +8462,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 759,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-13-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
 534,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-13-CDA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-17-CDA,AM,stance,Multiculturalisme,Immigration,L
+760,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-17-CDA,NK,stance,Multiculturalisme,Immigration,L
 534,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-17-CDA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-2-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-2-BBB,NK,stance,Multiculturalisme,Immigration,L
 534,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-2-BBB,NPR,stance,Multiculturalisme,Immigration,L
 771,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-20-FvD,JE,stance,Geen/Ander/Neutraal,Immigration,N
 552,62cbe1a38c9a71e4d25f62f72c259def7e2f0f785ee190a077dabfb0-20-FvD,KN,stance,Beperken immigratie,Immigration,R
@@ -8526,6 +8590,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,KN,stance,Geen/Ander/Neutraal,Economic,N
 635,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,NK,stance,Geen/Ander/Neutraal,Economic,N
 635,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,NPR,stance,Geen/Ander/Neutraal,Economic,N
+739,656a37d6d2251de5c1ddd8967ffbd5d89326d48b384c951cfade8d1b-9-VVD,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 646,657bc30566633ccbc087eed67eca0f8f07582ff61533fc2c36b99ed3-3-SP,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 646,657bc30566633ccbc087eed67eca0f8f07582ff61533fc2c36b99ed3-3-SP,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 646,657bc30566633ccbc087eed67eca0f8f07582ff61533fc2c36b99ed3-37-SP,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -8548,6 +8613,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 548,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-11-NSC,NK,stance,Beperken immigratie,Immigration,R
 535,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-14-GL/PvdA,AM,stance,Multiculturalisme,Immigration,L
 636,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-14-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
+760,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-14-GL/PvdA,NK,stance,Multiculturalisme,Immigration,L
 636,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-14-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 535,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-14-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 548,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-18-BBB,AM,stance,Beperken immigratie,Immigration,R
@@ -8564,6 +8630,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 535,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-5-VVD,AM,stance,Beperken immigratie,Immigration,R
 535,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-5-VVD,NPR,stance,Beperken immigratie,Immigration,R
 535,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-9-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-9-VVD,NK,stance,Beperken immigratie,Immigration,R
 535,659387f781971196957db4db5a9915d31a2c816c83700b92f53621c3-9-VVD,NPR,stance,Beperken immigratie,Immigration,R
 697,659521a38b416a08cfb7723e7e8cb2d02075023790fa07cc5193a6c3-10-BBB,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 670,659521a38b416a08cfb7723e7e8cb2d02075023790fa07cc5193a6c3-10-BBB,AM,stance,Geen/Ander/Neutraal,Environment,N
@@ -8575,6 +8642,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 697,659521a38b416a08cfb7723e7e8cb2d02075023790fa07cc5193a6c3-15-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 697,659521a38b416a08cfb7723e7e8cb2d02075023790fa07cc5193a6c3-17-BBB,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,659521a38b416a08cfb7723e7e8cb2d02075023790fa07cc5193a6c3-17-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,659521a38b416a08cfb7723e7e8cb2d02075023790fa07cc5193a6c3-17-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 615,65a02cd8f6bc3283869cebe4bffb93b24e58e7d4f2fb524f1e7d3f45-49-D66,AM,stance,Geen/Ander/Neutraal,Environment,N
 673,65a02cd8f6bc3283869cebe4bffb93b24e58e7d4f2fb524f1e7d3f45-49-D66,KN,stance,Fossiele industrie,Environment,R
 615,65a02cd8f6bc3283869cebe4bffb93b24e58e7d4f2fb524f1e7d3f45-49-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -8593,6 +8661,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 676,65a02cd8f6bc3283869cebe4bffb93b24e58e7d4f2fb524f1e7d3f45-54-GL/PvdA,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 639,65eeaddaf293fed4091bad07fef879920b7f21b94a90c13a9a9adf7f-7-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,65eeaddaf293fed4091bad07fef879920b7f21b94a90c13a9a9adf7f-7-VVD,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+773,65eeaddaf293fed4091bad07fef879920b7f21b94a90c13a9a9adf7f-7-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 612,65fb8bbe0e4b88f4820c44d3c56d6a58b0ef899af2bf3f6ca07ca741-43-Denk,AM,stance,Geen/Ander/Neutraal,Environment,N
 612,65fb8bbe0e4b88f4820c44d3c56d6a58b0ef899af2bf3f6ca07ca741-43-Denk,NK,stance,Geen/Ander/Neutraal,Environment,N
 638,65fb8bbe0e4b88f4820c44d3c56d6a58b0ef899af2bf3f6ca07ca741-6-NSC,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -8652,6 +8721,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-GL/PvdA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-GL/PvdA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+743,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 641,678c03f9bd2a857b31b370cbe6f779918eeb27848156d6d69d79e816-17-BBB,KN,stance,Geen/Ander/Neutraal,Economic,N
 641,678c03f9bd2a857b31b370cbe6f779918eeb27848156d6d69d79e816-17-BBB,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -9171,7 +9241,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 544,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-25-PVV,AM,stance,Beperken immigratie,Immigration,R
 544,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-25-PVV,NK,stance,Beperken immigratie,Immigration,R
 709,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-27-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
-709,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-27-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
+786,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-27-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 709,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-29-Denk,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 709,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-29-Denk,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 531,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-24-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
@@ -9553,6 +9623,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 642,728389390789ed132c3abc2a831014345e99ca621b73cb4a6b580bce-92-VVD,KN,stance,Geen/Ander/Neutraal,Economic,N
 642,728389390789ed132c3abc2a831014345e99ca621b73cb4a6b580bce-92-VVD,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 778,728389390789ed132c3abc2a831014345e99ca621b73cb4a6b580bce-92-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
+743,729fbb5312989877f0533032d33cbd3670245ea7339a14805955f277-24-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
 771,72b66bde37e49869fda1e0a3f7d89c60bf43b79173dd5963411e4159-93-GL/PvdA,JE,stance,Multiculturalisme,Immigration,L
 552,72b66bde37e49869fda1e0a3f7d89c60bf43b79173dd5963411e4159-93-GL/PvdA,KN,stance,Multiculturalisme,Immigration,L
 552,72b66bde37e49869fda1e0a3f7d89c60bf43b79173dd5963411e4159-93-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -9590,6 +9661,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 651,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-13-VVD,SH,stance,Duurzame landbouw,Agriculture,L
 653,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-17-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 653,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-17-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-17-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 653,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-17-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Agriculture,N
 651,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-18-GL/PvdA,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 651,72b95fe90d768709430980fa4462e1a7cf16d88ae49d85fdd684c046-18-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -10055,6 +10127,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 695,78835a5836d4cba89296589fecb6e9f1f68fb9f6af8bc3b15f5c5a76-2-PvdD,NPR,stance,Duurzame landbouw,Agriculture,L
 660,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-32-NSC,AM,stance,Traditionele waarden,CivilRights,R
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-32-NSC,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-32-NSC,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-32-NSC,SH,stance,Traditionele waarden,CivilRights,R
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-33-NSC,KN,stance,Traditionele waarden,CivilRights,R
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-33-NSC,SH,stance,Traditionele waarden,CivilRights,R
@@ -10064,9 +10137,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-37-NSC,SH,stance,Traditionele waarden,CivilRights,R
 655,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-43-NSC,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-43-NSC,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-43-NSC,NK,stance,Traditionele waarden,CivilRights,R
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-43-NSC,SH,stance,Traditionele waarden,CivilRights,R
 658,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-45-NSC,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-45-NSC,KN,stance,Traditionele waarden,CivilRights,R
+808,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-45-NSC,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-45-NSC,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-49-NSC,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 512,78c4f34927b29e9adbceaa2bf43d9c7f584f6859719ff531a0a3f8f5-49-NSC,SH,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -10154,8 +10229,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 548,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-165-NSC,NK,stance,Beperken immigratie,Immigration,R
 766,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-165-NSC,NPR,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-169-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-169-BBB,NK,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-169-BBB,NPR,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-169-NSC,AM,stance,Geen/Ander/Neutraal,Immigration,N
+760,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-169-NSC,NK,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-169-NSC,NPR,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-170-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 759,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-170-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -10312,7 +10389,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 559,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 693,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,NK,stance,Duurzame landbouw,Agriculture,L
 559,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,NK,stance,Geen/Ander/Neutraal,Environment,N
-693,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
+786,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 559,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,NPR,stance,Geen/Ander/Neutraal,Environment,N
 559,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,NR,stance,Geen/Ander/Neutraal,Environment,N
 559,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-39-D66,SH,stance,Geen/Ander/Neutraal,Environment,N
@@ -10401,6 +10478,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-D66,NK,stance,Duurzame landbouw,Agriculture,L
 653,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-VVD,KN,stance,Duurzame landbouw,Agriculture,L
 653,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-VVD,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-VVD,NPR,stance,Duurzame landbouw,Agriculture,L
 653,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-VVD,NR,stance,Geen/Ander/Neutraal,Agriculture,N
 606,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-38-CDA,KN,stance,Geen/Ander/Neutraal,Environment,N
 606,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-38-CDA,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -10412,8 +10490,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-40-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-42-D66,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-42-D66,NK,stance,Duurzame landbouw,Agriculture,L
+786,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-42-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-42-Overig,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-42-Overig,NK,stance,Duurzame landbouw,Agriculture,L
+786,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-42-Overig,NPR,stance,Duurzame landbouw,Agriculture,L
 606,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-45-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 606,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-45-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 715,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-47-VVD,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -10502,6 +10582,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 648,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-18-PVV,NPR,stance,Geen/Ander/Neutraal,Economic,N
 660,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-25-PVV,AM,stance,Traditionele waarden,CivilRights,R
 513,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-25-PVV,KN,stance,Traditionele waarden,CivilRights,R
+808,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-25-PVV,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 513,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-25-PVV,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 513,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-26-NSC,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 663,7c657fbe801b13a88e6e526de4de4a01bb5b3cbf74a1dab112c14005-26-NSC,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -11135,20 +11216,28 @@ jobid,unit_id,coder,variable,value,topic,stance
 644,820cc1167a56e360ece3a30014ea67798f68dd118bcd94596f513d02-18-Overig,SH,stance,Geen/Ander/Neutraal,Economic,N
 648,820cc1167a56e360ece3a30014ea67798f68dd118bcd94596f513d02-32-SP,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 648,820cc1167a56e360ece3a30014ea67798f68dd118bcd94596f513d02-32-SP,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+741,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-23-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
+741,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-25-PVV,NK,stance,Geen/Ander/Neutraal,Education,N
+741,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-26-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
+741,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-26-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-27-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Immigration,N
+741,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-27-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-27-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-28-D66,KN,stance,Multiculturalisme,Immigration,L
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-28-D66,NPR,stance,Multiculturalisme,Immigration,L
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-28-Volt,KN,stance,Multiculturalisme,Immigration,L
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-28-Volt,NPR,stance,Multiculturalisme,Immigration,L
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-CDA,KN,stance,Multiculturalisme,Immigration,L
+760,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-CDA,NPR,stance,Beperken immigratie,Immigration,R
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-CU,KN,stance,Multiculturalisme,Immigration,L
+760,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-CU,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-CU,NPR,stance,Beperken immigratie,Immigration,R
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-D66,KN,stance,Multiculturalisme,Immigration,L
 759,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-D66,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-D66,NPR,stance,Beperken immigratie,Immigration,R
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-GL/PvdA,KN,stance,Multiculturalisme,Immigration,L
+760,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-GL/PvdA,NPR,stance,Beperken immigratie,Immigration,R
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-VVD,KN,stance,Multiculturalisme,Immigration,L
 759,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-36-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -11280,9 +11369,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 517,82b00ce02e97aaed735f15713381c2a9ba0bf648903acf92c7541b92-9-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 660,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-D66,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-D66,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-D66,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 655,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-Overig,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-Overig,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-18-Overig,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 535,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-23-PvdD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 535,82e2fa80b573a553571b3223ac467089b8701c5c392dccf796cced6e-23-PvdD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -11434,6 +11525,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 633,87bb9edda79d047e2bbb949c96f5b3a971be8cf4b22aefe8457508ca-7-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 633,87bb9edda79d047e2bbb949c96f5b3a971be8cf4b22aefe8457508ca-9-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 633,87bb9edda79d047e2bbb949c96f5b3a971be8cf4b22aefe8457508ca-9-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
+740,8824c232997244b811f81c2b484b166be05276236e035cee6afc6ef1-17-CDA,NK,stance,Geen/Ander/Neutraal,Education,N
 603,8842263c767465763339fe4bc2e9e41ce5171b50ddebbf051475ef26-17-Overig,KN,stance,Geen/Ander/Neutraal,Environment,N
 603,8842263c767465763339fe4bc2e9e41ce5171b50ddebbf051475ef26-17-Overig,NK,stance,Geen/Ander/Neutraal,Environment,N
 603,8842263c767465763339fe4bc2e9e41ce5171b50ddebbf051475ef26-18-CDA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -11450,6 +11542,9 @@ jobid,unit_id,coder,variable,value,topic,stance
 667,884adbb28fcca8f511327751b1599e876eb70f69c8458d784e6cb434-2-SGP,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 509,884adbb28fcca8f511327751b1599e876eb70f69c8458d784e6cb434-2-SGP,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,884adbb28fcca8f511327751b1599e876eb70f69c8458d784e6cb434-2-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
+739,88531a546c3f60ba5c8bfbf7b93478782f779f0d735e7355dff2a765-52-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,88531a546c3f60ba5c8bfbf7b93478782f779f0d735e7355dff2a765-52-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
+739,88531a546c3f60ba5c8bfbf7b93478782f779f0d735e7355dff2a765-52-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 526,88651608b607af651d124bfa68f0962ea707b071a42cdbd8d8d95582-26-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 526,88651608b607af651d124bfa68f0962ea707b071a42cdbd8d8d95582-26-Overig,NPR,stance,Geen/Ander/Neutraal,CivilRights,N
 522,88651608b607af651d124bfa68f0962ea707b071a42cdbd8d8d95582-26-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -11482,17 +11577,37 @@ jobid,unit_id,coder,variable,value,topic,stance
 522,8913239989d3b4db1e8a544b73b119b331dae7ba98abfbb1dd62c997-9-SGP,SH,stance,Traditionele waarden,CivilRights,R
 611,8998033fbe4538a7fa67fbe32520db21ced2507dd123756d5c8efed3-17-PvdD,AM,stance,Geen/Ander/Neutraal,Environment,N
 611,8998033fbe4538a7fa67fbe32520db21ced2507dd123756d5c8efed3-17-PvdD,NK,stance,Geen/Ander/Neutraal,Environment,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-12-CDA,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-12-CU,NK,stance,Geen/Ander/Neutraal,Education,N
 634,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-12-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-12-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
 634,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-12-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Economic,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-12-PvdD,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-13-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-17-CU,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-17-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-17-Volt,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 607,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-20-VVD,NK,stance,Geen/Ander/Neutraal,Environment,N
 607,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-20-VVD,NPR,stance,Geen/Ander/Neutraal,Environment,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-23-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-23-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-23-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-GL/PvdA,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Education,N
 555,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-GL/PvdA,NR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-GL/PvdA,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-25-Volt,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-28-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-28-SP,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-29-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-30-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-30-PvdD,NK,stance,Geen/Ander/Neutraal,Education,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-NSC,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-CU,AM,stance,Traditionele waarden,CivilRights,R
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -11523,10 +11638,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-35-JA21,NK,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-35-JA21,NPR,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-CDA,NK,stance,Geen/Ander/Neutraal,Economic,N
+740,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-CDA,NK,stance,Geen/Ander/Neutraal,Education,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-CDA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-CU,NK,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-CU,NPR,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
+740,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 632,8b48fb57141b3c179254368676d8495c688a8cde5c1c7574bc893584-37-VVD,NPR,stance,Geen/Ander/Neutraal,Economic,N
@@ -11672,6 +11789,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,8ed537bd90074f344bc486e66474766a68c3598e512bed2e6d95f470-4-PvdD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 510,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-21-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 510,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-21-PVV,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+743,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-26-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
 636,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-29-Overig,NK,stance,Geen/Ander/Neutraal,Economic,N
 636,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-29-Overig,NPR,stance,Geen/Ander/Neutraal,Economic,N
 509,902e98240e4fc6ca6858c59f68148db76b0649fdb53c982ced8d38ff-109-FvD,AM,stance,Traditionele waarden,CivilRights,R
@@ -11941,11 +12059,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-26-GL/PvdA,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-26-GL/PvdA,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-GL/PvdA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-GL/PvdA,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 660,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-Overig,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-Overig,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-Overig,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-29-VVD,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-83-CU,KN,stance,Traditionele waarden,CivilRights,R
 513,9423f89baf37e51fda884a04a57a221c0f8f021aef1b748cdc0934c7-83-CU,SH,stance,Traditionele waarden,CivilRights,R
@@ -12291,6 +12412,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 550,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-81-Denk,NK,stance,Geen/Ander/Neutraal,Immigration,N
 660,9aae712608d4f58385493cd9ebc100243343b44f065bc23806affdaa-23-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 512,9aae712608d4f58385493cd9ebc100243343b44f065bc23806affdaa-23-VVD,KN,stance,Traditionele waarden,CivilRights,R
+808,9aae712608d4f58385493cd9ebc100243343b44f065bc23806affdaa-23-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 512,9aae712608d4f58385493cd9ebc100243343b44f065bc23806affdaa-23-VVD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 610,9ad98ef29505cd6408325dfca314b4d604994a0ab1874c2d228daeff-11-CU,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 610,9ad98ef29505cd6408325dfca314b4d604994a0ab1874c2d228daeff-11-CU,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -12452,7 +12574,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 520,9d5cf4bef0b4e3bd9e33ed0ec5609adea65557949f1bedb1220eba51-60-Denk,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 544,9d5cf4bef0b4e3bd9e33ed0ec5609adea65557949f1bedb1220eba51-60-Denk,NK,stance,Geen/Ander/Neutraal,Immigration,N
 709,9d5cf4bef0b4e3bd9e33ed0ec5609adea65557949f1bedb1220eba51-97-CDA,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
-709,9d5cf4bef0b4e3bd9e33ed0ec5609adea65557949f1bedb1220eba51-97-CDA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
+786,9d5cf4bef0b4e3bd9e33ed0ec5609adea65557949f1bedb1220eba51-97-CDA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 543,9d612918ad4948deaefd1a7114fbd272bdbc6ffddb8585f4731e3326-7-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 543,9d612918ad4948deaefd1a7114fbd272bdbc6ffddb8585f4731e3326-7-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 551,9d612918ad4948deaefd1a7114fbd272bdbc6ffddb8585f4731e3326-9-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Immigration,N
@@ -12570,9 +12692,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 536,a2e6e5471d38dc8196c322475c5025edfa0d44b60e75f8aafc15b26e-9-VVD,NK,stance,Beperken immigratie,Immigration,R
 660,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-D66,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 660,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-Volt,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-Volt,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-Volt,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-102-Volt,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 536,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-107-VVD,AM,stance,Beperken immigratie,Immigration,R
 536,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-107-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -12665,6 +12789,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 703,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-89-BBB,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 703,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-89-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 637,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-89-BBB,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+786,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-89-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 637,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-89-BBB,NPR,stance,Geen/Ander/Neutraal,Economic,N
 637,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-89-BBB,SH,stance,Geen/Ander/Neutraal,Economic,N
 610,a2e8b98617f6697386375b3b9c959d7d176043b833dedd00672b6f80-92-BBB,AM,stance,Geen/Ander/Neutraal,Environment,N
@@ -12894,10 +13019,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-13-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-13-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-8-Overig,KN,stance,Geen/Ander/Neutraal,Immigration,N
+759,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-8-Overig,NK,stance,Beperken immigratie,Immigration,R
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-8-Overig,NPR,stance,Beperken immigratie,Immigration,R
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-8-PVV,KN,stance,Beperken immigratie,Immigration,R
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-8-PVV,NPR,stance,Beperken immigratie,Immigration,R
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-9-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
+759,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-9-PVV,NK,stance,Beperken immigratie,Immigration,R
 533,a493b4b7ff6c2d8f5befabca283e89a573d6732d79d629f0598ee4b6-9-PVV,NPR,stance,Beperken immigratie,Immigration,R
 615,a4d4d62230b8e0d4724a1432b43036703403656d3de723ecabda8ed0-21-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 674,a4d4d62230b8e0d4724a1432b43036703403656d3de723ecabda8ed0-21-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
@@ -13138,6 +13265,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 548,a83ae1b674ef2b933b1696ecb521a9107d1fa45461d6e85c32857cce-21-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
 766,a83ae1b674ef2b933b1696ecb521a9107d1fa45461d6e85c32857cce-21-CDA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,a83ae1b674ef2b933b1696ecb521a9107d1fa45461d6e85c32857cce-21-D66,KN,stance,Multiculturalisme,Immigration,L
+759,a83ae1b674ef2b933b1696ecb521a9107d1fa45461d6e85c32857cce-21-D66,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,a83ae1b674ef2b933b1696ecb521a9107d1fa45461d6e85c32857cce-21-D66,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-11-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 535,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-11-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -13207,6 +13335,8 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-161-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 510,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-162-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 510,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-162-Denk,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+743,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+743,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-39-BBB,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 535,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-41-BBB,AM,stance,Beperken immigratie,Immigration,R
 535,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-41-BBB,NPR,stance,Beperken immigratie,Immigration,R
 535,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-41-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -13563,7 +13693,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 617,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-32-Volt,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 617,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-32-Volt,SH,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-39-CU,NK,stance,Geen/Ander/Neutraal,Agriculture,N
-709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-39-CU,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-39-CU,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-39-D66,NK,stance,Duurzame landbouw,Agriculture,L
 709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-39-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-39-GL/PvdA,NK,stance,Duurzame landbouw,Agriculture,L
@@ -13577,7 +13707,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 715,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-40-CU,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-40-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 617,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-40-VVD,NK,stance,Geen/Ander/Neutraal,Environment,N
-709,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-40-VVD,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-40-VVD,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 617,ab2450cfe315a130de5d24e7577bbb2a9eb23320161ca6b9a168a940-40-VVD,SH,stance,Geen/Ander/Neutraal,Environment,N
 713,ab4fd6e43164e916e22941fca3c86f2938bbd791def25e1ce5483814-3-BBB,JE,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 713,ab4fd6e43164e916e22941fca3c86f2938bbd791def25e1ce5483814-3-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -13694,6 +13824,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 707,acf322a4e1d9d405a683d75d5200a9cfc45b973d2828fe75e807d743-69-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 713,acf322a4e1d9d405a683d75d5200a9cfc45b973d2828fe75e807d743-71-BBB,JE,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 713,acf322a4e1d9d405a683d75d5200a9cfc45b973d2828fe75e807d743-71-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,acf322a4e1d9d405a683d75d5200a9cfc45b973d2828fe75e807d743-71-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 693,ad7808c45e99324de772657a319d8b7422a4e0b39aba0f8fa04cd093-27-GL/PvdA,NK,stance,Duurzame landbouw,Agriculture,L
 693,ad7808c45e99324de772657a319d8b7422a4e0b39aba0f8fa04cd093-27-GL/PvdA,NPR,stance,Duurzame landbouw,Agriculture,L
 622,ad7808c45e99324de772657a319d8b7422a4e0b39aba0f8fa04cd093-37-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -13780,6 +13911,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-CU,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 655,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-SGP,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-SGP,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-SGP,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 510,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 510,af99f65ec0403695a1e36fdef6f337b23ac493bc25fc59aa357c4dfe-9-VVD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -13869,9 +14001,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-18-GL/PvdA,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-18-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-18-VVD,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-18-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 778,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-18-VVD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-20-GL/PvdA,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-20-GL/PvdA,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 778,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-20-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-20-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,b03d7cc842e1b698cd45e53750d87cc021671dcc56356810b5688eaf-20-VVD,JE,stance,Geen/Ander/Neutraal,Economic,N
@@ -14109,8 +14243,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 507,b12b60b568f906c4c5a862776db1e5689d8bfbd68e9674fc4d54ce18-96-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 639,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-D66,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-D66,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+773,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-D66,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-VVD,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+773,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-VVD,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 778,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-65-VVD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 639,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-72-Denk,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,b15be990d06a2336aa5ba5b6770391a437af0b6cae28c7747c8086b7-72-Denk,JE,stance,Geen/Ander/Neutraal,Economic,N
@@ -14211,6 +14347,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 672,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-27-CDA,KN,stance,Geen/Ander/Neutraal,Environment,N
 701,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-27-CDA,NK,stance,Duurzame landbouw,Agriculture,L
 608,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-27-CDA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+786,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-27-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 608,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-27-CDA,NPR,stance,Fossiele industrie,Environment,R
 608,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-28-NSC,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 608,b27df55d690fb418af605306cf5815233cde9c1506e26778fb03ff91-28-NSC,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -14270,15 +14407,37 @@ jobid,unit_id,coder,variable,value,topic,stance
 542,b3478acfdf46f786af6384e3540572d61ecec2892ab2f6d8f44235be-12-NSC,AM,stance,Beperken immigratie,Immigration,R
 542,b3478acfdf46f786af6384e3540572d61ecec2892ab2f6d8f44235be-12-NSC,NK,stance,Geen/Ander/Neutraal,Immigration,N
 765,b3478acfdf46f786af6384e3540572d61ecec2892ab2f6d8f44235be-12-NSC,NPR,stance,Beperken immigratie,Immigration,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-113-JA21,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-115-JA21,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-12-JA21,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-12-PVV,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 555,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-120-PVV,AM,stance,Bezuinigen; Christelijk onderwijs,Education,R
 555,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-120-PVV,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 555,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-120-PVV,NPR,stance,Bezuinigen; Christelijk onderwijs,Education,R
 555,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-120-PVV,NR,stance,Bezuinigen; Christelijk onderwijs,Education,R
 555,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-120-PVV,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-125-SGP,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-13-CDA,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-13-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-13-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-131-FvD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-135-FvD,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-135-JA21,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-135-SGP,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-15-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-17-VVD,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-17-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-2-VVD,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-21-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-24-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-34-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-36-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-41-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-47-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-5-D66,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-5-D66,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-50-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-56-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-6-CDA,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-6-CDA,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-6-CU,NK,stance,Belastingverlaging & Ondernemers,Economic,R
@@ -14291,6 +14450,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-6-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-6-Volt,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 631,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-6-Volt,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-60-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-62-CDA,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-76-PvdD,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-85-Volt,NK,stance,Geen/Ander/Neutraal,Education,N
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-9-PvdD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-91-SP,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,b39092b7061b4920d074a813ee43f140aced0fa3cb1638564dd4c497-93-NSC,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 542,b3ad3d67ee3d34309fd448a34610865073cf0523362182388b7aab94-12-D66,AM,stance,Geen/Ander/Neutraal,Immigration,N
 542,b3ad3d67ee3d34309fd448a34610865073cf0523362182388b7aab94-12-D66,NK,stance,Geen/Ander/Neutraal,Immigration,N
 555,b3ad3d67ee3d34309fd448a34610865073cf0523362182388b7aab94-13-D66,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -14487,6 +14653,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-28-Denk,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-36-NSC,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-36-NSC,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-36-NSC,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-38-NSC,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 671,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-38-NSC,AM,stance,Geen/Ander/Neutraal,Environment,N
 673,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-38-NSC,KN,stance,Fossiele industrie,Environment,R
@@ -14559,15 +14726,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 694,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
-694,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-NSC,KN,stance,Geen/Ander/Neutraal,Environment,N
 694,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-NSC,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-NSC,NK,stance,Geen/Ander/Neutraal,Environment,N
-694,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-NSC,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-20-NSC,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-21-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 694,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-21-D66,NK,stance,Duurzame landbouw,Agriculture,L
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-21-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
-694,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-21-D66,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
+786,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-21-D66,NPR,stance,Duurzame landbouw,Agriculture,L
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-22-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-22-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 603,b73881b4b5308d483ca21adc6c3df3389d0809b96dbab6c2684fc69d-22-PVV,KN,stance,Fossiele industrie,Environment,R
@@ -14595,6 +14762,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,b7f8dc3d5ff8f43eb35286f56ec1d20c59f433ff8f4f5329ca8db6f8-14-Denk,SH,stance,Traditionele waarden,CivilRights,R
 660,b7f8dc3d5ff8f43eb35286f56ec1d20c59f433ff8f4f5329ca8db6f8-15-FvD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 510,b7f8dc3d5ff8f43eb35286f56ec1d20c59f433ff8f4f5329ca8db6f8-15-FvD,KN,stance,Traditionele waarden,CivilRights,R
+808,b7f8dc3d5ff8f43eb35286f56ec1d20c59f433ff8f4f5329ca8db6f8-15-FvD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,b7f8dc3d5ff8f43eb35286f56ec1d20c59f433ff8f4f5329ca8db6f8-15-FvD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 695,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 695,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -14807,6 +14975,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 542,bbe5d0ee6e9955cc18051f349e8fb7d8f95054c7aba8ba41cd119f2b-21-SGP,AM,stance,Geen/Ander/Neutraal,Immigration,N
 542,bbe5d0ee6e9955cc18051f349e8fb7d8f95054c7aba8ba41cd119f2b-21-SGP,NK,stance,Beperken immigratie,Immigration,R
 766,bbe5d0ee6e9955cc18051f349e8fb7d8f95054c7aba8ba41cd119f2b-21-SGP,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+736,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-1-CU,NK,stance,Geen/Ander/Neutraal,Education,N
 552,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-22-CDA,KN,stance,Geen/Ander/Neutraal,Immigration,N
 599,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-22-CDA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 552,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-22-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -15065,6 +15234,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,c0beded9612bd3c4025442dd86ef939367916b97d9e8f04f65ea820f-90-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,c0beded9612bd3c4025442dd86ef939367916b97d9e8f04f65ea820f-90-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,c0beded9612bd3c4025442dd86ef939367916b97d9e8f04f65ea820f-90-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-20-VVD,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-21-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-22-Overig,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-26-PVV,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-28-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-3-NSC,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-32-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-38-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
+740,c0e71d75e0c7e6238e0abd3eaf3904c1710f9b3e27d95fad7c518c08-7-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 640,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-102-SP,AM,stance,Geen/Ander/Neutraal,Economic,N
 640,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-102-SP,NK,stance,Geen/Ander/Neutraal,Economic,N
 640,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-104-SP,AM,stance,Geen/Ander/Neutraal,Economic,N
@@ -15287,6 +15465,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 555,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-27-PVV,SH,stance,Geen/Ander/Neutraal,Education,N
 656,c249e7967af5369a9e0f5e128896c724e03be3c81446e2b5256f2faa-10-GL/PvdA,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 510,c249e7967af5369a9e0f5e128896c724e03be3c81446e2b5256f2faa-10-GL/PvdA,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+808,c249e7967af5369a9e0f5e128896c724e03be3c81446e2b5256f2faa-10-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,c249e7967af5369a9e0f5e128896c724e03be3c81446e2b5256f2faa-10-GL/PvdA,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 671,c249e7967af5369a9e0f5e128896c724e03be3c81446e2b5256f2faa-45-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 673,c249e7967af5369a9e0f5e128896c724e03be3c81446e2b5256f2faa-45-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -15347,6 +15526,8 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,c2883b45500d39e45e9f157945016135c6b5bc18fdd9cc4c783744f8-1-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,c2883b45500d39e45e9f157945016135c6b5bc18fdd9cc4c783744f8-2-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,c2883b45500d39e45e9f157945016135c6b5bc18fdd9cc4c783744f8-2-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+743,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-100-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+743,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-101-BBB,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 551,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-103-BBB,KN,stance,Beperken immigratie,Immigration,R
 551,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-103-BBB,NK,stance,Beperken immigratie,Immigration,R
 535,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-103-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -15365,6 +15546,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 535,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-109-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 535,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-109-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-110-VVD,AM,stance,Beperken immigratie,Immigration,R
+760,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-110-VVD,NK,stance,Beperken immigratie,Immigration,R
 535,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-110-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 535,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-111-VVD,AM,stance,Beperken immigratie,Immigration,R
 770,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-111-VVD,JE,stance,Beperken immigratie,Immigration,R
@@ -15393,6 +15575,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-15-D66,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 658,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-18-BBB,JE,stance,Traditionele waarden,CivilRights,R
 510,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-18-BBB,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-18-BBB,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 510,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-18-BBB,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 510,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-210-BBB,KN,stance,Traditionele waarden,CivilRights,R
 510,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-210-BBB,SH,stance,Traditionele waarden,CivilRights,R
@@ -15416,6 +15599,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-222-Denk,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 702,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-61-FvD,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 702,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-61-FvD,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-61-FvD,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 643,c399b38d54f9d94014c0eb852194250b3defad7a4e66cd35c5a667db-2-VVD,KN,stance,Geen/Ander/Neutraal,Economic,N
 643,c399b38d54f9d94014c0eb852194250b3defad7a4e66cd35c5a667db-2-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 643,c399b38d54f9d94014c0eb852194250b3defad7a4e66cd35c5a667db-24-VVD,KN,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -15736,6 +15920,23 @@ jobid,unit_id,coder,variable,value,topic,stance
 498,c759a574859b19f1b4f42f2c839a9498057df64192695489b4affb9f-8-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 694,c759a574859b19f1b4f42f2c839a9498057df64192695489b4affb9f-8-PVV,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 498,c759a574859b19f1b4f42f2c839a9498057df64192695489b4affb9f-8-PVV,SH,stance,Geen/Ander/Neutraal,Immigration,N
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-127-BBB,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-127-PVV,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-130-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-130-Denk,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-130-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-130-PVV,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-130-PvdD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-130-Volt,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-135-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-135-PvdD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-135-SP,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-138-BBB,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-140-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-141-NSC,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-144-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-144-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+739,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-144-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-144-Volt,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-144-Volt,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 555,c76cdf228264fc91e7cb2a90ab49e84afdf9e5167dc6cfa88a028d64-144-Volt,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -15783,7 +15984,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 559,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 693,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 559,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
-693,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 559,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 559,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Environment,N
 559,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-117-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Environment,N
@@ -15937,6 +16138,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 697,c926a6be4eefd04fb9b710acb23e2c23bccea9826a9ecc4bac1dae14-26-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 697,c926a6be4eefd04fb9b710acb23e2c23bccea9826a9ecc4bac1dae14-39-BBB,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 697,c926a6be4eefd04fb9b710acb23e2c23bccea9826a9ecc4bac1dae14-39-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,c926a6be4eefd04fb9b710acb23e2c23bccea9826a9ecc4bac1dae14-39-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 650,c96a8a5b80c12dad517ccb996cb218cbae6d5f8e44c4684d07cc1095-61-NSC,AM,stance,Geen/Ander/Neutraal,Economic,N
 650,c96a8a5b80c12dad517ccb996cb218cbae6d5f8e44c4684d07cc1095-61-NSC,JE,stance,Geen/Ander/Neutraal,Economic,N
 650,c96a8a5b80c12dad517ccb996cb218cbae6d5f8e44c4684d07cc1095-61-NSC,KN,stance,Geen/Ander/Neutraal,Economic,N
@@ -16277,6 +16479,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 513,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-18-SGP,SH,stance,Traditionele waarden,CivilRights,R
 660,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-19-CU,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 513,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-19-CU,KN,stance,Traditionele waarden,CivilRights,R
+808,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-19-CU,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 513,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-19-CU,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 513,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-26-GL/PvdA,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,ce51cef0e69d0947a83c1e9f0713926e67258d132ae6eab552b24d25-26-GL/PvdA,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -16338,7 +16541,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 603,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-108-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 694,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-108-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 603,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-108-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
-694,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-108-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-108-GL/PvdA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 677,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-108-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 498,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-111-FvD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 498,ceaa9801d2c3ff824299dc3503ffe225ee43ac31a88a03fc5ee706a0-111-FvD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -16589,6 +16792,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 633,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-14-GL/PvdA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 633,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-14-GL/PvdA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 634,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-14-VVD,NK,stance,Belastingverlaging & Ondernemers,Economic,R
+741,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-14-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 634,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-14-VVD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 633,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-15-GL/PvdA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 633,d0c4f5ea99af801c7138ba7c85063e5992bc7aab339e620782726486-15-GL/PvdA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -16730,6 +16934,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 605,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-48-BBB,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 696,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-48-BBB,NK,stance,Duurzame landbouw,Agriculture,L
 605,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-48-BBB,NK,stance,Geen/Ander/Neutraal,Environment,N
+786,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-48-BBB,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 676,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-48-BBB,NPR,stance,Geen/Ander/Neutraal,Environment,N
 605,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-50-CU,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 605,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-50-CU,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -17798,14 +18003,17 @@ jobid,unit_id,coder,variable,value,topic,stance
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-70-NSC,NK,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-73-NSC,KN,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-73-NSC,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+786,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-73-NSC,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 614,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-76-NSC,AM,stance,Geen/Ander/Neutraal,Environment,N
 614,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-76-NSC,NK,stance,Geen/Ander/Neutraal,Environment,N
 614,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-76-Overig,AM,stance,Geen/Ander/Neutraal,Environment,N
 614,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-76-Overig,NK,stance,Geen/Ander/Neutraal,Environment,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-NSC,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-NSC,NK,stance,Duurzame landbouw,Agriculture,L
+786,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-NSC,NPR,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-VVD,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-VVD,NK,stance,Duurzame landbouw,Agriculture,L
+786,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-VVD,NPR,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-89-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-89-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-93-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
@@ -18108,14 +18316,18 @@ jobid,unit_id,coder,variable,value,topic,stance
 548,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-104-VVD,AM,stance,Multiculturalisme,Immigration,L
 548,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-104-VVD,NK,stance,Multiculturalisme,Immigration,L
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-105-BBB,KN,stance,Geen/Ander/Neutraal,Immigration,N
+759,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-105-BBB,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-105-BBB,NPR,stance,Beperken immigratie,Immigration,R
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-105-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
+759,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-105-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-105-PVV,NPR,stance,Beperken immigratie,Immigration,R
 647,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-12-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 647,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-12-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-143-NSC,KN,stance,Geen/Ander/Neutraal,Immigration,N
+759,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-143-NSC,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-143-NSC,NPR,stance,Beperken immigratie,Immigration,R
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-145-NSC,KN,stance,Beperken immigratie,Immigration,R
+741,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-145-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-145-NSC,NPR,stance,Beperken immigratie,Immigration,R
 552,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-145-Overig,KN,stance,Beperken immigratie,Immigration,R
 552,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-145-Overig,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -18138,12 +18350,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-74-Overig,KN,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-74-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-76-BBB,KN,stance,Geen/Ander/Neutraal,Immigration,N
+759,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-76-BBB,NK,stance,Beperken immigratie,Immigration,R
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-76-BBB,NPR,stance,Beperken immigratie,Immigration,R
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-77-BBB,KN,stance,Beperken immigratie,Immigration,R
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-77-BBB,NPR,stance,Beperken immigratie,Immigration,R
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-81-BBB,KN,stance,Multiculturalisme,Immigration,L
+760,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-81-BBB,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-81-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-83-Overig,KN,stance,Multiculturalisme,Immigration,L
+759,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-83-Overig,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-83-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-85-Denk,KN,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-85-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
@@ -18160,6 +18375,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 551,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-BBB,KN,stance,Geen/Ander/Neutraal,Immigration,N
 551,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-BBB,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
+760,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 533,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-PVV,NPR,stance,Beperken immigratie,Immigration,R
 552,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-VVD,KN,stance,Geen/Ander/Neutraal,Immigration,N
 552,df48d479eeff46b5a80ff02dac22f6c6467efe961834d0a574dc3881-95-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -18215,9 +18431,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 510,e2bd896cf7fbbebe9edc884b76d71c3addf64a3070b07ef119395fbb-2-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 660,e2bd896cf7fbbebe9edc884b76d71c3addf64a3070b07ef119395fbb-2-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 510,e2bd896cf7fbbebe9edc884b76d71c3addf64a3070b07ef119395fbb-2-VVD,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+808,e2bd896cf7fbbebe9edc884b76d71c3addf64a3070b07ef119395fbb-2-VVD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 510,e2bd896cf7fbbebe9edc884b76d71c3addf64a3070b07ef119395fbb-2-VVD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 533,e40507c33929662d0c57b978fa2ea578df93f88180ca17a40ae575a8-11-Overig,KN,stance,Beperken immigratie,Immigration,R
+741,e40507c33929662d0c57b978fa2ea578df93f88180ca17a40ae575a8-11-Overig,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+760,e40507c33929662d0c57b978fa2ea578df93f88180ca17a40ae575a8-11-Overig,NK,stance,Beperken immigratie,Immigration,R
 533,e40507c33929662d0c57b978fa2ea578df93f88180ca17a40ae575a8-11-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+741,e40507c33929662d0c57b978fa2ea578df93f88180ca17a40ae575a8-2-Overig,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-18-Overig,AM,stance,Geen/Ander/Neutraal,Immigration,N
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-18-Overig,NK,stance,Geen/Ander/Neutraal,Immigration,N
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-18-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -18231,11 +18451,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 639,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-NSC,AM,stance,Geen/Ander/Neutraal,Economic,N
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-NSC,AM,stance,Beperken immigratie,Immigration,R
 639,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-NSC,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-NSC,NK,stance,Multiculturalisme,Immigration,L
 766,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-NSC,NPR,stance,Beperken immigratie,Immigration,R
 639,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 639,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-VVD,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 540,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-29-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 639,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-67-NSC,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,e439532fd8e8afb312bb21e043870610df27ca4292298500421b360a-67-NSC,JE,stance,Geen/Ander/Neutraal,Economic,N
@@ -18351,6 +18573,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 715,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-140-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 653,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-141-BBB,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 653,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-141-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-141-BBB,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 653,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-141-BBB,NR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 705,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-142-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 705,e6e9e2f3bbdd72e430723666b768fd5061f77f80f5f70a5f93741505-142-BBB,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -18569,6 +18792,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-23-VVD,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-24-JA21,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-24-JA21,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-24-JA21,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 778,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-24-JA21,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-25-NSC,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-25-NSC,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -18591,16 +18815,20 @@ jobid,unit_id,coder,variable,value,topic,stance
 648,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-CDA,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-SGP,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-SGP,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-SGP,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 778,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-SGP,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 647,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-VVD,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 647,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-42-VVD,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-CDA,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-CDA,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-CDA,NK,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-SGP,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-SGP,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-SGP,NK,stance,Geen/Ander/Neutraal,Economic,N
 778,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-SGP,NPR,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-VVD,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-VVD,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 778,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-43-VVD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-44-JA21,AM,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-44-JA21,JE,stance,Belastingverlaging & Ondernemers,Economic,R
@@ -18618,20 +18846,25 @@ jobid,unit_id,coder,variable,value,topic,stance
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-56-NSC,JE,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-59-CU,AM,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-59-CU,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-59-CU,NK,stance,Geen/Ander/Neutraal,Economic,N
 778,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-59-CU,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-59-D66,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-59-D66,JE,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-60-CU,AM,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-60-CU,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-60-CU,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-61-D66,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-61-D66,JE,stance,Geen/Ander/Neutraal,Economic,N
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-61-D66,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 778,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-61-D66,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-61-Volt,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-61-Volt,JE,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-63-JA21,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-63-JA21,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-63-JA21,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-63-Volt,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-63-Volt,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,e8b2f70159cdb737f5e46a11097d0da2e1f4973d47a5640fd5aac8f4-63-Volt,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 546,e8de64db77dc08da278e3eccad7b7b905d4708e362598d628753cc53-22-PVV,AM,stance,Beperken immigratie,Immigration,R
 546,e8de64db77dc08da278e3eccad7b7b905d4708e362598d628753cc53-22-PVV,NK,stance,Beperken immigratie,Immigration,R
 529,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-15-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -18803,6 +19036,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 512,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-1-D66,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 660,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-10-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-10-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-10-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-10-D66,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 512,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-20-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 512,eca19c69179006158af954ab00dca1363e9bf521dd84a0c3b0199694-20-D66,SH,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -18939,6 +19173,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 552,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-35-NSC,KN,stance,Multiculturalisme,Immigration,L
 552,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-35-NSC,NK,stance,Multiculturalisme,Immigration,L
 533,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-35-VVD,KN,stance,Geen/Ander/Neutraal,Immigration,N
+760,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-35-VVD,NK,stance,Multiculturalisme,Immigration,L
 533,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-35-VVD,NPR,stance,Beperken immigratie,Immigration,R
 533,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-6-FvD,KN,stance,Beperken immigratie,Immigration,R
 533,ef5cc0270a037e2f37821c273a53c65b085401927631af00a606a513-6-FvD,NPR,stance,Beperken immigratie,Immigration,R
@@ -18953,6 +19188,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,efd511c9ed172833341f4039d2d9a1333f2be35e5e4ae1f3ed511fee-50-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 703,f05ade428b77b17bf5a7b2d75e7cf89d3d52b5cfb2b69399cfd0837a-14-VVD,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 703,f05ade428b77b17bf5a7b2d75e7cf89d3d52b5cfb2b69399cfd0837a-14-VVD,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+786,f05ade428b77b17bf5a7b2d75e7cf89d3d52b5cfb2b69399cfd0837a-14-VVD,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 542,f091b4d6555b114f5eb985decc7b39a99fe55a2e67cf4303eb56de0a-25-PvdD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 542,f091b4d6555b114f5eb985decc7b39a99fe55a2e67cf4303eb56de0a-25-PvdD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 639,f0f428a152056ee870afcf09a4e4c687c93e199a75caa68f05fd30ba-2-VVD,AM,stance,Geen/Ander/Neutraal,Economic,N
@@ -18997,6 +19233,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 526,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-1-FvD,NPR,stance,Traditionele waarden,CivilRights,R
 508,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-2-FvD,AM,stance,Traditionele waarden,CivilRights,R
 508,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-2-FvD,NK,stance,Traditionele waarden,CivilRights,R
+741,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-2-FvD,NK,stance,Geen/Ander/Neutraal,Education,N
 508,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-4-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 656,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-4-D66,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 508,f21c0155a6458de910551720695e31ecbbc696f44f78ed1c457f4c8c-4-D66,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -19010,6 +19247,8 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-8-JA21,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 534,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-9-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-9-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+736,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
+736,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-20-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 512,f28d3dcf65e5fcd86be67cc36d6a5c66cbe33872e3f929474188cdda-14-FvD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 512,f28d3dcf65e5fcd86be67cc36d6a5c66cbe33872e3f929474188cdda-14-FvD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 542,f29d61ee93f80ecfd2f1cba79c359d73f447b0c4ad9c2e512bce6fd0-49-PVV,AM,stance,Beperken immigratie,Immigration,R
@@ -19274,6 +19513,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,KN,stance,Fossiele industrie,Environment,R
 697,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,NK,stance,Fossiele industrie,Environment,R
+786,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-228-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-228-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-228-VVD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -19436,8 +19676,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 617,fa51e3b799755ae5b3730c10b86dbc93325692710d538e9ee09e5bf6-22-NSC,SH,stance,Geen/Ander/Neutraal,Environment,N
 639,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-10-SP,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-10-SP,JE,stance,Belastingverlaging & Ondernemers,Economic,R
+773,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-10-SP,NK,stance,Geen/Ander/Neutraal,Economic,N
 639,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-4-SP,AM,stance,Geen/Ander/Neutraal,Economic,N
 639,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-4-SP,JE,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+773,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-4-SP,NK,stance,Geen/Ander/Neutraal,Economic,N
 778,fb3c2a30ed95752e39e5cd00404d9cdbdc927295b1f6f73960831a38-4-SP,NPR,stance,Geen/Ander/Neutraal,Economic,N
 642,fb4cb3ffc083ff62d7015e0c83ffc7201b4d6c88dac7f3c9510725d8-1-VVD,KN,stance,Geen/Ander/Neutraal,Economic,N
 642,fb4cb3ffc083ff62d7015e0c83ffc7201b4d6c88dac7f3c9510725d8-1-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -19586,11 +19828,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 526,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-22-VVD,NPR,stance,Geen/Ander/Neutraal,CivilRights,N
 655,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-23-NSC,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 513,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-23-NSC,KN,stance,Traditionele waarden,CivilRights,R
+808,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-23-NSC,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 513,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-23-NSC,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 513,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-23-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 513,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-23-VVD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 655,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-27-CDA,AM,stance,Traditionele waarden,CivilRights,R
 513,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-27-CDA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+808,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-27-CDA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 513,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-27-CDA,SH,stance,Traditionele waarden,CivilRights,R
 655,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-27-NSC,AM,stance,Traditionele waarden,CivilRights,R
 656,fd9348bddf7b34e682af375eae79ae05a6e59d71a3d659ac97853d93-27-NSC,JE,stance,Traditionele waarden,CivilRights,R
@@ -19705,6 +19949,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 611,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 513,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,KN,stance,Traditionele waarden,CivilRights,R
 673,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+808,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 611,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
 676,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 513,ffb6a4f3670d1ec091ac8d265864bc573e755983e7066de6d5102ce1-20-GL/PvdA,SH,stance,Geen/Ander/Neutraal,CivilRights,N

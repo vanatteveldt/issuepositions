@@ -13,7 +13,7 @@ Please do not edit this document directly.
 <em>Description:</em> ⁇
 </tr></td>
 <tr><td><b>Peace and Rules-based order</b></td><td><b>Strong defense, national interests in foreign policy</b></td></tr>
-<tr><td>Focus on peace or pacifism; humanitarian interventions; foreign policy based on human rights and rules-based order</td><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td></tr>
+<tr><td>Focus on peace or pacifism; humanitarian interventions; foreign aid; foreign policy based on human rights and rules-based order</td><td>Investment in Defense, a stronger of more effective army/navy/air force; Support for NATO; focus on national interest in foreign policy</td></tr>
 <tr>
   <td>
   

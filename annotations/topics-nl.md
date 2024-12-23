@@ -13,7 +13,7 @@ Please do not edit this document directly.
 <em>Beschrijving:</em> Defensie, NAVO, interventies, buitenlandse zaken, ontwikkelingssamenwerking
 </tr></td>
 <tr><td><b>Vrede en mensenrechten</b></td><td><b>Sterke krijgsmacht, nationaal belang in buitenlands beleid</b></td></tr>
-<tr><td>Vrede en pacifisme; humanitaire interventies; buitenlands beleid gebaseerd op mensenrechten en een op regels gebaseerde wereldorde</td><td>Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.</td></tr>
+<tr><td>Vrede en pacifisme; humanitaire interventies; ontwikkelingssamenwerking; buitenlands beleid gebaseerd op mensenrechten en een op regels gebaseerde wereldorde</td><td>Sterk leger / sterke NAVO; investeringen in defensie, een sterker of effectiever leger/marine/luchtmacht; het bereiken van de NAVO doelstelling van 2% van het BNP voor defensie.</td></tr>
 <tr>
   <td>
   

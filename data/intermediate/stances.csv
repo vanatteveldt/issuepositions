@@ -6115,6 +6115,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-33-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-33-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-33-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
+790,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-33-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-35-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-35-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-35-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -6125,10 +6126,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CDA,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CDA,NK,stance,Duurzame landbouw,Agriculture,L
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CDA,NK,stance,Geen/Ander/Neutraal,Environment,N
+790,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CDA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CU,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CU,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CU,NK,stance,Duurzame landbouw,Agriculture,L
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CU,NK,stance,Geen/Ander/Neutraal,Environment,N
+790,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-CU,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 671,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,AM,stance,Geen/Ander/Neutraal,Environment,N
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-38-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
@@ -6167,6 +6170,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,NK,stance,Duurzame landbouw,Agriculture,L
 606,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+790,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 677,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-52-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-7-CDA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 697,463b4fb1dc9b2e28ac2ab9ba5bb69466bb4dd0c8ca6ed6f1f322a9e6-7-CDA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -7065,6 +7069,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 531,50c240928ffc3afa229f0ec5a0046fffc3d341382b4623eef68e8aed-9-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 697,50f9709678a9b6776038b4f24bc18074e80e4c85d7b4837bca5788e0-6-FvD,AM,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,50f9709678a9b6776038b4f24bc18074e80e4c85d7b4837bca5788e0-6-FvD,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+790,50f9709678a9b6776038b4f24bc18074e80e4c85d7b4837bca5788e0-6-FvD,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 526,519133c9af2215eb5fc3efd59410eeb9a50a26abd0594ff3a932bdf2-30-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 526,519133c9af2215eb5fc3efd59410eeb9a50a26abd0594ff3a932bdf2-30-SGP,NPR,stance,Geen/Ander/Neutraal,CivilRights,N
 519,519133c9af2215eb5fc3efd59410eeb9a50a26abd0594ff3a932bdf2-31-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -17963,6 +17968,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-138-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-141-SP,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-141-SP,NK,stance,Duurzame landbouw,Agriculture,L
+790,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-141-SP,NPR,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-143-BBB,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-143-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-143-CDA,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -17981,6 +17987,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-45-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-49-Overig,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-49-Overig,NK,stance,Duurzame landbouw,Agriculture,L
+790,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-49-Overig,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-49-VVD,KN,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-49-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-57-NSC,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -17989,6 +17996,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-57-VVD,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-58-VVD,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-58-VVD,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
+790,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-58-VVD,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-61-VVD,KN,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-61-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-62-VVD,KN,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -18016,6 +18024,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 786,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-79-VVD,NPR,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-89-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-89-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
+790,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-89-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-93-GL/PvdA,KN,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-93-GL/PvdA,NK,stance,Duurzame landbouw,Agriculture,L
 707,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-93-NSC,KN,stance,Duurzame landbouw,Agriculture,L
@@ -19509,6 +19518,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-CDA,KN,stance,Fossiele industrie,Environment,R
 697,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-CDA,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-CDA,NK,stance,Fossiele industrie,Environment,R
+790,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-CDA,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 697,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 606,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,KN,stance,Fossiele industrie,Environment,R
 697,f83cb45ea2421ed12b43cc8ca27542e4494c0176556f6db880bf6f13-216-D66,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R

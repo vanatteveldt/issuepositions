@@ -878,6 +878,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-Overig,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-Overig,SH,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 736,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,NK,stance,Geen/Ander/Neutraal,Education,N
+736,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 610,0a1c42e4c576f272d5b50b3b18a057ef0b8222b24dd79e5f6e9ecf07-14-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 672,0a1c42e4c576f272d5b50b3b18a057ef0b8222b24dd79e5f6e9ecf07-14-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 610,0a1c42e4c576f272d5b50b3b18a057ef0b8222b24dd79e5f6e9ecf07-14-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -1225,6 +1226,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-290-Overig,AM,stance,Traditionele waarden,CivilRights,R
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-290-Overig,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 664,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-290-Overig,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+809,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-290-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-305-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-305-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-305-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -1243,6 +1245,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-334-Overig,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-334-Overig,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 654,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-334-Overig,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+809,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-334-Overig,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-335-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-335-Denk,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-335-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -1909,12 +1912,19 @@ jobid,unit_id,coder,variable,value,topic,stance
 633,176e072e93d950740c03b18f64ea5fd1db2544f3189d4aaa4a076668-53-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 667,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-11-GL/PvdA,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-12-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-12-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-15-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-15-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-19-GL/PvdA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-19-GL/PvdA,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-21-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-21-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-22-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-22-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-26-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-26-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-28-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 555,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-30-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Education,N
 555,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-30-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Education,N
 555,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-30-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
@@ -2827,12 +2837,18 @@ jobid,unit_id,coder,variable,value,topic,stance
 647,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-65-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 647,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-65-CDA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 524,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-65-CDA,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+496,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,AM,stance,Traditionele waarden,CivilRights,R
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+496,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,KN,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 663,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,NK,stance,Traditionele waarden,CivilRights,R
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+809,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-66-CDA,SH,stance,Geen/Ander/Neutraal,Economic,N
+496,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-69-CDA,AM,stance,Traditionele waarden,CivilRights,R
+496,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-69-CDA,KN,stance,Traditionele waarden,CivilRights,R
+496,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-69-CDA,NK,stance,Traditionele waarden,CivilRights,R
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-72-Overig,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-72-Overig,KN,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 629,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-72-Overig,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -3452,6 +3468,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 649,29a44da102dbca1296be932daffa33ebe64d7e07ec09439506952b2b-59-NSC,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 649,29a44da102dbca1296be932daffa33ebe64d7e07ec09439506952b2b-59-NSC,SH,stance,Geen/Ander/Neutraal,Economic,N
 736,29aee02381d963ef5629505fdb33d78346d6557ff088094e14542d8c-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
+736,29aee02381d963ef5629505fdb33d78346d6557ff088094e14542d8c-28-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N
 599,29ba345cd965ab0e095ab1010e3d832b95b2c1b53001c657d97892fb-1-BBB,NK,stance,Fossiele industrie,Environment,R
 599,29ba345cd965ab0e095ab1010e3d832b95b2c1b53001c657d97892fb-1-BBB,NR,stance,Fossiele industrie,Environment,R
 599,29ba345cd965ab0e095ab1010e3d832b95b2c1b53001c657d97892fb-1-BBB,WA,stance,Fossiele industrie,Environment,R
@@ -4973,18 +4990,30 @@ jobid,unit_id,coder,variable,value,topic,stance
 533,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-9-Denk,KN,stance,Geen/Ander/Neutraal,Immigration,N
 508,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-9-Denk,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 533,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-9-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-21-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-21-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-21-PVV,NK,stance,Traditionele waarden,CivilRights,R
+809,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-21-PVV,SH,stance,Traditionele waarden,CivilRights,R
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 767,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-PVV,KN,stance,Beperken immigratie,Immigration,R
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-PVV,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-PVV,NK,stance,Beperken immigratie,Immigration,R
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 761,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 768,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,KN,stance,Geen/Ander/Neutraal,Immigration,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,NK,stance,Multiculturalisme,Immigration,L
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-29-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 550,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-3-PVV,AM,stance,Beperken immigratie,Immigration,R
 550,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-3-PVV,NK,stance,Beperken immigratie,Immigration,R
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-31-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-31-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-35-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-35-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-35-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-4-PVV,NK,stance,Beperken immigratie,Immigration,R
 530,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-4-PVV,NPR,stance,Beperken immigratie,Immigration,R
 629,3a65cb6d88b8abeac4ce1815ce208b0405c0924bd17779b1f6850435-7-GL/PvdA,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -6505,8 +6534,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,47f1ce947998b06b30cef59589b794434647ee4d394ae07964f33f84-42-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 509,47f1ce947998b06b30cef59589b794434647ee4d394ae07964f33f84-42-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 534,47f1ce947998b06b30cef59589b794434647ee4d394ae07964f33f84-42-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+496,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-10-Overig,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-10-Overig,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-10-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 829,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-10-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 829,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-10-Overig,WA,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
+496,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-20-GL/PvdA,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-20-GL/PvdA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,47fb7f93560352776dd0a892635a7da2732d7ff3a1a6f26d75ddc4b0-20-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 610,48063036ec712ddfa3bfb339402e21ff7b2949c982355a8ed0dffbbb-32-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -6946,6 +6981,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 530,4b80bf1105bbd4bc3409bd5bbf47a201b7db706f06258d685c14c12d-180-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,4b80bf1105bbd4bc3409bd5bbf47a201b7db706f06258d685c14c12d-180-CDA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 737,4b80bf1105bbd4bc3409bd5bbf47a201b7db706f06258d685c14c12d-55-Overig,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
+737,4b80bf1105bbd4bc3409bd5bbf47a201b7db706f06258d685c14c12d-55-Overig,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
 531,4bc7956d63806fecc9bc0c43ed4898a7b13b1c2334e7a0e818934274-29-Overig,KN,stance,Geen/Ander/Neutraal,Immigration,N
 531,4bc7956d63806fecc9bc0c43ed4898a7b13b1c2334e7a0e818934274-29-Overig,NK,stance,Geen/Ander/Neutraal,Immigration,N
 531,4bc7956d63806fecc9bc0c43ed4898a7b13b1c2334e7a0e818934274-7-CU,KN,stance,Geen/Ander/Neutraal,Immigration,N
@@ -7377,9 +7413,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 559,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-263-Overig,NR,stance,Fossiele industrie,Environment,R
 629,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-263-Overig,SH,stance,Geen/Ander/Neutraal,Economic,N
 559,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-263-Overig,SH,stance,Fossiele industrie,Environment,R
+496,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-467-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-467-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-467-Denk,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-467-Denk,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-467-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+809,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-467-Denk,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 762,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-80-PVV,AM,stance,Beperken immigratie,Immigration,R
 767,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-80-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
 530,51ea1cf98bc0bf628305249fdb82a1dba8de1fe5b3f91eb062f218aa-80-PVV,NK,stance,Beperken immigratie,Immigration,R
@@ -8770,6 +8809,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+736,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 566,6235d94ff639bb60d13031a0871347e0b8e6ab6053d1f7181e85e0d0-93-D66,SH,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 615,626b29151eb1875b80b4e3756b511b54ca8d4254295d7147efd43f84-38-BBB,AM,stance,Geen/Ander/Neutraal,Environment,N
 615,626b29151eb1875b80b4e3756b511b54ca8d4254295d7147efd43f84-38-BBB,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -9773,6 +9813,9 @@ jobid,unit_id,coder,variable,value,topic,stance
 543,6f4c3d1e1896fe0e8691e31838e961e1d7316c7e2727895edde25532-43-SP,NK,stance,Geen/Ander/Neutraal,Immigration,N
 829,6ff1d3da0e11e7d9677916343b341497e0c2cd466883323a239ac4d9-18-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Defense,N
 829,6ff1d3da0e11e7d9677916343b341497e0c2cd466883323a239ac4d9-18-GL/PvdA,WA,stance,Geen/Ander/Neutraal,Defense,N
+496,6ff1d3da0e11e7d9677916343b341497e0c2cd466883323a239ac4d9-20-GL/PvdA,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,6ff1d3da0e11e7d9677916343b341497e0c2cd466883323a239ac4d9-20-GL/PvdA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,6ff1d3da0e11e7d9677916343b341497e0c2cd466883323a239ac4d9-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 642,7113ba8d0a004e1ea4fc39044e050f78e6fb7f6c5d6351db06374fbc-2-VVD,KN,stance,Geen/Ander/Neutraal,Economic,N
 642,7113ba8d0a004e1ea4fc39044e050f78e6fb7f6c5d6351db06374fbc-2-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 550,71a97943ddd797a218c0e17a376fb6cae8d190054d08dcc4b91d70b5-30-Denk,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -10512,6 +10555,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 639,78683ef51fc6f10f4acf606692a20bb5cb03a9c95403da6647aeb30c-82-VVD,JE,stance,Geen/Ander/Neutraal,Economic,N
 515,78683ef51fc6f10f4acf606692a20bb5cb03a9c95403da6647aeb30c-82-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,78683ef51fc6f10f4acf606692a20bb5cb03a9c95403da6647aeb30c-82-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
+809,78683ef51fc6f10f4acf606692a20bb5cb03a9c95403da6647aeb30c-82-VVD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 647,78683ef51fc6f10f4acf606692a20bb5cb03a9c95403da6647aeb30c-94-Denk,NK,stance,Geen/Ander/Neutraal,Economic,N
 647,78683ef51fc6f10f4acf606692a20bb5cb03a9c95403da6647aeb30c-94-Denk,NPR,stance,Geen/Ander/Neutraal,Economic,N
 695,78835a5836d4cba89296589fecb6e9f1f68fb9f6af8bc3b15f5c5a76-1-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -10713,6 +10757,27 @@ jobid,unit_id,coder,variable,value,topic,stance
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-18-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 524,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-CDA,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 524,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-CDA,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-D66,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-GL/PvdA,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-GL/PvdA,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-GL/PvdA,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-PvdD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-PvdD,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-PvdD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-VVD,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-VVD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-Volt,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-Volt,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-184-Volt,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-185-BBB,AM,stance,Traditionele waarden,CivilRights,R
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-185-BBB,KN,stance,Traditionele waarden,CivilRights,R
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-185-BBB,NK,stance,Traditionele waarden,CivilRights,R
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-185-NSC,AM,stance,Traditionele waarden,CivilRights,R
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-185-NSC,KN,stance,Traditionele waarden,CivilRights,R
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-185-NSC,NK,stance,Traditionele waarden,CivilRights,R
 761,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-19-CDA,AM,stance,Geen/Ander/Neutraal,Immigration,N
 551,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-19-CDA,KN,stance,Multiculturalisme,Immigration,L
 551,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-19-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -10721,13 +10786,27 @@ jobid,unit_id,coder,variable,value,topic,stance
 768,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-19-VVD,KN,stance,Multiculturalisme,Immigration,L
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-19-VVD,NK,stance,Beperken immigratie,Immigration,R
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-19-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-CDA,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-CDA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 664,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-CDA,NK,stance,Traditionele waarden,CivilRights,R
+809,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-CDA,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 656,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-D66,JE,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-GL/PvdA,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-GL/PvdA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-GL/PvdA,NK,stance,Traditionele waarden,CivilRights,R
+809,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-GL/PvdA,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 524,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-PvdD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 524,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-PvdD,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-VVD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 664,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-VVD,NK,stance,Traditionele waarden,CivilRights,R
+809,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-VVD,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-Volt,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 658,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-Volt,JE,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-Volt,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 654,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-191-Volt,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-20-VVD,NK,stance,Beperken immigratie,Immigration,R
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-20-VVD,NPR,stance,Beperken immigratie,Immigration,R
@@ -11633,7 +11712,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 530,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-73-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 551,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-73-VVD,KN,stance,Geen/Ander/Neutraal,Immigration,N
 551,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-73-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
+496,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-93-NSC,AM,stance,Traditionele waarden,CivilRights,R
+496,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-93-NSC,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 654,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-93-NSC,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+809,81f96dcdb42ceaa80544e5a2d4870602504073291924ee0e96121f5a-93-NSC,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 644,820cc1167a56e360ece3a30014ea67798f68dd118bcd94596f513d02-18-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 644,820cc1167a56e360ece3a30014ea67798f68dd118bcd94596f513d02-18-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Economic,N
 644,820cc1167a56e360ece3a30014ea67798f68dd118bcd94596f513d02-18-Overig,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -12741,7 +12823,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 498,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-75-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 498,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-75-PVV,SH,stance,Geen/Ander/Neutraal,Immigration,N
 497,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-80-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-80-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 497,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-80-PVV,NK,stance,Traditionele waarden,CivilRights,R
+496,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-84-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-84-PVV,KN,stance,Traditionele waarden,CivilRights,R
+496,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-84-PVV,NK,stance,Traditionele waarden,CivilRights,R
 530,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-84-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,982f969171e1c2633e9e1f7fccd9b6b869d259020a2b527511507bf8-84-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 520,982fc8fc3bf203cacbaf781b3348fe7e471900041b59b5744bee0eb1-25-Denk,AM,stance,Traditionele waarden,CivilRights,R
@@ -15333,6 +15419,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 631,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-34-VVD,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 526,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-24-NSC,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 526,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-24-NSC,NPR,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-25-NSC,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-25-NSC,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-25-NSC,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-25-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-25-PVV,KN,stance,Traditionele waarden,CivilRights,R
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-25-PVV,NK,stance,Traditionele waarden,CivilRights,R
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-26-NSC,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-26-NSC,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-26-NSC,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 530,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-26-NSC,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-26-NSC,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 767,b8fb1e09d1f4f0d798b0e9d06aa4f0c3c31372c454b5d7b5e184538e-27-PVV,KN,stance,Beperken immigratie,Immigration,R
@@ -15486,6 +15581,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-D66,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-D66,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 663,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+809,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-D66,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-GL/PvdA,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-GL/PvdA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-13-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -15500,6 +15596,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-3-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 664,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-3-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 534,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-3-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+809,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-3-Denk,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-4-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-4-Denk,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-4-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -15509,6 +15606,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-43-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-43-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 654,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-43-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+809,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-43-Denk,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 551,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-50-Denk,KN,stance,Geen/Ander/Neutraal,Immigration,N
 526,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-50-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 551,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-50-Denk,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -15516,6 +15614,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-72-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-72-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 654,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-72-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+809,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-72-Denk,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-73-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-73-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 509,bbbb7a680e1d93f9547f8b64c988a0e663de48425c09882ab21dd93a-73-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -15523,6 +15622,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 542,bbe5d0ee6e9955cc18051f349e8fb7d8f95054c7aba8ba41cd119f2b-21-SGP,NK,stance,Beperken immigratie,Immigration,R
 766,bbe5d0ee6e9955cc18051f349e8fb7d8f95054c7aba8ba41cd119f2b-21-SGP,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 736,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-1-CU,NK,stance,Geen/Ander/Neutraal,Education,N
+736,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-1-CU,SH,stance,Geen/Ander/Neutraal,Education,N
 552,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-22-CDA,KN,stance,Geen/Ander/Neutraal,Immigration,N
 599,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-22-CDA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 552,bc47ba26b0f38072cab42de2c547ce048cf30acdc01fba39021b201c-22-CDA,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -16558,6 +16658,9 @@ jobid,unit_id,coder,variable,value,topic,stance
 829,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-102-GL/PvdA,WA,stance,Geen/Ander/Neutraal,Defense,N
 829,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-104-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Defense,N
 829,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-104-GL/PvdA,WA,stance,Geen/Ander/Neutraal,Defense,N
+496,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-110-NSC,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-110-NSC,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-110-NSC,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-110-NSC,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-110-NSC,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 527,c7f60a06f46580e0139e55ec8877bf39baee3329b4b4407514cf79fe-110-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -18106,6 +18209,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-79-SP,KN,stance,Geen/Ander/Neutraal,Economic,N
 635,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-79-SP,NK,stance,Geen/Ander/Neutraal,Economic,N
 635,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-79-SP,NPR,stance,Geen/Ander/Neutraal,Economic,N
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-BBB,AM,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-BBB,KN,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-BBB,NK,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-NSC,AM,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-NSC,KN,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-NSC,NK,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-PVV,KN,stance,Traditionele waarden,CivilRights,R
+496,d72c9187c8d650b24be28af3461311fb08bb8dbd6eda8ca562382b06-1-PVV,NK,stance,Traditionele waarden,CivilRights,R
 515,d767edd5af416728e2383056a42c32e95c34fd371b632f7007877765-33-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 515,d767edd5af416728e2383056a42c32e95c34fd371b632f7007877765-33-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 550,d767edd5af416728e2383056a42c32e95c34fd371b632f7007877765-71-Overig,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -18537,8 +18649,20 @@ jobid,unit_id,coder,variable,value,topic,stance
 520,db5508d4f771f113fb274867f50776e9accb670433b0a8d083d6efa4-6-SGP,NK,stance,Traditionele waarden,CivilRights,R
 520,db5508d4f771f113fb274867f50776e9accb670433b0a8d083d6efa4-6-Volt,AM,stance,Traditionele waarden,CivilRights,R
 520,db5508d4f771f113fb274867f50776e9accb670433b0a8d083d6efa4-6-Volt,NK,stance,Traditionele waarden,CivilRights,R
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-10-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-10-PVV,KN,stance,Traditionele waarden,CivilRights,R
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-10-PVV,NK,stance,Traditionele waarden,CivilRights,R
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-12-PVV,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-12-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-12-PVV,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 530,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-12-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-12-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-15-NSC,AM,stance,Geen/Ander/Neutraal,CivilRights,N
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-15-NSC,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-15-NSC,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-16-PVV,AM,stance,Traditionele waarden,CivilRights,R
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-16-PVV,KN,stance,Traditionele waarden,CivilRights,R
+496,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-16-PVV,NK,stance,Traditionele waarden,CivilRights,R
 530,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-46-PVV,NK,stance,Beperken immigratie,Immigration,R
 530,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-46-PVV,NPR,stance,Beperken immigratie,Immigration,R
 552,db798243376d1f1764a312861d2b317defeea54235b8da9c16849f89-48-BBB,KN,stance,Beperken immigratie,Immigration,R
@@ -18705,12 +18829,18 @@ jobid,unit_id,coder,variable,value,topic,stance
 647,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-100-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 647,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-100-CDA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 524,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-100-CDA,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+496,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,AM,stance,Traditionele waarden,CivilRights,R
 629,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+496,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 629,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,KN,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 654,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,NK,stance,Traditionele waarden,CivilRights,R
 629,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 629,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+809,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 629,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-101-CDA,SH,stance,Geen/Ander/Neutraal,Economic,N
+496,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-104-CDA,AM,stance,Traditionele waarden,CivilRights,R
+496,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-104-CDA,KN,stance,Traditionele waarden,CivilRights,R
+496,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-104-CDA,NK,stance,Traditionele waarden,CivilRights,R
 559,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-138-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 559,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-138-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 559,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-138-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
@@ -19934,7 +20064,9 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-9-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
 534,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-9-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 736,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
+736,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-Overig,SH,stance,Geen/Ander/Neutraal,Education,N
 736,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-20-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
+736,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-20-NSC,SH,stance,Geen/Ander/Neutraal,Education,N
 512,f28d3dcf65e5fcd86be67cc36d6a5c66cbe33872e3f929474188cdda-14-FvD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 512,f28d3dcf65e5fcd86be67cc36d6a5c66cbe33872e3f929474188cdda-14-FvD,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 542,f29d61ee93f80ecfd2f1cba79c359d73f447b0c4ad9c2e512bce6fd0-49-PVV,AM,stance,Beperken immigratie,Immigration,R
@@ -19986,6 +20118,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-27-NSC,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-27-NSC,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-27-NSC,NK,stance,Geen/Ander/Neutraal,CivilRights,N
+809,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-27-NSC,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 509,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-29-CDA,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-29-CDA,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-29-CDA,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -20095,9 +20228,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
+809,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,AM,stance,Traditionele waarden,CivilRights,R
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 664,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,NK,stance,Traditionele waarden,CivilRights,R
+809,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 660,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-SGP,AM,stance,Traditionele waarden,CivilRights,R
 662,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-SGP,KN,stance,Traditionele waarden,CivilRights,R
 525,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-SGP,NK,stance,Traditionele waarden,CivilRights,R

@@ -3,19 +3,17 @@ library(tidyverse)
 source(here::here("src/lib/annotinder_data.R"))
 
 # Load in coder abbreviations and topic
-CODERS <- c("WA","NR","S","NK","KN","NPR","JE","AM")
-
-TOPIC = "CivilRights"
-
-CODER = "NK"
+CODERS <- c("WA","NR","SH","NK","KN","NPR","JE","AM")
 
 # Load units coded so far
 all_coded_units <- read_csv("data/intermediate/stances.csv") 
 
 # Retrieve assigned jobs from Google sheets and units per job from annotinder
+library(googlesheets4)
 jobs <- get_assigned_jobs() |>
   mutate(coder = recode(coder, "Amani" = "AM", "Karishma" = "KN", "Nisa" = "NK", "Sascha" = "SH", "Nathanael" = "NPR", "Jelle" = "JE", "Nel" = "NR", "Wouter" = "WA")) |>
   filter(!coder == "Iedereen")
+
 
 all_assigned_units <- get_units_per_job(unique(jobs$jobid)) |>
   rename(jobid = Jobid)
@@ -47,16 +45,35 @@ todo <- all_units |>
   filter(n_assigned < 4, agreement < 1) 
 #  filter(topic == "Agriculture")
 
+
+
+# Who can still code the remaining todo units?
+inner_join(todo, all_assigned_combined) |>
+  group_by(topic, coder) |>
+  summarize(n_assigned=n()) |>
+  ungroup() |>
+  complete(topic, coder,fill = list(n_assigned=0)) |>
+  inner_join(todo |> group_by(topic) |> summarize(n_todo=n())) |>
+  mutate(can_do=n_todo - n_assigned)
+
+
+# Assign a coder to a topic:
+
+TOPIC = "Defense"
+CODER = "AM"
+
 # filter for coder and topic (set topic at top of script)
 todo_for_coder = todo |>
-  anti_join(all_assigned_combined |> 
-  filter(coder == CODER) |> 
-  select(unit_id, topic)) |>
+  anti_join(
+    all_assigned_combined |> 
+    filter(coder == CODER) |> 
+    select(unit_id, topic)
+    ) |>
   filter(topic == TOPIC)
 
 # Select items to code
 to_assign <- todo_for_coder |> 
-  slice_sample(n=50) |>
+  slice_sample(n=100) |>
   pull(unit_id)
 
 source(here::here("src/lib/stancetinder.R"))
@@ -80,5 +97,7 @@ units2[[1]]$unit$markdown_fields[[1]]$value
 cb <- get_topic_stance_codebook(TOPIC)
 connect_annotinder()
 upload_job(glue::glue("No Agreement set 2: {TOPIC} for {CODER}"), units2, cb)
+
+
 
 

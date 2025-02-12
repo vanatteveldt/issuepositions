@@ -952,12 +952,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 552,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-17-D66,NK,stance,Beperken immigratie,Immigration,R
 946,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-CU,KN,stance,Geen/Ander/Neutraal,Housing,N
 946,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-CU,NK,stance,Betaalbare huisvesting,Housing,L
+1037,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-CU,NPR,stance,Betaalbare huisvesting,Housing,L
 946,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-CU,NR,stance,Betaalbare huisvesting,Housing,L
 953,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-D66,KN,stance,Geen/Ander/Neutraal,Housing,N
 953,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-D66,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-D66,NPR,stance,Betaalbare huisvesting,Housing,L
 953,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-25-D66,NR,stance,Huiseigenaarschap,Housing,R
 953,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-26-SP,KN,stance,Geen/Ander/Neutraal,Housing,N
 953,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-26-SP,NK,stance,Betaalbare huisvesting,Housing,L
+1037,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-26-SP,NPR,stance,Geen/Ander/Neutraal,Housing,N
 953,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-26-SP,NR,stance,Betaalbare huisvesting,Housing,L
 924,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-28-D66,KN,stance,Geen/Ander/Neutraal,Government,N
 924,06531368c3a9d5cdf1aad913c02c675e36142bd647baf1f3a1f2e8d0-28-D66,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -1055,6 +1058,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 552,080fa625c0c725db28008db7483804328e779965872edcbde894368a-4-GL/PvdA,KN,stance,Multiculturalisme,Immigration,L
 946,080fa625c0c725db28008db7483804328e779965872edcbde894368a-4-GL/PvdA,NK,stance,Betaalbare huisvesting,Housing,L
 552,080fa625c0c725db28008db7483804328e779965872edcbde894368a-4-GL/PvdA,NK,stance,Multiculturalisme,Immigration,L
+1037,080fa625c0c725db28008db7483804328e779965872edcbde894368a-4-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,080fa625c0c725db28008db7483804328e779965872edcbde894368a-4-GL/PvdA,NR,stance,Betaalbare huisvesting,Housing,L
 506,0813995197c126fcd0db54fa7bd6d69e00bca278268870e0bd84828f-31-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 656,0813995197c126fcd0db54fa7bd6d69e00bca278268870e0bd84828f-31-VVD,JE,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -2415,6 +2419,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 956,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-11-GL/PvdA,NK,stance,Betaalbare huisvesting,Housing,L
 946,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-16-CDA,KN,stance,Huiseigenaarschap,Housing,R
 946,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-16-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-16-CDA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-16-CDA,NR,stance,Huiseigenaarschap,Housing,R
 956,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-2-BBB,KN,stance,Huiseigenaarschap,Housing,R
 956,125000735775b05799a2b24c6c367fe5981b65b4c3d46334466fc612-2-BBB,NK,stance,Huiseigenaarschap,Housing,R
@@ -3035,8 +3040,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 525,176f7075f752f558c712cc6051b17ed7d6d79143000e2fc8e5cf8744-9-D66,NPR,stance,Geen/Ander/Neutraal,CivilRights,N
 955,177f4e6b1e92e7ff75d7d533ee4948415ea136ac43abc7414c12c672-5-CDA,KN,stance,Geen/Ander/Neutraal,Housing,N
 955,177f4e6b1e92e7ff75d7d533ee4948415ea136ac43abc7414c12c672-5-CDA,NK,stance,Betaalbare huisvesting,Housing,L
+1037,177f4e6b1e92e7ff75d7d533ee4948415ea136ac43abc7414c12c672-5-CDA,NPR,stance,Huiseigenaarschap,Housing,R
 955,177f4e6b1e92e7ff75d7d533ee4948415ea136ac43abc7414c12c672-5-Overig,KN,stance,Geen/Ander/Neutraal,Housing,N
 955,177f4e6b1e92e7ff75d7d533ee4948415ea136ac43abc7414c12c672-5-Overig,NK,stance,Betaalbare huisvesting,Housing,L
+1037,177f4e6b1e92e7ff75d7d533ee4948415ea136ac43abc7414c12c672-5-Overig,NPR,stance,Huiseigenaarschap,Housing,R
 924,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-20-SP,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 924,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-20-SP,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-35-CDA,KN,stance,Geen/Ander/Neutraal,Housing,N
@@ -3054,6 +3061,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-41-SP,NPR,stance,Geen/Ander/Neutraal,Economic,N
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-43-CDA,KN,stance,Betaalbare huisvesting,Housing,L
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-43-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-43-CDA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-43-CDA,NR,stance,Geen/Ander/Neutraal,Housing,N
 924,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-46-CDA,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-46-CDA,KN,stance,Betaalbare huisvesting,Housing,L
@@ -3076,6 +3084,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 924,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-47-Overig,NK,stance,Geen/Ander/Neutraal,Government,N
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-47-Overig,NK,stance,Geen/Ander/Neutraal,Housing,N
 1011,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-47-Overig,NPR,stance,Geen/Ander/Neutraal,Government,N
+1037,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-47-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-47-Overig,NR,stance,Betaalbare huisvesting,Housing,L
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-48-SP,KN,stance,Betaalbare huisvesting,Housing,L
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-48-SP,NK,stance,Betaalbare huisvesting,Housing,L
@@ -4618,6 +4627,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 963,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-43-Denk,NK,stance,Geen/Ander/Neutraal,Housing,N
 946,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-8-D66,KN,stance,Betaalbare huisvesting,Housing,L
 946,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-8-D66,NK,stance,Betaalbare huisvesting,Housing,L
+1037,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-8-D66,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-8-D66,NR,stance,Geen/Ander/Neutraal,Housing,N
 963,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-8-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Housing,N
 963,21992ef48b7338c77144f113fd55cb441a4156a3165833ce33649227-8-GL/PvdA,NK,stance,Betaalbare huisvesting,Housing,L
@@ -6828,10 +6838,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 968,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-24-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-CDA,KN,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-CDA,NPR,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-CU,KN,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-CU,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-CU,NPR,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-GL/PvdA,KN,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-3-GL/PvdA,NPR,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-5-CU,KN,stance,Betaalbare huisvesting,Housing,L
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-5-CU,NK,stance,Betaalbare huisvesting,Housing,L
 946,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-5-GL/PvdA,KN,stance,Betaalbare huisvesting,Housing,L
@@ -6841,6 +6854,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 968,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-9-CU,NK,stance,Geen/Ander/Neutraal,Housing,N
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-9-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Housing,N
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-9-GL/PvdA,NK,stance,Betaalbare huisvesting,Housing,L
+1037,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-9-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 925,3604e2fb24936287c173355403f05fa4a6050f76258fefed6791fe8d-14-GL/PvdA,AM,stance,Behoud huidige stelsel,Government,R
 925,3604e2fb24936287c173355403f05fa4a6050f76258fefed6791fe8d-14-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 925,3604e2fb24936287c173355403f05fa4a6050f76258fefed6791fe8d-14-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -7409,6 +7423,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-52-Volt,NPR,stance,Geen/Ander/Neutraal,Economic,N
 953,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-55-D66,KN,stance,Betaalbare huisvesting,Housing,L
 953,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-55-D66,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-55-D66,NPR,stance,Huiseigenaarschap,Housing,R
 953,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-55-D66,NR,stance,Betaalbare huisvesting,Housing,L
 550,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-57-D66,AM,stance,Geen/Ander/Neutraal,Immigration,N
 550,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-57-D66,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -7417,6 +7432,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 953,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-D66,KN,stance,Geen/Ander/Neutraal,Housing,N
 533,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-D66,KN,stance,Multiculturalisme,Immigration,L
 953,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-D66,NK,stance,Betaalbare huisvesting,Housing,L
+1037,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-D66,NPR,stance,Huiseigenaarschap,Housing,R
 533,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-D66,NPR,stance,Multiculturalisme,Immigration,L
 953,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-D66,NR,stance,Betaalbare huisvesting,Housing,L
 762,3a54b53731fb93e3095ed1bbe23d41de682d8454d994acf2b51aa277-60-FvD,AM,stance,Beperken immigratie,Immigration,R
@@ -7967,9 +7983,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 611,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-32-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-33-PVV,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-33-PVV,NK,stance,Betaalbare huisvesting,Housing,L
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-33-PVV,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-33-PVV,NR,stance,Geen/Ander/Neutraal,Housing,N
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-34-PVV,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-34-PVV,NK,stance,Betaalbare huisvesting,Housing,L
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-34-PVV,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-34-PVV,NR,stance,Geen/Ander/Neutraal,Housing,N
 537,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-38-PVV,AM,stance,Beperken immigratie,Immigration,R
 537,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-38-PVV,NK,stance,Beperken immigratie,Immigration,R
@@ -7988,9 +8006,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 745,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-42-VVD,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-D66,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-D66,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-D66,NPR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-D66,NR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-Overig,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-Overig,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-Overig,NPR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-48-Overig,NR,stance,Betaalbare huisvesting,Housing,L
 966,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-51-BBB,KN,stance,Geen/Ander/Neutraal,Housing,N
 966,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-51-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
@@ -8010,15 +8030,19 @@ jobid,unit_id,coder,variable,value,topic,stance
 537,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-54-VVD,NK,stance,Beperken immigratie,Immigration,R
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-Overig,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-Overig,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-Overig,NPR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-Overig,NR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-SP,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-SP,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-SP,NPR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-55-SP,NR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-PvdD,KN,stance,Geen/Ander/Neutraal,Housing,N
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-PvdD,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-PvdD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-PvdD,NR,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-SP,KN,stance,Betaalbare huisvesting,Housing,L
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-SP,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-SP,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-57-SP,NR,stance,Betaalbare huisvesting,Housing,L
 611,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-81-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 611,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-81-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -8102,6 +8126,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 954,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-21-VVD,KN,stance,Geen/Ander/Neutraal,Housing,N
 954,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-21-VVD,NK,stance,Geen/Ander/Neutraal,Housing,N
 925,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-21-VVD,NPR,stance,Geen/Ander/Neutraal,Government,N
+1037,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-21-VVD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 954,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-21-VVD,NR,stance,Betaalbare huisvesting,Housing,L
 854,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-37-BBB,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,3e6df0b403953c0e6a984e2c39502af0b0477bfdc7f09ca94c8bf3a6-37-BBB,NPR,stance,Geen/Ander/Neutraal,Defense,N
@@ -8249,6 +8274,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 611,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-19-VVD,NK,stance,Fossiele industrie,Environment,R
 945,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-19-VVD,NK,stance,Huiseigenaarschap,Housing,R
 676,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-19-VVD,NPR,stance,Geen/Ander/Neutraal,Environment,N
+1037,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-19-VVD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-19-VVD,NR,stance,Geen/Ander/Neutraal,Housing,N
 611,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-32-Denk,AM,stance,Geen/Ander/Neutraal,Environment,N
 611,3ed8d9d1a609f6f5b36a0610844dcd4460f5a5a9c72dd05ed9ea507a-32-Denk,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -9980,6 +10006,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 949,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-34-Overig,NK,stance,Huiseigenaarschap,Housing,R
 949,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-36-Overig,KN,stance,Geen/Ander/Neutraal,Housing,N
 949,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-36-Overig,NK,stance,Huiseigenaarschap,Housing,R
+1037,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-36-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 922,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-39-Overig,KN,stance,Geen/Ander/Neutraal,Government,N
 922,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-39-Overig,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,48eb9ef1751d1ac46bba4e61fb37dbcef1396aa0eb302dcb29edbb88-39-Overig,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -10448,6 +10475,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 963,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-14-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Housing,N
 946,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-14-NSC,KN,stance,Geen/Ander/Neutraal,Housing,N
 946,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-14-NSC,NK,stance,Huiseigenaarschap,Housing,R
+1037,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-14-NSC,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-14-NSC,NR,stance,Geen/Ander/Neutraal,Housing,N
 940,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-16-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 940,4c739fc196615ec4c844848df25a2bd0086ddc172ba44b654be85238-16-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -10516,6 +10544,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 959,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-BBB,NK,stance,Betaalbare huisvesting,Housing,L
 946,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-CDA,KN,stance,Betaalbare huisvesting,Housing,L
 946,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-CDA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-CDA,NR,stance,Betaalbare huisvesting,Housing,L
 959,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-CU,KN,stance,Geen/Ander/Neutraal,Housing,N
 959,4d51073c507cd6ffe8b693c50a1b021c8d01988ec16188ac3fc5a2f6-35-CU,NK,stance,Betaalbare huisvesting,Housing,L
@@ -13473,12 +13502,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 512,667fa9db49fc1482d32d804c5db62e04bbca0342794a00a999bbb41e-38-PVV,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-BBB,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-BBB,NPR,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-BBB,NR,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-GL/PvdA,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-GL/PvdA,NR,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-VVD,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-VVD,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-VVD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-107-VVD,NR,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-45-D66,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-45-D66,NK,stance,Betaalbare huisvesting,Housing,L
@@ -13494,14 +13526,17 @@ jobid,unit_id,coder,variable,value,topic,stance
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-46-VVD,NR,stance,Huiseigenaarschap,Housing,R
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-BBB,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-BBB,NPR,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-BBB,NR,stance,Geen/Ander/Neutraal,Housing,N
 968,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-CU,KN,stance,Betaalbare huisvesting,Housing,L
 968,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-CU,NK,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-D66,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-D66,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-D66,NPR,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-D66,NR,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-VVD,KN,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-VVD,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-VVD,NPR,stance,Betaalbare huisvesting,Housing,L
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-57-VVD,NR,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-89-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Housing,N
 954,669836b29305815af34e14e33b9f4b132d5256899c1e7ea15292fff7-89-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Housing,N
@@ -14243,9 +14278,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-2-Overig,NK,stance,Betaalbare huisvesting,Housing,L
 946,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-26-Overig,KN,stance,Betaalbare huisvesting,Housing,L
 946,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-26-Overig,NK,stance,Huiseigenaarschap,Housing,R
+1037,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-26-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-26-Overig,NR,stance,Huiseigenaarschap,Housing,R
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-38-Overig,KN,stance,Geen/Ander/Neutraal,Housing,N
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-38-Overig,NK,stance,Betaalbare huisvesting,Housing,L
+1037,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-38-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-40-Overig,KN,stance,Huiseigenaarschap,Housing,R
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-40-Overig,NK,stance,Huiseigenaarschap,Housing,R
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-42-CDA,KN,stance,Betaalbare huisvesting,Housing,L
@@ -14256,6 +14293,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 947,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-42-GL/PvdA,NK,stance,Betaalbare huisvesting,Housing,L
 946,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-45-NSC,KN,stance,Geen/Ander/Neutraal,Housing,N
 946,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-45-NSC,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-45-NSC,NPR,stance,Huiseigenaarschap,Housing,R
 946,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-45-NSC,NR,stance,Betaalbare huisvesting,Housing,L
 967,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-46-BBB,KN,stance,Huiseigenaarschap,Housing,R
 967,6d14d5e2d4fe165601f2c57054bf19f500e3b291e68f3621b8896671-46-BBB,NK,stance,Huiseigenaarschap,Housing,R
@@ -14278,6 +14316,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 934,6d559107492cf53b3d1d0f4642309278c887b32addf36185b08c7ba9-29-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 951,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-101-Overig,KN,stance,Geen/Ander/Neutraal,Housing,N
 951,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-101-Overig,NK,stance,Betaalbare huisvesting,Housing,L
+1037,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-101-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 923,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-19-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 923,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-19-NSC,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 531,6d728c137305f81729c192db1a930e053204f3ed802c8598a699f12d-24-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
@@ -16629,6 +16668,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 615,80f519cdbb5cc56917c7e854e2ce5260886a72fd10abb40f79a95c0e-7-VVD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 953,810f073b2de3c176821ba2f19d537b13762a850fecefa313b48df538-8-CDA,KN,stance,Geen/Ander/Neutraal,Housing,N
 953,810f073b2de3c176821ba2f19d537b13762a850fecefa313b48df538-8-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,810f073b2de3c176821ba2f19d537b13762a850fecefa313b48df538-8-CDA,NPR,stance,Betaalbare huisvesting,Housing,L
 953,810f073b2de3c176821ba2f19d537b13762a850fecefa313b48df538-8-CDA,NR,stance,Betaalbare huisvesting,Housing,L
 607,810f073b2de3c176821ba2f19d537b13762a850fecefa313b48df538-8-VVD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 607,810f073b2de3c176821ba2f19d537b13762a850fecefa313b48df538-8-VVD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -17264,12 +17304,15 @@ jobid,unit_id,coder,variable,value,topic,stance
 945,840391b31fdc038aff3cc9c944e0e4569ff262aab192cc6d8337c073-1-BBB,NR,stance,Geen/Ander/Neutraal,Housing,N
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-CU,KN,stance,Geen/Ander/Neutraal,Housing,N
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-CU,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-CU,NPR,stance,Geen/Ander/Neutraal,Housing,N
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-CU,NR,stance,Huiseigenaarschap,Housing,R
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-D66,KN,stance,Geen/Ander/Neutraal,Housing,N
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-D66,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-D66,NPR,stance,Geen/Ander/Neutraal,Housing,N
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-D66,NR,stance,Huiseigenaarschap,Housing,R
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-Overig,KN,stance,Betaalbare huisvesting,Housing,L
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-Overig,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 953,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-27-Overig,NR,stance,Betaalbare huisvesting,Housing,L
 508,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-7-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 508,843ca43e0c7db61b371ec1980672cad86e2d2a7caa0f95a9bedbeb65-7-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -18022,12 +18065,16 @@ jobid,unit_id,coder,variable,value,topic,stance
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-23-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-24-BBB,KN,stance,Huiseigenaarschap,Housing,R
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-24-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-24-BBB,NPR,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-CDA,KN,stance,Betaalbare huisvesting,Housing,L
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-CDA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-CU,KN,stance,Betaalbare huisvesting,Housing,L
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-CU,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-CU,NPR,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-GL/PvdA,KN,stance,Betaalbare huisvesting,Housing,L
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Housing,N
+1037,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-25-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-26-BBB,KN,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-26-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 966,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-26-FvD,KN,stance,Geen/Ander/Neutraal,Housing,N
@@ -18040,6 +18087,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-3-BBB,NK,stance,Huiseigenaarschap,Housing,R
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-3-CDA,KN,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-3-CDA,NK,stance,Huiseigenaarschap,Housing,R
+1037,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-3-CDA,NPR,stance,Huiseigenaarschap,Housing,R
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-4-CDA,KN,stance,Geen/Ander/Neutraal,Housing,N
 956,9323c2908a2ea473fe8c2bd6b33db87bb73fc394492a640ceb15455d-4-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
 518,93373ae0104fbca9e628c8535e06a8e71d5b1690b68f3d8540b01b75-11-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -18899,6 +18947,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 945,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-38-Overig,KN,stance,Geen/Ander/Neutraal,Housing,N
 945,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-38-Overig,NK,stance,Geen/Ander/Neutraal,Housing,N
 537,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-38-Overig,NK,stance,Geen/Ander/Neutraal,Immigration,N
+1037,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-38-Overig,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-38-Overig,NR,stance,Betaalbare huisvesting,Housing,L
 655,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-56-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 537,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-56-Denk,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -20202,8 +20251,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 966,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-34-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-34-VVD,KN,stance,Betaalbare huisvesting,Housing,L
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-34-VVD,NK,stance,Huiseigenaarschap,Housing,R
+1037,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-34-VVD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-35-VVD,KN,stance,Betaalbare huisvesting,Housing,L
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-35-VVD,NK,stance,Huiseigenaarschap,Housing,R
+1037,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-35-VVD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-36-BBB,KN,stance,Geen/Ander/Neutraal,Housing,N
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-36-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 743,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -21104,6 +21155,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 945,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-2-PVV,NR,stance,Geen/Ander/Neutraal,Housing,N
 945,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-3-D66,KN,stance,Geen/Ander/Neutraal,Housing,N
 945,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-3-D66,NK,stance,Betaalbare huisvesting,Housing,L
+1037,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-3-D66,NPR,stance,Geen/Ander/Neutraal,Housing,N
 945,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-3-D66,NR,stance,Geen/Ander/Neutraal,Housing,N
 945,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-3-PVV,KN,stance,Geen/Ander/Neutraal,Housing,N
 945,afb850c438aff7ab1dae8d73f1172ca1d61ec131f9cae7205711f9f6-3-PVV,NK,stance,Geen/Ander/Neutraal,Housing,N
@@ -23648,6 +23700,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 955,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-96-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 955,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-96-VVD,KN,stance,Betaalbare huisvesting,Housing,L
 955,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-96-VVD,NK,stance,Huiseigenaarschap,Housing,R
+1037,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-96-VVD,NPR,stance,Geen/Ander/Neutraal,Housing,N
 966,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-97-VVD,KN,stance,Betaalbare huisvesting,Housing,L
 966,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-97-VVD,NK,stance,Huiseigenaarschap,Housing,R
 955,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-98-BBB,KN,stance,Geen/Ander/Neutraal,Housing,N
@@ -24454,6 +24507,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 552,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,KN,stance,Multiculturalisme,Immigration,L
 946,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 552,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,NK,stance,Geen/Ander/Neutraal,Immigration,N
+1037,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,NR,stance,Geen/Ander/Neutraal,Housing,N
 774,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,AM,stance,Geen/Ander/Neutraal,Economic,N
 779,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,KN,stance,Geen/Ander/Neutraal,Economic,N
@@ -26993,6 +27047,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 552,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-BBB,KN,stance,Beperken immigratie,Immigration,R
 946,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-BBB,NK,stance,Betaalbare huisvesting,Housing,L
 552,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-BBB,NK,stance,Beperken immigratie,Immigration,R
+1037,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-BBB,NPR,stance,Geen/Ander/Neutraal,Housing,N
 946,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-BBB,NR,stance,Geen/Ander/Neutraal,Housing,N
 546,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-PVV,AM,stance,Beperken immigratie,Immigration,R
 546,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-212-PVV,NK,stance,Beperken immigratie,Immigration,R
@@ -29118,10 +29173,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 966,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-12-VVD,NK,stance,Huiseigenaarschap,Housing,R
 949,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-13-VVD,KN,stance,Geen/Ander/Neutraal,Housing,N
 949,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-13-VVD,NK,stance,Huiseigenaarschap,Housing,R
+1037,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-13-VVD,NPR,stance,Huiseigenaarschap,Housing,R
 949,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-3-VVD,KN,stance,Geen/Ander/Neutraal,Housing,N
 949,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-3-VVD,NK,stance,Huiseigenaarschap,Housing,R
+1037,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-3-VVD,NPR,stance,Huiseigenaarschap,Housing,R
 949,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-4-VVD,KN,stance,Geen/Ander/Neutraal,Housing,N
 949,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-4-VVD,NK,stance,Huiseigenaarschap,Housing,R
+1037,edffb16aa948262f86c94efd44784baee6ef44130bcc94876832d588-4-VVD,NPR,stance,Huiseigenaarschap,Housing,R
 849,ee2fb7c01e43b145b4ac6f8eeca8ca49545c60c31b9eee983829078d-51-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 849,ee2fb7c01e43b145b4ac6f8eeca8ca49545c60c31b9eee983829078d-51-Overig,SH,stance,Geen/Ander/Neutraal,Defense,N
 600,ee67a158fee86e5007b5ea70119c2b60ad36e14f6336c242df0019fc-22-PvdD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -29259,6 +29317,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,efd511c9ed172833341f4039d2d9a1333f2be35e5e4ae1f3ed511fee-50-Overig,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 954,efd511c9ed172833341f4039d2d9a1333f2be35e5e4ae1f3ed511fee-75-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Housing,N
 954,efd511c9ed172833341f4039d2d9a1333f2be35e5e4ae1f3ed511fee-75-GL/PvdA,NK,stance,Betaalbare huisvesting,Housing,L
+1037,efd511c9ed172833341f4039d2d9a1333f2be35e5e4ae1f3ed511fee-75-GL/PvdA,NPR,stance,Betaalbare huisvesting,Housing,L
 954,efd511c9ed172833341f4039d2d9a1333f2be35e5e4ae1f3ed511fee-75-GL/PvdA,NR,stance,Betaalbare huisvesting,Housing,L
 935,efd88334cdbb8c5f8e17d65b5c3cb347934b7c98ee931124faa5a409-18-D66,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 935,efd88334cdbb8c5f8e17d65b5c3cb347934b7c98ee931124faa5a409-18-D66,NK,stance,Geen/Ander/Neutraal,Government,N

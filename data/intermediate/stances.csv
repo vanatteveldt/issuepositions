@@ -893,10 +893,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 608,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-4-PvdD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 1020,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-67-Denk,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-67-Denk,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-67-Denk,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-81-Denk,AM,stance,Geen/Ander/Neutraal,Health,N
 608,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-81-Denk,NK,stance,Geen/Ander/Neutraal,Environment,N
 608,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-81-Denk,NPR,stance,Geen/Ander/Neutraal,Environment,N
 1020,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-81-Denk,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-81-Denk,SH,stance,Geen/Ander/Neutraal,Health,N
 608,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-92-PvdD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 608,063825bf9ea1d03ea93460decdb9757c24a9889bf544533be5b22cf2-92-PvdD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 617,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-13-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -2095,6 +2097,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-10-VVD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 925,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-10-VVD,NPR,stance,Geen/Ander/Neutraal,Government,N
 1020,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-10-VVD,NPR,stance,Doelmatige zorg,Health,R
+1020,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-10-VVD,SH,stance,Geen/Ander/Neutraal,Health,N
 534,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-54-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
 701,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-54-BBB,KN,stance,Geen/Ander/Neutraal,Agriculture,N
 701,0f95512c7ffcd49dfd80b33c69ee36d399e437f309514950e6e35c79-54-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -2898,6 +2901,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-36-VVD,AM,stance,Doelmatige zorg,Health,R
 1016,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-36-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-36-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-36-VVD,SH,stance,Geen/Ander/Neutraal,Health,N
 558,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-37-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Environment,N
 558,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-37-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 558,169eef28cca642802e08d4f1c45746962d5805cc97ab83348047ff38-37-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
@@ -3085,10 +3089,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 924,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-20-SP,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 924,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-20-SP,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-22-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-22-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-24-SP,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-24-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1034,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-27-CDA,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-30-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-30-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-31-SP,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-31-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-35-CDA,KN,stance,Geen/Ander/Neutraal,Housing,N
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-35-CDA,NK,stance,Geen/Ander/Neutraal,Housing,N
 953,178c4f8cd0674a0523e023fcf4fb514cdfcd57be2a72a04b5c827497-35-CDA,NR,stance,Geen/Ander/Neutraal,Housing,N
@@ -3341,6 +3349,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-101-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-101-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 500,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-101-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+1016,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-101-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 911,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-103-D66,AM,stance,Geen/Ander/Neutraal,Government,N
 911,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-103-D66,NK,stance,Geen/Ander/Neutraal,Government,N
 911,1853b9b6144334fbfb974e64bcca4831e790f072062163032a7ea055-103-D66,NR,stance,Geen/Ander/Neutraal,Government,N
@@ -3445,6 +3454,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-84-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-84-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-84-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-84-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 911,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,AM,stance,Geen/Ander/Neutraal,Government,N
 1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 631,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -3454,6 +3464,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 911,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,NR,stance,Geen/Ander/Neutraal,Government,N
 911,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,SH,stance,Geen/Ander/Neutraal,Government,N
+1016,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-85-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 911,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-89-CDA,AM,stance,Geen/Ander/Neutraal,Government,N
 631,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-89-CDA,NK,stance,Geen/Ander/Neutraal,Economic,N
 911,18ba1b51856174ce93eb22cd3e3bb1900a1ab37b5eb9ebf9739039a7-89-CDA,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -4128,6 +4139,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-56-NSC,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-56-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-56-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-56-NSC,SH,stance,Geen/Ander/Neutraal,Health,N
 938,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-6-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 938,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-6-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 911,1e4cfad4bbd14567b52f48e73f21667b4faad41122f87027f7aa1e07-7-CDA,AM,stance,Geen/Ander/Neutraal,Government,N
@@ -4310,6 +4322,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,1ede22ff80cbdd88842908e5c422904cf7f4d719f9932803dcee232c-6-FvD,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,1ede22ff80cbdd88842908e5c422904cf7f4d719f9932803dcee232c-6-FvD,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,1ede22ff80cbdd88842908e5c422904cf7f4d719f9932803dcee232c-6-FvD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,1ede22ff80cbdd88842908e5c422904cf7f4d719f9932803dcee232c-6-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 862,1f0a9c3307308981f151cfbbbeb0f1818e85c93d14f418fe19adf826-5-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 862,1f0a9c3307308981f151cfbbbeb0f1818e85c93d14f418fe19adf826-5-Overig,NPR,stance,Geen/Ander/Neutraal,Defense,N
 756,1f781c35faf706087da6ddf02b387efa0f32bf5cab71c0d6ddfcb30f-3-Overig,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
@@ -5886,10 +5899,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 976,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-CU,NK,stance,Geen/Ander/Neutraal,Infrastructure,N
 1020,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 976,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-CU,NPR,stance,Wegen & Schiphol,Infrastructure,R
+1020,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-CU,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-PvdD,AM,stance,Geen/Ander/Neutraal,Health,N
 976,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-PvdD,NK,stance,Geen/Ander/Neutraal,Infrastructure,N
 1020,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-PvdD,NPR,stance,Geen/Ander/Neutraal,Health,N
 976,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-PvdD,NPR,stance,Geen/Ander/Neutraal,Infrastructure,N
+1020,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-120-PvdD,SH,stance,Geen/Ander/Neutraal,Health,N
 865,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-125-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Defense,N
 865,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-125-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Defense,N
 527,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-13-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -5946,6 +5961,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-161-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-161-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-161-CDA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+1019,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-161-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-163-D66,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-163-D66,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 634,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-164-D66,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -6528,6 +6544,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 925,3179dccf9d03f6a64c45aaea4dafd39bbe143dc5d878833ce9bafb82-20-Volt,NPR,stance,Geen/Ander/Neutraal,Government,N
 1020,3179dccf9d03f6a64c45aaea4dafd39bbe143dc5d878833ce9bafb82-7-D66,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,3179dccf9d03f6a64c45aaea4dafd39bbe143dc5d878833ce9bafb82-7-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,3179dccf9d03f6a64c45aaea4dafd39bbe143dc5d878833ce9bafb82-7-D66,SH,stance,Geen/Ander/Neutraal,Health,N
 550,3179dccf9d03f6a64c45aaea4dafd39bbe143dc5d878833ce9bafb82-8-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
 550,3179dccf9d03f6a64c45aaea4dafd39bbe143dc5d878833ce9bafb82-8-BBB,NK,stance,Geen/Ander/Neutraal,Immigration,N
 1015,31e79a6e24be361bc08536e6e6a0f7ea1e2f45cf5f7c2cc338c20932-13-FvD,NK,stance,Geen/Ander/Neutraal,Health,N
@@ -6877,54 +6894,85 @@ jobid,unit_id,coder,variable,value,topic,stance
 617,34d5724f42fab47b566dd538c8d380cee136a124022c99a17f900449-11-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
 617,34d5724f42fab47b566dd538c8d380cee136a124022c99a17f900449-11-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Environment,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-14-CU,NK,stance,Doelmatige zorg,Health,R
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-14-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-14-D66,NK,stance,Doelmatige zorg,Health,R
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-14-D66,NPR,stance,Doelmatige zorg,Health,R
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-CU,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-CU,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-NSC,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-NSC,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-Volt,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-16-Volt,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1033,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-17-BBB,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-17-GL/PvdA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-17-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-20-CDA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-20-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-20-CU,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-20-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-20-D66,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-20-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-21-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-21-D66,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-22-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-22-NSC,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-22-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-22-VVD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-23-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-23-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-23-PvdD,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-23-PvdD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1036,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-24-GL/PvdA,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-25-BBB,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-25-BBB,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1036,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-27-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-28-JA21,NK,stance,Doelmatige zorg,Health,R
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-28-JA21,NPR,stance,Doelmatige zorg,Health,R
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-28-Volt,NK,stance,Doelmatige zorg,Health,R
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-28-Volt,NPR,stance,Doelmatige zorg,Health,R
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-30-CDA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-30-CDA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-30-NSC,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-30-NSC,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1036,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-30-PvdD,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-34-JA21,NK,stance,Geen/Ander/Neutraal,Economic,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-34-JA21,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-34-JA21,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-34-JA21,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-36-BBB,NK,stance,Doelmatige zorg,Health,R
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-36-BBB,NPR,stance,Geen/Ander/Neutraal,Health,N
 1034,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-36-JA21,NK,stance,Doelmatige zorg,Health,R
 1034,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-36-Volt,NK,stance,Doelmatige zorg,Health,R
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-38-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-38-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 1034,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-39-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-40-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-40-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-40-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-40-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-41-JA21,KN,stance,Geen/Ander/Neutraal,Government,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-41-JA21,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-41-JA21,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-41-JA21,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-46-CDA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-46-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-D66,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 968,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-JA21,KN,stance,Geen/Ander/Neutraal,Housing,N
 968,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-JA21,NK,stance,Geen/Ander/Neutraal,Housing,N
 953,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-NSC,KN,stance,Geen/Ander/Neutraal,Housing,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-NSC,NK,stance,Betaalbare zorg en gezondheid,Health,L
 953,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-NSC,NK,stance,Geen/Ander/Neutraal,Housing,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 953,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-NSC,NR,stance,Geen/Ander/Neutraal,Housing,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-VVD,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-48-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-50-GL/PvdA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-50-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-50-NSC,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-50-NSC,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1034,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-51-PvdD,NK,stance,Betaalbare zorg en gezondheid,Health,L
 938,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-55-CU,KN,stance,Geen/Ander/Neutraal,Government,N
 938,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-55-CU,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -6939,10 +6987,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-56-VVD,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-56-VVD,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-57-CU,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-57-CU,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-57-JA21,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-57-JA21,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 634,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-58-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-58-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 634,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-58-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-58-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 658,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 661,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,KN,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -6950,29 +7001,44 @@ jobid,unit_id,coder,variable,value,topic,stance
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,NK,stance,Traditionele waarden,CivilRights,R
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-GL/PvdA,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-PvdD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-PvdD,KN,stance,Geen/Ander/Neutraal,Government,N
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-PvdD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-PvdD,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-PvdD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-PvdD,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-Volt,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-Volt,KN,stance,Geen/Ander/Neutraal,Government,N
 924,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-Volt,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-Volt,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-60-Volt,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-62-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-62-D66,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-62-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-62-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-62-PvdD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-62-PvdD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-63-Volt,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-63-Volt,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-65-GL/PvdA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-65-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-65-JA21,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-65-JA21,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-66-CU,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-66-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-66-PvdD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-66-PvdD,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-67-VVD,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-67-VVD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-69-BBB,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-69-BBB,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-69-CU,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,34e1d924bc1f8c5b5909cbe71601521af2b05cbe4d52a3b1d734b4f3-69-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-10-FvD,KN,stance,Geen/Ander/Neutraal,Housing,N
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-10-FvD,NK,stance,Geen/Ander/Neutraal,Housing,N
 956,35f9ca58f4f62edfe2414f3d4b1ce57990abcaacf9585018df2f0ced-10-VVD,KN,stance,Geen/Ander/Neutraal,Housing,N
@@ -7050,8 +7116,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 946,364d277efde231a41165f7fba32cc887a4bc85511b05c08b7c3d0a50-5-BBB,NR,stance,Geen/Ander/Neutraal,Housing,N
 1020,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-121-NSC,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-121-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-121-NSC,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-121-Overig,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-121-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-121-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 774,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-145-SP,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 635,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-145-SP,KN,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 635,366dee28d46804c6842562595c58279a47b14ce24b5e49ea6b51cd05-145-SP,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -8761,6 +8829,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-15-NSC,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-15-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-15-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-15-NSC,SH,stance,Betaalbare zorg en gezondheid,Health,L
 500,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-159-PVV,AM,stance,Traditionele waarden,CivilRights,R
 499,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-159-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 500,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-159-PVV,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -8786,6 +8855,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-17-NSC,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-17-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-17-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-17-NSC,SH,stance,Betaalbare zorg en gezondheid,Health,L
 500,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-177-Denk,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 500,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-177-Denk,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 631,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-177-Denk,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -8851,9 +8921,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-Overig,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-Overig,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-Overig,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-VVD,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-VVD,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-19-VVD,SH,stance,Betaalbare zorg en gezondheid,Health,L
 631,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-190-JA21,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 631,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-190-JA21,NPR,stance,Belastingverlaging & Ondernemers,Economic,R
 648,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-191-Denk,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -8912,6 +8984,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-24-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Health,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-24-GL/PvdA,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-24-GL/PvdA,SH,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-24-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Health,N
 499,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-247-CU,AM,stance,Geen/Ander/Neutraal,Immigration,N
 499,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-247-CU,NK,stance,Geen/Ander/Neutraal,Immigration,N
 499,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-247-CU,SH,stance,Geen/Ander/Neutraal,Immigration,N
@@ -8988,6 +9061,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-439-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-439-Overig,NR,stance,Geen/Ander/Neutraal,Government,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-439-Overig,SH,stance,Geen/Ander/Neutraal,Government,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-439-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 715,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-44-BBB,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 715,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-44-BBB,JE,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 715,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-44-BBB,NK,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
@@ -8998,6 +9072,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-440-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-440-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-440-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-440-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,AM,stance,Geen/Ander/Neutraal,Government,N
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 631,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -9007,6 +9082,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,NR,stance,Geen/Ander/Neutraal,Government,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,SH,stance,Geen/Ander/Neutraal,Government,N
+1016,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-441-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-445-CDA,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 631,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-445-CDA,NK,stance,Geen/Ander/Neutraal,Economic,N
 911,41c2f4aca7e48728c6c61a333d5f0f633ae95c849b0e3d04efc0bbdc-445-CDA,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -9258,18 +9334,24 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-16-FvD,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-16-FvD,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-16-FvD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-16-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-17-FvD,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-17-FvD,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-17-FvD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-17-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-18-Overig,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-18-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-18-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,421ac557a36d07522c6c81274e3ffacc1319401c044b36fe908283d1-18-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-16-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-16-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-16-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-38-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-38-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-38-PVV,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-38-PvdD,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-38-PvdD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,4221b0f4984a8cb0bc1edca2650dc622683ee4000b553b942ebc81f8-38-PvdD,SH,stance,Betaalbare zorg en gezondheid,Health,L
 923,42e1c7278c7526ed24713afd5f9b23c820d180d083a9c6bcf163bde8-2-PVV,KN,stance,Geen/Ander/Neutraal,Government,N
 923,42e1c7278c7526ed24713afd5f9b23c820d180d083a9c6bcf163bde8-2-PVV,NK,stance,Geen/Ander/Neutraal,Government,N
 1017,42e1c7278c7526ed24713afd5f9b23c820d180d083a9c6bcf163bde8-21-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
@@ -12593,17 +12675,21 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-16-FvD,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-16-FvD,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-16-FvD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-16-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-17-FvD,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-17-FvD,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-17-FvD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-17-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-18-Overig,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-18-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-18-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,5b04a2b998b7fd8ca37d04160fc98d2ea03d27b1043e9af6e43ea1b1-18-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 634,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 607,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
 1019,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
 634,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Economic,N
 607,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
+1019,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Health,N
 599,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-NSC,NK,stance,Geen/Ander/Neutraal,Environment,N
 1036,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 599,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-11-NSC,NR,stance,Geen/Ander/Neutraal,Environment,N
@@ -12615,7 +12701,9 @@ jobid,unit_id,coder,variable,value,topic,stance
 607,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-29-Denk,NK,stance,Geen/Ander/Neutraal,Environment,N
 1019,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-29-Denk,NK,stance,Geen/Ander/Neutraal,Health,N
 607,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-29-Denk,NPR,stance,Geen/Ander/Neutraal,Environment,N
+1019,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-29-Denk,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-43-Denk,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,5b26cc5620236412a60e78a39757797c04f323c4530a4dde763e7b51-43-Denk,NPR,stance,Geen/Ander/Neutraal,Health,N
 933,5ba4b2a8673896478cda58d7bb65adbf2c16135a4d6c9fd440564ff9-14-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 933,5ba4b2a8673896478cda58d7bb65adbf2c16135a4d6c9fd440564ff9-14-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
 933,5ba4b2a8673896478cda58d7bb65adbf2c16135a4d6c9fd440564ff9-14-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
@@ -13651,6 +13739,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,NK,stance,Geen/Ander/Neutraal,Economic,N
 635,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,NPR,stance,Geen/Ander/Neutraal,Economic,N
 1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-34-PVV,SH,stance,Geen/Ander/Neutraal,Health,N
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-36-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-36-PVV,NPR,stance,Geen/Ander/Neutraal,Defense,N
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-JA21,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -13661,8 +13750,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 846,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-38-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-7-FvD,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-7-FvD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-7-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-8-FvD,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-8-FvD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-8-FvD,SH,stance,Geen/Ander/Neutraal,Health,N
 1018,653932ce2226ecd6fb868dcd3bc68208d51cd8ed8e343c8230c4ecca-34-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 1018,653932ce2226ecd6fb868dcd3bc68208d51cd8ed8e343c8230c4ecca-34-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 978,655c2a86e1d5f16366d74e4d39a9244ebd791370c3f2d53ee125a845-18-JA21,NK,stance,Geen/Ander/Neutraal,Infrastructure,N
@@ -14179,6 +14270,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 924,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-19-Denk,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-19-Denk,NK,stance,Geen/Ander/Neutraal,Health,N
 634,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-19-Denk,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-19-Denk,NPR,stance,Geen/Ander/Neutraal,Health,N
 533,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-19-Denk,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 508,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-23-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 508,6abe7e9addbe82ab735fd0f2a687ab2008e219566375816be6cb6a14-25-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -14807,6 +14899,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,6e05209a3d58fba5d2e931737a924f8d51c4e36da91e3fe548a2b9af-74-PVV,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,6e05209a3d58fba5d2e931737a924f8d51c4e36da91e3fe548a2b9af-74-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,6e05209a3d58fba5d2e931737a924f8d51c4e36da91e3fe548a2b9af-74-PVV,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+1019,6e05209a3d58fba5d2e931737a924f8d51c4e36da91e3fe548a2b9af-74-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 634,6e05209a3d58fba5d2e931737a924f8d51c4e36da91e3fe548a2b9af-9-Denk,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 634,6e05209a3d58fba5d2e931737a924f8d51c4e36da91e3fe548a2b9af-9-Denk,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 610,6e26ee860741cec5c1e4a86d13444fe600435b981ba2e0123a1a1216-31-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -15894,11 +15987,13 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-15-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 631,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-15-PVV,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-15-PVV,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-15-PVV,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-16-PVV,AM,stance,Geen/Ander/Neutraal,Health,N
 631,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-16-PVV,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-16-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 631,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-16-PVV,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-16-PVV,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-16-PVV,SH,stance,Geen/Ander/Neutraal,Health,N
 499,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-18-PVV,AM,stance,Beperken immigratie,Immigration,R
 881,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-18-PVV,KN,stance,Protectionisme,EU,R
 881,7a10f48a2882c01b7740ce4bd00b13772f618fff04faaa3d31cdf768-18-PVV,NK,stance,Protectionisme,EU,R
@@ -15963,17 +16058,22 @@ jobid,unit_id,coder,variable,value,topic,stance
 1033,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-105-SP,NK,stance,Geen/Ander/Neutraal,Health,N
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-107-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-107-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-107-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-107-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-107-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-107-SP,SH,stance,Betaalbare zorg en gezondheid,Health,L
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-11-VVD,AM,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-11-VVD,NPR,stance,Beperken immigratie,Immigration,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-110-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-110-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-110-SP,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-114-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-114-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-114-SP,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1033,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-115-SP,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-116-SP,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-116-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-116-SP,SH,stance,Geen/Ander/Neutraal,Health,N
 925,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-123-CDA,AM,stance,Geen/Ander/Neutraal,Government,N
 925,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-123-CDA,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 925,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-123-CDA,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -16017,16 +16117,22 @@ jobid,unit_id,coder,variable,value,topic,stance
 854,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-145-NSC,NPR,stance,Geen/Ander/Neutraal,Defense,N
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-150-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-150-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-150-PVV,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-152-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-152-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-152-PVV,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-CDA,AM,stance,Doelmatige zorg,Health,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-CDA,SH,stance,Doelmatige zorg,Health,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-D66,AM,stance,Doelmatige zorg,Health,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-D66,SH,stance,Doelmatige zorg,Health,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-VVD,AM,stance,Doelmatige zorg,Health,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-156-VVD,SH,stance,Doelmatige zorg,Health,R
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-157-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-157-CDA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-157-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-16-NSC,AM,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-16-NSC,NPR,stance,Beperken immigratie,Immigration,R
 534,7a822ffdf35f699515228c07477b27bda1efbfee26c7a6878a1ed4a7-161-VVD,AM,stance,Beperken immigratie,Immigration,R
@@ -16139,9 +16245,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-CU,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-CU,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-CU,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-D66,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-D66,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,7ac69d470d382c3d8e3583f288de9baef49c0bea08a3232813d53b25-76-D66,SH,stance,Geen/Ander/Neutraal,Health,N
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-13-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-13-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 530,7b1258a448cea928311a203b1fdcd8f365e228b1bd34c9fee9998172-15-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -17983,23 +18091,31 @@ jobid,unit_id,coder,variable,value,topic,stance
 741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-NSC,NPR,stance,Geen/Ander/Neutraal,Education,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
 741,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,NPR,stance,Geen/Ander/Neutraal,Education,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-32-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-CU,AM,stance,Traditionele waarden,CivilRights,R
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-34-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-35-BBB,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-35-BBB,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-35-BBB,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-36-NSC,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-36-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-36-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-37-NSC,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-37-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-37-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 1033,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-38-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
 1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-43-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,89d413ec5bc0972acdf26e9899562bf7ae6009ddab3517db387b34a0-43-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 525,8a597aa18df90362ec7b6ddbcd1b4c6fd7edfdb9fb3554160daf590c-1-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 525,8a597aa18df90362ec7b6ddbcd1b4c6fd7edfdb9fb3554160daf590c-1-D66,NPR,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 507,8a597aa18df90362ec7b6ddbcd1b4c6fd7edfdb9fb3554160daf590c-16-D66,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -18293,7 +18409,9 @@ jobid,unit_id,coder,variable,value,topic,stance
 662,8eb13e2cdd0ded1a137e69468c4c44b7181ef4d3da18aa30c97ccb18-2-CDA,KN,stance,Traditionele waarden,CivilRights,R
 508,8eb13e2cdd0ded1a137e69468c4c44b7181ef4d3da18aa30c97ccb18-2-CDA,NK,stance,Traditionele waarden,CivilRights,R
 1019,8eb13e2cdd0ded1a137e69468c4c44b7181ef4d3da18aa30c97ccb18-2-CDA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,8eb13e2cdd0ded1a137e69468c4c44b7181ef4d3da18aa30c97ccb18-2-CDA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,8eb13e2cdd0ded1a137e69468c4c44b7181ef4d3da18aa30c97ccb18-40-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,8eb13e2cdd0ded1a137e69468c4c44b7181ef4d3da18aa30c97ccb18-40-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 609,8ecb5975dc659f17b4231e009c950af36b84de0e1b0cad4a3ef201f5-75-Denk,NK,stance,Geen/Ander/Neutraal,Environment,N
 609,8ecb5975dc659f17b4231e009c950af36b84de0e1b0cad4a3ef201f5-75-Denk,NPR,stance,Geen/Ander/Neutraal,Environment,N
 609,8ecb5975dc659f17b4231e009c950af36b84de0e1b0cad4a3ef201f5-76-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -18310,6 +18428,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,8ed537bd90074f344bc486e66474766a68c3598e512bed2e6d95f470-4-PvdD,NPR,stance,Geen/Ander/Neutraal,Economic,N
 1020,8ed537bd90074f344bc486e66474766a68c3598e512bed2e6d95f470-4-PvdD,NPR,stance,Geen/Ander/Neutraal,Health,N
 954,8ed537bd90074f344bc486e66474766a68c3598e512bed2e6d95f470-4-PvdD,NR,stance,Geen/Ander/Neutraal,Housing,N
+1020,8ed537bd90074f344bc486e66474766a68c3598e512bed2e6d95f470-4-PvdD,SH,stance,Geen/Ander/Neutraal,Health,N
 510,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-21-PVV,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 510,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-21-PVV,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 743,8f3c63695d58d07e3e7ff1569ae94c5b0d951da87e75969a07d3081e-26-Overig,NK,stance,Geen/Ander/Neutraal,Education,N
@@ -22827,6 +22946,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-26-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 1019,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-26-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 634,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-26-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-26-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-28-Denk,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-28-Denk,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 698,b5cd04f02548c201e000ad6fcf015b1edd90082c1469a7c4a74a5b34-36-NSC,AM,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -23015,6 +23135,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-D66,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-D66,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-D66,SH,stance,Geen/Ander/Neutraal,Health,N
 499,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-PVV,AM,stance,Geen/Ander/Neutraal,Immigration,N
 499,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 499,b7fa57abf1c62847348e16714658f216c68b7a5e2e55895cb4d9bda7-17-PVV,SH,stance,Geen/Ander/Neutraal,Immigration,N
@@ -24384,9 +24505,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-138-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 911,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-138-Overig,NR,stance,Geen/Ander/Neutraal,Government,N
 911,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-138-Overig,SH,stance,Geen/Ander/Neutraal,Government,N
+1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-138-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-139-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-139-CDA,NK,stance,Geen/Ander/Neutraal,Health,N
 1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-139-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
+1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-139-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 911,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,AM,stance,Geen/Ander/Neutraal,Government,N
 1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 631,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
@@ -24396,6 +24519,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 911,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,NR,stance,Geen/Ander/Neutraal,Government,N
 911,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,SH,stance,Geen/Ander/Neutraal,Government,N
+1016,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-140-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 937,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-144-CDA,KN,stance,Geen/Ander/Neutraal,Government,N
 647,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-144-CDA,NK,stance,Geen/Ander/Neutraal,Economic,N
 937,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-144-CDA,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -24567,17 +24691,23 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-113-SP,NPR,stance,Geen/Ander/Neutraal,Economic,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-12-CU,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-12-CU,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-12-CU,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-15-CU,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-15-CU,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-15-CU,SH,stance,Geen/Ander/Neutraal,Health,N
 1035,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-16-CU,NK,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-16-Overig,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-16-Overig,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-16-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-BBB,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-BBB,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-BBB,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-CDA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-CU,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-CU,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-20-CU,SH,stance,Geen/Ander/Neutraal,Health,N
 534,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-28-BBB,AM,stance,Beperken immigratie,Immigration,R
 534,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-28-BBB,NPR,stance,Beperken immigratie,Immigration,R
 534,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-28-FvD,AM,stance,Beperken immigratie,Immigration,R
@@ -24611,6 +24741,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 635,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-44-SGP,NK,stance,Geen/Ander/Neutraal,Economic,N
 635,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-44-SGP,NPR,stance,Geen/Ander/Neutraal,Economic,N
 1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-44-SGP,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-44-SGP,SH,stance,Geen/Ander/Neutraal,Health,N
 509,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-46-SGP,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-46-SGP,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,c5b770417fa21a236623e4b0cea837d52492473544437ccf1cf5c6d1-70-SGP,AM,stance,Traditionele waarden,CivilRights,R
@@ -25120,14 +25251,23 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-21-Overig,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-21-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-21-Overig,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-21-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-28-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-28-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-28-PvdD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-28-PvdD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-28-SP,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-28-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-30-D66,NK,stance,Doelmatige zorg,Health,R
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-30-D66,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-31-D66,NK,stance,Doelmatige zorg,Health,R
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-31-D66,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-31-VVD,NK,stance,Doelmatige zorg,Health,R
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-31-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-32-D66,NK,stance,Doelmatige zorg,Health,R
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-32-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-32-Overig,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-32-Overig,NPR,stance,Doelmatige zorg,Health,R
 762,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,AM,stance,Geen/Ander/Neutraal,Immigration,N
 771,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,JE,stance,Multiculturalisme,Immigration,L
 946,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-BBB,KN,stance,Betaalbare huisvesting,Housing,L
@@ -25143,12 +25283,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,NK,stance,Geen/Ander/Neutraal,Health,N
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,NPR,stance,Geen/Ander/Neutraal,Health,N
 533,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-36-Volt,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 775,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 533,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,KN,stance,Geen/Ander/Neutraal,Immigration,N
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 533,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 774,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,AM,stance,Geen/Ander/Neutraal,Economic,N
 782,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,KN,stance,Geen/Ander/Neutraal,Economic,N
@@ -25156,6 +25298,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 533,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-JA21,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 777,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,AM,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 782,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,KN,stance,Geen/Ander/Neutraal,Economic,N
@@ -25163,10 +25306,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 533,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-37-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-38-BBB,NK,stance,Geen/Ander/Neutraal,Economic,N
 1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-38-BBB,NK,stance,Betaalbare zorg en gezondheid,Health,L
 634,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-38-BBB,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1019,c8c8f402f3e46fe1a5e7cb50e4860980ef24bfd40a9d9ae194ba7084-38-BBB,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1025,c8cd7770b5acb025aec27aa0b880b20bf307e8293e310935b3bce2be-15-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 1025,c8cd7770b5acb025aec27aa0b880b20bf307e8293e310935b3bce2be-29-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 1025,c8cd7770b5acb025aec27aa0b880b20bf307e8293e310935b3bce2be-30-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
@@ -26838,10 +26983,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 924,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-D66,KN,stance,Geen/Ander/Neutraal,Government,N
 924,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-D66,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-GL/PvdA,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 924,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 924,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Health,N
 940,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-PvdD,KN,stance,Geen/Ander/Neutraal,Government,N
 527,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-PvdD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 940,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-PvdD,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -26850,6 +26997,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 924,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-VVD,KN,stance,Geen/Ander/Neutraal,Government,N
 924,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-VVD,NK,stance,Geen/Ander/Neutraal,Government,N
 1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-40-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-41-CDA,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-42-BBB,AM,stance,Traditionele waarden,CivilRights,R
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-42-CDA,AM,stance,Traditionele waarden,CivilRights,R
@@ -26857,6 +27005,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-42-SGP,AM,stance,Traditionele waarden,CivilRights,R
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-46-SGP,AM,stance,Traditionele waarden,CivilRights,R
 1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-46-SGP,NK,stance,Geen/Ander/Neutraal,Health,N
+1019,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-46-SGP,NPR,stance,Geen/Ander/Neutraal,Health,N
 525,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-6-Overig,NK,stance,Traditionele waarden,CivilRights,R
 525,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-6-Overig,NPR,stance,Traditionele waarden,CivilRights,R
 508,d35cc8e3619fc7dffba0b47f27425705e5433f499cda2a0fda877fb5-6-SGP,AM,stance,Traditionele waarden,CivilRights,R
@@ -27119,11 +27268,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 910,d6cc9338727a150f35373bfe758f73ca037db1def8b8a258d31fd127-48-NSC,SH,stance,Geen/Ander/Neutraal,Government,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-11-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-11-SP,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-11-SP,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-12-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-12-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-12-SP,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1033,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-13-SP,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-2-SP,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-2-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-2-SP,SH,stance,Geen/Ander/Neutraal,Health,N
 534,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-27-NSC,AM,stance,Beperken immigratie,Immigration,R
 534,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-27-NSC,NPR,stance,Beperken immigratie,Immigration,R
 534,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-29-NSC,AM,stance,Beperken immigratie,Immigration,R
@@ -27144,8 +27296,10 @@ jobid,unit_id,coder,variable,value,topic,stance
 937,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-38-CDA,NK,stance,Geen/Ander/Neutraal,Government,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-4-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-4-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-4-CDA,SH,stance,Geen/Ander/Neutraal,Health,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-4-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-4-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-4-SP,SH,stance,Betaalbare zorg en gezondheid,Health,L
 854,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-41-BBB,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-41-BBB,NPR,stance,Geen/Ander/Neutraal,Defense,N
 854,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-41-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -27154,15 +27308,20 @@ jobid,unit_id,coder,variable,value,topic,stance
 854,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-41-NSC,NPR,stance,Geen/Ander/Neutraal,Defense,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-46-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-46-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-46-PVV,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-48-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-48-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-48-PVV,SH,stance,Betaalbare zorg en gezondheid,Health,L
 1034,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-CDA,NK,stance,Doelmatige zorg,Health,R
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-D66,AM,stance,Doelmatige zorg,Health,R
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-D66,NPR,stance,Doelmatige zorg,Health,R
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-D66,SH,stance,Doelmatige zorg,Health,R
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-VVD,AM,stance,Doelmatige zorg,Health,R
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-VVD,NPR,stance,Doelmatige zorg,Health,R
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-52-VVD,SH,stance,Doelmatige zorg,Health,R
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-53-CDA,AM,stance,Geen/Ander/Neutraal,Health,N
 1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-53-CDA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
+1020,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-53-CDA,SH,stance,Doelmatige zorg,Health,R
 534,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-57-VVD,AM,stance,Beperken immigratie,Immigration,R
 534,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-57-VVD,NPR,stance,Beperken immigratie,Immigration,R
 534,d6f04ff38eb83f151d47dbd5e3488ff51241577ac82c8eb1006e059e-59-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -30356,6 +30515,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 854,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-8-Volt,NPR,stance,Geen/Ander/Neutraal,Defense,N
 925,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-8-Volt,NPR,stance,Geen/Ander/Neutraal,Government,N
 1020,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-8-Volt,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,f38c9e123ba72804f25edec680543c2aa52216fd8b945a24a1f81219-8-Volt,SH,stance,Geen/Ander/Neutraal,Health,N
 924,f3aac40327bb54110d96a33e0a58f1e3aef8782f56f7200913955ef0-20-Overig,KN,stance,Geen/Ander/Neutraal,Government,N
 924,f3aac40327bb54110d96a33e0a58f1e3aef8782f56f7200913955ef0-20-Overig,NK,stance,Geen/Ander/Neutraal,Government,N
 636,f3edbdfe7da8004c9b545dca1dba80db278e57f5f16573a93b678075-10-Overig,NK,stance,Geen/Ander/Neutraal,Economic,N
@@ -30529,23 +30689,27 @@ jobid,unit_id,coder,variable,value,topic,stance
 1001,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 742,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,SH,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-VVD,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-VVD,AM,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-VVD,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-VVD,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
+1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-VVD,SH,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,AM,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,AM,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 663,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 809,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-5-Overig,SH,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,AM,stance,Traditionele waarden,CivilRights,R
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,AM,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 664,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,NK,stance,Traditionele waarden,CivilRights,R
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 809,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-CU,SH,stance,Geen/Ander/Neutraal,Health,N
 660,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-SGP,AM,stance,Traditionele waarden,CivilRights,R
 662,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-SGP,KN,stance,Traditionele waarden,CivilRights,R
 525,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-8-SGP,NK,stance,Traditionele waarden,CivilRights,R

@@ -930,6 +930,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-25-CDA,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-25-CDA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-25-CDA,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-25-CDA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 617,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-25-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
 617,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-25-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Environment,N
 669,06399ce95b1bcdcbf7b6241d86106bcfb94df026cf18cbe5c1d814b5-26-CDA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -1827,9 +1828,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 977,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-143-CU,NPR,stance,Wegen & Schiphol,Infrastructure,R
 1021,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-CU,NK,stance,Geen/Ander/Neutraal,Health,N
 977,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-CU,NK,stance,Geen/Ander/Neutraal,Infrastructure,N
+1021,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 977,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-CU,NPR,stance,Wegen & Schiphol,Infrastructure,R
 1021,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-PvdD,NK,stance,Geen/Ander/Neutraal,Health,N
 977,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-PvdD,NK,stance,Geen/Ander/Neutraal,Infrastructure,N
+1021,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-PvdD,NPR,stance,Geen/Ander/Neutraal,Health,N
 977,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-144-PvdD,NPR,stance,Geen/Ander/Neutraal,Infrastructure,N
 636,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-15-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Economic,N
 636,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-15-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Economic,N
@@ -2406,6 +2409,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 808,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 1021,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,NK,stance,Geen/Ander/Neutraal,Health,N
 1040,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,NPR,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+1021,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,NPR,stance,Geen/Ander/Neutraal,Health,N
 510,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-25-CU,SH,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 527,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-30-CU,NK,stance,Traditionele waarden,CivilRights,R
 527,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-30-CU,NPR,stance,Traditionele waarden,CivilRights,R
@@ -2433,6 +2437,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-46-CU,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-46-CU,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-46-CU,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-46-CU,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 600,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-49-CU,NK,stance,Geen/Ander/Neutraal,Environment,N
 600,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-49-CU,NR,stance,Geen/Ander/Neutraal,Environment,N
 535,123f7cf3c95dda6b3ec3da0f57a0bf2f632d864f1d2f00e2cc542613-5-CU,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -2509,6 +2514,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-9-GL/PvdA,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-9-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-9-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,126040e4cef93d4980423c5311dc379cb489e0a92810bbc43b2221ca-9-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 515,140f681ed3336f1b6fe6637ec6faddf5052095b28a4c879e599d1871-34-PvdD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 515,140f681ed3336f1b6fe6637ec6faddf5052095b28a4c879e599d1871-34-PvdD,KN,stance,Geen/Ander/Neutraal,CivilRights,N
 515,140f681ed3336f1b6fe6637ec6faddf5052095b28a4c879e599d1871-34-PvdD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -2790,15 +2796,18 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-67-SP,JE,stance,Fossiele industrie,Environment,R
 620,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-67-SP,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-67-SP,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-67-SP,NPR,stance,Fossiele industrie,Environment,R
 620,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-67-VVD,JE,stance,Fossiele industrie,Environment,R
 620,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-67-VVD,KN,stance,Fossiele industrie,Environment,R
 671,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-68-SP,AM,stance,Geen/Ander/Neutraal,Environment,N
 672,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-68-SP,KN,stance,Geen/Ander/Neutraal,Environment,N
 600,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-68-SP,NK,stance,Fossiele industrie,Environment,R
+1054,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-68-SP,NPR,stance,Fossiele industrie,Environment,R
 600,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-68-SP,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 670,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-70-SP,AM,stance,Geen/Ander/Neutraal,Environment,N
 672,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-70-SP,KN,stance,Geen/Ander/Neutraal,Environment,N
 600,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-70-SP,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-70-SP,NPR,stance,Geen/Ander/Neutraal,Environment,N
 600,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-70-SP,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 551,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-71-PVV,KN,stance,Geen/Ander/Neutraal,Immigration,N
 551,160851e8bbb09fdac5ecc768b0c0aaacd9a74ad8e44a9d53401a9896-71-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -3048,6 +3057,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 673,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-27-VVD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 653,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-27-VVD,NK,stance,Duurzame landbouw,Agriculture,L
 600,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-27-VVD,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-27-VVD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 653,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-27-VVD,NR,stance,Duurzame landbouw,Agriculture,L
 600,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-27-VVD,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 614,1765881bb49c7f4db3592869be2188dcb1841f9807f1a856f2abeb90-36-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -4210,6 +4220,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-10-PVV,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-10-PVV,KN,stance,Fossiele industrie,Environment,R
 675,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-10-PVV,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-10-PVV,NPR,stance,Fossiele industrie,Environment,R
 927,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-104-CDA,NK,stance,Geen/Ander/Neutraal,Government,N
 927,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-104-CDA,SH,stance,Geen/Ander/Neutraal,Government,N
 536,1e571f13885dad5d7b29501469cb543a3dcbdf9e4c08f9d868a53e81-13-PVV,AM,stance,Beperken immigratie,Immigration,R
@@ -4567,6 +4578,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-112-VVD,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-112-VVD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-112-VVD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-112-VVD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-114-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-114-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-114-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -4577,6 +4589,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-118-GL/PvdA,JE,stance,Fossiele industrie,Environment,R
 622,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-118-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-118-GL/PvdA,NK,stance,Fossiele industrie,Environment,R
+1054,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-118-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-120-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-120-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-120-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -4639,6 +4652,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 669,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-CDA,AM,stance,Geen/Ander/Neutraal,Environment,N
 673,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-CDA,KN,stance,Geen/Ander/Neutraal,Environment,N
 600,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-CDA,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-CDA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 600,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-CDA,NR,stance,Fossiele industrie,Environment,R
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-VVD,AM,stance,Geen/Ander/Neutraal,Environment,N
 612,21959f9f346b1656c352e1526d3372596a69a07db90e7d0d17095b57-38-VVD,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -6311,6 +6325,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-17-D66,JE,stance,Fossiele industrie,Environment,R
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-17-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-17-D66,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-17-D66,NPR,stance,Geen/Ander/Neutraal,Environment,N
 646,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-21-BBB,NK,stance,Geen/Ander/Neutraal,Economic,N
 1032,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-21-BBB,NK,stance,Geen/Ander/Neutraal,Health,N
 646,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-21-BBB,NPR,stance,Geen/Ander/Neutraal,Economic,N
@@ -6331,14 +6346,17 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-BBB,JE,stance,Fossiele industrie,Environment,R
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-BBB,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-BBB,NK,stance,Fossiele industrie,Environment,R
+1054,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-BBB,NPR,stance,Fossiele industrie,Environment,R
 671,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-D66,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-D66,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-D66,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 670,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-PVV,AM,stance,Fossiele industrie,Environment,R
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-PVV,JE,stance,Fossiele industrie,Environment,R
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-PVV,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-PVV,NK,stance,Fossiele industrie,Environment,R
+1054,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-34-PVV,NPR,stance,Fossiele industrie,Environment,R
 1002,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,AM,stance,Geen/Ander/Neutraal,Education,N
 670,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,AM,stance,Geen/Ander/Neutraal,Environment,N
 620,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -6347,6 +6365,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 754,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 675,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 1001,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,NPR,stance,Geen/Ander/Neutraal,Education,N
+1054,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-D66,NPR,stance,Geen/Ander/Neutraal,Environment,N
 754,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-VVD,KN,stance,Bezuinigen; Christelijk onderwijs,Education,R
 646,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-VVD,NK,stance,Geen/Ander/Neutraal,Economic,N
 754,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-35-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
@@ -8271,6 +8290,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-150-NSC,JE,stance,Fossiele industrie,Environment,R
 622,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-150-NSC,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-150-NSC,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-150-NSC,NPR,stance,Geen/Ander/Neutraal,Environment,N
 622,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-156-Overig,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-156-Overig,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 600,3dd4a7fd522ec4e43b03e46a6325a3dc231cacfe0de36ce96feef46a-156-PvdD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -8658,6 +8678,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-1-VVD,JE,stance,Fossiele industrie,Environment,R
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-1-VVD,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-1-VVD,NK,stance,Fossiele industrie,Environment,R
+1054,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-1-VVD,NPR,stance,Fossiele industrie,Environment,R
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-11-NSC,JE,stance,Fossiele industrie,Environment,R
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-11-NSC,KN,stance,Fossiele industrie,Environment,R
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-12-VVD,JE,stance,Fossiele industrie,Environment,R
@@ -8685,10 +8706,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-CU,JE,stance,Geen/Ander/Neutraal,Environment,N
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-CU,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-CU,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-CU,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 669,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-VVD,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-VVD,JE,stance,Geen/Ander/Neutraal,Environment,N
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-VVD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-VVD,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-23-VVD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-24-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-24-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-26-GL/PvdA,JE,stance,Geen/Ander/Neutraal,Environment,N
@@ -8715,6 +8738,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-4-VVD,JE,stance,Fossiele industrie,Environment,R
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-4-VVD,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-4-VVD,NK,stance,Fossiele industrie,Environment,R
+1054,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-4-VVD,NPR,stance,Fossiele industrie,Environment,R
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-6-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-6-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,3f229ec22e682572346a5eabbdae272aa5a64e709c352bb09d20d1f1-9-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -9715,6 +9739,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NK,stance,Geen/Ander/Neutraal,Health,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-D66,SH,stance,Geen/Ander/Neutraal,Education,N
 775,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,AM,stance,Belastingverlaging & Ondernemers,Economic,R
 781,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,KN,stance,Belastingverlaging & Ondernemers,Economic,R
@@ -9722,18 +9747,21 @@ jobid,unit_id,coder,variable,value,topic,stance
 743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-21-NSC,SH,stance,Geen/Ander/Neutraal,Education,N
 939,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-23-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 939,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-23-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-26-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-26-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-26-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-26-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 777,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,AM,stance,Belastingverlaging & Ondernemers,Economic,R
 781,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,KN,stance,Belastingverlaging & Ondernemers,Economic,R
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NK,stance,Belastingverlaging & Ondernemers,Economic,R
 743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NK,stance,Geen/Ander/Neutraal,Health,N
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1021,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,NPR,stance,Geen/Ander/Neutraal,Health,N
 743,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-NSC,SH,stance,Geen/Ander/Neutraal,Education,N
 781,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-Overig,KN,stance,Belastingverlaging & Ondernemers,Economic,R
 636,453c1c3d825693b206192f2f5122dd792bc112e3ba96c437a408fd73-28-Overig,NK,stance,Belastingverlaging & Ondernemers,Economic,R
@@ -10033,6 +10061,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-20-GL/PvdA,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-20-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-20-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-20-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 605,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-28-Overig,KN,stance,Geen/Ander/Neutraal,Environment,N
 605,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-28-Overig,NK,stance,Geen/Ander/Neutraal,Environment,N
 624,46663cb246838ab53f9b8f887b541c98136501ce290687361cf9d682-30-Overig,JE,stance,Geen/Ander/Neutraal,Environment,N
@@ -11236,6 +11265,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-GL/PvdA,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 607,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-PvdD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 607,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-PvdD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 607,4fcb0e93e8af91d99b29917cdc8654d2b9077804d4f647590ae0d1c7-51-Volt,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -14175,10 +14205,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 1021,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-GL/PvdA,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 926,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Government,N
+1021,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Health,N
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 743,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 1021,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NK,stance,Geen/Ander/Neutraal,Health,N
 636,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
+1021,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,NPR,stance,Geen/Ander/Neutraal,Health,N
 743,6781d07d04ce775cff0cd20c5b855f7db3448496068c82a6c7875d1c-9-VVD,SH,stance,Geen/Ander/Neutraal,Education,N
 932,678c03f9bd2a857b31b370cbe6f779918eeb27848156d6d69d79e816-1-BBB,KN,stance,Geen/Ander/Neutraal,Government,N
 932,678c03f9bd2a857b31b370cbe6f779918eeb27848156d6d69d79e816-1-BBB,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -14754,6 +14786,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 669,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-231-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 672,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-231-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 600,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-231-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-231-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 600,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-231-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Environment,N
 519,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-233-GL/PvdA,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 519,6cdb89865f97993cbe4cf1127124f44f225940aa3685a293387017ef-233-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -16042,8 +16075,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 616,767cea36c4ef163e582dc0b10d20151c9f35e2c107ac63a481305451-33-GL/PvdA,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 616,767cea36c4ef163e582dc0b10d20151c9f35e2c107ac63a481305451-33-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 1021,767d40523ee822dd242a4cc38db105dd74da30ddbbd5cec8a774bbf9-4-GL/PvdA,NK,stance,Doelmatige zorg,Health,R
+1021,767d40523ee822dd242a4cc38db105dd74da30ddbbd5cec8a774bbf9-4-GL/PvdA,NPR,stance,Doelmatige zorg,Health,R
 1021,767d40523ee822dd242a4cc38db105dd74da30ddbbd5cec8a774bbf9-7-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1021,767d40523ee822dd242a4cc38db105dd74da30ddbbd5cec8a774bbf9-7-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1021,767d40523ee822dd242a4cc38db105dd74da30ddbbd5cec8a774bbf9-7-PvdD,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1021,767d40523ee822dd242a4cc38db105dd74da30ddbbd5cec8a774bbf9-7-PvdD,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 928,771d7601739d0e3c41144671dcbbffa7092bddaaea9a58b06e755685-30-Overig,NK,stance,Geen/Ander/Neutraal,Government,N
 928,771d7601739d0e3c41144671dcbbffa7092bddaaea9a58b06e755685-30-Overig,SH,stance,Geen/Ander/Neutraal,Government,N
 928,771d7601739d0e3c41144671dcbbffa7092bddaaea9a58b06e755685-33-Overig,NK,stance,Geen/Ander/Neutraal,Government,N
@@ -16201,6 +16237,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,7a4054da316ea4ebc29bbe79a7e13a0f08cc9a115f5e2d671da44e26-23-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,7a4054da316ea4ebc29bbe79a7e13a0f08cc9a115f5e2d671da44e26-23-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,7a4054da316ea4ebc29bbe79a7e13a0f08cc9a115f5e2d671da44e26-23-GL/PvdA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,7a4054da316ea4ebc29bbe79a7e13a0f08cc9a115f5e2d671da44e26-23-GL/PvdA,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,7a4054da316ea4ebc29bbe79a7e13a0f08cc9a115f5e2d671da44e26-54-Denk,JE,stance,Geen/Ander/Neutraal,Environment,N
 620,7a4054da316ea4ebc29bbe79a7e13a0f08cc9a115f5e2d671da44e26-54-Denk,KN,stance,Geen/Ander/Neutraal,Environment,N
 935,7a43189ea84f34b5824cc45761bc2f39cde749719e9c3681ddb8b0e7-17-VVD,KN,stance,Geen/Ander/Neutraal,Government,N
@@ -16658,10 +16695,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-NSC,JE,stance,Fossiele industrie,Environment,R
 622,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-NSC,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-NSC,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-NSC,NPR,stance,Fossiele industrie,Environment,R
 671,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-Overig,AM,stance,Geen/Ander/Neutraal,Environment,N
 622,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-Overig,JE,stance,Fossiele industrie,Environment,R
 622,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-Overig,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-Overig,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-22-Overig,NPR,stance,Fossiele industrie,Environment,R
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-CDA,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-CDA,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 697,7bd10562b7f4e2aeb499df84cb8ce777a08401a9b7553f11894474e4-37-CU,AM,stance,Duurzame landbouw,Agriculture,L
@@ -18093,6 +18132,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-11-Volt,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-11-Volt,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-11-Volt,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-11-Volt,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-13-VVD,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-13-VVD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,8568d66bda079e2008d2ba8381d3cf99d4611504afa403919a4f417e-14-NSC,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -19535,6 +19575,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-40-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-40-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-40-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-40-GL/PvdA,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-41-PvdD,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-41-PvdD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 523,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-42-GL/PvdA,NK,stance,Geen/Ander/Neutraal,CivilRights,N
@@ -20475,10 +20516,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 896,a329fad9aa94f0c5b40d4156246e3d5e1b357c9cdc77b2813927fd0e-3-Overig,NPR,stance,Geen/Ander/Neutraal,EU,N
 896,a329fad9aa94f0c5b40d4156246e3d5e1b357c9cdc77b2813927fd0e-3-Overig,NR,stance,Sterke EU en vrijhandel,EU,L
 1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-4-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-4-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 1036,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-49-SP,NK,stance,Geen/Ander/Neutraal,Health,N
 1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-52-SP,NK,stance,Geen/Ander/Neutraal,Health,N
+1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-52-SP,NPR,stance,Geen/Ander/Neutraal,Health,N
 1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-79-D66,NK,stance,Geen/Ander/Neutraal,Health,N
+1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-79-D66,NPR,stance,Geen/Ander/Neutraal,Health,N
 1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-79-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
+1021,a3fa2ba426f47c8baeaf9eb1092ef6a56ee00c086142a4e1045be96d-79-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 529,a3fb7ba8794c843948e3539fae71e16ea20e182cd63f0cf0bd45cfb2-10-D66,NK,stance,Geen/Ander/Neutraal,Immigration,N
 529,a3fb7ba8794c843948e3539fae71e16ea20e182cd63f0cf0bd45cfb2-10-D66,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 529,a3fb7ba8794c843948e3539fae71e16ea20e182cd63f0cf0bd45cfb2-10-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -23058,6 +23103,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 669,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-CDA,AM,stance,Geen/Ander/Neutraal,Environment,N
 672,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-CDA,KN,stance,Geen/Ander/Neutraal,Environment,N
 600,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-CDA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-CDA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 600,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-CDA,NR,stance,Geen/Ander/Neutraal,Environment,N
 614,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-VVD,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 614,b435177c34e14ad8ff7041f8480854da760e8a4bdaca1cf65a44f7ad-7-VVD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -24240,6 +24286,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 670,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-176-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Environment,N
 672,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-176-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Environment,N
 600,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-176-GL/PvdA,NK,stance,Fossiele industrie,Environment,R
+1054,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-176-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Environment,N
 600,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-176-GL/PvdA,NR,stance,Geen/Ander/Neutraal,Environment,N
 614,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-177-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Environment,N
 614,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-177-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -24247,6 +24294,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-177-Overig,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-177-Overig,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-177-Overig,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-177-Overig,NPR,stance,Geen/Ander/Neutraal,Environment,N
 614,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-183-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Environment,N
 614,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-183-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Environment,N
 550,c0f083b26f1525ed7def3c30b0fe20d541a8df70491257bf29e570c6-188-Overig,AM,stance,Geen/Ander/Neutraal,Immigration,N
@@ -24908,8 +24956,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 648,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-99-NSC,NK,stance,Geen/Ander/Neutraal,Economic,N
 648,c41fe36b99fc07b157382a40b67938df96e9a2a28b3e28f8f56af4ad-99-NSC,NPR,stance,Geen/Ander/Neutraal,Economic,N
 1021,c44e22c22016a8b3290dc7a5fc40b348b51470027879d6be03bad7b7-19-CDA,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1021,c44e22c22016a8b3290dc7a5fc40b348b51470027879d6be03bad7b7-19-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 1021,c44e22c22016a8b3290dc7a5fc40b348b51470027879d6be03bad7b7-19-Overig,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1021,c44e22c22016a8b3290dc7a5fc40b348b51470027879d6be03bad7b7-19-Overig,NPR,stance,Geen/Ander/Neutraal,Health,N
 1021,c44e22c22016a8b3290dc7a5fc40b348b51470027879d6be03bad7b7-21-CU,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1021,c44e22c22016a8b3290dc7a5fc40b348b51470027879d6be03bad7b7-21-CU,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 887,c4d5de43f9dae021c4a13f23b7c2137a68f4bfaf0b6557fe5a65ad72-40-FvD,NK,stance,Protectionisme,EU,R
 887,c4d5de43f9dae021c4a13f23b7c2137a68f4bfaf0b6557fe5a65ad72-40-FvD,NPR,stance,Protectionisme,EU,R
 896,c4d5de43f9dae021c4a13f23b7c2137a68f4bfaf0b6557fe5a65ad72-40-Volt,KN,stance,Sterke EU en vrijhandel,EU,L
@@ -25739,6 +25790,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-59-D66,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-59-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-59-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-59-D66,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 669,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-60-CU,AM,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 618,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-60-CU,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 811,caa2360400f0b2fb0b8b62c5af523e9c7add6017ecb29a88703c054c-60-CU,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -26747,6 +26799,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-40-PvdD,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-40-PvdD,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-40-PvdD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-40-PvdD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-44-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-44-GL/PvdA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-44-PvdD,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -26755,6 +26808,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-FvD,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-FvD,KN,stance,Geen/Ander/Neutraal,Environment,N
 675,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-FvD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-FvD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 624,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-JA21,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 623,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-JA21,KN,stance,Fossiele industrie,Environment,R
 624,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-45-JA21,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -26790,6 +26844,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-CU,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-CU,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-CU,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-CU,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 670,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-D66,AM,stance,Geen/Ander/Neutraal,Environment,N
 605,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 605,d0d2271c52418d2bea23842ecb36a4ae2eb512a0a92eb81c70c3ece3-51-D66,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -27471,6 +27526,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-80-VVD,JE,stance,Geen/Ander/Neutraal,Environment,N
 622,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-80-VVD,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-80-VVD,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-80-VVD,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 605,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-98-Denk,KN,stance,Geen/Ander/Neutraal,Environment,N
 632,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-98-Denk,NK,stance,Geen/Ander/Neutraal,Economic,N
 605,d4d57e18eb4176d26d1abdaec71124b9a736ea915380313198fe6742-98-Denk,NK,stance,Geen/Ander/Neutraal,Environment,N
@@ -28773,6 +28829,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 653,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-98-PvdD,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 846,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-98-PvdD,NK,stance,Geen/Ander/Neutraal,Defense,N
 600,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-98-PvdD,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-98-PvdD,NPR,stance,Geen/Ander/Neutraal,Environment,N
 653,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-98-PvdD,NR,stance,Geen/Ander/Neutraal,Agriculture,N
 600,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-98-PvdD,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 714,dbf0003dc1f63a8b77416a14b1dc56db571c465131945244d508bd96-99-NSC,AM,stance,Geen/Ander/Neutraal,Agriculture,N
@@ -29570,6 +29627,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 620,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-19-CDA,JE,stance,Geen/Ander/Neutraal,Environment,N
 620,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-19-CDA,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-19-CDA,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1054,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-19-CDA,NPR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-21-D66,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-21-D66,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 620,e69dc70e0ee57f60ac1459ab5c8a6d3800f07c9fd973eab772ab7d6d-8-GL/PvdA,JE,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
@@ -30445,6 +30503,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 622,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-CU,JE,stance,Fossiele industrie,Environment,R
 622,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-CU,KN,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 675,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-CU,NK,stance,Geen/Ander/Neutraal,Environment,N
+1054,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-CU,NPR,stance,Fossiele industrie,Environment,R
 610,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-D66,AM,stance,Geen/Ander/Neutraal,Environment,N
 672,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-D66,KN,stance,Geen/Ander/Neutraal,Environment,N
 610,ed5e8ad62ff6aa68f7e13cf685e32db0dc09073db9b314b756e6dcda-34-D66,NK,stance,Fossiele industrie,Environment,R

@@ -111,6 +111,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 893,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-73-PVV,NK,stance,Geen/Ander/Neutraal,EU,N
 893,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-73-PVV,NPR,stance,Geen/Ander/Neutraal,EU,N
 993,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-77-PVV,AM,stance,Vrede en mensenrechten,Defense,L
+1074,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-77-PVV,KN,stance,Geen/Ander/Neutraal,Defense,N
 863,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-77-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 863,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-77-PVV,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 863,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-82-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -1345,6 +1346,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-Overig,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 644,09aa20fff578fb82606e5d33e65952eeca3b31b6b85c3f6a99f08cad-92-Overig,SH,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 1002,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1076,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,KN,stance,Geen/Ander/Neutraal,Education,N
 736,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 736,09fea6af176e3bd40aebd92f1c565d9df14dbadf859ea468fb9be07f-6-Volt,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -2036,6 +2038,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 855,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-41-SGP,NK,stance,Geen/Ander/Neutraal,Defense,N
 855,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-41-SGP,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-48-SGP,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-48-SGP,KN,stance,Geen/Ander/Neutraal,Defense,N
 855,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-48-SGP,NK,stance,Vrede en mensenrechten,Defense,L
 855,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-48-SGP,NPR,stance,Geen/Ander/Neutraal,Defense,N
 865,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-49-Overig,NK,stance,Vrede en mensenrechten,Defense,L
@@ -4002,6 +4005,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 632,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-3-NSC,NK,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 632,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-3-NSC,NPR,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 993,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-30-PVV,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-30-PVV,KN,stance,Geen/Ander/Neutraal,Defense,N
 882,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-30-PVV,KN,stance,Geen/Ander/Neutraal,EU,N
 851,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-30-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 882,1ccfc024243f1bf4244593c297a50c714d1e8b93f631ab3634ebb0b2-30-PVV,NK,stance,Geen/Ander/Neutraal,EU,N
@@ -4459,6 +4463,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 862,1f0a9c3307308981f151cfbbbeb0f1818e85c93d14f418fe19adf826-5-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 862,1f0a9c3307308981f151cfbbbeb0f1818e85c93d14f418fe19adf826-5-Overig,NPR,stance,Geen/Ander/Neutraal,Defense,N
 1002,1f781c35faf706087da6ddf02b387efa0f32bf5cab71c0d6ddfcb30f-3-Overig,AM,stance,Bezuinigen; Christelijk onderwijs,Education,R
+1076,1f781c35faf706087da6ddf02b387efa0f32bf5cab71c0d6ddfcb30f-3-Overig,KN,stance,Geen/Ander/Neutraal,Education,N
 756,1f781c35faf706087da6ddf02b387efa0f32bf5cab71c0d6ddfcb30f-3-Overig,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 1001,1f781c35faf706087da6ddf02b387efa0f32bf5cab71c0d6ddfcb30f-3-Overig,NPR,stance,Bezuinigen; Christelijk onderwijs,Education,R
 756,1f781c35faf706087da6ddf02b387efa0f32bf5cab71c0d6ddfcb30f-3-Overig,SH,stance,Geen/Ander/Neutraal,Education,N
@@ -6195,9 +6200,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 548,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-211-VVD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 548,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-211-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 993,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-23-SGP,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-23-SGP,KN,stance,Geen/Ander/Neutraal,Defense,N
 854,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-23-SGP,NK,stance,Vrede en mensenrechten,Defense,L
 854,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-23-SGP,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-24-Overig,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-24-Overig,KN,stance,Geen/Ander/Neutraal,Defense,N
 854,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-24-Overig,NK,stance,Vrede en mensenrechten,Defense,L
 854,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-24-Overig,NPR,stance,Geen/Ander/Neutraal,Defense,N
 508,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-257-Overig,AM,stance,Traditionele waarden,CivilRights,R
@@ -7329,6 +7336,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 934,36315804e5e29b22ae29048910cb2f9bd16fa0486317de0ad4de33c8-44-VVD,KN,stance,Geen/Ander/Neutraal,Government,N
 934,36315804e5e29b22ae29048910cb2f9bd16fa0486317de0ad4de33c8-44-VVD,NK,stance,Geen/Ander/Neutraal,Government,N
 1002,364d277efde231a41165f7fba32cc887a4bc85511b05c08b7c3d0a50-13-BBB,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1076,364d277efde231a41165f7fba32cc887a4bc85511b05c08b7c3d0a50-13-BBB,KN,stance,Geen/Ander/Neutraal,Education,N
 742,364d277efde231a41165f7fba32cc887a4bc85511b05c08b7c3d0a50-13-BBB,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,364d277efde231a41165f7fba32cc887a4bc85511b05c08b7c3d0a50-13-BBB,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 742,364d277efde231a41165f7fba32cc887a4bc85511b05c08b7c3d0a50-13-BBB,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -10378,9 +10386,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-28-VVD,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-28-VVD,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-CDA,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-CDA,KN,stance,Vrede en mensenrechten,Defense,L
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-CDA,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-CDA,NPR,stance,Vrede en mensenrechten,Defense,L
 993,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-Overig,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-Overig,KN,stance,Vrede en mensenrechten,Defense,L
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-36-Overig,NPR,stance,Vrede en mensenrechten,Defense,L
 854,476c58ea248d7306b56b232be7ecf3d3a93e6c01ba86d405ae41dfda-50-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -10417,6 +10427,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 910,47b46a521eb67ded09b8ccbf60b0623b8922817960671af77ce084b8-22-Denk,NR,stance,Geen/Ander/Neutraal,Government,N
 910,47b46a521eb67ded09b8ccbf60b0623b8922817960671af77ce084b8-22-Denk,SH,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1002,47d53a9a93a579bde1d461cf1e8827473832b3c0e54a315ebc5461d2-5-PVV,AM,stance,Geen/Ander/Neutraal,Education,N
+1076,47d53a9a93a579bde1d461cf1e8827473832b3c0e54a315ebc5461d2-5-PVV,KN,stance,Bezuinigen; Christelijk onderwijs,Education,R
 756,47d53a9a93a579bde1d461cf1e8827473832b3c0e54a315ebc5461d2-5-PVV,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,47d53a9a93a579bde1d461cf1e8827473832b3c0e54a315ebc5461d2-5-PVV,NPR,stance,Geen/Ander/Neutraal,Education,N
 756,47d53a9a93a579bde1d461cf1e8827473832b3c0e54a315ebc5461d2-5-PVV,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
@@ -13095,6 +13106,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 931,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-95-VVD,NK,stance,Geen/Ander/Neutraal,Government,N
 1001,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-95-VVD,NPR,stance,Geen/Ander/Neutraal,Education,N
 1002,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-96-CDA,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1076,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-96-CDA,KN,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 757,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-96-CDA,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1001,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-96-CDA,NPR,stance,Geen/Ander/Neutraal,Education,N
 757,5ac382e189e37477d1d74f5fbaec5db9b733ca6b26fa13fbf01168b1-96-CDA,SH,stance,Geen/Ander/Neutraal,Education,N
@@ -14240,6 +14252,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-JA21,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-JA21,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-PVV,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-PVV,KN,stance,Geen/Ander/Neutraal,Defense,N
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 854,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-37-PVV,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 846,64fd915cbe22c84e3bfdf6a876e8dd67742e47bb464d40d72b2c4ff2-38-PVV,KN,stance,Geen/Ander/Neutraal,Defense,N
@@ -17593,6 +17606,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 846,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-29-Overig,KN,stance,Geen/Ander/Neutraal,Defense,N
 846,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-29-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 993,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-3-SP,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-3-SP,KN,stance,Geen/Ander/Neutraal,Defense,N
 876,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-3-SP,KN,stance,Protectionisme,EU,R
 853,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-3-SP,NK,stance,Geen/Ander/Neutraal,Defense,N
 876,7fcfaf7da187daab944a5d923b0c34aa1166d1d2f7dead95a55268d9-3-SP,NK,stance,Geen/Ander/Neutraal,EU,N
@@ -18271,6 +18285,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-68-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 876,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-68-GL/PvdA,NR,stance,Sterke EU en vrijhandel,EU,L
 993,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-70-D66,AM,stance,Vrede en mensenrechten,Defense,L
+1074,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-70-D66,KN,stance,Vrede en mensenrechten,Defense,L
 853,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-70-D66,NK,stance,Vrede en mensenrechten,Defense,L
 853,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-70-D66,NPR,stance,Geen/Ander/Neutraal,Defense,N
 533,8287b0d08cfa8348c52bdb544f263527cd25cd119b0b38b2e0f3919e-77-GL/PvdA,KN,stance,Multiculturalisme,Immigration,L
@@ -18692,6 +18707,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 744,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-7-VVD,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 744,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-7-VVD,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
 1002,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-8-VVD,AM,stance,Geen/Ander/Neutraal,Education,N
+1076,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-8-VVD,KN,stance,Geen/Ander/Neutraal,Education,N
 744,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-8-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-8-VVD,NPR,stance,Geen/Ander/Neutraal,Education,N
 744,8982e0a214a650b1786eaafe2fdaa606865babdfcbc7a00a664f0c27-8-VVD,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
@@ -19899,6 +19915,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 993,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,AM,stance,Vrede en mensenrechten,Defense,L
 547,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,AM,stance,Multiculturalisme,Immigration,L
 770,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,JE,stance,Geen/Ander/Neutraal,Immigration,N
+1074,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,KN,stance,Vrede en mensenrechten,Defense,L
 769,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,KN,stance,Geen/Ander/Neutraal,Immigration,N
 864,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,NK,stance,Vrede en mensenrechten,Defense,L
 547,98df5d15af07d544921b6561ca58925c90539cc15ab12128593ec4ec-8-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -19929,6 +19946,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 509,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 993,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,AM,stance,Geen/Ander/Neutraal,Defense,N
 509,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,KN,stance,Geen/Ander/Neutraal,CivilRights,N
+1074,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,KN,stance,Geen/Ander/Neutraal,Defense,N
 509,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 854,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,NK,stance,Vrede en mensenrechten,Defense,L
 854,9936d589083282cfd82c3d22086101088d369c35893ecf10daa50ddb-4-Denk,NPR,stance,Geen/Ander/Neutraal,Defense,N
@@ -20027,6 +20045,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1040,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-49-CDA,NPR,stance,Geen/Ander/Neutraal,CivilRights,N
 523,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-49-CDA,SH,stance,Traditionele waarden,CivilRights,R
 993,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-57-CDA,AM,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
+1074,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-57-CDA,KN,stance,Geen/Ander/Neutraal,Defense,N
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-57-CDA,NK,stance,Geen/Ander/Neutraal,Defense,N
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-57-CDA,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 552,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-65-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Immigration,N
@@ -20058,9 +20077,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-92-Denk,NK,stance,Geen/Ander/Neutraal,Defense,N
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-92-Denk,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Denk,AM,stance,Vrede en mensenrechten,Defense,L
+1074,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Denk,KN,stance,Geen/Ander/Neutraal,Defense,N
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Denk,NK,stance,Vrede en mensenrechten,Defense,L
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Denk,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Overig,AM,stance,Vrede en mensenrechten,Defense,L
+1074,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Overig,KN,stance,Geen/Ander/Neutraal,Defense,N
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Overig,NK,stance,Vrede en mensenrechten,Defense,L
 864,9a7f7f3529825642bb23c7ca8beffbd8ec6a5ec450adf0b627015a0c-93-Overig,NPR,stance,Geen/Ander/Neutraal,Defense,N
 845,9aae712608d4f58385493cd9ebc100243343b44f065bc23806affdaa-10-CDA,KN,stance,Geen/Ander/Neutraal,Defense,N
@@ -20263,6 +20284,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 513,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-58-Denk,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 993,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-62-Overig,AM,stance,Vrede en mensenrechten,Defense,L
 537,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-62-Overig,AM,stance,Geen/Ander/Neutraal,Immigration,N
+1074,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-62-Overig,KN,stance,Geen/Ander/Neutraal,Defense,N
 856,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-62-Overig,NK,stance,Vrede en mensenrechten,Defense,L
 1023,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-62-Overig,NK,stance,Geen/Ander/Neutraal,Health,N
 537,9bab5f44d043432e58bd8d63dac5c21329533c0474a53d4a2e7f5e37-62-Overig,NK,stance,Geen/Ander/Neutraal,Immigration,N
@@ -21566,9 +21588,11 @@ jobid,unit_id,coder,variable,value,topic,stance
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-25-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-25-PVV,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-Overig,AM,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
+1074,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-Overig,KN,stance,Geen/Ander/Neutraal,Defense,N
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-Overig,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 993,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-VVD,AM,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
+1074,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-VVD,KN,stance,Geen/Ander/Neutraal,Defense,N
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-VVD,NK,stance,Geen/Ander/Neutraal,Defense,N
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-28-VVD,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 855,a88e7c516050c08ceed68a9864cc73af303cf2edc07cc2cdbc9d7618-31-VVD,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -21618,22 +21642,26 @@ jobid,unit_id,coder,variable,value,topic,stance
 755,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-23-PvdD,KN,stance,Geen/Ander/Neutraal,Education,N
 755,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-23-PvdD,NK,stance,Geen/Ander/Neutraal,Education,N
 1002,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-24-D66,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1076,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-24-D66,KN,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-24-D66,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1001,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-24-D66,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-24-D66,SH,stance,Geen/Ander/Neutraal,Education,N
 755,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-NSC,KN,stance,Geen/Ander/Neutraal,Education,N
 755,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 1002,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-SP,AM,stance,Geen/Ander/Neutraal,Education,N
+1076,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-SP,KN,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-SP,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-SP,NPR,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-25-SP,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-D66,SH,stance,Geen/Ander/Neutraal,Education,N
 1002,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-VVD,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1076,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-VVD,KN,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-VVD,NPR,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-29-VVD,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1002,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-30-VVD,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
+1076,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-30-VVD,KN,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-30-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-30-VVD,NPR,stance,Geen/Ander/Neutraal,Education,N
 744,a94c62f398485b50512ce304315673f249e909a3fb89530476b6b2c6-30-VVD,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -21700,6 +21728,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-36-BBB,KN,stance,Geen/Ander/Neutraal,Housing,N
 955,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-36-BBB,NK,stance,Geen/Ander/Neutraal,Housing,N
 1002,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,AM,stance,Bezuinigen; Christelijk onderwijs,Education,R
+1076,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,KN,stance,Geen/Ander/Neutraal,Education,N
 743,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1001,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 743,a99ba72a0174a7839a4a018392f6303e5b46183f800ae52756b32de0-38-VVD,SH,stance,Geen/Ander/Neutraal,Education,N
@@ -22067,6 +22096,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 893,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-145-PVV,NK,stance,Geen/Ander/Neutraal,EU,N
 893,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-145-PVV,NPR,stance,Geen/Ander/Neutraal,EU,N
 993,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-149-PVV,AM,stance,Vrede en mensenrechten,Defense,L
+1074,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-149-PVV,KN,stance,Geen/Ander/Neutraal,Defense,N
 863,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-149-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 863,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-149-PVV,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 910,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-15-D66,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -22685,6 +22715,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 930,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-2-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 930,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-2-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
 1002,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-20-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Education,N
+1076,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-20-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Education,N
 756,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-20-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-20-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Education,N
 756,afffc38d3086257247f0fd899c3e27d62071b17b7af29b448144a50a-20-GL/PvdA,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -23909,6 +23940,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 851,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-32-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 851,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-32-PVV,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-32-VVD,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-32-VVD,KN,stance,Geen/Ander/Neutraal,Defense,N
 851,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-32-VVD,NK,stance,Vrede en mensenrechten,Defense,L
 851,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-32-VVD,NPR,stance,Geen/Ander/Neutraal,Defense,N
 506,b707487a922d262c92390b6456ee9d0d2015ab11864207b6fa8052d3-45-PVV,AM,stance,Traditionele waarden,CivilRights,R
@@ -25135,6 +25167,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 745,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-28-NSC,KN,stance,Geen/Ander/Neutraal,Education,N
 745,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-28-NSC,NK,stance,Geen/Ander/Neutraal,Education,N
 1002,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-29-VVD,AM,stance,Geen/Ander/Neutraal,Education,N
+1076,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-29-VVD,KN,stance,Geen/Ander/Neutraal,Education,N
 757,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-29-VVD,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-29-VVD,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 757,c1fca2b6ef99bc7fc5363f690fa77101622876b0bd46994ba9632c8b-29-VVD,SH,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -25250,6 +25283,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1015,c302cc5a5bbd0c52c9bb4e0f378bba5ffdcab73b868c9a4f33bcce6f-31-CDA,NK,stance,Doelmatige zorg,Health,R
 1015,c302cc5a5bbd0c52c9bb4e0f378bba5ffdcab73b868c9a4f33bcce6f-31-CDA,NPR,stance,Geen/Ander/Neutraal,Health,N
 1002,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-100-VVD,AM,stance,Bezuinigen; Christelijk onderwijs,Education,R
+1076,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-100-VVD,KN,stance,Geen/Ander/Neutraal,Education,N
 743,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-100-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1001,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-100-VVD,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 743,c36879babe408bae7f772149cfd26c2c02321e731da21a094a75e8f0-100-VVD,SH,stance,Geen/Ander/Neutraal,Education,N
@@ -25898,6 +25932,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 865,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-26-BBB,NK,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 865,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-26-BBB,SH,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 993,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-59-BBB,AM,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
+1074,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-59-BBB,KN,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 852,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-59-BBB,NK,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 852,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-59-BBB,NPR,stance,Geen/Ander/Neutraal,Defense,N
 867,c6bdc335860926c3c9bb6e80f717a3bb55af6e57ea1bf4efe2681707-82-BBB,NK,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
@@ -26373,6 +26408,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 862,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-34-Overig,NK,stance,Geen/Ander/Neutraal,Defense,N
 862,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-34-Overig,NPR,stance,Geen/Ander/Neutraal,Defense,N
 993,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-36-D66,AM,stance,Vrede en mensenrechten,Defense,L
+1074,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-36-D66,KN,stance,Vrede en mensenrechten,Defense,L
 862,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-36-D66,NK,stance,Geen/Ander/Neutraal,Defense,N
 862,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-36-D66,NPR,stance,Vrede en mensenrechten,Defense,L
 993,ca126e1c34125f9ca6849de9ef1de5949682db4d456f15cb0ac56e51-37-Denk,AM,stance,Vrede en mensenrechten,Defense,L
@@ -27804,6 +27840,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 853,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-13-VVD,NPR,stance,Geen/Ander/Neutraal,Defense,N
 508,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-15-VVD,AM,stance,Geen/Ander/Neutraal,CivilRights,N
 993,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-15-VVD,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-15-VVD,KN,stance,Geen/Ander/Neutraal,Defense,N
 508,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-15-VVD,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 853,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-15-VVD,NK,stance,Vrede en mensenrechten,Defense,L
 853,d1ee7bbff86f435b19f87100a27c0e8a75a497e6cda283f8c4b6a45c-15-VVD,NPR,stance,Geen/Ander/Neutraal,Defense,N
@@ -28560,6 +28597,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 744,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-30-NSC,SH,stance,Geen/Ander/Neutraal,Education,N
 1002,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-31-VVD,AM,stance,Geen/Ander/Neutraal,Education,N
 877,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-31-VVD,KN,stance,Geen/Ander/Neutraal,EU,N
+1076,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-31-VVD,KN,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 877,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-31-VVD,NK,stance,Geen/Ander/Neutraal,EU,N
 744,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-31-VVD,NK,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 877,d837f507dcda18ef04063f94e40bdcd3a503516ec1ce22d9c4dee101-31-VVD,NPR,stance,Sterke EU en vrijhandel,EU,L
@@ -28988,6 +29026,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 893,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-175-PVV,NK,stance,Geen/Ander/Neutraal,EU,N
 893,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-175-PVV,NPR,stance,Geen/Ander/Neutraal,EU,N
 993,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-179-PVV,AM,stance,Vrede en mensenrechten,Defense,L
+1074,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-179-PVV,KN,stance,Geen/Ander/Neutraal,Defense,N
 863,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-179-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
 863,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-179-PVV,NPR,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
 863,d995ea00e287e23dfc58362e26ebb1d544a579adb0df2d583ddf6d0a-184-PVV,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -29187,6 +29226,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 863,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-16-VVD,NPR,stance,Geen/Ander/Neutraal,Defense,N
 893,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-16-VVD,NPR,stance,Geen/Ander/Neutraal,EU,N
 993,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-17-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Defense,N
+1074,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-17-GL/PvdA,KN,stance,Vrede en mensenrechten,Defense,L
 1005,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-17-GL/PvdA,KN,stance,Geen/Ander/Neutraal,EU,N
 863,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-17-GL/PvdA,NK,stance,Vrede en mensenrechten,Defense,L
 893,da9882225d284e5399bd4ed29090ee478d72f6c8c941586bdfc121b6-17-GL/PvdA,NK,stance,Sterke EU en vrijhandel,EU,L
@@ -31561,6 +31601,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 925,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-9-BBB,NPR,stance,Geen/Ander/Neutraal,Government,N
 534,f25d56a5f0ac6aff0246b2b477bc42888ba49bdd00d9617fe0419efa-9-BBB,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 1002,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-D66,AM,stance,Bezuinigen; Christelijk onderwijs,Education,R
+1076,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-D66,KN,stance,Geen/Ander/Neutraal,Education,N
 757,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-D66,NPR,stance,Geen/Ander/Neutraal,Education,N
 757,f2803081c68b3332a8727077bcb7cacbf53dd80008c0ee95a41385e6-18-D66,SH,stance,Bezuinigen; Christelijk onderwijs,Education,R
@@ -31808,6 +31849,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 634,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-16-BBB,NPR,stance,Geen/Ander/Neutraal,Economic,N
 698,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-20-BBB,AM,stance,Geen/Ander/Neutraal,Agriculture,N
 993,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-20-BBB,AM,stance,"Sterke krijgsmacht, nationaal belang in buitenlands beleid",Defense,R
+1074,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-20-BBB,KN,stance,Geen/Ander/Neutraal,Defense,N
 924,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-20-BBB,KN,stance,Geen/Ander/Neutraal,Government,N
 698,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-20-BBB,NK,stance,Geen/Ander/Neutraal,Agriculture,N
 853,f587d9c58290f6fa32c0907a396f3eb84e3902917e0de792063b7fac-20-BBB,NK,stance,Geen/Ander/Neutraal,Defense,N
@@ -31902,6 +31944,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1002,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,AM,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
 1020,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,AM,stance,Geen/Ander/Neutraal,Health,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,KN,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
+1076,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,KN,stance,Geen/Ander/Neutraal,Education,N
 509,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,NK,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 742,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,NK,stance,Geen/Ander/Neutraal,Education,N
 1001,f71b94b5fa9742686ceffb3b578d856310dbb9a91bbb6ce38d9c7b19-32-D66,NPR,stance,"Investeren in Onderwijs, Cultuur en Wetenschap",Education,L
@@ -32168,6 +32211,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 749,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-D66,KN,stance,Bezuinigen; Christelijk onderwijs,Education,R
 749,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-D66,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 1002,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-GL/PvdA,AM,stance,Bezuinigen; Christelijk onderwijs,Education,R
+1076,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-GL/PvdA,KN,stance,Bezuinigen; Christelijk onderwijs,Education,R
 757,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-GL/PvdA,NK,stance,Bezuinigen; Christelijk onderwijs,Education,R
 1001,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Education,N
 757,f8439509507948b47bbecc11be7d5b924ed188daafaaf047913bea49-82-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Education,N

@@ -1994,6 +1994,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 885,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-192-SGP,NPR,stance,Geen/Ander/Neutraal,EU,N
 885,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-192-Volt,NK,stance,Geen/Ander/Neutraal,EU,N
 885,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-192-Volt,NPR,stance,Geen/Ander/Neutraal,EU,N
+1067,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-193-Volt,AM,stance,Geen/Ander/Neutraal,EU,N
 1005,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-193-Volt,KN,stance,Sterke EU en vrijhandel,EU,L
 885,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-193-Volt,NK,stance,Sterke EU en vrijhandel,EU,L
 885,0e71048d1bdfaa8271a82ebe817c3010eb3bc86d52d54d66e37f454e-193-Volt,NPR,stance,Geen/Ander/Neutraal,EU,N
@@ -6582,6 +6583,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 534,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-80-Denk,NPR,stance,Multiculturalisme,Immigration,L
 550,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-81-FvD,AM,stance,Geen/Ander/Neutraal,Immigration,N
 550,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-81-FvD,NK,stance,Geen/Ander/Neutraal,Immigration,N
+1067,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,AM,stance,Protectionisme,EU,R
 925,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,AM,stance,Behoud huidige stelsel,Government,R
 534,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,AM,stance,Geen/Ander/Neutraal,Immigration,N
 1005,2c72896c4c2211ae5e63d933100a57d4cbac1541dbd415d07402e0b2-83-JA21,KN,stance,Geen/Ander/Neutraal,EU,N

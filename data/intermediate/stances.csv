@@ -4286,6 +4286,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 523,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-106-SGP,SH,stance,Geen/Ander/Neutraal,CivilRights,N
 523,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-109-SGP,NK,stance,Geen/Ander/Neutraal,CivilRights,N
 523,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-109-SGP,SH,stance,Geen/Ander/Neutraal,CivilRights,N
+1116,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-11-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1036,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-11-SP,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1036,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-11-SP,NK,stance,Geen/Ander/Neutraal,Health,N
 1111,1df369a142823ced0e20ffacbe0091a3527812d8d327c49fe1fb09a0-11-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
@@ -4703,6 +4704,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 559,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-114-GL/PvdA,SH,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 600,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-114-Overig,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 600,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-114-Overig,NR,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1080,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-35-GL/PvdA,AM,stance,Behoud huidige stelsel,Government,R
 921,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-35-GL/PvdA,KN,stance,Behoud huidige stelsel,Government,R
 921,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-35-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,20b68ffb43d3459dc55b75d1ed654a697a60196d4e473026bb30b1d4-35-GL/PvdA,NPR,stance,Behoud huidige stelsel,Government,R
@@ -6734,12 +6736,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 646,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-21-D66,NPR,stance,Geen/Ander/Neutraal,Economic,N
 646,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-21-PVV,NK,stance,Geen/Ander/Neutraal,Economic,N
 646,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-21-PVV,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1116,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-D66,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1032,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-D66,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1032,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-D66,NK,stance,Geen/Ander/Neutraal,Health,N
 1111,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-D66,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1119,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-D66,SH,stance,Geen/Ander/Neutraal,Health,N
 547,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-PVV,AM,stance,Beperken immigratie,Immigration,R
 547,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-PVV,NK,stance,Beperken immigratie,Immigration,R
+1116,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-SP,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1032,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-SP,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1032,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-SP,NK,stance,Geen/Ander/Neutraal,Health,N
 1111,2df3d051906ed4533708a199614e5b7adfdbdcb08e882e0e363aad67-28-SP,NPR,stance,Betaalbare zorg en gezondheid,Health,L
@@ -6842,6 +6846,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-21-CU,NR,stance,Geen/Ander/Neutraal,Government,N
 939,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-23-D66,KN,stance,Geen/Ander/Neutraal,Government,N
 939,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-23-D66,NK,stance,Geen/Ander/Neutraal,Government,N
+1080,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-26-NSC,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-26-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 908,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-26-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,2e116ca193b87c9eb6fff899fad27c74601a449dadad1795c61202e1-26-NSC,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -7877,6 +7882,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 922,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-GL/PvdA,NPR,stance,Geen/Ander/Neutraal,Government,N
 1081,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Government,N
+1080,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-NSC,AM,stance,Geen/Ander/Neutraal,Government,N
 922,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 922,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1011,37ac044cd72f9712bc97515f3e627917a9e60ccb80fabe6bf1ec10da-43-NSC,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -10254,6 +10260,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 599,43c08311c6759a75f8b17a935ab849048f2c5af4a480127a31cb999e-77-D66,NK,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
 599,43c08311c6759a75f8b17a935ab849048f2c5af4a480127a31cb999e-77-D66,NR,stance,Geen/Ander/Neutraal,Environment,N
 599,43c08311c6759a75f8b17a935ab849048f2c5af4a480127a31cb999e-77-D66,WA,stance,"Milieu, groen, (nationale) parken, klimaat, duurzame energie",Environment,L
+1080,43fc476bdc0b8515ef9911a1c12ea352d55c4bd5e08c1f8810350ac6-21-NSC,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,43fc476bdc0b8515ef9911a1c12ea352d55c4bd5e08c1f8810350ac6-21-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 908,43fc476bdc0b8515ef9911a1c12ea352d55c4bd5e08c1f8810350ac6-21-NSC,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,43fc476bdc0b8515ef9911a1c12ea352d55c4bd5e08c1f8810350ac6-21-NSC,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -14340,6 +14347,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-34-VVD,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-34-Volt,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-34-Volt,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1116,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-36-NSC,AM,stance,Doelmatige zorg,Health,R
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-36-NSC,KN,stance,Geen/Ander/Neutraal,Health,N
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-36-NSC,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1111,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-36-NSC,NPR,stance,Betaalbare zorg en gezondheid,Health,L
@@ -20539,6 +20547,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-3-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-3-NSC,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-3-NSC,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
+1080,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-5-NSC,AM,stance,Geen/Ander/Neutraal,Government,N
 908,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-5-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-5-NSC,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,967776bdd770985a14b6ec47abec6a0a99bd977c16416d5fcd09c2fa-5-NSC,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -21485,10 +21494,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 933,9fd170399298f91ec97800ba911683be4c232eb09f298d0e1cedcf31-6-Volt,NK,stance,Geen/Ander/Neutraal,Government,N
 633,a1186d0cbe1e35619e4ca2675c5850765db0ab924eeed72fe1c9022b-4-PVV,NK,stance,Geen/Ander/Neutraal,Economic,N
 633,a1186d0cbe1e35619e4ca2675c5850765db0ab924eeed72fe1c9022b-4-PVV,NPR,stance,Geen/Ander/Neutraal,Economic,N
+1080,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-GL/PvdA,AM,stance,Geen/Ander/Neutraal,Government,N
 908,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-GL/PvdA,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-GL/PvdA,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-GL/PvdA,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
+1080,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-Overig,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-Overig,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-Overig,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,a1217afb5b77f63ff0d9535629da07c5c5b7e77f0d2618c30007a8ee-1-Overig,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -22281,6 +22292,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 566,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-267-PVV,SH,stance,Fossiele industrie,Environment,R
 529,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-293-VVD,NK,stance,Geen/Ander/Neutraal,Immigration,N
 529,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-293-VVD,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+1080,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-Denk,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-Denk,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-Denk,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 665,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-Denk,NPR,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
@@ -22288,6 +22300,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-Denk,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 525,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-PVV,NK,stance,Traditionele waarden,CivilRights,R
 525,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-298-PVV,NPR,stance,Traditionele waarden,CivilRights,R
+1080,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-299-Overig,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 658,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-299-Overig,JE,stance,"Burgerrechten, vrijheid en minderheidsrechten",CivilRights,L
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-299-Overig,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-299-Overig,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -22301,6 +22314,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 529,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-32-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
 939,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-323-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 939,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-323-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
+1080,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-324-GL/PvdA,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-324-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-324-GL/PvdA,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-324-GL/PvdA,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -22375,6 +22389,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-437-VVD,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-437-VVD,NK,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-437-VVD,NR,stance,Geen/Ander/Neutraal,Government,N
+1080,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-457-PVV,AM,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-457-PVV,KN,stance,Geen/Ander/Neutraal,Government,N
 908,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-457-PVV,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,a60d26b037ca1a68444141f68345c7ac82a29b7ee9d62ea6d97a8d66-457-PVV,NPR,stance,Behoud huidige stelsel,Government,R
@@ -25779,6 +25794,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-18-FvD,KN,stance,Geen/Ander/Neutraal,Government,N
 908,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-18-FvD,NK,stance,Geen/Ander/Neutraal,Government,N
 908,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-18-FvD,NR,stance,Geen/Ander/Neutraal,Government,N
+1080,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-19-NSC,AM,stance,Geen/Ander/Neutraal,Government,N
 908,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-19-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 908,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-19-NSC,NK,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1008,c057c2754526922b09916a2d5b10eb61d6865f2c78ad86f422b399c5-19-NSC,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -30824,6 +30840,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 925,dbf038d138e6b445c83cf2786cbb7860d2add7972f6d1641d184e0c9-24-NSC,NPR,stance,Geen/Ander/Neutraal,Government,N
 1082,dbf038d138e6b445c83cf2786cbb7860d2add7972f6d1641d184e0c9-24-NSC,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 1012,dbf038d138e6b445c83cf2786cbb7860d2add7972f6d1641d184e0c9-24-NSC,SH,stance,Geen/Ander/Neutraal,Government,N
+1080,dc0c732f71c7fad73851a1cc9343dab90c8075a2a5a130dbe0bacbfc-20-NSC,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,dc0c732f71c7fad73851a1cc9343dab90c8075a2a5a130dbe0bacbfc-20-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,dc0c732f71c7fad73851a1cc9343dab90c8075a2a5a130dbe0bacbfc-20-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,dc0c732f71c7fad73851a1cc9343dab90c8075a2a5a130dbe0bacbfc-20-NSC,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -30932,10 +30949,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 693,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-41-BBB,NPR,stance,Geen/Ander/Neutraal,Agriculture,N
 940,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-70-GL/PvdA,KN,stance,Geen/Ander/Neutraal,Government,N
 940,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-70-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
+1080,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-GL/PvdA,AM,stance,Behoud huidige stelsel,Government,R
 921,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-GL/PvdA,KN,stance,Behoud huidige stelsel,Government,R
 921,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-GL/PvdA,NPR,stance,Behoud huidige stelsel,Government,R
 1012,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-GL/PvdA,SH,stance,Geen/Ander/Neutraal,Government,N
+1080,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-NSC,AM,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 921,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 921,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,dd0265160c23b7e76e564a7ea68dae82509d4ea6325e2aa0d88ca3f2-71-NSC,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -32215,10 +32234,12 @@ jobid,unit_id,coder,variable,value,topic,stance
 658,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-3-PVV,JE,stance,Geen/Ander/Neutraal,CivilRights,N
 529,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-3-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 529,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-3-PVV,NPR,stance,Geen/Ander/Neutraal,Immigration,N
+1080,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-36-PVV,AM,stance,Geen/Ander/Neutraal,Government,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-36-PVV,KN,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-36-PVV,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-36-PVV,NPR,stance,Geen/Ander/Neutraal,Government,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-36-PVV,NR,stance,Behoud huidige stelsel,Government,R
+1080,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-39-PVV,AM,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-39-PVV,KN,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-39-PVV,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-39-PVV,NPR,stance,Behoud huidige stelsel,Government,R
@@ -32228,6 +32249,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 529,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-4-PVV,NK,stance,Geen/Ander/Neutraal,Immigration,N
 529,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-4-PVV,NPR,stance,Beperken immigratie,Immigration,R
 1049,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-4-PVV,SH,stance,Beperken immigratie,Immigration,R
+1080,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-40-PVV,AM,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-40-PVV,KN,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-40-PVV,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-40-PVV,NPR,stance,Behoud huidige stelsel,Government,R
@@ -32242,6 +32264,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-50-PVV,NK,stance,Behoud huidige stelsel,Government,R
 666,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-50-PVV,NPR,stance,Geen/Ander/Neutraal,CivilRights,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-50-PVV,NR,stance,Behoud huidige stelsel,Government,R
+1080,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-51-PVV,AM,stance,Geen/Ander/Neutraal,Government,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-51-PVV,KN,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-51-PVV,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-51-PVV,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -32252,6 +32275,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-NSC,KN,stance,Geen/Ander/Neutraal,Government,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-NSC,NR,stance,Geen/Ander/Neutraal,Government,N
+1080,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-PVV,AM,stance,Behoud huidige stelsel,Government,R
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-PVV,KN,stance,Geen/Ander/Neutraal,Government,N
 908,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-PVV,NK,stance,Behoud huidige stelsel,Government,R
 1008,e94be610bb88a35527b6e7bf3113d0050f2107b2ce73e3af3c144373-73-PVV,NPR,stance,Geen/Ander/Neutraal,Government,N
@@ -33048,6 +33072,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-NSC,NR,stance,Geen/Ander/Neutraal,Government,N
 649,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-NSC,SH,stance,Geen/Ander/Neutraal,Economic,N
 649,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,AM,stance,Geen/Ander/Neutraal,Economic,N
+1080,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,AM,stance,Geen/Ander/Neutraal,Government,N
 649,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,JE,stance,Geen/Ander/Neutraal,Economic,N
 649,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,KN,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,KN,stance,Geen/Ander/Neutraal,Government,N
@@ -33057,6 +33082,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1008,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,NPR,stance,Geen/Ander/Neutraal,Government,N
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,NR,stance,Geen/Ander/Neutraal,Government,N
 649,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-28-PVV,SH,stance,Geen/Ander/Neutraal,Economic,N
+1080,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-3-NSC,AM,stance,Geen/Ander/Neutraal,Government,N
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-3-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-3-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-3-NSC,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -33065,6 +33091,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-CDA,NK,stance,Geen/Ander/Neutraal,Government,N
 1078,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-CDA,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-CDA,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
+1080,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-NSC,AM,stance,Geen/Ander/Neutraal,Government,N
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-NSC,KN,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-NSC,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,f383ee3454b0a551c254b4ef49cbeee5016530ea59158d62ba30445e-4-NSC,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
@@ -33304,6 +33331,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 908,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-D66,NK,stance,Geen/Ander/Neutraal,Government,N
 1078,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-D66,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
 908,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-D66,NR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L
+1080,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-Overig,AM,stance,Geen/Ander/Neutraal,Government,N
 908,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-Overig,KN,stance,Geen/Ander/Neutraal,Government,N
 908,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-Overig,NK,stance,Geen/Ander/Neutraal,Government,N
 1008,f6aa57c80f28e1e990d1191952c9690c722da4fc011ecdc483ee7bcf-37-Overig,NPR,stance,Beter bestuur en bestuurlijke vernieuwing,Government,L

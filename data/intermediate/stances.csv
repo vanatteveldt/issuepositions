@@ -94,12 +94,14 @@ jobid,unit_id,coder,variable,value,topic,stance
 711,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-66-PVV,NPR,stance,Traditionele Landbouw & landelijke gemeenschappen,Agriculture,R
 645,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-66-PVV,SH,stance,Sociale zekerheid en armoedebestrijding,Economic,L
 619,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-66-PVV,SH,stance,Fossiele industrie,Environment,R
+1116,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,KN,stance,Betaalbare zorg en gezondheid,Health,L
 619,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,NK,stance,Fossiele industrie,Environment,R
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,NPR,stance,Betaalbare zorg en gezondheid,Health,L
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,NR,stance,Geen/Ander/Neutraal,Health,N
 619,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-67-PVV,SH,stance,Fossiele industrie,Environment,R
+1116,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-69-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-69-PVV,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-69-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1031,00f6424643130aff606b0090fd9ae52c5b493fa3e4bb2ee170af433d-69-PVV,NPR,stance,Geen/Ander/Neutraal,Health,N
@@ -14354,6 +14356,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 1119,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-36-NSC,SH,stance,Geen/Ander/Neutraal,Health,N
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-37-JA21,KN,stance,Geen/Ander/Neutraal,Health,N
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-37-JA21,NK,stance,Geen/Ander/Neutraal,Health,N
+1116,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-39-GL/PvdA,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-39-GL/PvdA,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1032,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-39-GL/PvdA,NK,stance,Geen/Ander/Neutraal,Health,N
 1111,60623c40c8384e3179fc5533c338f1f2dc6bc9a11a99530964d9c32c-39-GL/PvdA,NPR,stance,Betaalbare zorg en gezondheid,Health,L
@@ -23070,6 +23073,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 623,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-139-PVV,KN,stance,Fossiele industrie,Environment,R
 624,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-139-PVV,NK,stance,Fossiele industrie,Environment,R
 1035,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-139-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
+1116,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-141-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1031,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-141-PVV,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1031,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-141-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1031,aaf19e0242053d26e774b3f2bb5db0703741733ba70ccf0a2440cb4f-141-PVV,NPR,stance,Geen/Ander/Neutraal,Health,N
@@ -29557,6 +29561,7 @@ jobid,unit_id,coder,variable,value,topic,stance
 600,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-40-PVV,NK,stance,Fossiele industrie,Environment,R
 1033,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-40-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 600,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-40-PVV,NR,stance,Fossiele industrie,Environment,R
+1116,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-42-PVV,AM,stance,Betaalbare zorg en gezondheid,Health,L
 1031,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-42-PVV,KN,stance,Betaalbare zorg en gezondheid,Health,L
 1031,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-42-PVV,NK,stance,Betaalbare zorg en gezondheid,Health,L
 1031,d5c98cbf465735f89741ce0c0435bff72d44c00da2c9a64cb9f3a718-42-PVV,NPR,stance,Geen/Ander/Neutraal,Health,N

@@ -1,5 +1,5 @@
-Progression Report
-================
+# Progression Report
+
 
 This file is used to visually represent the current status of coding
 data. Included are the reliability scores for coders and topics.
@@ -66,8 +66,6 @@ topic.
 
 <center>
 
-<div class="cell-output-display">
-
 |     Topic      | Completed | Total | Percentage Done | Reliability (α) |
 |:--------------:|:---------:|:-----:|:---------------:|:---------------:|
 |  Agriculture   |    790    |  688  |       87%       |      0.72       |
@@ -83,8 +81,6 @@ topic.
 |  Immigration   |   2163    | 2163  |      100%       |      0.73       |
 | Infrastructure |    203    |  153  |       75%       |      0.77       |
 |     Order      |    627    |   0   |       0%        |       NA        |
-
-</div>
 
 </center>
 

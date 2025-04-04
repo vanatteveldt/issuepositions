@@ -2,6 +2,8 @@
 title: "Progression Report"
 format: gfm
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 This file is used to visually represent the current status of coding data. Included are the reliability scores for coders and topics.
@@ -24,6 +26,7 @@ library(simplermarkdown)
 library(knitr)
 library(dplyr)
 library(purrr)
+library(here)
 
 ```
 

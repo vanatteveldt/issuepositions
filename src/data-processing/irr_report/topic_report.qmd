@@ -42,7 +42,7 @@ list_units <- function(annotations) {
                     col_select=c("unit_id", "before", "text_hl", "after"), 
                     col_types="cccc") 
   mode <- function(x) names(which.max(table(x)))
-  annotations |> 
+  units <- annotations |> 
     left_join(units, by="unit_id") |>
     mutate(text=str_c(str_replace_na(before, ""), text_hl, str_replace_na(after, ""))) |>
     select(-variable, -value, -before, -text_hl, -after) |>
@@ -50,11 +50,13 @@ list_units <- function(annotations) {
     mutate(
       jobids = str_c(unique(jobid), collapse=","),
       majority = mode(stance),
+      ncoded=n(),
       agreement = mean(stance == majority)) |>
-    select(-jobid) |>
+    select(-jobid, -jobtype) |>
     ungroup() |>
-    pivot_wider(names_from=coder, values_from=stance) |>
-    select(-"NA") #somehow a column named NA is created with a single value
+    pivot_wider(names_from=coder, values_from=stance)
+  if ("NA" %in% colnames(units)) units <- select(units, -"NA") #somehow a column named NA is created with a single value
+  units
 }
 
 ```
@@ -67,12 +69,23 @@ list_units <- function(annotations) {
 gpt_units <- read_csv(here::here("data/intermediate/coded_units_gpt_nshot.csv"))|>
   select(-jobids)
 
-all_units <- read.csv(here::here("data/intermediate/stances.csv")) |>
+stances <- read_csv(here::here("data/intermediate/stances.csv"))
+
+all_units <- stances |>
+  filter(jobtype=="normal") |>
   ungroup() |>
   list_units() |>
   arrange(unit_id) |>
   select(-jobids) |>
-  inner_join(gpt_units)
+  left_join(gpt_units)
+
+normal_units <- stances |>
+  filter(jobtype=="normal") |>
+  ungroup() |>
+  list_units() |>
+  arrange(unit_id) |>
+  select(-jobids) |>
+  left_join(gpt_units)
 
 gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |>
   filter(logprob >= -5)
@@ -85,14 +98,17 @@ gpt_issues_all <- read_csv(here::here("data/intermediate/gpt_issues_all.csv")) |
 #| warnings: false
 #| output: false
 
-CODERS <- c("AvH","MR","WA","JF","NR","S", "ING","NK","SH","OY","KN","NPR","JE","AM", "GPT-1shot", "GPT-5shot", "GPT-16shot", "GPT-35shot")
+# CODERS <- c("AvH","MR","WA","JF","NR","S", "ING","NK","SH","OY","KN","NPR","JE","AM", "GPT-1shot", "GPT-5shot", "GPT-16shot", "GPT-35shot")
+CODERS <- c("NR","NK","SH","KN","NPR")
 
 # # Identify the abbreviations of coders that are present in all_units
 present_coders <- intersect(CODERS, names(all_units))
 
 # # Convert only the columns for the present coders to numeric values
 all_units_numeric <- all_units |> 
-  mutate(across(all_of(present_coders), ~ as.numeric(factor(.))))
+  mutate(across(all_of(present_coders), ~ as.numeric(factor(., levels=c("L", "N", "R")))))
+normal_units_numeric <- normal_units |> 
+  mutate(across(all_of(present_coders), ~ as.numeric(factor(., levels=c("L", "N", "R")))))
 
 # Overall Reliability calculation
 alpha <- function(all_units_numeric) {
@@ -137,10 +153,17 @@ pairwise_alpha_new <- function(all_units_numeric) {
   return(result)
 }
 
+topic_report  <- all_units  |> group_by(topic) |> summarize(n=n(), ncoded=mean(ncoded), agreement=mean(agreement))
+
+topic_alphas <- topic_report |> pull(topic) |> unique() |> map(function(t) tibble(topic=t, alpha=filter(normal_units_numeric, topic==t) |> alpha() |> pluck("value"))) |> list_rbind()
+left_join(topic_report, topic_alphas) |> arrange(-n)
+
+table(all_units$majority[all_units$topic == "Government"])
 
 overall_kripp_alpha <- alpha(all_units_numeric)
+normal_kripp_alpha <- alpha(normal_units_numeric)
 
-pairwise_kripp_alpha <- pairwise_alpha_new(all_units_numeric)
+pairwise_kripp_alpha <- pairwise_alpha_new(normal_units_numeric)
 
 
 #plotting reliability values between coders
@@ -184,7 +207,7 @@ topic_alpha <- function(df, topic_name) {
 
 ## Coder Reliability
 
-The overall reliability across all coded units is a Krippendorff's alpha of **`r round(overall_kripp_alpha$value, 2)`**
+The overall reliability across is a Krippendorff's alpha of **`r round(normal_kripp_alpha$value, 2)`** (excluding test and no-agreement units)
 
 ```{r}
 #| echo: false

@@ -33,7 +33,7 @@ download <- function(jobid) {
 
   #continue processing data if checks are passed
   annotations |>
-    select(unit_id, coder, variable, value) |>
+    select(unit_id, coder, variable, status, value) |>
     left_join(CODERS) |>
     mutate(coder=if_else(is.na(abbrev), coder, abbrev)) |>
     select(-abbrev)
@@ -68,8 +68,9 @@ download_stances <- function(jobids) {
 }
 
 # retrieve Jobids from google sheets
-# set OAuth token to access sheets doc
-all_jobids <- read_csv('https://docs.google.com/spreadsheet/ccc?key=1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI&output=csv') |>
+jobs <- read_csv('https://docs.google.com/spreadsheet/ccc?key=1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI&output=csv')
+
+all_jobids <- jobs |>
   filter(jobid > 495) |>  #coding jobs before 495 were training an contain many duplicates
   pull(jobid) |>
   unique()
@@ -80,6 +81,16 @@ all_stances <- download_stances(all_jobids) |>
   slice_max(order_by = jobid, n=1)
 
 # save all coded stances as csv
+all_stances <- all_stances |> left_join(select(jobs, jobid, task=Taak) |> mutate(jobid=as.character(jobid))) |>
+  mutate(jobtype=case_when(
+    is.na(task) ~ "normal",
+    task == "af" ~ "normal",
+    T ~ task
+  )) |>
+  select(jobid, jobtype, unit_id:stance)
+
+table(all_stances$task)
+
 write_csv(all_stances, "data/intermediate/stances.csv")
 
 # for wide format use:

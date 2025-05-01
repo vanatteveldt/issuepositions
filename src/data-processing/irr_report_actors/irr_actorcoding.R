@@ -1,9 +1,10 @@
 # Calculate intercoder reliablity for the annotation of actors for the second part of the project
 # i.e., beyond just political actors
 # We calculate two measures: 
-# - do annotators identify the same actors?
-# - do the annotators agree on which category an actor belongs to?
-# We begin with the second...
+# - do annotators identify the same actors?  --> done in this script
+# - do the annotators agree on which category an actor belongs to?  --> done in get_iaa_metrics.R (by Philipp Mendoza)
+
+
 
 library(tidyr)
 library(irr)
@@ -30,7 +31,7 @@ irr::kripp.alpha(t(alpha_input), method = "nominal")
 irr::kappa2(alpha_input)
 
 print("For illustration purposes, let's calculate what would happen if actors that are overlooked by one annotator would be coded as 'wrong'.")
-print("To be clear, this is not a useful measure, but it illustrates the important of also checking wether the actors are idetified.")
+print("To be clear, this is not a useful measure, but it illustrates the important of also checking wether the actors are idenified.")
 wide_narep = wide |>  mutate_all(coalesce, "overhethoofdgezien") 
 alpha_input_narep <- as.matrix(wide_narep)
 irr::kripp.alpha(t(alpha_input_narep), method = "nominal")

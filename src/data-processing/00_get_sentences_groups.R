@@ -10,9 +10,9 @@ d <- bind_rows(
 ) |> select(doc_id = unit_id, offset, length, value, span=text)
 
 docs = read_csv("data/tmp/tk2023_articles.csv") |>
-  select(doc_id=`_id`, text)
+  select(doc_id=`.id`, text)
 
-d |> left_join(docs) |> 
+to_annotate <- d |> left_join(docs) |> 
   mutate(text = str_replace_all(trimws(text), "\\s*\\n\\s*", "\u2029"),
          text = str_c(
            str_sub(text, end=offset),
@@ -38,5 +38,6 @@ d |> left_join(docs) |>
          end=offset+length) |>
   select(unit_id, doc_id, actor=value, sentence_id, start=offset, end, text, text_hl, before, after)
   
-  
+write_csv(to_annotate,"data/intermediate/actors-to-annotate.csv")
+
   

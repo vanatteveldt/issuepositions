@@ -9,7 +9,6 @@ d <- bind_rows(
   d_madelon |> anti_join(d_nisa, by="unit_id")
 ) |> select(doc_id = unit_id, offset, length, value, span=text)
 
-# From 00_dutch_get_sentences.R
 docs = read_csv("data/tmp/tk2023_articles.csv") |>
   select(doc_id=`_id`, text)
 
@@ -22,7 +21,10 @@ d |> left_join(docs) |>
            "\u2046",
            str_sub(text, offset+length+1)
          ),
-         text = str_replace_all(text, "\u2045 ", " \u2045") |> str_replace_all("\u2045\u2029", "\u2029\u2045") |> str_replace_all("\u2029", ".\n\n") |> str_replace_all("(\\.)\\.", "\\1")
+         text = str_replace_all(text, "\u2045 ", " \u2045") |> 
+           str_replace_all("\u2045\u2029", "\u2029\u2045") |> 
+           str_replace_all("\u2029", ".\n\n") |> 
+           str_replace_all("(\\.)\\.", "\\1")
          ) |>
   unnest_sentences(output="text", input="text", to_lower=FALSE) |>
   group_by(doc_id, offset, value) |>

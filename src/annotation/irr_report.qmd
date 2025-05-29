@@ -1,0 +1,219 @@
+---
+title: "Progression Report"
+format: gfm
+editor: visual
+editor_options: 
+  chunk_output_type: console
+output-dir: "irr-figures/"
+---
+
+This file is used to visually represent the current status of coding data. Included are the reliability scores for coders and topics.
+
+## Data
+
+Raw data can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data) folder and code used to generate statistics and plots is available in [topic_status_report](https://github.com/vanatteveldt/issuepositions/blob/main/src/data-processing/topic_status_report.R) file.
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: false
+
+library(tidyverse)
+library(irr)
+library(kableExtra)
+library(simplermarkdown)
+library(knitr)
+library(here)
+
+knitr::opts_knit$set(root.dir = here::here())
+knitr::opts_chunk$set(fig.path = "irr-figures/")
+```
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: false
+
+
+list_units <- function(annotations) {
+  units <- read_csv(here::here("data/intermediate/units_tk2023.csv"), 
+                    col_select=c("unit_id", "before", "text_hl", "after"), 
+                    col_types="cccc") 
+  mode <- function(x) names(which.max(table(x)))
+  units <- annotations |> 
+    left_join(units, by="unit_id") |>
+    mutate(text=str_c(str_replace_na(before, ""), text_hl, str_replace_na(after, ""))) |>
+    select(-variable, -value, -before, -text_hl, -after) |>
+    group_by(unit_id, topic) |>
+    mutate(
+      jobids = str_c(unique(jobid), collapse=","),
+      majority = mode(stance),
+      ncoded=n(),
+      agreement = mean(stance == majority)) |>
+    select(-jobid, -jobtype) |>
+    ungroup() |>
+    pivot_wider(names_from=coder, values_from=stance)
+  if ("NA" %in% colnames(units)) units <- select(units, -"NA") #somehow a column named NA is created with a single value
+  units
+}
+
+```
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: false
+#| label: functions
+
+# Compute overall reliability for this dataset, possibly filtering on specific coders
+alpha <- function(data, coders = CODERS) {
+  data <- data |>
+    select(all_of(coders)) |>  
+    filter(rowSums(!is.na(pick(everything()))) >= 2) # keep only rows with at least two values
+
+  
+  if (nrow(data) == 0) return(NULL)
+  data |> 
+    as.matrix() |>
+    t() |>
+    irr::kripp.alpha(method="nominal") |>
+    pluck("value")
+}
+
+#' Compute pairwise reliability for a data set
+pairwise_alpha <- function(data) {
+  result <- tibble(coder1 = character(), coder2 = character(), alpha = numeric())
+    
+  expand_grid(coder1=CODERS, coder2=CODERS) |>
+    filter(coder1 > coder2) |>
+    pmap(function (coder1, coder2) 
+      tibble(coder1=coder1, 
+             coder2=coder2, 
+             alpha=alpha(coded_units, c(coder1, coder2)))) |>
+    list_rbind()
+}
+
+
+#' Plot pairwise alpha as tiles
+plot_pairwise_alpha <- function(pairwise_alpha) {
+  # Convert coder columns to factors to ensure correct plotting order
+  ##pairwise_alpha <- pairwise_alpha |>
+  ##  mutate(coder1 = factor(coder1, levels = unique(c(coder1, coder2))),
+    #       coder2 = factor(coder2, levels = unique(c(coder1, coder2))))
+  
+  # Plot heatmap
+  ggplot(pairwise_alpha, aes(x = coder1, y = coder2, fill = alpha, label=round(alpha,2))) +
+    geom_tile(color = "white") +
+    geom_text(color = "white") +
+    scale_fill_gradient2(low = "darkred", high = "darkgreen", mid = "gold", midpoint = 0.5,
+                         name = "Krippendorff's Alpha") +
+    labs(title = "Pairwise Krippendorff's Alpha Between Coders",
+         x = "",
+         y = "") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
+    coord_fixed()
+}
+```
+
+# Overall Reliability
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: false
+
+CODERS <- c("NR","NK","SH","KN","NPR")
+
+stances <- read_csv(here::here("data/intermediate/stances.csv"))
+
+coded_units <- stances |>
+  filter(jobtype=="normal") |>
+  list_units() |>
+  arrange(unit_id) |>
+  select(-jobids) |> 
+  select(unit_id, status, topic, majority, ncoded, agreement, all_of(CODERS)) |>
+  mutate(across(all_of(CODERS), ~ as.numeric(factor(., levels=c("L", "N", "R")))))
+
+CODERS <- intersect(CODERS, names(coded_units))
+```
+
+The overall reliability across is a Krippendorff's alpha of **`r round(alpha(coded_units), 2)`** (excluding test and no-agreement units)
+
+```{r}
+#| echo: false
+#| messages: false
+#| warnings: false
+#| output: true
+#| label: plot-alpha
+#| fig.cap: "Reliability scores between coders"
+
+pairwise_alpha(coded_units) |>
+  plot_pairwise_alpha()
+
+```
+
+## Topic Reliability
+
+The following table reports the progression of issues coded and the current reliability (calculated using Krippendorff's alpha) for each topic.
+
+<center>
+
+```{r results='asis', echo=FALSE, message=F}
+
+topic_report  <- coded_units  |> 
+  group_by(topic) |> 
+  summarize(n=n(), ncoded=mean(ncoded), agreement=mean(agreement))
+
+topic_alphas <- topic_report |> 
+  pull(topic) |> 
+  unique() |> 
+  map(function(t) 
+    tibble(topic=t, alpha=filter(coded_units, topic==t) |> alpha())
+      ) |> list_rbind() |>
+  right_join(topic_report) |> 
+  arrange(-n) |>
+  select(topic, n, ncoded, agreement, alpha)
+
+
+# Define custom column names
+custom_headers <- c("Topic", "# units", "Avg. coders per unit", "Agreement (%)", "Reliability (α)")
+
+
+# Simple table for GFM
+# Use kable for Markdown output suitable for GFM
+
+kable(topic_alphas, format = "markdown", col.names = custom_headers, align = c('l', rep('c', ncol(topic_alphas)-1)), digits=2)
+```
+
+</center>
+
+```{r}
+#| echo: false
+#| messages: true
+#| warnings: false
+#| label: pairwise-plots
+#| results: asis
+#| depends: [functions]
+
+for  (topic_name in sort(unique(coded_units$topic))) {
+  row <- topic_alphas |> filter(topic == topic_name)
+  
+  cat(str_glue("\n## Topic: {topic_name} (n={row$n}, α={round(row$alpha,2)})\n\n"))
+  
+  coded_units |>
+    filter(topic == topic_name) |>
+    pairwise_alpha() |>
+    plot_pairwise_alpha() |>
+    print()
+  
+  
+  cat('\n\n')
+}
+
+
+```

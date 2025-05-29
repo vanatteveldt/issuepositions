@@ -123,5 +123,4 @@ choices |> inner_join(lp0) |> mutate(lp = if_else(rank==-1, logprob_0, logprob))
   ylab("Logprob") + ggtitle("Logprob per rank for top-3 tokens")
 
 
-choices |> filter(gold_en != 'None') |>
-  
+

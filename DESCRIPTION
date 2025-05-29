@@ -1,0 +1,20 @@
+Package: issuepositions
+Type: Project
+Version: 0.1.0
+Title: Dutch Issue Positions
+Description: A project with data and scripts for annotating Dutch issue positions
+Author: Wouter van Atteveldt
+Maintainer: Wouter van Atteveldt <wouter@vanatteveldt.com>
+Imports:
+   tidyverse,
+   udpipe,
+   dotenv,
+   yaml,
+   here,
+   simplermarkdown,
+   irr,
+   kableExtra,
+   github::ccs-amsterdam/annotinder-r,
+   github::ccs-amsterdam/amcat4r,
+   github::kasperwelbers/boolydict
+

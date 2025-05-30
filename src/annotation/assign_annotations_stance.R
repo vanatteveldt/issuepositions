@@ -8,8 +8,8 @@ library(annotinder)
 library(dotenv)
 library(purrr)
 
-# annotinder::backend_connect("https://uva-climate.up.railway.app", username="n.karadavut@student.vu.nl", .password = 'julia20201211AH')
-annotinder::backend_connect("https://uva-climate.up.railway.app", username="nelruigrok@nieuwsmonitor.org", .password = 'test')
+source(here::here("src/lib/stancetinder.R"))
+connect_annotinder()
 
 # Download issues
 issues = read_csv("data/intermediate/gpt_issues_all.csv")

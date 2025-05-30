@@ -7,18 +7,14 @@ library(purrr)
 library(tibble)
 library(annotinder)  # from github:ccs-amsterdam/annotinder-r
 
+source(here::here("src/lib/stancetinder.R"))
+connect_annotinder()
 # key to convert coder emails to initials for pseudonymization
-if (file.exists(".env")) dotenv::load_dot_env(file = ".env")
 coders_json = Sys.getenv("CODERS")
-
 CODERS <- jsonlite::fromJSON(coders_json) |> as_tibble()
 
-download <- function(jobid) {
-  backend_connect(
-    "https://uva-climate.up.railway.app",
-    username=Sys.getenv("ANNOTINDER_USERNAME"),
-    .password = Sys.getenv("ANNOTINDER_PASSWORD"))
 
+download <- function(jobid) {
   annotations <- tryCatch({
     download_annotations(jobid)
   }, error = function(e) {

@@ -1,6 +1,6 @@
 # Issue Positions
 
-The goal of this project is to create a dataset of expressed issue positionsin Dutch and English news. 
+The goal of this project is to create a dataset of expressed issue positions in Dutch news. 
 
 An expressed issue position is a piece of text from which a reader can deduce where an actor can be placed along an issue dimension, that is, what is the preference of that actor regarding that issue? 
 
@@ -19,7 +19,10 @@ A possible extension of the project could be to add two more relevant polarity/s
 
 # Repository structure
 
-+ [literature.md](literature.md) is a (WIP!) document describing the conceptualisation of issue positions and a brief overview of existing work
-+ The [annotations](annotations) folder contains and overview of annotations including the [codebook](annotations/codebook.md)
+Note that the process for political actors is mostly done. The relevant files contain 'politics' in the name. We are still actively coding non-political actors, these files contain 'others' in the name. 
+
++ The [codebook](codebook) folder contains the general [coding instructions](codebook/codebook.md) and the [list of political issues](codebook/topics-en.md)
 + The [data](data) folder contains the relevant data, i.e. selected sentences from news media and annotations
 + The [src](src) folder contains the scripts for gathering, (pre)processing and selecting the data as well as SML experiments
+   + [src/data-processing](src/data-processing) contains scripts for selecting the sentences to code and pre-processing them with GPT
+   + [src/annotation](src/annotation) contains scripts for assigning annotation jobs, downloading the results, and computing [intercoder reliability](src/annotation/irr_politics.md)

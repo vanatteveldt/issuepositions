@@ -1,5 +1,5 @@
 ---
-title: "Progression Report"
+title: "IRR Report for stances by political actors"
 format: gfm
 editor: visual
 editor_options: 
@@ -7,11 +7,7 @@ editor_options:
 output-dir: "irr-figures/"
 ---
 
-This file is used to visually represent the current status of coding data. Included are the reliability scores for coders and topics.
-
-## Data
-
-Raw data can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data) folder and code used to generate statistics and plots is available in [topic_status_report](https://github.com/vanatteveldt/issuepositions/blob/main/src/data-processing/topic_status_report.R) file.
+This report contains the intercoder reliability for coded stances from political actors. The annotations are downloaded from the annotinder backend by [download_stances.R](download_stances.R) and can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data/intermediate) folder. 
 
 ```{r}
 #| echo: false

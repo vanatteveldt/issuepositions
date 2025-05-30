@@ -1,4 +1,4 @@
-Scripts for managing the annotation process
+Scripts for managing the annotation process. See the [intercoder reliability report](irr_politics.md) for intercoder reliability [[source](irr_politics.qmd)]
 
 Note: Many of these scripts use a [google sheets file](https://docs.google.com/spreadsheets/d/1CKxjOn-x3Fbk2TVopi1K7WhswcELxbzcyx_o-9l_2oI/edit?usp=sharing) to keep track of coding jobs.
 This file is world-readable and contains a list of jobs, coder assignments, and the coding decisions for the jobs that were discussed in groups. 
@@ -15,4 +15,3 @@ The script [download_stances.R](download_stances.R) downloads the annotations fo
 
 ### Intercoder reliablity
 
-See the [intercoder reliability report](irr_politics.md) for intercoder reliability [[source](irr_politics.qmd)]

@@ -1,3 +1,7 @@
+# Determine the validity (and logprob threshold) for GPT issue coding
+# Input: data/intermediate/gpt_issues_gold_325.csv
+
+
 library(tidyverse)
 
 d <- read_csv("data/intermediate/gpt_issues_gold_325.csv")  |>
@@ -89,11 +93,6 @@ d |> filter(gpt_token %in% t$gold_en)
 top |> group_by(gold_en) |> summarize(n=n(), correct=mean(correct))
 d |> filter(!correct) |> group_by(gold_en, gpt) |> summarize(n=n()) |> mutate(ngold=n()) |> arrange(desc(ngold), gold_en, -n) |> select(-ngold)
 
-
-
-texts = read_csv("data/raw/annotations_stances_1_gold.csv") |> select(unit_id, before, text, after)
-d
-inner_join(texts, d) |> filter(!correct) |> View()
 
 metrics = function(d, topic) {
   ngold = sum(d$gold_en == topic)

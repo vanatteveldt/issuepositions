@@ -1,3 +1,7 @@
+# Create a csv file containing all coded stances
+# Input: From google sheet 'overzicht' and annotinder backend (requires auth)
+# Output: data/intermediate/stances.csv
+
 library(dplyr)
 library(purrr)
 library(tibble)

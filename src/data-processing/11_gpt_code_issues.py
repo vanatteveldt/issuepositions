@@ -1,8 +1,8 @@
 """
 Use GPT to determine the target issue in the identified units
 
-Input:  data/intermediate/units_tk2023.csv
-Output: data/intermediate/gpt_issues_all.csv and data/intermediate/gpt_issues_gold_325.csv
+Input:  data/intermediate/units_tk2023.csv, data/intermediate/gold_325.csv
+Output: data/intermediate/gpt_issues_all.csv, data/intermediate/gpt_issues_gold_325.csv
 """
 
 import random

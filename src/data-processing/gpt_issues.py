@@ -1,3 +1,10 @@
+"""
+Use GPT to determine the target issue in the identified units
+
+Input:  data/intermediate/units_tk2023.csv
+Output: data/intermediate/gpt_issues_all.csv and data/intermediate/gpt_issues_gold_325.csv
+"""
+
 import random
 import re
 import csv
@@ -101,18 +108,15 @@ def process_gpt(units, lang, writer):
 if __name__ == "__main__":
     gold = read_units("data/intermediate/gold_325.csv")
     gold_ids = {row["id"] for row in gold}
-    done_ids = (
-        read_units_done("data/intermediate/gpt_issues_set_1.csv")
-        | read_units_done("data/intermediate/set_2_ids.csv")
-        | read_units_done("data/intermediate/gpt_issues_set_3.csv")
-        | read_units_done("data/intermediate/gpt_issues_set_4.csv")
-        | read_units_done("data/intermediate/gpt_issues_set_5.csv")
-    )
     units = list(read_units("data/intermediate/units_tk2023.csv"))
-    ids = {r["id"] for r in units} - gold_ids - done_ids
-    print(len(ids))
-    # print(f"|ids|={len(ids)}, gold={len(gold_ids)}, units={len(units)}")
-    # ids = random.sample(list(ids), 1000)
+
+    units = [u for u in units if u["id"] in gold_ids]
+    with open("data/intermediate/gpt_issues_gold_325.csv", "w") as f:
+        print(f"Writing to {f.name}")
+        writer = csv.writer(f)
+        process_gpt(units, "nl", writer)
+
+    ids = {r["id"] for r in units} - gold_ids
     units = [u for u in units if u["id"] in ids]
     with open("data/intermediate/gpt_issues_set_rest.csv", "w") as f:
         print(f"Writing to {f.name}")

@@ -1,6 +1,6 @@
 library(tidyverse)
 
-d <- read_csv("data/intermediate/gold_325_gpt_issues_nl.csv")  |>
+d <- read_csv("data/intermediate/gpt_issues_gold_325.csv")  |>
   replace_na(list(topic="None"))
 
 d |> filter(topic == "Education") |> 

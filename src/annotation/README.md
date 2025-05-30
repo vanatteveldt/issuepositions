@@ -12,6 +12,3 @@ This file is world-readable and contains a list of jobs, coder assignments, and 
 ### Downloading annotations:
 
 The script [download_stances.R](download_stances.R) downloads the annotations for all jobs and saves them in the [stances.csv](/data/intermediate/stances.csv) file.
-
-### Intercoder reliablity
-

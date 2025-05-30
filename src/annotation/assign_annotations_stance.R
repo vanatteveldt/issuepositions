@@ -1,7 +1,3 @@
-install.packages("here")
-install.packages("Annotinder")
-install.packages("remotes")
-remotes::install_github("ccs-amsterdam/annotinder-r")
 library(tidyverse)
 library(here)
 library(annotinder)
@@ -19,7 +15,7 @@ source(here::here("src/lib/stancetinder.R"))
 
 table(issues$topic)
 
-TOPIC = "Education"
+TOPIC = "CivilRights"
 
 # Select items to code
 # 1. filter on topic

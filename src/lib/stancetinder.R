@@ -19,8 +19,8 @@ unit_markdown <- function(before, text_hl, after) {
 }
 
 get_stance_codebook <- function() {
-  topics <- yaml::read_yaml("annotations/topics.yml")
-  codebook = read_file("annotations/codebook.md")
+  topics <- yaml::read_yaml("codebook/topics.yml")
+  codebook = read_file("codebook/codebook.md")
   cquestions <- purrr::map(names(topics), function(t) {
     label = topics[[t]]$label$nl
     codes = c(topics[[t]]$positive$label$nl, topics[[t]]$negative$label$nl, "Neutraal")
@@ -45,7 +45,7 @@ get_stance_codebook <- function() {
 }
 
 get_topic_instruction <- function(topic) {
-  t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
+  t <- yaml::read_yaml("codebook/topics.yml")[[topic]]
   hint = if (is.null(t$hints$nl)) {warning("No hints given"); ""} else glue::glue("\n\n**Aanwijzingen**: {t$hints$nl}")
   description = if(is.null(t$description$nl)) {warning("No description"); ""} else t$description$nl
   glue::glue("## Wat is het standpunt over {t$label$nl}?\n{description}\n\n
@@ -56,7 +56,7 @@ get_topic_instruction <- function(topic) {
 }
 
 get_instruction_unit <- function(topic) {
-  t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
+  t <- yaml::read_yaml("codebook/topics.yml")[[topic]]
   topic_instruction <- get_topic_instruction(topic)
   instruction_md = glue::glue("# Standpunt coderen over {t$label$nl}\n\n
 In de volgende schermen staat elke keer een drietal zinnen met een gemarkeerde actor. 
@@ -79,8 +79,8 @@ Als het standpunt echt niet bij de dimensies past, of niet duidelijk is, of over
 
 
 get_topic_stance_codebook <- function(topic) {
-  t <- yaml::read_yaml("annotations/topics.yml")[[topic]]
-  instruction <- str_c(get_topic_instruction(topic), read_file("annotations/codebook-nl.md"), sep="\n\n")
+  t <- yaml::read_yaml("codebook/topics.yml")[[topic]]
+  instruction <- str_c(get_topic_instruction(topic), read_file("codebook/codebook-nl.md"), sep="\n\n")
   codes = c(t$positive$label$nl, t$negative$label$nl, "Geen/Ander/Neutraal")
   create_codebook(question("stance", codes=codes, type="annotinder", instruction = instruction,
                            question=str_c("Wat is het standpunt van de genoemde actor over ", t$label$nl)))

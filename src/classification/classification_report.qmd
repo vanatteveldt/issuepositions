@@ -1,0 +1,31 @@
+---
+title: "classification"
+format: gfm
+editor_options: 
+  chunk_output_type: console
+---
+
+## Data
+
+```{r}
+library(tidyverse)
+library(yardstick)
+data_root = here::here("data/intermediate/classification")
+
+read_file <- function(fn) {
+  fields = str_extract(fn, ".*/([^/]+)\\.csv", group = 1) |> str_split("_") |> first()
+  read_csv(fn, show_col_types = FALSE, name_repair = "unique_quiet") |> 
+    select(-`...1`, -Index) |> 
+    add_column(fn=fn, model = fields[2], shot = fields[3], reason = fields[4], .before=1)
+}
+
+d <- list.files(data_root, full.names = T) |> map(read_file, .progress=T) |> list_rbind()
+d <- d |> mutate(stance=as.factor(stance), 
+                 prediction=if_else(prediction == "Neutral / No Stance", "N", prediction) |> as.factor())
+d |> group_by(model, shot, reason) |> 
+  summarize(n=n(), acc=mean(stance==prediction), f_meas(d, truth=stance, estimate=prediction))
+
+yardstick::f_meas(d, truth=stance, estimate=prediction)
+
+```
+

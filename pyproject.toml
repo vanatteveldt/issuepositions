@@ -3,11 +3,16 @@ name = "issuepositions"
 version = "0.0.1"
 dependencies = [
 "jupyter",
+"ipykernel",
 "pandas",
 "scikit-learn",
 "transformers[torch]",
 "datasets",
 "pyhere",
 "python-dotenv",
-"openai"
+"openai",
+"pyhere"
 ]
+
+[project.optional-dependencies]
+dev = ["pandas-stubs", "types-PyYAML"]

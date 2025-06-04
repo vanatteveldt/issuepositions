@@ -26,3 +26,4 @@ Note that the process for political actors is mostly done. The relevant files co
 + The [src](src) folder contains the scripts for gathering, (pre)processing and selecting the data as well as SML experiments
    + [src/data-processing](src/data-processing) contains scripts for selecting the sentences to code and pre-processing them with GPT
    + [src/annotation](src/annotation) contains scripts for assigning annotation jobs, downloading the results, and computing [intercoder reliability](src/annotation/irr_politics.md)
+   + [src/classification](src/classification) contains scripts for automatic stance detection based on the manual annotations. See especially the [GPT classification report](src/classification/classification_report.md)

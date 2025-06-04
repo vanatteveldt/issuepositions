@@ -8,8 +8,8 @@ Specifically, the model was asked to judge the stance of actors in 100
 sentences on 12 topics. The specific meaning of each stance depends on
 the topic, but the options were always L (mostly left/progressive
 stances), N (neutral) or R (more right-wing/conservative). For more
-information, see the [codebook](./codebook/codebook.md) and [topic
-list](./codebook/topics-en.md) ([dutch](./codebook/topics-nl.md)).
+information, see the [codebook](../codebook/codebook.md) and [topic
+list](../codebook/topics-en.md) ([dutch](../codebook/topics-nl.md)).
 
 # Overall performance
 

@@ -1,5 +1,5 @@
 ---
-title: "classification"
+title: "Performance of automatic classification"
 format: 
   gfm:
     fig-path: "classificationreport-figures/"
@@ -26,9 +26,20 @@ read_file <- function(fn) {
 d <- list.files(data_root, full.names = T) |> map(read_file, .progress=T) |> list_rbind()
 d <- d |> mutate(stance=as.factor(stance), 
                  prediction=if_else(prediction == "Neutral / No Stance", "N", prediction) |> as.factor())
+
+n_sent <- d |> group_by(model, shot, reason, topic) |> summarize(n=n()) |> pull(n) |> mean()
+n_topic <- length(unique(d$topic))
 ```
 
+
+We tested a variety of models in different x-shot settings and with ~~or without~~ chain-of-reasoning prompts. 
+
+Specifically, the model was asked to judge the stance of actors in `r n_sent` sentences on `r n_topic` topics.
+The specific meaning of each stance depends on the topic, but the options were always L (mostly left/progressive stances), N (neutral) or R (more right-wing/conservative). For more information, see the [codebook](/codebook/codebook.md) and [topic list](/codebook/topics-en.md) ([dutch](/codebook/topics-nl.md)). 
+
 # Overall performance
+
+The table below gives the overall (macro-averaged) performance of each model:
 
 ```{r overall}
 d |> group_by(model, shot, reason) |> 
@@ -39,6 +50,9 @@ d |> group_by(model, shot, reason) |>
 ```
 
 # Per topic performance
+
+The table below shows the f-score for each model per topic (macro-averaged over the stances including N),
+with the best model per topic indicated in bold:
 
 ```{r pertopic}
 p <- d |> group_by(model, shot, reason, topic) |> 
@@ -56,6 +70,8 @@ ggplot(p, aes(x=modelshot, y=topic, fill=f, label=round(f, 2))) + geom_tile() +
 ```
 
 # Per class performance
+
+Finally, the tables below give per-class precision/recall/f scores and confusion matrices for each invidual model:
 
 ```{r detailed, output='asis'}
 

@@ -1,7 +1,20 @@
-# classification
+# Performance of automatic classification
 
+
+We tested a variety of models in different x-shot settings and with ~~or
+without~~ chain-of-reasoning prompts.
+
+Specifically, the model was asked to judge the stance of actors in 100
+sentences on 12 topics. The specific meaning of each stance depends on
+the topic, but the options were always L (mostly left/progressive
+stances), N (neutral) or R (more right-wing/conservative). For more
+information, see the [codebook](./codebook/codebook.md) and [topic
+list](./codebook/topics-en.md) ([dutch](./codebook/topics-nl.md)).
 
 # Overall performance
+
+The table below gives the overall (macro-averaged) performance of each
+model:
 
 | model   | shot  | reason |    n |   acc |     f |
 |:--------|:------|:-------|-----:|------:|------:|
@@ -14,9 +27,16 @@
 
 # Per topic performance
 
+The table below shows the f-score for each model per topic
+(macro-averaged over the stances including N), with the best model per
+topic indicated in bold:
+
 ![](classification_report_files/figure-commonmark/pertopic-1.png)
 
 # Per class performance
+
+Finally, the tables below give per-class precision/recall/f scores and
+confusion matrices for each invidual model:
 
 ## Model gpt-4.1: 0shot (reason)
 

@@ -7,7 +7,7 @@ editor_options:
 output-dir: "irr-figures/"
 ---
 
-This report contains the intercoder reliability for coded stances from political actors. The annotations are downloaded from the annotinder backend by [download_stances.R](download_stances.R) and can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data/intermediate) folder. 
+This report contains the intercoder reliability for coded stances from political actors. The annotations are downloaded from the annotinder backend by [download_stances.R](download_stances.R) and can be found in the [data folder](https://github.com/vanatteveldt/issuepositions/tree/main/data/intermediate) folder.
 
 ```{r}
 #| echo: false

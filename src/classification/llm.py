@@ -36,10 +36,10 @@ def compute_metrics(group):
 if __name__ == "__main__":
 
     SEED = 42
-    N = 100
+    N = 300
     NSHOT = 0
     REASON = True
-    MODEL = "o4-mini"
+    MODEL = "o3"
     logging.basicConfig(level=logging.INFO, format="[%(asctime)s %(levelname)s] %(message)s")
     logging.getLogger("openai").setLevel(logging.WARNING)
     logging.getLogger("httpx").setLevel(logging.WARNING)
@@ -48,9 +48,11 @@ if __name__ == "__main__":
     model = GPT(model=MODEL)
     result = []
     for topic in sorted(d["topic"].unique()):
-        logging.info(f"Sampling and classifying {N} examples from topic {topic} (seed: {SEED})")
         topic_rows = d[d["topic"] == topic]
-        subset = topic_rows.sample(n=N, random_state=SEED)
+        n = min(N, len(topic_rows))
+        logging.info(f"Sampling and classifying {n}/{len(topic_rows)} examples from topic {topic} (seed: {SEED})")
+
+        subset = topic_rows.sample(n=n, random_state=SEED)
         model.examples_df = topic_rows.drop(subset.index)
         for row in subset.itertuples():
             result.append(do_classification(model, row, nshot=NSHOT, reasoning=REASON))

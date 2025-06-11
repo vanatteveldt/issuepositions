@@ -45,7 +45,16 @@ The table below gives the overall (macro-averaged) performance of each model:
 d |> group_by(model, shot, reason) |> 
   summarize(n=n(), acc=mean(stance==prediction), f=f_meas_vec(stance, prediction)) |>
   knitr::kable(digits=3)
+```
 
+```{r llm}
+d |> group_by(model, shot, reason) |> 
+  summarize(f=f_meas_vec(stance, prediction)) |>
+  ggplot(aes(x=shot, y=model, label=round(f, 2), fill=f)) + 
+  geom_tile() + geom_text(color="white") +
+  scale_fill_gradient(low="darkred", high="darkblue") + 
+  theme_minimal() + theme(legend.position="none") + xlab("") + ylab("") + 
+  ggtitle("Performance of LLMs", "(Macro-average F1-score)")
 
 ```
 
@@ -82,11 +91,13 @@ class_measure <- function(actual, predicted, value, measure=f_meas_vec) {
 }
 
 model_plots <- function(model, shot, reason) {
+  subset <- d |>  filter(model == .env$model, shot == .env$shot, reason == .env$reason)
+  if (nrow(subset) == 0) return()
   cat("\n\n")
   print(str_glue("\n\n## Model {model}: {shot} ({reason})\n"))
   cat("\n\n")
   
-  p1 <- d |>  filter(model == .env$model, shot == .env$shot, reason == .env$reason) |>
+  p1 <- subset |>
     group_by(topic) |> 
     summarize( 
               L_Pr=class_measure(stance, prediction, "L", precision_vec),
@@ -97,7 +108,8 @@ model_plots <- function(model, shot, reason) {
               R_F1=class_measure(stance, prediction, "R", f_meas_vec))  |>
     pivot_longer(-topic) |>
     separate(name, into=c("class", "measure"), sep = "_") |>
-    mutate(measure=factor(measure, levels=c("Pr", "Re", "F1"))) |>
+    mutate(measure=factor(measure, levels=c("Pr", "Re", "F1")),
+           topic = fct_reorder(topic, value, mean )) |>
     ggplot(aes(x=measure, y=topic,  fill=value, label=round(value, 2))) + geom_tile() + 
     geom_text(color="grey") +
     #geom_text(data=filter(p, f==bestf), color="white") + 

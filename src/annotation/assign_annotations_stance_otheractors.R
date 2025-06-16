@@ -8,8 +8,9 @@ source(here::here("src/lib/stancetinder.R"))
 connect_annotinder()
 
 # Download issues
-issues = read_csv("data/intermediate/gpt_issues_all.csv")
+issues = bind_rows(read_csv("data/intermediate/gpt_issues_actors_0.csv"), read_csv("data/intermediate/gpt_issues_actors_1.csv"))
 all_units <- read_csv("data/intermediate/actors-to-annotate.csv")
+
 # in contrast to units_tk2023.csv, this file misses the columns 'context_start' and 'context_end'
 # let's create them.
 all_units <- all_units %>%
@@ -20,7 +21,8 @@ all_units <- all_units %>%
 head(issues)
 source(here::here("src/lib/stancetinder.R"))
 
-table(issues$topic)
+# Overview of topics:
+issues |> filter(logprob >= -6) |> group_by(topic) |> summarize(n=n()) |> arrange(-n)
 
 TOPIC = "CivilRights"
 
@@ -29,17 +31,8 @@ TOPIC = "CivilRights"
 # 2. remove if already coded (to be added)
 # 3. take sample if needed
 
-
-## gebruiken voor test
-to_assign <- issues |> 
-  filter(set %in% c(25))|>
-  filter(topic == TOPIC, logprob >= -5) |> 
-  #slice_sample(n=40) |> 
-  pull(unit_id)
-
 to_assign <- issues |> 
   filter(topic == TOPIC, logprob >= -5) |> 
-  filter(set == 11) |> ## hier wijs je een specifieke set toe
   pull(unit_id)
 
 message(glue::glue("To assign {length(to_assign)} units in topic {TOPIC}"))
@@ -50,6 +43,7 @@ units <- all_units |>
   mutate(md = unit_markdown(before, text_hl, after)) |>
   select(unit_id, md) |>
   create_units(id='unit_id', set_markdown('text_hl', md))
+
 get_instruction_unit(topic=TOPIC)[[1]]
 units2 = c(get_instruction_unit(topic=TOPIC), units)
 units2[[1]]$unit$markdown_fields[[1]]$value

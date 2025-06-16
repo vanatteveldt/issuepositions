@@ -144,11 +144,11 @@ if __name__ == "__main__":
     #     process_gpt(units, "nl", writer)
     units = read_units("data/intermediate/actors-to-annotate.csv")
     units = [
-        u for u in units if int(hashlib.md5(u["id"].encode()).hexdigest(), 16) % 20 == 0
+        u for u in units if int(hashlib.md5(u["id"].encode()).hexdigest(), 16) % 20 == 1
     ]
     print(len(units))
     print(units[0])
-    with open("data/intermediate/gpt_issues_actors_0.csv", "w") as f:
+    with open("data/intermediate/gpt_issues_actors_1.csv", "w") as f:
         print(f"Writing to {f.name}")
         writer = csv.writer(f)
         process_gpt(units, "nl", writer)

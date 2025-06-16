@@ -63,10 +63,13 @@ roc <- map(-1:-20, metrics) |> list_rbind() |>
 ggplot(roc, aes(x=pr, y=re, label=label)) + 
   geom_line() + 
   geom_point() + 
-  geom_text(data=filter(roc, logprob < -4, logprob > -16, !logprob %in% c(-6, -8, -10, -12)), hjust = 0, nudge_y = .002) +
+  geom_text(data=filter(roc, logprob < -4, logprob > -5, !logprob %in% c(-6, -8, -10, -12)), hjust = 0, nudge_y = .002) +
   geom_text(data=filter(roc, logprob >= -4), hjust = 1, nudge_y = -.002, nudge_x=-.01) +
+  geom_text(data=filter(roc, logprob <= -10, logprob >= -16), hjust = 1, nudge_y = -.002, nudge_x=-.01, angle = 90) +
+  geom_text(data=filter(roc, logprob <= -5, logprob > -10), hjust = 0, nudge_y = .002, nudge_x=.01, angle = 45) +
+  
   xlab("Precision") + ylab("Recall of non-None issues") + ggtitle("ROC curve for coding tokens >= logprob (NL prompt)") + 
-  theme_minimal()
+  theme_minimal() + ylim(c(.85, 1)) + xlim(.3, .85)
 
 
 

@@ -17,14 +17,17 @@ def extract_internationalized(item, lang, default_lang="en"):
         if default_lang in item:
             return f"[{default_lang}] {item[default_lang]}"
         # No --> it's probably a regular dict with items
-        return {k: extract_internationalized(x, lang, default_lang) for (k, x) in item.items()}
+        return {
+            k: extract_internationalized(x, lang, default_lang)
+            for (k, x) in item.items()
+        }
     return None
 
 
 @lru_cache()
 def get_topics_internationalized(language="en") -> dict[str, dict]:
     """"""
-    topics = yaml.safe_load(open(here("annotations", "topics.yml")))
+    topics = yaml.safe_load(open(here("codebook", "topics.yml")))
     return extract_internationalized(topics, language)  # type: ignore
 
 

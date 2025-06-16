@@ -5,6 +5,8 @@ Input:  data/intermediate/units_tk2023.csv, data/intermediate/gold_325.csv
 Output: data/intermediate/gpt_issues_all.csv, data/intermediate/gpt_issues_gold_325.csv
 """
 
+import hashlib
+import logging
 import random
 import re
 import csv
@@ -34,10 +36,13 @@ def read_units(fn):
         if not sent:
             continue
         if not (m := re.search(r"\*\*(.*?)\*\*", sent)):
-            raise ValueError(f"Cannot parse {sent!r}")
+            logging.warning(f"Cannot parse {sent!r}")
+            continue
         actor = m.group(1)
         sent_clean = re.sub(r"\*\*", "", sent)
-        text = ". ".join(t for t in [row["before"], sent_clean, row["after"]] if t).replace("..", ".")
+        text = ". ".join(
+            t for t in [row["before"], sent_clean, row["after"]] if t
+        ).replace("..", ".")
         gold = keys[row["decision"].split("/")[0]] if "decision" in row else None
         yield dict(id=row["unit_id"], text=text, actor=actor, gold=gold)
 
@@ -50,7 +55,9 @@ def get_prefixes(lang):
     # Determine prefix of every (localized) code to the issue key
     # Note: we renamed 'beter bestuur' to bestuur, so replace Bet by Bes
     topics = get_topics_internationalized(lang)
-    return {topics[key]["label"].split()[0][:3].replace("Bet", "Bes"): key for key in topics}
+    return {
+        topics[key]["label"].split()[0][:3].replace("Bet", "Bes"): key for key in topics
+    }
 
 
 def create_prompt(lang):
@@ -89,7 +96,11 @@ def process_gpt(units, lang, writer):
             file=sys.stderr,
         )
         # Write main response
-        response = choice.message.content.replace("Onderwerp:", "").replace("Issue:", "").strip()
+        response = (
+            choice.message.content.replace("Onderwerp:", "")
+            .replace("Issue:", "")
+            .strip()
+        )
         key = keys.get(response[:3])
         writer.writerow([row["id"], row["gold"], response, key, 0, 0])
         # Write other responses
@@ -101,24 +112,43 @@ def process_gpt(units, lang, writer):
                 continue
             key = keys.get(response[:3])
             if key and (key not in seen):
-                writer.writerow([row["id"], row["gold"], response, keys.get(response[:3]), j + 1, toplogprob.logprob])
+                writer.writerow(
+                    [
+                        row["id"],
+                        row["gold"],
+                        response,
+                        keys.get(response[:3]),
+                        j + 1,
+                        toplogprob.logprob,
+                    ]
+                )
                 seen.add(key)
 
 
 if __name__ == "__main__":
-    gold = read_units("data/intermediate/gold_325.csv")
-    gold_ids = {row["id"] for row in gold}
-    units = list(read_units("data/intermediate/units_tk2023.csv"))
+    # gold = read_units("data/intermediate/gold_325.csv")
+    # gold_ids = {row["id"] for row in gold}
+    # units = list(read_units("data/intermediate/units_tk2023.csv"))
 
-    units = [u for u in units if u["id"] in gold_ids]
-    with open("data/intermediate/gpt_issues_gold_325.csv", "w") as f:
-        print(f"Writing to {f.name}")
-        writer = csv.writer(f)
-        process_gpt(units, "nl", writer)
+    # units = [u for u in units if u["id"] in gold_ids]
+    # with open("data/intermediate/gpt_issues_gold_325.csv", "w") as f:
+    #     print(f"Writing to {f.name}")
+    #     writer = csv.writer(f)
+    #     process_gpt(units, "nl", writer)
 
-    ids = {r["id"] for r in units} - gold_ids
-    units = [u for u in units if u["id"] in ids]
-    with open("data/intermediate/gpt_issues_set_rest.csv", "w") as f:
+    # ids = {r["id"] for r in units} - gold_ids
+    # units = [u for u in units if u["id"] in ids]
+    # with open("data/intermediate/gpt_issues_set_rest.csv", "w") as f:
+    #     print(f"Writing to {f.name}")
+    #     writer = csv.writer(f)
+    #     process_gpt(units, "nl", writer)
+    units = read_units("data/intermediate/actors-to-annotate.csv")
+    units = [
+        u for u in units if int(hashlib.md5(u["id"].encode()).hexdigest(), 16) % 20 == 0
+    ]
+    print(len(units))
+    print(units[0])
+    with open("data/intermediate/gpt_issues_actors_0.csv", "w") as f:
         print(f"Writing to {f.name}")
         writer = csv.writer(f)
         process_gpt(units, "nl", writer)

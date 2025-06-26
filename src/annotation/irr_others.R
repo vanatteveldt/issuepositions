@@ -39,3 +39,32 @@ irr::kappa2(alpha_input_narep)
 
 
 
+
+
+
+
+
+##########
+
+
+library(tidyverse)
+library(annotinder)  # from github:ccs-amsterdam/annotinder-r
+
+source(here::here("src/lib/stancetinder.R"))
+source(here::here("src/lib/irr.R"))
+
+connect_annotinder()
+
+stances <- map(c(1491:1499, 1506:1508), download_stances, .progress = T) |> list_rbind()
+a <- stances |> ungroup() |> select(unit_id, topic, coder, stance) |>
+  mutate(stance=as.numeric(as.factor(stance))) |> 
+  pivot_wider(names_from=coder, values_from=stance)
+
+# Overall alpha
+a |> select(MP, NK) |> as.matrix() |> t() |> irr::kripp.alpha()
+
+
+# Per topic
+map(unique(a$topic), function(t) tibble(topic=t, alpha=a |> filter(topic==t) |> select(MP, NK) |> as.matrix() |> t() |> irr::kripp.alpha() |> pluck("value"))) |>
+  list_rbind()
+

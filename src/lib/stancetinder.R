@@ -93,6 +93,58 @@ test <- function() {
   url = glue::glue('https://uva-climate.netlify.app/?host=https%3A%2F%2Fuva-climate.up.railway.app&job_id={jobid}')
   print(url)
   browseURL(url)
-  
+}
 
+
+
+
+
+download <- function(jobid) {
+  coders_json = Sys.getenv("CODERS")
+  CODERS <- jsonlite::fromJSON(coders_json) |> as_tibble()
+  
+  annotations <- tryCatch({
+    download_annotations(jobid)
+  }, error = function(e) {
+    message("Error downloading annotations for job ID: ", jobid)
+    return(NULL)
+  })
+  
+  # Check if the download was successful and contains the required columns
+  if (is.null(annotations) || !all(c("unit_id", "coder", "variable", "value") %in% names(annotations))) {
+    message("Download for job ID ", jobid, " did not return expected columns.")
+    return(NULL)
+  }
+  
+  #continue processing data if checks are passed
+  annotations |>
+    select(unit_id, coder, variable, status, value) |>
+    left_join(CODERS) |>
+    mutate(coder=if_else(is.na(abbrev), coder, abbrev)) |>
+    select(-abbrev)
+}
+
+download_stances <- function(jobids) {
+  results <- map(setNames(jobids, jobids), download)
+  
+  
+  topics <- yaml::read_yaml("codebook/topics.yml")
+  topiclist <- topics |> 
+    map(function(t)
+      tibble(stance=c("L", "R"),
+             value=c(t$positive$label$nl, t$negative$label$nl))) |>
+    list_rbind(names_to = "topic") |>
+    bind_rows(tibble(stance="N", value="Geen/Ander/Neutraal"))
+  
+  
+  #check if jobs contain correct variables
+  keep(results, ~ !is.null(.x) && "variable" %in% names(.x)) |>
+    
+    list_rbind(names_to = "jobid") |>
+    filter(variable == "stance") |>
+    left_join(topiclist) |>
+    arrange(coder, unit_id) |>
+    group_by(jobid) |>
+    filter(!all(is.na(topic))) |> #check if there are only neutral stances, results in error otherwise
+    mutate(topic=unique(na.omit(topic)))
 }
